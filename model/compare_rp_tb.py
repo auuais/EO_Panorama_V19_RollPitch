@@ -26,7 +26,11 @@ def main():
     out = rc.ROOT / "sim_out"
     roms, frames = {}, {}
     ok = True
-    only = sys.argv[1:]
+    args = sys.argv[1:]
+    mark_ir = True                       # tb_RpRenderer MARK_IR 1
+    if args[:1] == ["--no-ir-mark"]:
+        mark_ir, args = False, args[1:]
+    only = args
     for name, (s, r, p, present) in CASES.items():
         if only and name not in only:
             continue
@@ -39,7 +43,7 @@ def main():
             roms[s.name] = rc.load_rom(s)
             frames[s.name] = rc.synthetic_frames(s)
         got = np.array([int(t, 16) for t in f.read_text().split()], np.int64)
-        exp = rc.render_offsets(s, roms[s.name], frames[s.name], r, p, present).reshape(-1)
+        exp = rc.render_offsets(s, roms[s.name], frames[s.name], r, p, present, mark_ir).reshape(-1)
         n = min(got.size, exp.size)
         bad = np.nonzero(got[:n] != exp[:n])[0]
         if got.size != exp.size or bad.size:

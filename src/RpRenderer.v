@@ -23,6 +23,10 @@
 module RpRenderer #(
     parameter integer SETTLE_CYCLES     = 1,
     parameter integer DRAIN_CYCLES      = 16,
+    // IR_OFFSET_MARK 1: while any IR camera carries a roll or pitch offset,
+    // the IR panorama is tinted magenta (RpEmitter mark_ir).  EO is never
+    // marked.  0 = off.
+    parameter integer IR_OFFSET_MARK    = 0,
     parameter         RUN_ROM_FILE      = "../../assets/rowruns/eo_v19_render_runs.mem",
     parameter         IR_RUN_ROM_FILE   = "../../assets/rowruns/ir_v19_render_runs.mem",
     parameter         ANGLE_ROM_FILE    = "../../assets/rollpitch/eo_rp_angle.mem",
@@ -98,6 +102,11 @@ module RpRenderer #(
 
     wire [95:0] sel_roll  = sensor_ir ? ir_roll_cd  : eo_roll_cd;
     wire [95:0] sel_pitch = sensor_ir ? ir_pitch_cd : eo_pitch_cd;
+
+    // Fixed at pass start, with the tables the pass uses, so the tint appears
+    // and clears on the same frame as the offset it reports.
+    wire ir_offsets_set = sensor_ir && ((sel_roll != 96'd0) || (sel_pitch != 96'd0));
+    reg  ir_mark_q = 1'b0;
 
     EoV19RunRom #(.DEPTH(`EO_V19_RUN_COUNT), .ADDR_W(15), .ROM_FILE(RUN_ROM_FILE)) u_rom (
         .clk(clk), .addr_a(rom_addr), .addr_b(15'd0), .data_a(rom_data), .data_b(rom_data_unused));
@@ -193,6 +202,7 @@ module RpRenderer #(
                         cs <= C_BUILD;
                     end else if (start_copy) begin
                         pass_start <= 1'b1;
+                        ir_mark_q <= (IR_OFFSET_MARK != 0) && ir_offsets_set;
                         y0 <= ylo; y0_last <= (ylo == yhi);
                         slot_a <= ylo % 3; slot_b <= (ylo + 11'd1) % 3;
                         y0_done_valid <= 1'b0; all_done <= 1'b0;
@@ -327,6 +337,7 @@ module RpRenderer #(
     RpEmitter #(.RW_RD_LAT(5), .ALPHA_Y_FILE(ALPHA_Y_FILE), .ALPHA_C_FILE(ALPHA_C_FILE),
                 .IR_ALPHA_Y_FILE(IR_ALPHA_Y_FILE)) u_emit (
         .clk(clk), .rst(rst || pass_rst), .sensor_ir(tbl_ir), .start(pass_start), .cam_present(cam_present),
+        .mark_ir(ir_mark_q),
         .rr_raddr(rr_raddr), .rr_rdata(rr_rdata),
         .y0_done_valid(y0_done_valid), .y0_done(y0_done), .all_done(all_done),
         .drop_valid(drop_valid), .drop_sy(drop_sy),

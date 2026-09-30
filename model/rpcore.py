@@ -207,14 +207,20 @@ def strips(s: Sensor, rom, frames, roll, pitch):
     return out
 
 
-def compose(s: Sensor, st, present=(1,) * 6):
+def compose(s: Sensor, st, present=(1,) * 6, want_lit=False):
+    """Compose the strips.  With want_lit, also return which output pixels came
+    from a camera at all -- the emitter's e_blk, which decides what the IR
+    magenta tint may touch.  A pixel sampled outside the source is black but
+    still came from a camera, so it is lit."""
     ay_tab, ac_tab = load_alpha(s)
     out = np.full((ROWS, s.out_w), BLACK, np.int64)
+    lit = np.zeros((ROWS, s.out_w), bool)
     for k in range(NCAM):
         lo = 0 if k == 0 else s.cam_start[k] + s.head_len[k - 1]
         hi = s.out_w - 1 if k == NCAM - 1 else s.cam_start[k] + s.tail_start[k] - 1
         if hi >= lo:
             out[:, lo:hi + 1] = st[k][:, lo - s.cam_start[k]:hi - s.cam_start[k] + 1] if present[k] else BLACK
+            lit[:, lo:hi + 1] = bool(present[k])
         if k == NCAM - 1:
             break
         for j in range(s.head_len[k]):
@@ -236,11 +242,25 @@ def compose(s: Sensor, st, present=(1,) * 6):
             else:
                 v = np.full(ROWS, BLACK)
             out[:, px] = v
+            lit[:, px] = bool(pa or (pb and s.is_ir))
+    return (out, lit) if want_lit else out
+
+
+# Magenta as the emitter writes it: luma kept, chroma replaced, Cb on even
+# output columns and Cr on odd ones (4:2:2).
+MAGENTA_CB, MAGENTA_CR = 212, 235
+
+
+def render_offsets(s, rom, frames, roll, pitch, present=(1,) * 6, mark_ir=False):
+    # RpRenderer IR_OFFSET_MARK: while any IR camera carries a roll or pitch
+    # offset the whole IR panorama is tinted; pixels no camera supplied stay
+    # black.  EO is never marked.
+    tint = mark_ir and s.is_ir and (any(roll) or any(pitch))
+    out, lit = compose(s, strips(s, rom, frames, roll, pitch), present, want_lit=True)
+    if tint:
+        chroma = np.where(np.arange(s.out_w) & 1, MAGENTA_CR, MAGENTA_CB)
+        out = np.where(lit, (out & 0xFF00) | chroma, out)
     return out
-
-
-def render_offsets(s, rom, frames, roll, pitch, present=(1,) * 6):
-    return compose(s, strips(s, rom, frames, roll, pitch), present)
 
 
 # ---------------------------------------------------------------------------

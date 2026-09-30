@@ -13,6 +13,7 @@ module tb_RpRenderer;
     parameter ROOT = "E:/Xylinx/EO_Panorama_V19_RollPitch";
     parameter OUTDIR = "E:/Xylinx/EO_Panorama_V19_RollPitch/sim_out";
     parameter integer BEAT_SPACING = 4;
+    parameter integer MARK_IR = 1;           // compare_rp_tb.py --no-ir-mark when 0
 
     reg clk = 1'b0;
     always #5 clk = ~clk;
@@ -44,6 +45,7 @@ module tb_RpRenderer;
 
     RpRenderer #(
         .SETTLE_CYCLES(1),
+        .IR_OFFSET_MARK(MARK_IR),
         .RUN_ROM_FILE({ROOT, "/assets/rowruns/eo_v19_render_runs.mem"}),
         .IR_RUN_ROM_FILE({ROOT, "/assets/rowruns/ir_v19_render_runs.mem"}),
         .ANGLE_ROM_FILE({ROOT, "/assets/rollpitch/eo_rp_angle.mem"}),

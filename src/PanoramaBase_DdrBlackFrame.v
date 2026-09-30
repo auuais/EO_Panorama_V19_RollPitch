@@ -153,6 +153,10 @@ module PanoramaBase_DdrBlackFrame(
     //    row/beat window from the renderer's tables.
     // 0: the M1 output-driven EoV19StreamingRendererII1, unchanged.
     localparam integer EO_RP_RENDERER = 1;
+    // IR_OFFSET_MARK 1: the IR panorama turns magenta while any IR camera
+    // carries a roll/pitch offset, and returns to normal when they are zero.
+    // EO panorama renders offsets normally, unmarked.
+    localparam integer IR_OFFSET_MARK = 1;
 
     //------------------------------------------------------------------------
     // Geometry / DDR layout
@@ -2660,7 +2664,7 @@ module PanoramaBase_DdrBlackFrame(
             wire [15:0] rp_px_data;
             wire rp_need_valid;
             wire [10:0] rp_need_row, rp_start_row;
-            RpRenderer u_v19_renderer (
+            RpRenderer #(.IR_OFFSET_MARK(IR_OFFSET_MARK)) u_v19_renderer (
                 .rst_n(rst_n), .clk(c0_ddr4_ui_clk),
                 .sensor_ir(ir_stack_ui),
                 .start_copy(v19_render_active),
