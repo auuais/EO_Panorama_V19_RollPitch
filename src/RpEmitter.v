@@ -36,9 +36,8 @@ module RpEmitter #(
     input  wire         sensor_ir,
     input  wire         start,
     input  wire [5:0]   cam_present,
-    // IR only: tint every camera pixel magenta (luma kept, chroma replaced),
-    // to flag that a roll/pitch offset is in force.  Pixels that are black
-    // because no camera supplied them stay black.
+    // IR only: replace the whole output with flat magenta, an error screen
+    // saying a roll/pitch offset is in force.  The picture is not shown.
     input  wire         mark_ir,
 
     output reg  [8:0]   rr_raddr,
@@ -287,44 +286,38 @@ module RpEmitter #(
         d_ir <= vlerp(c_a[15:8], c_b[15:8], c_fy);
     end
 
-    reg        e_v, e_last;
-    reg [15:0] e_px;
-    reg [15:0] e_raw;
-    reg        e_blk;          // black because no camera supplied this pixel
-    always @* begin
-        if (d_bad) begin
-            e_raw = BLACK;                                    e_blk = 1'b1;
-        end else if (!d_blend) begin
-            e_raw = d_pa ? d_a : BLACK;                       e_blk = !d_pa;
-        end else if (d_pa && d_pb) begin
-            e_raw = ir ? {d_ir, 8'h80} : {d_y[23:16], d_c[23:16]};
-            e_blk = 1'b0;
-        end else if (d_pa) begin
-            e_raw = d_a;                                      e_blk = 1'b0;
-        end else if (d_pb && ir) begin
-            e_raw = d_b;                                      e_blk = 1'b0;
-        end else begin
-            e_raw = BLACK;                                    e_blk = 1'b1;
-        end
-    end
-
-    // 4:2:2 chroma alternates Cb, Cr along the row.  Every output row is an
-    // even number of pixels (3840 EO, 3576 IR), so one free-running parity
-    // reset at pass start stays aligned for the whole frame.
+    // Flat magenta, 4:2:2: one luma, and chroma alternating Cb, Cr along the
+    // row.  Every output row is an even number of pixels (3840 EO, 3576 IR),
+    // so one parity reset at pass start holds for the whole frame.
+    localparam [7:0] MAGENTA_Y  = 8'd105;
     localparam [7:0] MAGENTA_CB = 8'd212;
     localparam [7:0] MAGENTA_CR = 8'd235;
-    wire       e_push = !rst && d_v && d_out;
+    reg        e_v, e_last;
+    reg [15:0] e_px;
     reg        e_par;
     always @(posedge clk) begin
-        if (rst || start)   e_par <= 1'b0;
-        else if (e_push)    e_par <= ~e_par;
+        if (rst || start)                e_par <= 1'b0;
+        else if (!rst && d_v && d_out)   e_par <= ~e_par;
     end
-    wire [7:0] magenta_c = e_par ? MAGENTA_CR : MAGENTA_CB;
+    wire [15:0] magenta_px = {MAGENTA_Y, e_par ? MAGENTA_CR : MAGENTA_CB};
 
     always @(posedge clk) begin
-        e_v    <= e_push;
+        e_v    <= !rst && d_v && d_out;
         e_last <= d_last;
-        e_px   <= (ir && mark_ir && !e_blk) ? {e_raw[15:8], magenta_c} : e_raw;
+        if (ir && mark_ir)
+            e_px <= magenta_px;                               // error screen
+        else if (d_bad)
+            e_px <= BLACK;
+        else if (!d_blend)
+            e_px <= d_pa ? d_a : BLACK;                       // solo pixel
+        else if (d_pa && d_pb)
+            e_px <= ir ? {d_ir, 8'h80} : {d_y[23:16], d_c[23:16]};
+        else if (d_pa)
+            e_px <= d_a;
+        else if (d_pb && ir)
+            e_px <= d_b;
+        else
+            e_px <= BLACK;
     end
 
     //------------------------------------------------------------------------
