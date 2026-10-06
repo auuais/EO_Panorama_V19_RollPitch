@@ -43,7 +43,16 @@ module EoCamFrameRateMon #(
     input  wire [5:0]  cam_vsync,     // asynchronous, one per EO camera
     input  wire        trigger,       // common exposure trigger, clk domain
 
-    output reg  [63:0] dbg_word
+    // From each receiver's TRS decode, in that camera's pixel clock domain.
+    // frame_tgl toggles once per frame start; lines and f are the frame that
+    // just ended and hold until the next toggle, so they are sampled on the
+    // synchronised toggle without a handshake.
+    input  wire [5:0]  trs_frame_tgl,
+    input  wire [71:0] trs_lines,     // 6 x 12 bits
+    input  wire [5:0]  trs_f,
+
+    output reg  [63:0] dbg_word,
+    output reg  [63:0] dbg_word2
 );
     localparam integer TICK_HZ      = CLK_HZ / TICK_CYCLES;
     localparam integer WINDOW_TICKS = (TICK_HZ * WINDOW_MS) / 1000;
@@ -138,6 +147,64 @@ module EoCamFrameRateMon #(
     endgenerate
 
     //------------------------------------------------------------------------
+    // SAV/EAV: lines per frame, and the field bit
+    //
+    // A camera that answered every other trigger would still show 30 frame
+    // starts a second; if instead it switched to fields, these counts halve
+    // and the F bit alternates.  That is the difference this measures.
+    //------------------------------------------------------------------------
+    reg [11:0] lines_last_q [0:5];
+    reg [11:0] lines_min_q  [0:5];
+    reg [11:0] lines_max_q  [0:5];
+    reg [11:0] lines_min_acc[0:5];
+    reg [11:0] lines_max_acc[0:5];
+    reg [7:0]  ftog_q       [0:5];
+    reg [7:0]  ftog_acc     [0:5];
+    reg [7:0]  tframes_q    [0:5];
+    reg [7:0]  tframes_acc  [0:5];
+
+    genvar t;
+    generate
+        for (t = 0; t < 6; t = t + 1) begin : g_trs
+            (* ASYNC_REG = "TRUE" *) reg [2:0] tgl_sync;
+            reg f_prev;
+            wire tgl_edge = tgl_sync[2] ^ tgl_sync[1];
+            wire [11:0] lines_now = trs_lines[t*12 +: 12];
+            always @(posedge clk) begin
+                if (!rst_n) begin
+                    tgl_sync <= 3'd0; f_prev <= 1'b0;
+                    lines_last_q[t] <= 12'd0;
+                    lines_min_q[t] <= 12'd0; lines_max_q[t] <= 12'd0;
+                    lines_min_acc[t] <= 12'hFFF; lines_max_acc[t] <= 12'd0;
+                    ftog_q[t] <= 8'd0; ftog_acc[t] <= 8'd0;
+                    tframes_q[t] <= 8'd0; tframes_acc[t] <= 8'd0;
+                end else begin
+                    tgl_sync <= {tgl_sync[1:0], trs_frame_tgl[t]};
+                    if (tgl_edge) begin
+                        lines_last_q[t] <= lines_now;
+                        if (lines_now < lines_min_acc[t]) lines_min_acc[t] <= lines_now;
+                        if (lines_now > lines_max_acc[t]) lines_max_acc[t] <= lines_now;
+                        if (tframes_acc[t] != 8'hFF) tframes_acc[t] <= tframes_acc[t] + 8'd1;
+                        f_prev <= trs_f[t];
+                        if (f_prev != trs_f[t] && (ftog_acc[t] != 8'hFF))
+                            ftog_acc[t] <= ftog_acc[t] + 8'd1;
+                    end
+                    if (win_end) begin
+                        lines_min_q[t] <= (lines_min_acc[t] == 12'hFFF) ? 12'd0 : lines_min_acc[t];
+                        lines_max_q[t] <= lines_max_acc[t];
+                        ftog_q[t]      <= ftog_acc[t];
+                        tframes_q[t]   <= tframes_acc[t];
+                        lines_min_acc[t] <= 12'hFFF;
+                        lines_max_acc[t] <= 12'd0;
+                        ftog_acc[t]      <= 8'd0;
+                        tframes_acc[t]   <= 8'd0;
+                    end
+                end
+            end
+        end
+    endgenerate
+
+    //------------------------------------------------------------------------
     // The trigger they are meant to follow
     //------------------------------------------------------------------------
     reg  [2:0]  trig_sync     = 3'd0;
@@ -176,6 +243,11 @@ module EoCamFrameRateMon #(
             dbg_word <= 64'd0;
         end else begin
             if (win_end) sel <= (sel == 3'd5) ? 3'd0 : (sel + 3'd1);
+            // second word: same camera, from the SAV/EAV decode
+            //   [63:61] sel  [60:49] lines last  [48:37] min  [36:25] max
+            //   [24:17] F-bit changes  [16:9] frame starts  [8:0] spare
+            dbg_word2 <= {sel, lines_last_q[sel], lines_min_q[sel], lines_max_q[sel],
+                          ftog_q[sel], tframes_q[sel], 9'd0};
             dbg_word <= {2'b10,                       // [63:62] signature
                          trig_fps_q[5:0],             // [61:56]
                          trig_period_q[13:0],         // [55:42]

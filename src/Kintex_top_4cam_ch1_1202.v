@@ -20,7 +20,16 @@ module Kintex_top_4cam_1ch(
     output wire        IEG1_PCLK,
     output wire        IEG1_HSYNC,
     output wire        IEG1_VSYNC,
-    output wire [19:0] IEG1_DOUT
+    output wire [19:0] IEG1_DOUT,
+
+    // SAV/EAV derived frame timing, for the input-rate monitor.  trs_frame_tgl
+    // toggles once per frame start (V falling in the XY word); trs_lines is the
+    // number of EAV codes in the frame that just ended, and trs_f is its F bit.
+    // Both are stable between toggles, so the reader can sample them on the
+    // toggle without a handshake.
+    output wire        trs_frame_tgl,
+    output wire [11:0] trs_lines,
+    output wire        trs_f
 );
 
 assign TRIG_IN4 = STROBE_OUT0;
@@ -136,6 +145,33 @@ always @(posedge CAM4_PCLK_bufg or negedge nRESET) begin
         end
     end
 end
+
+// Lines per frame and field, counted from the TRS codes themselves.
+// Frame start is V falling, the same edge the rest of the design uses.
+reg        cam4_v_bit_d = 1'b0;
+reg [11:0] cam4_line_cnt = 12'd0;
+reg [11:0] cam4_lines_q  = 12'd0;
+reg        cam4_f_q      = 1'b0;
+reg        cam4_frame_tgl = 1'b0;
+always @(posedge CAM4_PCLK_bufg or negedge nRESET) begin
+    if (!nRESET) begin
+        cam4_v_bit_d <= 1'b0; cam4_line_cnt <= 12'd0;
+        cam4_lines_q <= 12'd0; cam4_f_q <= 1'b0; cam4_frame_tgl <= 1'b0;
+    end else begin
+        cam4_v_bit_d <= cam4_v_bit;
+        if (cam4_v_bit_d && !cam4_v_bit) begin          // V falling: frame start
+            cam4_lines_q   <= cam4_line_cnt;
+            cam4_f_q       <= cam4_f_bit;
+            cam4_line_cnt  <= 12'd0;
+            cam4_frame_tgl <= ~cam4_frame_tgl;
+        end else if (cam4_eav && (cam4_line_cnt != 12'hFFF)) begin
+            cam4_line_cnt <= cam4_line_cnt + 12'd1;
+        end
+    end
+end
+assign trs_frame_tgl = cam4_frame_tgl;
+assign trs_lines     = cam4_lines_q;
+assign trs_f         = cam4_f_q;
 
 wire cam4_hsync1920 = (HCNT > 0 && HCNT < 1921);
 

@@ -221,6 +221,29 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
     // oscillator, so it depends on no camera clock.
     localparam [19:0] EO_TRIGGER_PULSE_CYCLES = 20'd148500;  // 2.0 ms at 74.25 MHz
 
+    // DIAGNOSTIC: drive the cameras at 60 Hz from a local timer instead of
+    // following camera 0's strobe.  The triggered cameras deliver one new
+    // image per two triggers (15 Hz against a 30 Hz trigger), so if that ratio
+    // holds they should produce 30 new images a second from a 60 Hz trigger.
+    // Set to 0 to go back to following the strobe.
+    //
+    // NOTE: the global content-frame epoch counts these edges, so at 60 Hz the
+    // epoch advances twice per camera frame and the panorama's frame-set
+    // matching may misbehave.  Single-camera modes are the ones to measure.
+    localparam integer EO_TRIGGER_60HZ = 1;
+    localparam [23:0]  EO_TRIGGER_60HZ_PERIOD = 24'd1_237_500;   // 16.667 ms
+    reg [23:0] eo_trig60_cnt = 24'd0;
+    reg        eo_trig60_start = 1'b0;
+    always @(posedge hd_clk) begin
+        eo_trig60_start <= 1'b0;
+        if (eo_trig60_cnt >= EO_TRIGGER_60HZ_PERIOD - 24'd1) begin
+            eo_trig60_cnt   <= 24'd0;
+            eo_trig60_start <= 1'b1;
+        end else begin
+            eo_trig60_cnt <= eo_trig60_cnt + 24'd1;
+        end
+    end
+
     reg        eo_trigger_source_seen = 1'b0;
     reg [19:0] eo_trigger_pulse_ctr  = 20'd0;
     wire       eo_fpga_trigger_start;
@@ -244,8 +267,10 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
         .period_meas  (eo_trigger_period_meas)
     );
 
+    wire eo_trigger_start_eff = (EO_TRIGGER_60HZ != 0) ? eo_trig60_start
+                                                       : eo_fpga_trigger_start;
     always @(posedge hd_clk) begin
-        if (eo_fpga_trigger_start) begin
+        if (eo_trigger_start_eff) begin
             eo_trigger_source_seen <= 1'b1;
             eo_trigger_pulse_ctr <= EO_TRIGGER_PULSE_CYCLES;
         end
@@ -329,6 +354,20 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
     wire [19:0] eo5_dout, eo5_dbg_dout;
     wire        eo5_dbg_pclk, eo5_dbg_hsync, eo5_dbg_vsync;
 
+    // SAV/EAV frame timing out of each receiver, for the input-rate monitor
+    wire        eo0_trs_tgl, eo0_trs_f;
+    wire [11:0] eo0_trs_lines;
+    wire        eo1_trs_tgl, eo1_trs_f;
+    wire [11:0] eo1_trs_lines;
+    wire        eo2_trs_tgl, eo2_trs_f;
+    wire [11:0] eo2_trs_lines;
+    wire        eo3_trs_tgl, eo3_trs_f;
+    wire [11:0] eo3_trs_lines;
+    wire        eo4_trs_tgl, eo4_trs_f;
+    wire [11:0] eo4_trs_lines;
+    wire        eo5_trs_tgl, eo5_trs_f;
+    wire [11:0] eo5_trs_lines;
+
     Kintex_top_0cam_1ch u_eo0 (
         .FPGA_RESET (nRESET),
         .CAM0_PCLK  (CAM0_PCLK_ibuf),
@@ -341,38 +380,44 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
         .IEG1_PCLK  (eo0_dbg_pclk),
         .IEG1_HSYNC (eo0_dbg_hsync),
         .IEG1_VSYNC (eo0_dbg_vsync),
-        .IEG1_DOUT  (eo0_dbg_dout)
+        .IEG1_DOUT  (eo0_dbg_dout),
+        .trs_frame_tgl(eo0_trs_tgl), .trs_lines(eo0_trs_lines), .trs_f(eo0_trs_f)
     );
 
     Kintex_top_1cam_1ch u_eo1 (
         .FPGA_RESET (nRESET), .CAM1_PCLK(CAM1_PCLK), .CAM1_YOUT(CAM1_YOUT), .CAM1_COUT(CAM1_COUT),
         .STROBE_OUT0(eo_trigger_to_cam1), .TRIG_IN1(TRIG_IN1),
         .IEG0_PCLK(eo1_pclk), .IEG0_HSYNC(eo1_hsync), .IEG0_VSYNC(eo1_vsync), .IEG0_DOUT(eo1_dout),
-        .IEG1_PCLK(eo1_dbg_pclk), .IEG1_HSYNC(eo1_dbg_hsync), .IEG1_VSYNC(eo1_dbg_vsync), .IEG1_DOUT(eo1_dbg_dout)
+        .IEG1_PCLK(eo1_dbg_pclk), .IEG1_HSYNC(eo1_dbg_hsync), .IEG1_VSYNC(eo1_dbg_vsync), .IEG1_DOUT(eo1_dbg_dout),
+        .trs_frame_tgl(eo1_trs_tgl), .trs_lines(eo1_trs_lines), .trs_f(eo1_trs_f)
     );
     Kintex_top_2cam_1ch u_eo2 (
         .FPGA_RESET (nRESET), .CAM2_PCLK(CAM2_PCLK), .CAM2_YOUT(CAM2_YOUT), .CAM2_COUT(CAM2_COUT),
         .STROBE_OUT0(eo_trigger_to_cam2), .TRIG_IN2(TRIG_IN2),
         .IEG0_PCLK(eo2_pclk), .IEG0_HSYNC(eo2_hsync), .IEG0_VSYNC(eo2_vsync), .IEG0_DOUT(eo2_dout),
-        .IEG1_PCLK(eo2_dbg_pclk), .IEG1_HSYNC(eo2_dbg_hsync), .IEG1_VSYNC(eo2_dbg_vsync), .IEG1_DOUT(eo2_dbg_dout)
+        .IEG1_PCLK(eo2_dbg_pclk), .IEG1_HSYNC(eo2_dbg_hsync), .IEG1_VSYNC(eo2_dbg_vsync), .IEG1_DOUT(eo2_dbg_dout),
+        .trs_frame_tgl(eo2_trs_tgl), .trs_lines(eo2_trs_lines), .trs_f(eo2_trs_f)
     );
     Kintex_top_3cam_1ch u_eo3 (
         .FPGA_RESET (nRESET), .CAM3_PCLK(CAM3_PCLK), .CAM3_YOUT(CAM3_YOUT), .CAM3_COUT(CAM3_COUT),
         .STROBE_OUT0(eo_trigger_to_cam3), .TRIG_IN3(TRIG_IN3),
         .IEG0_PCLK(eo3_pclk), .IEG0_HSYNC(eo3_hsync), .IEG0_VSYNC(eo3_vsync), .IEG0_DOUT(eo3_dout),
-        .IEG1_PCLK(eo3_dbg_pclk), .IEG1_HSYNC(eo3_dbg_hsync), .IEG1_VSYNC(eo3_dbg_vsync), .IEG1_DOUT(eo3_dbg_dout)
+        .IEG1_PCLK(eo3_dbg_pclk), .IEG1_HSYNC(eo3_dbg_hsync), .IEG1_VSYNC(eo3_dbg_vsync), .IEG1_DOUT(eo3_dbg_dout),
+        .trs_frame_tgl(eo3_trs_tgl), .trs_lines(eo3_trs_lines), .trs_f(eo3_trs_f)
     );
     Kintex_top_4cam_1ch u_eo4 (
         .FPGA_RESET (nRESET), .CAM4_PCLK(CAM4_PCLK), .CAM4_YOUT(CAM4_YOUT), .CAM4_COUT(CAM4_COUT),
         .STROBE_OUT0(eo_trigger_to_cam4), .TRIG_IN4(TRIG_IN4),
         .IEG0_PCLK(eo4_pclk), .IEG0_HSYNC(eo4_hsync), .IEG0_VSYNC(eo4_vsync), .IEG0_DOUT(eo4_dout),
-        .IEG1_PCLK(eo4_dbg_pclk), .IEG1_HSYNC(eo4_dbg_hsync), .IEG1_VSYNC(eo4_dbg_vsync), .IEG1_DOUT(eo4_dbg_dout)
+        .IEG1_PCLK(eo4_dbg_pclk), .IEG1_HSYNC(eo4_dbg_hsync), .IEG1_VSYNC(eo4_dbg_vsync), .IEG1_DOUT(eo4_dbg_dout),
+        .trs_frame_tgl(eo4_trs_tgl), .trs_lines(eo4_trs_lines), .trs_f(eo4_trs_f)
     );
     Kintex_top_5cam_1ch u_eo5 (
         .FPGA_RESET (nRESET), .CAM5_PCLK(CAM5_PCLK), .CAM5_YOUT(CAM5_YOUT), .CAM5_COUT(CAM5_COUT),
         .STROBE_OUT0(eo_trigger_to_cam5), .TRIG_IN5(TRIG_IN5),
         .IEG0_PCLK(eo5_pclk), .IEG0_HSYNC(eo5_hsync), .IEG0_VSYNC(eo5_vsync), .IEG0_DOUT(eo5_dout),
-        .IEG1_PCLK(eo5_dbg_pclk), .IEG1_HSYNC(eo5_dbg_hsync), .IEG1_VSYNC(eo5_dbg_vsync), .IEG1_DOUT(eo5_dbg_dout)
+        .IEG1_PCLK(eo5_dbg_pclk), .IEG1_HSYNC(eo5_dbg_hsync), .IEG1_VSYNC(eo5_dbg_vsync), .IEG1_DOUT(eo5_dbg_dout),
+        .trs_frame_tgl(eo5_trs_tgl), .trs_lines(eo5_trs_lines), .trs_f(eo5_trs_f)
     );
 
     // Follower sync diagnostic in the CAM0 clock domain.  After each
@@ -578,14 +623,21 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
     // EO camera input rate, measured at the pins: frames per second per
     // camera plus the spread of the frame period, which is what separates
     // genlock from free-run.  Reported one camera per window on probe11.
-    wire [63:0] eo_cam_rate_word;
+    wire [63:0] eo_cam_rate_word, eo_cam_trs_word;
     EoCamFrameRateMon #(.CLK_HZ(74_250_000)) u_eo_cam_rate (
         .clk       (hd_clk),
         .rst_n     (nRESET),
         .cam_vsync ({eo5_vsync, eo4_vsync, eo3_vsync,
                      eo2_vsync, eo1_vsync, eo0_vsync}),
         .trigger   (eo_fpga_trigger_common),
-        .dbg_word  (eo_cam_rate_word)
+        .trs_frame_tgl({eo5_trs_tgl, eo4_trs_tgl, eo3_trs_tgl,
+                        eo2_trs_tgl, eo1_trs_tgl, eo0_trs_tgl}),
+        .trs_lines ({eo5_trs_lines, eo4_trs_lines, eo3_trs_lines,
+                     eo2_trs_lines, eo1_trs_lines, eo0_trs_lines}),
+        .trs_f     ({eo5_trs_f, eo4_trs_f, eo3_trs_f,
+                     eo2_trs_f, eo1_trs_f, eo0_trs_f}),
+        .dbg_word  (eo_cam_rate_word),
+        .dbg_word2 (eo_cam_trs_word)
     );
 
 `ifndef QSPI_NO_ILA
@@ -605,7 +657,8 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
         .probe8  (eo_follow_span_cycles[19:0]),
         .probe9  (eo_follow_probe9),
         .probe10 (eo_follow_all_seen_pulse),
-        .probe11 (eo_cam_rate_word)
+        .probe11 (eo_cam_rate_word),
+        .probe12 (eo_cam_trs_word)
     );
 `endif
 
