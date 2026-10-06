@@ -575,6 +575,19 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
     assign HD_VSYNC = processed_mode_active ? proc_hd_vsync : 1'b0;
     assign HD_DOUT  = processed_mode_active ? proc_hd_dout : 20'h0;
 
+    // EO camera input rate, measured at the pins: frames per second per
+    // camera plus the spread of the frame period, which is what separates
+    // genlock from free-run.  Reported one camera per window on probe11.
+    wire [63:0] eo_cam_rate_word;
+    EoCamFrameRateMon #(.CLK_HZ(74_250_000)) u_eo_cam_rate (
+        .clk       (hd_clk),
+        .rst_n     (nRESET),
+        .cam_vsync ({eo5_vsync, eo4_vsync, eo3_vsync,
+                     eo2_vsync, eo1_vsync, eo0_vsync}),
+        .trigger   (eo_fpga_trigger_common),
+        .dbg_word  (eo_cam_rate_word)
+    );
+
 `ifndef QSPI_NO_ILA
     // Bring-up ILA: post-mux HD output visibility.  This answers whether the
     // top-level output selection is actually driving active BT.1120/YCbCr data
@@ -591,7 +604,8 @@ module KintexTop_EO_IR_HD_SDI_panorama_base(
         .probe7  (eo_follow_probe7),
         .probe8  (eo_follow_span_cycles[19:0]),
         .probe9  (eo_follow_probe9),
-        .probe10 (eo_follow_all_seen_pulse)
+        .probe10 (eo_follow_all_seen_pulse),
+        .probe11 (eo_cam_rate_word)
     );
 `endif
 
