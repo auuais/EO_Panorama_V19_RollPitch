@@ -94,12 +94,20 @@ python scripts/decode_cam_fps.py <printed CAM_FPS_OUTDIR>     # rate, period
 python scripts/decode_cam_trs.py <printed CAM_FPS_OUTDIR>     # lines, F bit
 ```
 
-### 3. DDR descriptor epochs (FPGA, independent path)
+### 3. DDR descriptor epochs — WITHDRAWN, this measurement is invalid
 
-`scripts/measure_cam_epoch_rate.tcl` reads the per-camera descriptor epoch
-counters — frames actually written into DDR, probed for cameras 1 and 5. Gave
-29.6–30.3 fps per 2.4 s step for both, including camera 5 in trigger mode.
-Consistent with 30 frames transmitted.
+`scripts/measure_cam_epoch_rate.tcl` was used as an "independent cross-check"
+and it is not one. The independent review
+(`REVIEW_EO_CAM_INPUT_FPS_20261006.md`) showed that `desc_epoch_ui` carries a
+trigger-derived *label*, not a count of published frames: the label comes from
+the global trigger count and pending-trigger occupancy, and a writer that is
+behind consumes two labels for one raster, so labels skip. Their counterexample,
+built from this repository's own model of those equations, produces **about
+30.025 labels/s from 25 actual frames/s**.
+
+So the 29.6–30.3 figure says nothing about camera frame rate and must not be
+quoted. For a real DDR frame count, add a counter on `desc_valid_ui` — and even
+that counts captured rasters, not fresh exposures.
 
 ### 4. Distinct images at the USB3 output
 
@@ -114,6 +122,36 @@ Two traps were checked explicitly:
   transitions: zero revisits, so the transitions are genuinely new images.
 * **Static scene.** Sensor noise makes every real frame differ; the free-running
   camera reads 29.83, which confirms the method detects novelty at 30 Hz.
+
+## Corrections from the independent review
+
+`REVIEW_EO_CAM_INPUT_FPS_20261006.md` (2026-10-06 21:00) audited the earlier
+handoff against the live board. It confirmed the probe-word packing matches the
+decoder, that the six inputs are six distinct decoded BT.1120 V bits, and added
+`sim/tb_EoCamFrameRateMon_review.sv`, which drives the unmodified monitor at 30,
+25, 20, 15, 0 and 10 events/s and shows 25 Hz decodes as 25 Hz with all six
+selector values distinct. That removes the "the mux might be broken" worry in
+simulation, though a hardware channel-isolation test is still outstanding.
+
+It also found three errors in the earlier evidence, all accepted here:
+
+1. **The descriptor-epoch cross-check is invalid** (see measurement 3 above).
+2. **The "13.8 µs/frame mismatch, so the cameras are not locked" claim does not
+   hold.** Consecutive-trigger captures show the interval is not constant: 9672
+   ticks in 201 of 256 events, 9643 in 34, mean 33.3329 ms ≈ 30.0004 Hz, which is
+   compatible with the cameras' own timing. The earlier sparse sampling
+   overrepresented the longer interval. The phase-wrap time quoted with that
+   claim was also wrong: a 13.8 µs/frame difference wraps in about 80 s, not the
+   2.8 s stated.
+3. **The follower-spread summary was wrong twice over** — it used only the low 20
+   bits of a 22-bit counter, and it included measurements that had not completed
+   (`eo_follow_seen != 31`), where zero means "not finished", not "aligned".
+   Re-decoded with all bits and completion filtering: 33.0 ms median in the
+   free-run run, 6.0 ms all-trigger, 9.0 ms mixed.
+
+The review's own open question — whether the cameras really carry repeated
+content in a 30 Hz stream — is answered by the novelty and SAV/EAV measurements
+in this document, which post-date it.
 
 ## Open discrepancy — not yet explained
 
@@ -165,11 +203,12 @@ alone goes to 30.
 
 ## Still unverified
 
-* **The per-camera mux in `EoCamFrameRateMon` has never been differentiated.**
-  All six cameras report identical values in every run, which is plausible but is
-  also what a mis-wired `cam_vsync` bus would produce. Power one camera off: only
-  that row should go to zero.
-* **No testbench** exists for `EoCamFrameRateMon` or the receiver TRS counters.
+* **The per-camera mux has not been differentiated on hardware.** Simulation now
+  covers it (`sim/tb_EoCamFrameRateMon_review.sv`, from the review), but on the
+  board all six cameras still report identical values. Power one camera off:
+  only that row should go to zero.
+* **No testbench for the receiver TRS counters** (lines per frame, F bit) added
+  in `9a8a81e`.
 * The 60 Hz trigger build advances the global content-frame epoch twice per
   camera frame, so panorama frame-set matching may misbehave in it. Single-camera
   modes are unaffected. `EO_TRIGGER_60HZ = 0` in
