@@ -1,5 +1,11 @@
 # Handoff: EO camera input frame rate — please review for errors
 
+> **SUPERSEDED** by `HANDOFF_EO_CAM_TRIGGER_RATE_FINDINGS_20261006.md`.
+> This document's central conclusion — that the two modes measure the same —
+> came from counting frame starts, which cannot see duplicated content.  The
+> cameras do differ: 30 distinct images/s free-running, 15 in trigger mode.
+> Kept for the method and the mistakes it records.
+
 **Date:** 2026-10-06
 **Repo:** `E:\Xylinx\EO_Panorama_V19_RollPitch`
 **Bitstream under test:** commit `bd9af71`, archive
