@@ -21,6 +21,18 @@ def collect(config_path, partial=False):
             raise ValueError(('Missing condition', condition['id']))
         if len(files) != condition['blocks']:
             raise ValueError(('Incorrect block count', condition['id'], len(files)))
+        if 'phase_taps' in condition:
+            taps=condition['phase_taps']
+            if len(taps)!=5 or any(not isinstance(t,int) or not 0<=t<448 for t in taps):
+                raise ValueError('Invalid phase targets in study configuration')
+            expected=sum(t<<(9*i) for i,t in enumerate(taps))
+            lines=(folder/'phase_checks.txt').read_text().splitlines()
+            labels=['before_capture']+[f'after_block_{i}' for i in range(condition['blocks'])]
+            if len(lines)!=len(labels):raise ValueError('Missing phase-clock checks')
+            for label,line in zip(labels,lines):
+                fields=line.split();word=int(fields[-2],16)
+                if fields[0]!=label or (word&((1<<45)-1))!=expected or ((word>>45)&31)!=31 or word>>50:
+                    raise ValueError(('Phase-clock qualification failed',condition['id'],line))
         item = dict(condition, blocks_detail=[], camera_rows=[], series={s:[] for s in ['raster','full_crc','roi_crc']})
         for path in files:
             events = read_events(path)
@@ -39,6 +51,8 @@ def collect(config_path, partial=False):
                                selected=phase==condition['phases'][cam['camera']-2], **cam)
                     row['source_file'] = str(path.relative_to(root))
                     row['source_sha256'] = block['sha256']
+                    row['phase_tap'] = condition.get('phase_taps',[None]*5)[cam['camera']-2]
+                    row['control_id'] = condition.get('control_id',condition['id'])
                     offset_analysis = analysis if row['selected'] else a
                     offset = offset_analysis['matching']['raster'].get('offsets',{}).get(cam['camera'],{})
                     row['offset_median_us'] = offset.get('unwrapped_offset_us',{}).get('median')

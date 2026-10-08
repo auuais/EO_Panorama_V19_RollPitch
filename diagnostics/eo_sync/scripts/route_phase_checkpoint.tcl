@@ -11,7 +11,7 @@ read_xdc $out/source_snapshot/constraints/eo_sync_phase60.xdc
 set f [open $out/dedicated_clock_routes.txt w]
 foreach n {1 2 3 4 5} {
     set net [get_nets -of_objects [get_pins u_clock${n}/O]]
-    if {[get_property CLOCK_DEDICATED_ROUTE $net] ne "BACKBONE"} {error "Clock routing constraint not applied"}
+    if {[get_property CLOCK_DEDICATED_ROUTE $net] ne "ANY_CMT_COLUMN"} {error "Clock routing constraint not applied"}
     puts $f "$net [get_property CLOCK_DEDICATED_ROUTE $net]"
 }
 close $f

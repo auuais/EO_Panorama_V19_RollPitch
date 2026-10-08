@@ -55,6 +55,7 @@ proc set_phase {values dir} {
     close $f
     # Discard many complete rasters after any clock adjustment.
     after 500
+    return $packed
 }
 set ila ""
 foreach candidate [get_hw_ilas -of_objects $dev] {
@@ -78,12 +79,20 @@ set status [catch {
         set_property CAPTURE_COMPARE_VALUE {eq1'b1} $valid
         foreach tap $taps {
             set dir [file join $out [format "phase_%03d" $tap]]
-            set_phase [lrepeat 5 $tap] $dir
+            set expected [set_phase [lrepeat 5 $tap] $dir]
             puts "PHASE_SWEEP_ARMED=$tap"
             run_hw_ila $ila
             wait_on_hw_ila -timeout 180 $ila
             set data [upload_hw_ila_data $ila]
             write_hw_ila_data -csv_file $dir/events_000.csv $data
+            refresh_hw_vio $vio
+            set raw [get_property INPUT_VALUE $phase_status]
+            if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid post-capture phase status"}
+            set word [expr 0x$raw]
+            if {($word & ((1<<45)-1))!=$expected || (($word>>45)&31)!=31 || ($word>>50)!=0} {
+                error "Phase clocks lost qualification during capture: $raw"
+            }
+            set f [open $dir/phase.txt a];puts $f "After capture: $raw";close $f
             puts "PHASE_SWEEP_SAVED=$tap"
         }
     }

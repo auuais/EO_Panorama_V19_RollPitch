@@ -1,5 +1,5 @@
 # Timestamped frame reports; never programs the FPGA or changes camera settings.
-if {[llength $argv]<2} {error "Usage: capture.tcl matching.ltx NEW_DIRECTORY ?blocks=2?"}
+if {[llength $argv]<2 || [llength $argv]>4} {error "Usage: capture.tcl matching.ltx NEW_DIRECTORY ?blocks=2? ?phaseTargets2:3:4:5:6?"}
 set ltx [file normalize [lindex $argv 0]]
 set out [file normalize [lindex $argv 1]]
 set blocks 2
@@ -17,6 +17,35 @@ if {[llength $dev]!=1} {error "Expected KU15P"}
 set_property PROBES.FILE $ltx $dev
 set_property FULL_PROBES.FILE $ltx $dev
 refresh_hw_device $dev
+set phase_status ""
+set expected_phase 0
+if {[llength $argv]==4} {
+    set taps [split [lindex $argv 3] :]
+    if {[llength $taps]!=5} {error "Expected five phase targets"}
+    set i 0
+    foreach tap $taps {
+        if {![string is integer -strict $tap] || $tap<0 || $tap>447} {error "Phase target outside 0..447"}
+        set expected_phase [expr {$expected_phase | ($tap << (9*$i))}];incr i
+    }
+    set phase_vio [get_hw_vios -of_objects $dev -filter {CELL_NAME =~ "*u_snapshot_select*"}]
+    if {[llength $phase_vio]!=1} {error "Phase VIO missing"}
+    set phase_status [create_hw_probe -map {probe_in0[59:0]} {capture_phase_status[59:0]} $phase_vio]
+}
+proc verify_phase {label} {
+    global phase_status phase_vio expected_phase out
+    if {$phase_status eq ""} {return}
+    refresh_hw_vio $phase_vio
+    set raw [get_property INPUT_VALUE $phase_status]
+    if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid phase status $raw"}
+    set word [expr 0x$raw]
+    if {($word & ((1<<45)-1))!=$expected_phase || (($word>>45)&31)!=31 || ($word>>50)!=0} {
+        error "Unsettled, unlocked or faulted phase clocks: $raw"
+    }
+    set f [open $out/phase_checks.txt a]
+    puts $f "$label [clock format [clock seconds]] $raw expected_current=[format %012X $expected_phase]"
+    close $f
+}
+verify_phase before_capture
 set ila ""
 foreach candidate [get_hw_ilas -of_objects $dev] {
     if {[llength [get_hw_probes -quiet -of_objects $candidate -filter {NAME =~ "*sync_metadata*"}]]==1} {set ila $candidate;break}
@@ -53,11 +82,13 @@ set status [catch {
         wait_on_hw_ila -timeout 180 $ila
         set data [upload_hw_ila_data $ila]
         write_hw_ila_data -csv_file [file join $out [format "events_%03d.csv" $i]] $data
+        verify_phase after_block_$i
         puts "SYNC_BLOCK_SAVED=$i"
     }
 } result options]
 dict for {property value} $old {set_property $property $value $ila}
 delete_hw_probe $probes
+if {$phase_status ne ""} {delete_hw_probe $phase_status}
 close_hw_target
 close_hw_manager
 if {$status} {return -options $options $result}

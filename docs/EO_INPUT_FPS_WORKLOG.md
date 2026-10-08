@@ -146,3 +146,16 @@ this; colon lists now preserve argument boundaries. This affected only pending
 failed attempts and logs are retained. Cameras currently remain at 1080p60 with
 the revision-2 diagnostic; restoration is pending completion of the tests.
 
+At 20:10 KST the phase60 revision-3 build completed. HDIO banks require the
+cross-column `ANY_CMT_COLUMN` constraint rather than same-column BACKBONE.
+The final bitstream passed WNS 1.257 ns, WHS 0.010 ns, WPWS 1.347 ns, zero
+TNS/THS/TPWS, DRC with no errors, and bus-skew minimum slack 36.550 ns.
+The routed audit found five MMCMs, 160 fabric SDR input registers, no IDDRE1,
+no fabric-clock routing override and no warning/critical CDC rows on the custom
+telemetry or phase controller. Vendor debug IP warnings remain documented.
+Bitstream SHA256: d7792802795b56739a60a6cb27955b4ba45fcbfb89b0c3793a86ce110cb7f6ea.
+Loading this volatile diagnostic and empirical aperture qualification are next.
+Capture scripts now assert phase target readback, all locks and no controller
+faults before and after measurement blocks. The collector rejects missing or
+mismatched phase checks. Direct camera-6 OSD readback confirms 1080p60, manual
+1/240 s and 0 dB. All-camera 60 fps state readback and restoration remain pending.

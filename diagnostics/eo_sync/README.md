@@ -75,10 +75,18 @@ launcher can split comma-separated arguments even when PowerShell quoted them.
 can send keys immediately before arming a crop. Inspect its durable key logs
 and the actual OSD; a successful serial command does not establish menu state.
 
-Phase-clock constraints use dedicated BACKBONE clock routing from the input
+Phase-clock constraints use dedicated ANY_CMT_COLUMN clock routing from the input
 BUFGs to remote MMCMs. They never permit general fabric clock routing. The
 phase-controller interface follows AMD UG572, Dynamic Phase Shift Interface:
 https://docs.amd.com/r/en-US/ug572-ultrascale-clocking/Dynamic-Phase-Shift-Interface-in-the-MMCM
+The HDIO input buffers and MMCMs lie in different clock columns on this part;
+the narrower same-column BACKBONE setting cannot place this topology. Routing
+follows AMD UG949, Using the CLOCK_DEDICATED_ROUTE Constraint:
+https://docs.amd.com/r/en-US/ug949-vivado-design-methodology/Using-the-CLOCK_DEDICATED_ROUTE-Constraint
+For phase-qualified measurements, pass the same five colon-separated taps as
+the fourth argument to `capture.tcl`. It checks current tap readback, all five
+locks, idle controllers and no sticky faults before capture and after each
+block. `collect_study.py` rejects missing or mismatched phase checks.
 
 ## Reproduce
 
