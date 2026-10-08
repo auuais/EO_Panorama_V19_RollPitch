@@ -159,3 +159,28 @@ Capture scripts now assert phase target readback, all locks and no controller
 faults before and after measurement blocks. The collector rejects missing or
 mismatched phase checks. Direct camera-6 OSD readback confirms 1080p60, manual
 1/240 s and 0 dB. All-camera 60 fps state readback and restoration remain pending.
+
+At 20:34 KST, revision 3 was running and direct decoded ILA OSD crops had
+verified all five cameras at 1080p60, ExtTrig, 1/240 s, 0 dB and Freeze ON.
+The full-cycle rising/falling phase sweep found a common valid-geometry rising
+window at taps 308–336. Frozen full-raster CRCs for cameras 2–5 agreed across
+these phases, but camera 6's full CRC changed despite valid geometry. Its
+central 96×96 ROI CRC was stable and identical across these phases. Additional
+coarse/fine frozen sweeps are retained to distinguish geometry validity from
+payload qualification. No full-frame image-update claim is based on those
+camera-6 CRC changes. Final long control and mode comparisons are pending.
+
+Hardware script fixes committed in 68d604d are essential: read native VIO
+probes rather than unsupported ILA-style aliases, and use Tcl `%llX` for
+45/60-bit phase words. `%X` truncates to 32 bits in this Vivado Tcl runtime.
+Failed early sweep folders are retained but excluded from qualified evidence.
+
+At 20:46 KST, the final 1080p60 Freeze control at rising tap 322 on all five
+cameras recorded 24.82 s and 1,489–1,490 complete records per camera. Strict
+geometry was 100%, sequence gaps zero, and central ROI CRC changes zero on all
+five. Cameras 2–5 also had zero full CRC changes; camera 6 had 1,486 changes.
+Additional frozen fine taps 344/348/350/352/356 reduce but do not eliminate its
+full CRC errors. The 60-mode comparison therefore uses raster timing and central
+96×96 ROI-change timing only. It does not qualify whole-frame image updates.
+Freeze OFF was directly verified on all five cameras at 20:49 KST before the
+first live 60-mode comparison capture. Camera 1 remains untouched.

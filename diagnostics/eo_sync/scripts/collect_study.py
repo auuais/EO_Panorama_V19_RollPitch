@@ -112,6 +112,8 @@ def collect(config_path, partial=False):
                   controls=control_rows, raster_cohorts=raster_rows,
                   verification=dict(circular_spans_independently_verified=len(raster_rows),
                                     selected_raw_event_count=len(selected_events)))
+    if 'report_notes' in config:
+        result['report_notes'] = config['report_notes']
     (root/'study.json').write_text(json.dumps(result,indent=2)+'\n')
     for name, rows in [('selected_events.csv.gz',selected_events),('raster_cohorts.csv.gz',raster_rows)]:
         with gzip.open(root/name,'wt',newline='') as f:
