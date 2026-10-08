@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module EoSyncTop #(parameter PHASE_CLOCK=0)(
+module EoSyncTop #(parameter PHASE_CLOCK=0, parameter TRIGGER_HZ=60)(
     input wire osc27_p,osc27_n,
     input wire CAM1_PCLK,
     input wire [7:0] CAM1_YOUT,CAM1_COUT,
@@ -127,6 +127,6 @@ module EoSyncTop #(parameter PHASE_CLOCK=0)(
     (* MARK_DEBUG="TRUE" *) wire [255:0] sync_payload;
     (* MARK_DEBUG="TRUE" *) wire sync_valid;
     (* MARK_DEBUG="TRUE" *) wire [15:0] sync_overruns;
-    EoSyncTelemetry u_telemetry(ref_clk,toggles,reports,trigger,sync_metadata,sync_payload,sync_valid,sync_overruns);
+    EoSyncTelemetry #(.TRIGGER_HZ(TRIGGER_HZ)) u_telemetry(ref_clk,toggles,reports,trigger,sync_metadata,sync_payload,sync_valid,sync_overruns);
     eo_sync_ila u_ila(.clk(ref_clk),.probe0(sync_metadata),.probe1(sync_payload),.probe2(sync_valid),.probe3(sync_overruns),.probe4(32'hE05C0001));
 endmodule

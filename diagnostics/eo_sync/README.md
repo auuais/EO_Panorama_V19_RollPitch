@@ -13,7 +13,8 @@ its own timestamp before round-robin serialization. Simultaneous channel events
 therefore do not acquire the serializer's staggered delay. The time quantum is
 37.037 ns nominal; clock-domain quantization and board/camera delays remain.
 
-One 60 Hz, 2 ms-high signal drives all five trigger outputs. Both output edges
+One common 30 or 60 Hz, 2 ms-high signal drives all five trigger outputs. The
+default remains 60 Hz. Both output edges
 are recorded by the same timestamp logic. This verifies the FPGA-generated
 signal, not electrical arrival or acceptance at each camera. OFF trigger
 polarity is recorded in the camera OSD. No physical exposure-start signal is
@@ -60,6 +61,20 @@ clock period. Each camera has an independently commanded 9-bit target, with
 lock, handshake, watchdog and sticky lock-loss status. A coarse sweep advances
 28 taps at a time and observes both sampling edges. Do not use the phase60
 variant with 1080p30 clocks. The default build retains direct camera clocks.
+
+The optional third build argument selects the trigger rate. For 1080p60 with
+30 Hz triggering, use `build.tcl NEW_BUILD_DIRECTORY phase60 30`. Build options
+and validation record the selected rate. The trigger counter uses 900,000
+reference clocks per 30 Hz period, or 450,000 per 60 Hz period, with 54,000
+clocks high in both cases. `simulate.ps1 -TriggerOnly` checks both actual-scale
+counter periods and edge timestamps. `collect_study.py` validates captured
+trigger periods against each condition's `trigger_hz`, falling back to the
+protocol value and then the original 60 Hz default.
+
+For trigger-rate comparisons, hold ExtTrig Delay at 0.0 ms and verify it on
+every OSD. The supplied DM-G15-42 v1.04 manual, printed page 41, diagrams this
+as incoming trigger to exposure-start delay. Strobe Delay controls the separate
+strobe output. A zero setting does not establish zero physical response delay.
 
 `phase_capture.tcl MATCHING.ltx NEW_DIRECTORY sweep` captures sixteen positions
 over a full cycle on each edge. Rising/falling input registers have independent
@@ -121,6 +136,8 @@ format and shutter directly on all five OSDs. Allow settling after changes.
 Capture ExtTrig, FreeRun, then ExtTrig again at each format. Keep the generated
 trigger at 60 Hz throughout. Record Freeze controls separately with menus
 closed. Restore every camera setting and the operational FPGA afterward.
+An additional rate-comparison condition may intentionally use 30 Hz, with its
+own build, frozen-image qualification, configuration and measured trigger log.
 
 Never bridge the dead time between JTAG capture blocks. Decode each block and
 sampling phase separately. Match events by common timestamps, not sequence

@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$OutputDirectory,[switch]$PhaseOnly)
+param([Parameter(Mandatory=$true)][string]$OutputDirectory,[switch]$PhaseOnly,[switch]$TriggerOnly)
 $ErrorActionPreference='Stop'
 $package=Split-Path -Parent $PSScriptRoot
 $simOut=[System.IO.Path]::GetFullPath($OutputDirectory)
@@ -7,9 +7,9 @@ New-Item -ItemType Directory -Path $simOut | Out-Null
 $bin='C:/AMDDesignTools/2025.2/Vivado/bin'
 Push-Location -LiteralPath $simOut
 try {
-    & "$bin/xvlog.bat" --sv "$package/rtl/EoSyncTelemetry.v" "$package/rtl/EoSyncSnapshot.v" "$package/rtl/EoSyncPhaseControl.v" "$package/sim/tb_EoSyncTelemetry.sv" "$package/sim/tb_EoSyncSnapshot.sv" "$package/sim/tb_EoSyncPhaseControl.sv"
+    & "$bin/xvlog.bat" --sv "$package/rtl/EoSyncTelemetry.v" "$package/rtl/EoSyncSnapshot.v" "$package/rtl/EoSyncPhaseControl.v" "$package/sim/tb_EoSyncTelemetry.sv" "$package/sim/tb_EoSyncSnapshot.sv" "$package/sim/tb_EoSyncPhaseControl.sv" "$package/sim/tb_EoSyncTriggerRates.sv"
     if($LASTEXITCODE -ne 0){throw 'Compilation failed'}
-    $tops=if($PhaseOnly){@('tb_EoSyncPhaseControl')}else{@('tb_EoSyncTelemetry','tb_EoSyncSnapshot','tb_EoSyncPhaseControl')}
+    $tops=if($PhaseOnly){@('tb_EoSyncPhaseControl')}elseif($TriggerOnly){@('tb_EoSyncTriggerRates')}else{@('tb_EoSyncTelemetry','tb_EoSyncSnapshot','tb_EoSyncPhaseControl','tb_EoSyncTriggerRates')}
     foreach($top in $tops) {
         & "$bin/xelab.bat" $top -s $top --debug typical
         if($LASTEXITCODE -ne 0){throw "Elaboration failed $top"}

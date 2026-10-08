@@ -4,6 +4,7 @@ import csv
 import gzip
 import hashlib
 import json
+import math
 from pathlib import Path
 from decode_events import analyze_block, read_events, stats, REF_HZ
 
@@ -14,6 +15,12 @@ def collect(config_path, partial=False):
     conditions, camera_rows, raster_rows, selected_events, control_rows = [], [], [], [], []
     by_id = {}
     for condition in config['conditions']:
+        protocol = config.get('protocol', {})
+        trigger_hz = condition.get('trigger_hz', protocol.get('trigger_hz', 60))
+        trigger_high_us = condition.get('trigger_high_us', protocol.get('trigger_high_us', 2000))
+        if not all(isinstance(x, (int, float)) and math.isfinite(x) and x > 0
+                   for x in (trigger_hz, trigger_high_us)) or trigger_high_us >= 1e6/trigger_hz:
+            raise ValueError('Invalid expected trigger rate or pulse width')
         folder = root/condition['id']
         files = sorted(folder.glob('events_*.csv'))
         if not files:
@@ -33,7 +40,8 @@ def collect(config_path, partial=False):
                 fields=line.split();word=int(fields[-2],16)
                 if fields[0]!=label or (word&((1<<45)-1))!=expected or ((word>>45)&31)!=31 or word>>50:
                     raise ValueError(('Phase-clock qualification failed',condition['id'],line))
-        item = dict(condition, blocks_detail=[], camera_rows=[], series={s:[] for s in ['raster','full_crc','roi_crc']})
+        item = dict(condition, trigger_hz=trigger_hz, trigger_high_us=trigger_high_us,
+                    blocks_detail=[], camera_rows=[], series={s:[] for s in ['raster','full_crc','roi_crc']})
         for path in files:
             events = read_events(path)
             analysis = analyze_block(events, condition['phases'])
@@ -82,10 +90,10 @@ def collect(config_path, partial=False):
         item['observed_s'] = sum(b['duration_s'] for b in item['blocks_detail'])
         item['trigger_verified'] = all(
             b['trigger_period_us']['n']>=100 and b['trigger_high_us']['n']>=100 and
-            abs(b['trigger_period_us']['min']-1e6/60)<1e-6 and
-            abs(b['trigger_period_us']['max']-1e6/60)<1e-6 and
-            abs(b['trigger_high_us']['min']-2000)<1e-6 and
-            abs(b['trigger_high_us']['max']-2000)<1e-6
+            abs(b['trigger_period_us']['min']-1e6/trigger_hz)<1e-6 and
+            abs(b['trigger_period_us']['max']-1e6/trigger_hz)<1e-6 and
+            abs(b['trigger_high_us']['min']-trigger_high_us)<1e-6 and
+            abs(b['trigger_high_us']['max']-trigger_high_us)<1e-6
             for b in item['blocks_detail'])
         item['spreads_us'] = {s:stats([r['span_us'] for r in rows]) for s,rows in item['series'].items()}
         item['timing_complete'] = all(c['records']>=100 and c['timing_valid']==c['records'] and c['sequence_gaps']==0 for c in item['camera_rows'])
@@ -103,6 +111,8 @@ def collect(config_path, partial=False):
             raise ValueError('Freeze control must match the measurement build and selected phases')
         if item.get('phase_taps')!=control.get('phase_taps'):
             raise ValueError('Freeze control must match the measurement clock phase targets')
+        if (item['trigger_hz'], item['trigger_high_us']) != (control['trigger_hz'], control['trigger_high_us']):
+            raise ValueError('Freeze control must match the measurement trigger configuration')
         item['qualified_image_series'] = ('full_crc' if control['qualifies_full'] else 'roi_crc' if control['qualifies_roi'] else None) if item['content_complete'] else None
         item['image_spread_us'] = item['spreads_us'].get(item['qualified_image_series'])
         item['image_scope'] = {'full_crc':'Whole transmitted raster payload changes', 'roi_crc':'Central 96x96 payload changes only', None:'Image-change timing unqualified'}[item['qualified_image_series']]

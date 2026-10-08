@@ -1,6 +1,8 @@
 # Resume from an optimized checkpoint, applying the dedicated clock constraints.
 if {[llength $argv]!=1} {error "Usage: route_phase_checkpoint.tcl BUILD_DIRECTORY"}
 set out [file normalize [lindex $argv 0]]
+set trigger_hz 60
+if {[file exists $out/build_options.tcl]} {source $out/build_options.tcl}
 set package [file normalize [file join [file dirname [info script]] ..]]
 if {[file exists $out/EoSyncTop.bit]} {error "Refusing to overwrite existing bitstream"}
 file copy -force $package/constraints/eo_sync_phase60.xdc $out/source_snapshot/constraints/eo_sync_phase60.xdc
