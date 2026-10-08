@@ -23,6 +23,10 @@ foreach {ip widths depth} {eo_sync_ila {64 256 1 16 32} 16384 eo_sync_snapshot_i
     generate_target all [get_ips $ip]
 }
 update_compile_order -fileset sources_1
+create_ip -name vio -vendor xilinx.com -library ip -version 3.0 -module_name eo_sync_vio
+set_property -dict [list CONFIG.C_NUM_PROBE_IN 0 CONFIG.C_NUM_PROBE_OUT 1 CONFIG.C_PROBE_OUT0_WIDTH 5 CONFIG.C_PROBE_OUT0_INIT_VAL 0x00] [get_ips eo_sync_vio]
+generate_target all [get_ips eo_sync_vio]
+update_compile_order -fileset sources_1
 puts "EO60_PHASE=SYNTHESIS"
 launch_runs synth_1 -jobs 8
 wait_on_run synth_1

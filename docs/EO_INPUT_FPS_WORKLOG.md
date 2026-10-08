@@ -98,3 +98,20 @@ Planned protocol: ExtTrig / FreeRun / ExtTrig return at each format with fixed
 generated 60 Hz trigger, direct OSD settings readback, separate Freeze controls,
 and full restoration. Report raster spread separately from qualified image
 change spread. Neither quantity alone proves physical exposure alignment.
+
+The r1 routed build completed with WNS 1.099 ns, WHS 0.001 ns, WPWS 2.825 ns,
+zero total negative slack and passing bus-skew checks. The supplemental audit
+found all 160 expected fabric SDR input registers and no IDDRE1. CDC warnings
+and critical findings were inside vendor ILA IP; none were reported on the
+new telemetry crossing. External camera/board timing remains uncalibrated.
+
+Its first 41.19-second frozen 1080p30 capture produced 1,235–1,236 valid rising
+records per camera and zero full/ROI CRC changes on all five cameras. The
+recorded trigger period was exactly 450,000 common-clock ticks and high time
+54,000 ticks (nominal 60 Hz and 2 ms). Several falling-edge paths were invalid,
+so rising is the qualified 1080p30 analysis phase for r1. These bad falling
+paths also affect r1's fixed-edge OSD crops. Revision 2 adds a VIO-selectable
+edge for each OSD crop only; both timestamp/CRC observers remain active.
+The r2 build is in progress. The operational FPGA is used temporarily for
+direct 1080p30 OSD readbacks between r1 acquisitions. Reprogramming boundaries
+and separate capture blocks must remain explicit in the results.

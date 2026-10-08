@@ -5,7 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 import numpy as np
 from PIL import Image
-from decode_events import EXPECTED, FIELDS, SIGNATURE, analyze_block, circular_span, read_events
+from decode_events import EXPECTED, FIELDS, SIGNATURE, analyze_block, circular_span, read_events, unwrap_offsets
 from decode_snapshot import decode
 
 
@@ -13,6 +13,7 @@ class EventTests(unittest.TestCase):
     def test_wrap_span(self):
         self.assertEqual(circular_span([0, -2, -1, 1, 2], 1000), 4)
         self.assertEqual(circular_span([0, 200, 400, 600, 800], 1000), 800)
+        self.assertEqual(unwrap_offsets([490, -490, -470], 1000), [490, 510, 530])
 
     def test_alignment_and_different_sequence_origins(self):
         events = []
@@ -20,13 +21,14 @@ class EventTests(unittest.TestCase):
             for camera in range(2, 7):
                 events.append(dict(block='test', kind=1, camera=camera, phase='falling',
                                    tick=frame*900000+(camera-2)*27, sequence=(frame+camera*91)&65535,
-                                   geometry_valid=True, full_crc=frame//2, roi_crc=frame//2))
+                                   geometry_valid=True, timing_valid=True, full_crc=frame//2, roi_crc=frame//2))
         analysis = analyze_block(sorted(events, key=lambda e:e['tick']))
         self.assertEqual(analysis['spans']['raster']['median'], 4)
         self.assertEqual(analysis['spans']['roi_crc']['median'], 4)
         self.assertEqual(analysis['cameras'][0]['raster_hz'], 30)
         self.assertEqual(analysis['cameras'][0]['sequence_gaps'], 0)
         self.assertEqual(analysis['cameras'][0]['roi_changes'], 9)
+        self.assertEqual(analysis['matching']['raster']['offsets'][6]['drift_us_per_second'], 0)
 
     def test_csv_integrity_and_geometry(self):
         with tempfile.TemporaryDirectory() as tmp:

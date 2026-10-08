@@ -31,15 +31,27 @@ bad Y marker [145:134], bad chroma marker [157:146], frame clocks [191:160],
 line maximum [207:192], line minimum [223:208]. The report is published at the
 next active-raster boundary and describes the preceding complete raster.
 
-A valid record requires 2,073,600 pixels, 1080 active lines, 1125 EAVs,
+A strict content record requires 2,073,600 pixels, 1080 active lines, 1125 EAVs,
 2,475,000 pixel clocks, line minimum=maximum=2200, flags=3 and no bad Y/C markers.
 CRC changes require an independent Freeze negative control before they can be
 used as image-update evidence. A change alone does not prove a new exposure.
+Timing validity uses the same requirements except chroma-marker agreement:
+an otherwise complete Y raster can retain valid boundary timing despite a C
+marker error. Both validity counts are retained separately. Active-pixel data
+corruption can escape geometry checks; that is why Freeze qualification matters.
 
-Each camera also has a falling-edge luminance crop ILA for direct OSD readback:
+Each camera also has a luminance crop ILA for direct OSD readback:
 original x=512…1535, y=128…1023, taking every second pixel and row, 512×448.
 No resizing or filtering occurs in acquisition. Its 32768 packets include one
 complete 28672-packet crop and the beginning of the next crop.
+Revision 2 adds a five-bit VIO edge selector for these crops only. Bit 0 maps
+to physical camera 2, and so on. Zero selects rising (the startup default), one
+selects falling. Both timing/CRC observers always run, independent of VIO.
+Select an edge using valid geometry and a stable frozen image, not maximum CRC
+novelty. Use `select_snapshot_phase.tcl MATCHING.ltx DECIMAL_MASK_0_TO_31` and
+allow at least two complete rasters before taking a crop. Revision 1 fixed the
+crop to falling; its first 1080p30 control qualified rising on all five cameras
+but exposed invalid falling sampling on several cameras.
 
 ## Reproduce
 
