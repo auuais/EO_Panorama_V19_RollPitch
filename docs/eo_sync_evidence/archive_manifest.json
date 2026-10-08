@@ -4734,6 +4734,16 @@
       "archive_bytes": 2791,
       "archive_sha256": "e63e657cfbc1379003ed0f9370890bf3f5d69ab3ccfd09923be71ea5f2b30688",
       "encoding": "original"
+    },
+    {
+      "file": "EO_Camera_Synchronization_Comparison_20261009.xlsx",
+      "encoding": "original",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\outputs\\01a1110b-4bdf-79b3-af63-c2b05f5fcb99\\EO_Camera_Synchronization_Comparison_20261009.xlsx",
+      "source_bytes": 1980587,
+      "archive_bytes": 1980587,
+      "source_sha256": "c5408c9e9037dd444834fbaea13cfc33de8062809ec53e09d268c95279774681",
+      "archive_sha256": "c5408c9e9037dd444834fbaea13cfc33de8062809ec53e09d268c95279774681"
     }
-  ]
+  ],
+  "followup_manifest": "trig30_20261008/archive_manifest.json"
 }

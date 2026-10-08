@@ -1,0 +1,14 @@
+{
+  "verification_date_kst": "2026-10-09",
+  "physical_cameras": [2, 3, 4, 5, 6],
+  "freeze": "OFF",
+  "dnr": "2D+3D",
+  "all_camera_readbacks_verified": true,
+  "evidence": "freeze_off/contact.png and its five original ILA crops",
+  "verification": "Direct visual inspection of every camera's Image menu after the Freeze toggle",
+  "other_settings": "Unchanged from pretest_verified.json: 1080p60, ExtTrig, 1/240 s, 0 dB, ExtTrig Delay 0.0 ms, both polarities OFF",
+  "measurement_build": "r4_trig30",
+  "phase_taps": [336, 280, 308, 280, 420],
+  "selected_edges": ["rising", "rising", "rising", "rising", "falling"],
+  "snapshot_falling_mask": 16
+}

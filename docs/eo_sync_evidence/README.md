@@ -125,3 +125,53 @@ Display selection 6, its seven parameter bytes and all IR/EO pose offsets
 match the initial readbacks. Camera 1, camera SAVE/DFLT and configuration flash
 were not changed. Operational bitstream SHA256:
 `d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd`.
+
+## 1080p60 / 30 Hz follow-up, 9 October 2026
+
+Setup began on 8 October. `trig30_20261008/` preserves the additional test
+with 30 Hz common trigger, 2 ms high time, 1/240 s shutter, 0 dB gain,
+DNR 2D+3D and ExtTrig Delay 0.0 ms on physical cameras 2–6. The input-trigger
+delay was already zero and was verified again after selecting 1080p60.
+The supplied manual's printed page 41 shows ExtTrig Delay between trigger
+input and exposure start. Strobe Delay is the separate camera-output setting.
+
+The r4 diagnostic passed internal timing (WNS 0.723 ns, WHS 0.010 ns,
+WPWS 1.347 ns) and a full-cycle sampling sweep with frozen camera images.
+The selected five-camera control contained 1,628 rasters per camera with
+zero central-ROI changes. Cameras 5 and 6 still had changing full-frame CRCs
+while frozen, so only the central 96×96 ROI qualifies image-change counts.
+
+Across the two live blocks (54.64 s total), all cameras produced approximately
+60 rasters/s. Cameras 2–5 changed their central ROI exactly every two rasters.
+Camera 6 initially had three extra ROI transitions in three short bursts
+(six one-raster change intervals). Two repeated CRC-difference patterns
+suggest sampling error but do not establish its cause. Those observations
+are retained in `cam6_anomalies.json` and the original event files.
+
+An independent camera-6 repeat used the rising edge at phase tap 322.
+The fresh frozen ROI was identical at taps 308, 322 and 336 and showed zero
+changes across 1,676 further rasters. The following 1,676-raster live capture
+had 837 ROI changes, with all 836 measured inter-change spacings equal to two
+rasters. Thus the supported rate verdict is approximately 60 raster starts/s
+and 30 central-image updates/s with a 30 Hz trigger. It is not proof of 30
+distinct sensor exposures. Finite capture endpoints slightly shift the
+count-per-observed-span rates away from exactly 30.000.
+
+The five-camera raster spread in the primary follow-up was 3.644–3.869 ms,
+median 3.764 ms. This is a sequential observation after a format change,
+not evidence that 30 Hz triggering improves synchronization over 60 Hz.
+Electrical trigger arrival and physical exposure start remain unmeasured.
+
+`EO_Camera_Synchronization_Comparison_20261009.xlsx` retains the original comparison and adds this test at
+Comparison row 55, with the camera-6 repeat at row 85. Original validation
+files in `report_source/` refer to the pre-addendum workbook retained in Git
+commit `c3943b7`. The follow-up manifest and reproduction scripts are under
+`trig30_20261008/`. The original workbook content, formulas and styles are
+checked for preservation during the edit.
+The original workbook was open and locked, so the updated report is saved as
+a dated copy. The original workbook remains unchanged.
+
+The operational FPGA and original camera settings were restored again after
+the follow-up. All 25 USB readbacks (five menus/views per camera) were directly
+inspected. Display selection/parameters and IR/EO pose readbacks match the
+initial state. See `trig30_20261008/restoration/verified_state.json`.

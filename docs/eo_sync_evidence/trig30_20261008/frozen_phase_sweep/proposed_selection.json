@@ -1,0 +1,68 @@
+[
+  {
+    "camera": 2,
+    "phase": "rising",
+    "tap": 336,
+    "scope": "full",
+    "contiguous_taps": [
+      280,
+      308,
+      336,
+      364
+    ],
+    "crc": "b33f3009"
+  },
+  {
+    "camera": 3,
+    "phase": "rising",
+    "tap": 280,
+    "scope": "full",
+    "contiguous_taps": [
+      196,
+      224,
+      252,
+      280,
+      308,
+      336
+    ],
+    "crc": "94ce1cc1"
+  },
+  {
+    "camera": 4,
+    "phase": "rising",
+    "tap": 308,
+    "scope": "full",
+    "contiguous_taps": [
+      252,
+      280,
+      308,
+      336
+    ],
+    "crc": "51abe2ea"
+  },
+  {
+    "camera": 5,
+    "phase": "rising",
+    "tap": 280,
+    "scope": "roi",
+    "contiguous_taps": [
+      252,
+      280,
+      308
+    ],
+    "crc": "67544824"
+  },
+  {
+    "camera": 6,
+    "phase": "falling",
+    "tap": 420,
+    "scope": "roi",
+    "contiguous_taps": [
+      364,
+      392,
+      420,
+      0
+    ],
+    "crc": "bc2cd84c"
+  }
+]

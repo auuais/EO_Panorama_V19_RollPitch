@@ -1,0 +1,290 @@
+{
+  "camera": 6,
+  "block": "events_001",
+  "single_raster_change_intervals": 6,
+  "groups": [
+    {
+      "event_index": 62,
+      "neighborhood": [
+        {
+          "sequence": 38099,
+          "tick": 21615814392,
+          "roi_crc": "b51390de",
+          "full_crc": "e08ce16d"
+        },
+        {
+          "sequence": 38100,
+          "tick": 21616264398,
+          "roi_crc": "b51390de",
+          "full_crc": "116e5b15"
+        },
+        {
+          "sequence": 38101,
+          "tick": 21616714404,
+          "roi_crc": "70d36cd1",
+          "full_crc": "2b9df151"
+        },
+        {
+          "sequence": 38102,
+          "tick": 21617164410,
+          "roi_crc": "3cf3c36b",
+          "full_crc": "71bb0d66"
+        },
+        {
+          "sequence": 38103,
+          "tick": 21617614416,
+          "roi_crc": "8cfa1854",
+          "full_crc": "d95721d0"
+        },
+        {
+          "sequence": 38104,
+          "tick": 21618064422,
+          "roi_crc": "8cfa1854",
+          "full_crc": "93a1db11"
+        },
+        {
+          "sequence": 38105,
+          "tick": 21618514428,
+          "roi_crc": "030ff894",
+          "full_crc": "749c8d6a"
+        }
+      ]
+    },
+    {
+      "event_index": 63,
+      "neighborhood": [
+        {
+          "sequence": 38100,
+          "tick": 21616264398,
+          "roi_crc": "b51390de",
+          "full_crc": "116e5b15"
+        },
+        {
+          "sequence": 38101,
+          "tick": 21616714404,
+          "roi_crc": "70d36cd1",
+          "full_crc": "2b9df151"
+        },
+        {
+          "sequence": 38102,
+          "tick": 21617164410,
+          "roi_crc": "3cf3c36b",
+          "full_crc": "71bb0d66"
+        },
+        {
+          "sequence": 38103,
+          "tick": 21617614416,
+          "roi_crc": "8cfa1854",
+          "full_crc": "d95721d0"
+        },
+        {
+          "sequence": 38104,
+          "tick": 21618064422,
+          "roi_crc": "8cfa1854",
+          "full_crc": "93a1db11"
+        },
+        {
+          "sequence": 38105,
+          "tick": 21618514428,
+          "roi_crc": "030ff894",
+          "full_crc": "749c8d6a"
+        },
+        {
+          "sequence": 38106,
+          "tick": 21618964434,
+          "roi_crc": "030ff894",
+          "full_crc": "f607dbb4"
+        }
+      ]
+    },
+    {
+      "event_index": 1454,
+      "neighborhood": [
+        {
+          "sequence": 39491,
+          "tick": 22242222806,
+          "roi_crc": "890d66c1",
+          "full_crc": "fb1891e6"
+        },
+        {
+          "sequence": 39492,
+          "tick": 22242672812,
+          "roi_crc": "890d66c1",
+          "full_crc": "d1e653a7"
+        },
+        {
+          "sequence": 39493,
+          "tick": 22243122818,
+          "roi_crc": "41296b54",
+          "full_crc": "3d2ca54b"
+        },
+        {
+          "sequence": 39494,
+          "tick": 22243572824,
+          "roi_crc": "14336841",
+          "full_crc": "68732c00"
+        },
+        {
+          "sequence": 39495,
+          "tick": 22244022830,
+          "roi_crc": "c81c4a66",
+          "full_crc": "a6c7a83b"
+        },
+        {
+          "sequence": 39496,
+          "tick": 22244472836,
+          "roi_crc": "c81c4a66",
+          "full_crc": "087583aa"
+        },
+        {
+          "sequence": 39497,
+          "tick": 22244922842,
+          "roi_crc": "55aaeb1d",
+          "full_crc": "00013c70"
+        }
+      ]
+    },
+    {
+      "event_index": 1455,
+      "neighborhood": [
+        {
+          "sequence": 39492,
+          "tick": 22242672812,
+          "roi_crc": "890d66c1",
+          "full_crc": "d1e653a7"
+        },
+        {
+          "sequence": 39493,
+          "tick": 22243122818,
+          "roi_crc": "41296b54",
+          "full_crc": "3d2ca54b"
+        },
+        {
+          "sequence": 39494,
+          "tick": 22243572824,
+          "roi_crc": "14336841",
+          "full_crc": "68732c00"
+        },
+        {
+          "sequence": 39495,
+          "tick": 22244022830,
+          "roi_crc": "c81c4a66",
+          "full_crc": "a6c7a83b"
+        },
+        {
+          "sequence": 39496,
+          "tick": 22244472836,
+          "roi_crc": "c81c4a66",
+          "full_crc": "087583aa"
+        },
+        {
+          "sequence": 39497,
+          "tick": 22244922842,
+          "roi_crc": "55aaeb1d",
+          "full_crc": "00013c70"
+        },
+        {
+          "sequence": 39498,
+          "tick": 22245372848,
+          "roi_crc": "55aaeb1d",
+          "full_crc": "a4e46b3e"
+        }
+      ]
+    },
+    {
+      "event_index": 1488,
+      "neighborhood": [
+        {
+          "sequence": 39525,
+          "tick": 22257523011,
+          "roi_crc": "1c75ac40",
+          "full_crc": "3c6a886a"
+        },
+        {
+          "sequence": 39526,
+          "tick": 22257973017,
+          "roi_crc": "1c75ac40",
+          "full_crc": "a2610e99"
+        },
+        {
+          "sequence": 39527,
+          "tick": 22258423023,
+          "roi_crc": "1ac207c4",
+          "full_crc": "465aeed8"
+        },
+        {
+          "sequence": 39528,
+          "tick": 22258873029,
+          "roi_crc": "4fd804d1",
+          "full_crc": "0f0c51eb"
+        },
+        {
+          "sequence": 39529,
+          "tick": 22259323035,
+          "roi_crc": "844220c6",
+          "full_crc": "347c2ea0"
+        },
+        {
+          "sequence": 39530,
+          "tick": 22259773041,
+          "roi_crc": "844220c6",
+          "full_crc": "136d0fef"
+        },
+        {
+          "sequence": 39531,
+          "tick": 22260223047,
+          "roi_crc": "e0a790fe",
+          "full_crc": "d5510d63"
+        }
+      ]
+    },
+    {
+      "event_index": 1489,
+      "neighborhood": [
+        {
+          "sequence": 39526,
+          "tick": 22257973017,
+          "roi_crc": "1c75ac40",
+          "full_crc": "a2610e99"
+        },
+        {
+          "sequence": 39527,
+          "tick": 22258423023,
+          "roi_crc": "1ac207c4",
+          "full_crc": "465aeed8"
+        },
+        {
+          "sequence": 39528,
+          "tick": 22258873029,
+          "roi_crc": "4fd804d1",
+          "full_crc": "0f0c51eb"
+        },
+        {
+          "sequence": 39529,
+          "tick": 22259323035,
+          "roi_crc": "844220c6",
+          "full_crc": "347c2ea0"
+        },
+        {
+          "sequence": 39530,
+          "tick": 22259773041,
+          "roi_crc": "844220c6",
+          "full_crc": "136d0fef"
+        },
+        {
+          "sequence": 39531,
+          "tick": 22260223047,
+          "roi_crc": "e0a790fe",
+          "full_crc": "d5510d63"
+        },
+        {
+          "sequence": 39532,
+          "tick": 22260673053,
+          "roi_crc": "e0a790fe",
+          "full_crc": "2c5f91a2"
+        }
+      ]
+    }
+  ],
+  "limitation": "CRC neighborhoods alone cannot distinguish sampling errors from camera payload changes or tearing."
+}

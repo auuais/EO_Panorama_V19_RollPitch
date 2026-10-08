@@ -1,0 +1,76 @@
+Targets, physical cameras 2..6: 0 0 0 0 0
+Settled status: 003E00000000000
+Time: Fri Oct 09 00:05:33 +0900 2026
+Property              Type    Read-only  Value
+ACTIVITY_PERSISTENCE  enum    false      SHORT
+ACTIVITY_VALUE        string  true       NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+CLASS                 string  true       hw_probe
+HW_VIO                string  true       hw_vio_1
+INPUT_VALUE           string  true       000000000000
+INPUT_VALUE_RADIX     enum    false      HEX
+NAME                  string  true       phase_current
+NAME.CUSTOM           string  false      
+NAME.LONG             string  true       phase_current
+NAME.SELECT           enum    false      Long
+NAME.SHORT            string  true       phase_current
+PROBE_PORT            int     true       0
+PROBE_PORT_BITS       int     true       0
+PROBE_PORT_BIT_COUNT  int     true       45
+SOURCE                enum    true       netlist
+TYPE                  string  true       vio_input
+WIDTH                 int     true       45
+Property              Type    Read-only  Value
+ACTIVITY_PERSISTENCE  enum    false      SHORT
+ACTIVITY_VALUE        string  true       NNNNN
+CLASS                 string  true       hw_probe
+HW_VIO                string  true       hw_vio_1
+INPUT_VALUE           string  true       1f
+INPUT_VALUE_RADIX     enum    false      HEX
+NAME                  string  true       phase_locked
+NAME.CUSTOM           string  false      
+NAME.LONG             string  true       phase_locked
+NAME.SELECT           enum    false      Long
+NAME.SHORT            string  true       phase_locked
+PROBE_PORT            int     true       0
+PROBE_PORT_BITS       int     true       45
+PROBE_PORT_BIT_COUNT  int     true       5
+SOURCE                enum    true       netlist
+TYPE                  string  true       vio_input
+WIDTH                 int     true       5
+Property              Type    Read-only  Value
+ACTIVITY_PERSISTENCE  enum    false      SHORT
+ACTIVITY_VALUE        string  true       NNNNN
+CLASS                 string  true       hw_probe
+HW_VIO                string  true       hw_vio_1
+INPUT_VALUE           string  true       00
+INPUT_VALUE_RADIX     enum    false      HEX
+NAME                  string  true       phase_busy
+NAME.CUSTOM           string  false      
+NAME.LONG             string  true       phase_busy
+NAME.SELECT           enum    false      Long
+NAME.SHORT            string  true       phase_busy
+PROBE_PORT            int     true       0
+PROBE_PORT_BITS       int     true       50
+PROBE_PORT_BIT_COUNT  int     true       5
+SOURCE                enum    true       netlist
+TYPE                  string  true       vio_input
+WIDTH                 int     true       5
+Property              Type    Read-only  Value
+ACTIVITY_PERSISTENCE  enum    false      SHORT
+ACTIVITY_VALUE        string  true       NNNNN
+CLASS                 string  true       hw_probe
+HW_VIO                string  true       hw_vio_1
+INPUT_VALUE           string  true       00
+INPUT_VALUE_RADIX     enum    false      HEX
+NAME                  string  true       phase_fault
+NAME.CUSTOM           string  false      
+NAME.LONG             string  true       phase_fault
+NAME.SELECT           enum    false      Long
+NAME.SHORT            string  true       phase_fault
+PROBE_PORT            int     true       0
+PROBE_PORT_BITS       int     true       55
+PROBE_PORT_BIT_COUNT  int     true       5
+SOURCE                enum    true       netlist
+TYPE                  string  true       vio_input
+WIDTH                 int     true       5
+After capture: 003E00000000000

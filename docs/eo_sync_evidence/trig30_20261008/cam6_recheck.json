@@ -1,0 +1,128 @@
+{
+  "scope": "Camera 6 only: cameras 2\u20135 remained live during the negative control",
+  "fine_phase_qualification": [
+    {
+      "tap": 308,
+      "records": 454,
+      "roi_crc": "75296347",
+      "source": "cam6_frozen_fine\\phase_308\\events_000.csv",
+      "sha256": "da6d5822a3ecceb8a463344c58cccbd68b2fbc19dac88202e1c9afe20df5fd4a"
+    },
+    {
+      "tap": 322,
+      "records": 416,
+      "roi_crc": "75296347",
+      "source": "cam6_frozen_fine\\phase_322\\events_000.csv",
+      "sha256": "8db1cfb96565e63a14a07acef6bb2e626136bb49b3c536a7dc6433972e06b33d"
+    },
+    {
+      "tap": 336,
+      "records": 407,
+      "roi_crc": "75296347",
+      "source": "cam6_frozen_fine\\phase_336\\events_000.csv",
+      "sha256": "8adf50bef18f0e473d11e18c42e8be5cf006fe37440f8c4ce731e148cba55e4e"
+    }
+  ],
+  "camera_rows": [
+    {
+      "condition": "cam6_recheck_control",
+      "mode": "ExtTrig 30 Hz recheck",
+      "control": true,
+      "selected": true,
+      "build": "r4_trig30",
+      "block": "events_000",
+      "format_fps": 60,
+      "phase_tap": 322,
+      "control_id": "cam6_recheck_control",
+      "source_file": "cam6_recheck_control\\events_000.csv",
+      "source_sha256": "086e825c75fca164a4c6b37d77288924f2d8ced5e471dbec538d71e347f2b768",
+      "offset_median_us": -1257.3333333333333,
+      "drift_us_per_second": 0.7273798126373956,
+      "camera": 6,
+      "phase": "rising",
+      "records": 1676,
+      "timing_valid": 1676,
+      "valid": 1676,
+      "sequence_gaps": 0,
+      "adjacent_pairs": 1675,
+      "duration_s": 27.917042259259258,
+      "raster_hz": 59.99919276707947,
+      "period_us": {
+        "n": 1675,
+        "min": 16666.85185185185,
+        "median": 16666.88888888889,
+        "p95": 16666.925925925927,
+        "max": 16666.925925925927,
+        "mean": 16666.890901050305
+      },
+      "full_changes": 1675,
+      "roi_changes": 0,
+      "full_change_hz": 59.99919276707947,
+      "roi_change_hz": 0.0,
+      "since_trigger_fall_us": {
+        "n": 1676,
+        "min": 6840.666666666667,
+        "median": 15361.796296296296,
+        "p95": 23845.370370370372,
+        "max": 23882.925925925927,
+        "mean": 15361.76182268187
+      }
+    },
+    {
+      "condition": "cam6_recheck_live",
+      "mode": "ExtTrig 30 Hz recheck",
+      "control": false,
+      "selected": true,
+      "build": "r4_trig30",
+      "block": "events_000",
+      "format_fps": 60,
+      "phase_tap": 322,
+      "control_id": "cam6_recheck_control",
+      "source_file": "cam6_recheck_live\\events_000.csv",
+      "source_sha256": "c0d392b84254fd428262cde573645719e40b42a4849a7519c3325b6c442a34cb",
+      "offset_median_us": -1107.2592592592594,
+      "drift_us_per_second": 0.6685509423312098,
+      "camera": 6,
+      "phase": "rising",
+      "records": 1676,
+      "timing_valid": 1676,
+      "valid": 1676,
+      "sequence_gaps": 0,
+      "adjacent_pairs": 1675,
+      "duration_s": 27.917041074074074,
+      "raster_hz": 59.999195314274715,
+      "period_us": {
+        "n": 1675,
+        "min": 16666.88888888889,
+        "median": 16666.88888888889,
+        "p95": 16666.88888888889,
+        "max": 16666.925925925927,
+        "mean": 16666.890193477062
+      },
+      "full_changes": 1664,
+      "roi_changes": 837,
+      "full_change_hz": 59.60517074803172,
+      "roi_change_hz": 29.981687449580857,
+      "since_trigger_fall_us": {
+        "n": 1676,
+        "min": 9747.74074074074,
+        "median": 18268.277777777777,
+        "p95": 26751.40740740741,
+        "max": 26788.814814814814,
+        "mean": 18268.28743480951
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "condition": "cam6_recheck_control",
+      "rasters_between_roi_changes": {}
+    },
+    {
+      "condition": "cam6_recheck_live",
+      "rasters_between_roi_changes": {
+        "2": 836
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "cameras": [
+    {
+      "camera": 2,
+      "seconds": 54.61736237037037,
+      "rasters": 3279,
+      "raster_hz": 59.99923573346623,
+      "roi_changes": 1639,
+      "roi_changes_hz": 30.008772464800476,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 3,
+      "seconds": 54.617610740740744,
+      "rasters": 3279,
+      "raster_hz": 59.99896289047294,
+      "roi_changes": 1639,
+      "roi_changes_hz": 30.008636001673832,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 4,
+      "seconds": 54.61751637037037,
+      "rasters": 3279,
+      "raster_hz": 59.9990665591259,
+      "roi_changes": 1639,
+      "roi_changes_hz": 30.00868785181793,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 5,
+      "seconds": 54.617448296296295,
+      "rasters": 3279,
+      "raster_hz": 59.99914134073926,
+      "roi_changes": 1639,
+      "roi_changes_hz": 30.00872525403468,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 6,
+      "seconds": 54.63406633333334,
+      "rasters": 3280,
+      "raster_hz": 59.99919500774971,
+      "roi_changes": 1642,
+      "roi_changes_hz": 30.054508298573833,
+      "sequence_gaps": 0
+    }
+  ],
+  "patterns": [
+    {
+      "camera": 2,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 818
+      }
+    },
+    {
+      "camera": 3,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 818
+      }
+    },
+    {
+      "camera": 4,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 818
+      }
+    },
+    {
+      "camera": 5,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 818
+      }
+    },
+    {
+      "camera": 6,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 818
+      }
+    },
+    {
+      "camera": 2,
+      "block": "events_001",
+      "rasters_between_roi_changes": {
+        "2": 819
+      }
+    },
+    {
+      "camera": 3,
+      "block": "events_001",
+      "rasters_between_roi_changes": {
+        "2": 819
+      }
+    },
+    {
+      "camera": 4,
+      "block": "events_001",
+      "rasters_between_roi_changes": {
+        "2": 819
+      }
+    },
+    {
+      "camera": 5,
+      "block": "events_001",
+      "rasters_between_roi_changes": {
+        "2": 819
+      }
+    },
+    {
+      "camera": 6,
+      "block": "events_001",
+      "rasters_between_roi_changes": {
+        "2": 816,
+        "1": 6
+      }
+    }
+  ],
+  "observed_s": 54.641748148148146,
+  "raster_spread_us": {
+    "n": 3275,
+    "min": 3643.8518518518517,
+    "median": 3763.740740740741,
+    "p95": 3858.2444444444445,
+    "max": 3868.777777777778,
+    "mean": 3748.9638450664406
+  },
+  "roi_change_spread_us": {
+    "n": 1635,
+    "min": 3643.8888888888887,
+    "median": 3763.8518518518517,
+    "p95": 3858.2185185185185,
+    "max": 3868.703703703704,
+    "mean": 3749.0214293804506
+  },
+  "trigger": [
+    {
+      "n": 818,
+      "min": 33333.333333333336,
+      "median": 33333.333333333336,
+      "p95": 33333.333333333336,
+      "max": 33333.333333333336,
+      "mean": 33333.333333333336
+    },
+    {
+      "n": 820,
+      "min": 33333.333333333336,
+      "median": 33333.333333333336,
+      "p95": 33333.333333333336,
+      "max": 33333.333333333336,
+      "mean": 33333.333333333336
+    }
+  ]
+}

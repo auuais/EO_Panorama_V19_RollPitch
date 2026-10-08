@@ -1,0 +1,2 @@
+before_capture Fri Oct 09 00:26:30 +0900 2026 003F428C4D23150 expected_current=1428C4D23150
+after_block_0 Fri Oct 09 00:27:07 +0900 2026 003F428C4D23150 expected_current=1428C4D23150

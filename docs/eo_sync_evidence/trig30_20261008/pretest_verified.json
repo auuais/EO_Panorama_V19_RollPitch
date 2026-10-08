@@ -1,0 +1,21 @@
+{
+  "verification_date_kst": "2026-10-09",
+  "physical_cameras": [2, 3, 4, 5, 6],
+  "all_camera_readbacks_verified": true,
+  "verification": "Visual inspection of all five camera OSD crops in each listed contact sheet",
+  "osd_reader": "Previously qualified r3 diagnostic, rising-edge sampling, tap 322 on all five inputs",
+  "reader_bitstream_sha256": "d7792802795b56739a60a6cb27955b4ba45fcbfb89b0c3793a86ce110cb7f6ea",
+  "evidence": ["baseline_format/contact.png", "baseline_trigger/contact.png", "baseline_exposure/contact.png", "freeze_on/contact.png"],
+  "format": "1080p60",
+  "mode": "ExtTrig",
+  "trigger_polarity": "OFF",
+  "strobe_polarity": "OFF",
+  "exttrig_delay_ms": 0.0,
+  "strobe_delay_ms": 0.0,
+  "strobe_width_ms": 1.0,
+  "shutter": "1/240 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "freeze": "ON",
+  "note": "Menus closed after each capture. Camera configuration persists when only FPGA logic is reprogrammed. The reader generated 60 Hz; measurement uses the separately built r4 30 Hz diagnostic."
+}

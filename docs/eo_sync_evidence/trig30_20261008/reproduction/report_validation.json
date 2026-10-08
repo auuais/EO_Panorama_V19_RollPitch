@@ -1,0 +1,70 @@
+{
+  "output": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\outputs\\01a1110b-4bdf-79b3-af63-c2b05f5fcb99\\EO_Camera_Synchronization_Comparison_20261009.xlsx",
+  "cameraStart": 147,
+  "cameraEnd": 178,
+  "matchedStart": 16222,
+  "matchedEnd": 19496,
+  "expected": [
+    {
+      "row": 63,
+      "camera": 2,
+      "seconds": 54.61736237037037,
+      "records": 3279,
+      "raster_hz": 59.99923573346623,
+      "changes": 1639,
+      "change_hz": 30.008772464800476
+    },
+    {
+      "row": 64,
+      "camera": 3,
+      "seconds": 54.617610740740744,
+      "records": 3279,
+      "raster_hz": 59.99896289047294,
+      "changes": 1639,
+      "change_hz": 30.008636001673832
+    },
+    {
+      "row": 65,
+      "camera": 4,
+      "seconds": 54.61751637037037,
+      "records": 3279,
+      "raster_hz": 59.9990665591259,
+      "changes": 1639,
+      "change_hz": 30.00868785181793
+    },
+    {
+      "row": 66,
+      "camera": 5,
+      "seconds": 54.617448296296295,
+      "records": 3279,
+      "raster_hz": 59.99914134073926,
+      "changes": 1639,
+      "change_hz": 30.00872525403468
+    },
+    {
+      "row": 67,
+      "camera": 6,
+      "seconds": 54.63406633333334,
+      "records": 3280,
+      "raster_hz": 59.99919500774971,
+      "changes": 1642,
+      "change_hz": 30.054508298573833
+    },
+    {
+      "row": 87,
+      "camera": 6,
+      "seconds": 27.917041074074074,
+      "records": 1676,
+      "raster_hz": 59.999195314274715,
+      "changes": 837,
+      "change_hz": 29.981687449580857
+    }
+  ],
+  "spread": [
+    3275,
+    3.643851851851852,
+    3.763740740740741,
+    3.8582444444444444,
+    3.868777777777778
+  ]
+}

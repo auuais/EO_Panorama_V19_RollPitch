@@ -1,0 +1,48 @@
+{
+  "protocol": {
+    "date": "9 October 2026 KST (setup started 8 October)",
+    "physical_cameras": "2–6",
+    "trigger_hz": 30,
+    "trigger_high_us": 2000,
+    "reference_hz_nominal": 27000000,
+    "shutter_s": 0.004166666666666667,
+    "agc_db": 0,
+    "dnr": "2D+3D",
+    "mode": "ExtTrig",
+    "format_fps": 60,
+    "exttrig_delay_ms": 0.0,
+    "strobe_delay_ms": 0.0,
+    "strobe_width_ms": 1.0,
+    "trigger_polarity": "OFF",
+    "manual": "DM-G15-42 v1.04, printed page 41: ExtTrig Delay lies between incoming trigger edge and exposure start; Strobe Delay controls the separate output pulse.",
+    "manual_sha256": "e1f5c8ce23da0bca8b7f631279c96de8f947967754329e5fa9586fe79a0b1634",
+    "setting_evidence": "pretest_verified.json and direct OSD crops in baseline_format, baseline_trigger, baseline_exposure, freeze_on; live Freeze OFF is verified separately.",
+    "sampling_selection": "frozen_phase_sweep/proposed_selection.json; independent full-cycle 16-position sweep on both edges; selected stable interior windows span at least 3 adjacent settings.",
+    "limits": "Nominal reference is uncalibrated. Raster boundaries and qualified ROI changes do not establish physical exposure starts or shared frame identity. DNR remains enabled. Capture gaps are not joined.",
+    "trigger_scope": "ILA measures the common FPGA-generated trigger; electrical arrival, optocoupler latency and acceptance at camera inputs are not measured.",
+    "timestamp_boundary": "V 1-to-0 active-raster boundary. CRC describes the preceding complete raster."
+  },
+  "conditions": [
+    {
+      "id": "60_trig30_freeze",
+      "format_fps": 60,
+      "mode": "ExtTrig 30 Hz",
+      "control": true,
+      "blocks": 1,
+      "build": "r4_trig30",
+      "phases": ["rising", "rising", "rising", "rising", "falling"],
+      "phase_taps": [336, 280, 308, 280, 420]
+    },
+    {
+      "id": "60_trig30_live",
+      "format_fps": 60,
+      "mode": "ExtTrig 30 Hz",
+      "control": false,
+      "control_id": "60_trig30_freeze",
+      "blocks": 2,
+      "build": "r4_trig30",
+      "phases": ["rising", "rising", "rising", "rising", "falling"],
+      "phase_taps": [336, 280, 308, 280, 420]
+    }
+  ]
+}

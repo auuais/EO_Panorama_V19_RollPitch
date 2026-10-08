@@ -1,0 +1,23 @@
+{
+  "date_kst": "2026-10-08",
+  "physical_cameras": [2, 3, 4, 5, 6],
+  "verification": "Direct visual inspection of USB OSD trigger, exposure, image and format screenshots for every camera",
+  "evidence_folder": "initial_readback",
+  "mode": "ExtTrig",
+  "format": "1080p30",
+  "exttrig_delay_ms": 0.0,
+  "strobe_delay_ms": 0.0,
+  "strobe_width_ms": 1.0,
+  "trigger_polarity": "OFF",
+  "strobe_polarity": "OFF",
+  "shutter": "1/240 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "freeze": "OFF",
+  "sharpness": 5,
+  "gamma": 0.45,
+  "electronic_zoom": "OFF",
+  "display_selection": 6,
+  "camera_1": "untouched",
+  "operational_bitstream_sha256": "d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd"
+}

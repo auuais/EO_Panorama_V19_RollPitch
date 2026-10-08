@@ -1,0 +1,15 @@
+{
+  "verification_date_kst": "2026-10-09",
+  "scope": "Camera 6 only; cameras 2–5 stayed live",
+  "freeze_on_evidence": "cam6_recheck_freeze_on/cam6/frame_24335.png",
+  "freeze_off_evidence": "cam6_recheck_freeze_off/cam6/frame_06971.png",
+  "verification": "Both OSD images were directly viewed. Freeze ON before control and OFF before repeat live capture. DNR remains 2D+3D.",
+  "final_phase_taps": [336, 280, 308, 280, 322],
+  "selected_camera6_edge": "rising",
+  "snapshot_falling_mask": 0,
+  "format": "1080p60",
+  "mode": "ExtTrig",
+  "trigger_hz": 30,
+  "exttrig_delay_ms": 0.0,
+  "other_settings": "Unchanged from pretest_verified.json"
+}

@@ -1,0 +1,189 @@
+{
+  "date_kst": "2026-10-09",
+  "physical_cameras": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "verification": "Direct visual inspection of all five cameras in trigger, exposure, image, format and closed-menu USB contact sheets",
+  "evidence_folder": "restoration",
+  "mode": "ExtTrig",
+  "format": "1080p30",
+  "exttrig_delay_ms": 0.0,
+  "strobe_delay_ms": 0.0,
+  "strobe_width_ms": 1.0,
+  "trigger_polarity": "OFF",
+  "strobe_polarity": "OFF",
+  "shutter": "1/240 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "freeze": "OFF",
+  "sharpness": 5,
+  "gamma": 0.45,
+  "electronic_zoom": "OFF",
+  "display_selection": 6,
+  "camera_1": "untouched",
+  "operational_bitstream_sha256": "d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd",
+  "verified_at": "2026-10-09T00:40:27.113868+09:00",
+  "all_camera_readbacks_verified": true,
+  "program_log": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_20261008\\restore_operational.log",
+  "readbacks": [
+    {
+      "camera": 2,
+      "section": "trigger",
+      "image": "cam2_trigger.png",
+      "sha256": "4f592b4799009518c0004780265d875b037d3b272db33f78b5fe7b2dd37152e4"
+    },
+    {
+      "camera": 2,
+      "section": "exposure",
+      "image": "cam2_exposure.png",
+      "sha256": "4dfe1ef9ab245991bd71763781481ac9cad2a93797965dbdc6aa19802e3d94dc"
+    },
+    {
+      "camera": 2,
+      "section": "image",
+      "image": "cam2_image.png",
+      "sha256": "8345b2c5d80cb617d10bc04db3956a4a7d0c6a3f3bd822b3b47b3adfb5499f7b"
+    },
+    {
+      "camera": 2,
+      "section": "format",
+      "image": "cam2_format.png",
+      "sha256": "76f0c1a1c1b517bbdc78f5043aeec964e301ba260da2871809eee629d6bb4c04"
+    },
+    {
+      "camera": 2,
+      "section": "closed",
+      "image": "cam2_closed.png",
+      "sha256": "4a7a748fdfa363291a330716012918e7d4538aaccd904d97ee9edd6e53e686b0"
+    },
+    {
+      "camera": 3,
+      "section": "trigger",
+      "image": "cam3_trigger.png",
+      "sha256": "8a777cd3d10a47c4be488453d6072040328e275cfd203d30688de362795943cc"
+    },
+    {
+      "camera": 3,
+      "section": "exposure",
+      "image": "cam3_exposure.png",
+      "sha256": "1b44ac1b90887b62d92a9eb70270cc72866e7a41d4818dadaeec62743cd4aaac"
+    },
+    {
+      "camera": 3,
+      "section": "image",
+      "image": "cam3_image.png",
+      "sha256": "67ee0bbb08f1f3a67ff3d9cee9ff44f6a60a713b4b74a0ca76e65330a798a895"
+    },
+    {
+      "camera": 3,
+      "section": "format",
+      "image": "cam3_format.png",
+      "sha256": "bf325c3ab8a3c94dcde102b57c91653117eb0e8ce455dfdcffc80009c1160d91"
+    },
+    {
+      "camera": 3,
+      "section": "closed",
+      "image": "cam3_closed.png",
+      "sha256": "79673a89b324f419a768b9fcdddb0b6d97952c31b3d9f00cb086b4c7c7749c54"
+    },
+    {
+      "camera": 4,
+      "section": "trigger",
+      "image": "cam4_trigger.png",
+      "sha256": "4d80ddca0ed1bb25d8a21259dcd8975daafe7e0c016e0ea645e8d6a35553049e"
+    },
+    {
+      "camera": 4,
+      "section": "exposure",
+      "image": "cam4_exposure.png",
+      "sha256": "1dd343c640d08b8bf9ba0cecd94819e6ac29fda1ce272cd0ecd4208fabf1e6dd"
+    },
+    {
+      "camera": 4,
+      "section": "image",
+      "image": "cam4_image.png",
+      "sha256": "6f82fdec921ab4cf176ed2033b53b764648ea31b42fdbbb743d296eca6ce0c46"
+    },
+    {
+      "camera": 4,
+      "section": "format",
+      "image": "cam4_format.png",
+      "sha256": "13d2bf00671ef7a519cd0192c659aadb4542c39bf82ef3f0b6de6b7e96f4ad18"
+    },
+    {
+      "camera": 4,
+      "section": "closed",
+      "image": "cam4_closed.png",
+      "sha256": "ef190a2bf9b51667c1c67a5cc87235dca4e300cad8bc7d4bbaf725ed22f0bffc"
+    },
+    {
+      "camera": 5,
+      "section": "trigger",
+      "image": "cam5_trigger.png",
+      "sha256": "8d98435709f6c07ab266af46b22147cb9eb8668d04b235656633fafc38560329"
+    },
+    {
+      "camera": 5,
+      "section": "exposure",
+      "image": "cam5_exposure.png",
+      "sha256": "b6a8eb30a7dc7669e2c703ef300175973c1ecc428a51dcb5eb2257774e707138"
+    },
+    {
+      "camera": 5,
+      "section": "image",
+      "image": "cam5_image.png",
+      "sha256": "61f5643d7c5abcdc30b33be2365cb34ca70f266045185c6397b9300ac6e031b1"
+    },
+    {
+      "camera": 5,
+      "section": "format",
+      "image": "cam5_format.png",
+      "sha256": "ebdd6efc1ce2ae219719f9b2ef58ddbfe0ab0c2847819e91c21e7f4447c206f0"
+    },
+    {
+      "camera": 5,
+      "section": "closed",
+      "image": "cam5_closed.png",
+      "sha256": "6c68f22ccf65ecf6ae401ea2a332e8d3c008342aec2f7a3b9aa520a8de5629e4"
+    },
+    {
+      "camera": 6,
+      "section": "trigger",
+      "image": "cam6_trigger.png",
+      "sha256": "6fb6f2725cf1f54a63191df92f5b1a28899285707dec2c37939dbea857476b2c"
+    },
+    {
+      "camera": 6,
+      "section": "exposure",
+      "image": "cam6_exposure.png",
+      "sha256": "0dfa0a37ce2653093a51c7f73b497f0265ae27cefd0fc16edea05305edf7ea82"
+    },
+    {
+      "camera": 6,
+      "section": "image",
+      "image": "cam6_image.png",
+      "sha256": "a3c2fe2daa3ecc4806ac18bc999265b6cc88e6d5abf6e8d32543fcc422544f73"
+    },
+    {
+      "camera": 6,
+      "section": "format",
+      "image": "cam6_format.png",
+      "sha256": "b8312d755c571763df0f31a9e03f991e3993f1e2b2e1d23dde23c5b8c3a1aea0"
+    },
+    {
+      "camera": 6,
+      "section": "closed",
+      "image": "cam6_closed.png",
+      "sha256": "2e0dc951246a68d9e8c689d13a58b1b6f9026d39398b3326ce07b836af5816f4"
+    }
+  ],
+  "display_matches_initial": true,
+  "pose_matches_initial": true,
+  "menus_closed": true,
+  "configuration_flash_written": false,
+  "osd_save_or_defaults_used": false
+}
