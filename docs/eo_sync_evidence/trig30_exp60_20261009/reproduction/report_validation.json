@@ -1,0 +1,115 @@
+{
+  "output": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\outputs\\01a1110b-4bdf-79b3-af63-c2b05f5fcb99\\EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx",
+  "cameraStart": 179,
+  "cameraEnd": 218,
+  "matchedStart": 19497,
+  "matchedEnd": 24643,
+  "expected": [
+    {
+      "row": 107,
+      "camera": 2,
+      "seconds": 57.28405788888889,
+      "records": 3439,
+      "raster_hz": 59.999241091938394,
+      "changes": 1719,
+      "change_hz": 30.008348977899942
+    },
+    {
+      "row": 108,
+      "camera": 3,
+      "seconds": 57.28432174074074,
+      "records": 3439,
+      "raster_hz": 59.99896473515541,
+      "changes": 1718,
+      "change_hz": 29.99075397585016
+    },
+    {
+      "row": 109,
+      "camera": 4,
+      "seconds": 57.28422477777778,
+      "records": 3439,
+      "raster_hz": 59.99906629326181,
+      "changes": 1718,
+      "change_hz": 29.99080474012912
+    },
+    {
+      "row": 110,
+      "camera": 5,
+      "seconds": 57.28415214814815,
+      "records": 3439,
+      "raster_hz": 59.99914236508621,
+      "changes": 1725,
+      "change_hz": 30.113040610932124
+    },
+    {
+      "row": 111,
+      "camera": 6,
+      "seconds": 57.28410077777778,
+      "records": 3439,
+      "raster_hz": 59.99919617021055,
+      "changes": 1720,
+      "change_hz": 30.02578336129245
+    },
+    {
+      "row": 133,
+      "camera": 2,
+      "seconds": 28.550361111111112,
+      "records": 1714,
+      "raster_hz": 59.999241107088544,
+      "changes": 857,
+      "change_hz": 30.01713346688551
+    },
+    {
+      "row": 134,
+      "camera": 3,
+      "seconds": 28.567159333333333,
+      "records": 1715,
+      "raster_hz": 59.998965245383516,
+      "changes": 857,
+      "change_hz": 29.999482622691758
+    },
+    {
+      "row": 135,
+      "camera": 4,
+      "seconds": 28.56711059259259,
+      "records": 1715,
+      "raster_hz": 59.99906761464485,
+      "changes": 857,
+      "change_hz": 29.999533807322425
+    },
+    {
+      "row": 136,
+      "camera": 5,
+      "seconds": 28.55040688888889,
+      "records": 1714,
+      "raster_hz": 59.99914490418899,
+      "changes": 862,
+      "change_hz": 30.192214189965505
+    },
+    {
+      "row": 137,
+      "camera": 6,
+      "seconds": 28.55038385185185,
+      "records": 1714,
+      "raster_hz": 59.99919331693645,
+      "changes": 857,
+      "change_hz": 30.01710955786021
+    }
+  ],
+  "spread": [
+    3435,
+    11.197111111111111,
+    11.251333333333333,
+    11.29652962962963,
+    11.304555555555554
+  ],
+  "spreadRow": 119,
+  "repeatSpread": [
+    1712,
+    10.699296296296296,
+    10.740555555555554,
+    10.777646296296297,
+    10.781777777777778
+  ],
+  "repeatSpreadRow": 144
+}

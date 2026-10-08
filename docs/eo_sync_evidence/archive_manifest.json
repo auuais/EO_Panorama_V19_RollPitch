@@ -4743,7 +4743,17 @@
       "archive_bytes": 1980587,
       "source_sha256": "c5408c9e9037dd444834fbaea13cfc33de8062809ec53e09d268c95279774681",
       "archive_sha256": "c5408c9e9037dd444834fbaea13cfc33de8062809ec53e09d268c95279774681"
+    },
+    {
+      "file": "EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx",
+      "encoding": "original",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\outputs\\01a1110b-4bdf-79b3-af63-c2b05f5fcb99\\EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx",
+      "source_bytes": 2504435,
+      "archive_bytes": 2504435,
+      "source_sha256": "cd7dc5ae1e5fc248c90c3675ba9eb918822012ee6fe68619acfecc752879a036",
+      "archive_sha256": "cd7dc5ae1e5fc248c90c3675ba9eb918822012ee6fe68619acfecc752879a036"
     }
   ],
-  "followup_manifest": "trig30_20261008/archive_manifest.json"
+  "followup_manifest": "trig30_20261008/archive_manifest.json",
+  "exposure60_followup_manifest": "trig30_exp60_20261009/archive_manifest.json"
 }

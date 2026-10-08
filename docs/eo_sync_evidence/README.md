@@ -175,3 +175,59 @@ The operational FPGA and original camera settings were restored again after
 the follow-up. All 25 USB readbacks (five menus/views per camera) were directly
 inspected. Display selection/parameters and IR/EO pose readbacks match the
 initial state. See `trig30_20261008/restoration/verified_state.json`.
+
+## 1/60 s exposure follow-up, 9 October 2026
+
+`trig30_exp60_20261009/` retains the new 1080p60 / ExtTrig / 30 Hz test.
+The shutter was directly read as **1/60 s on every camera in 1080p60**.
+Gain remained 0 dB, DNR 2D+3D, ExtTrig Delay 0.0 ms, trigger pulse width
+2 ms and both polarities OFF. The existing r4 bitstream was reused. All five
+observers used rising edges at taps 336, 280, 308, 280 and 322 respectively.
+
+The fresh 28.517 s Freeze control contained 1,711–1,712 rasters per camera,
+100% strict geometry, no sequence gaps, and zero central ROI changes on every
+camera. Full-frame CRC still changed on camera 5 (1,020 times) and camera 6
+(950 times). Image-update conclusions therefore remain limited to the central
+96×96 ROI. A stable frozen pattern does not guarantee every live data pattern.
+
+The primary two live blocks cover 57.307 s, and a repeat at unchanged settings
+covers 28.571 s. Every selected path has 100% strict geometry, no sequence gaps
+and no telemetry overruns. The captured trigger period is exactly 900,000
+nominal 27 MHz ticks, with 54,000 ticks high. All cameras deliver approximately
+59.999 raster starts/s.
+
+| Camera | Primary ROI changes/s | Repeat ROI changes/s | Inter-change spacing |
+|---|---:|---:|---|
+| 2 | 30.008 | 30.017 | All two rasters in both observations |
+| 3 | 29.991 | 29.999 | All two rasters in both observations |
+| 4 | 29.991 | 30.000 | All two rasters in both observations |
+| 5 | 30.113 | 30.192 | Primary: 12 one-raster intervals; repeat: 10; otherwise two rasters |
+| 6 | 30.026 | 30.017 | Primary: two one-raster intervals; repeat: all two rasters |
+
+**At the verified 1/60 s setting and 30 Hz trigger, cameras 2–4 and the camera 6
+repeat support 60 rasters/s with 30 central-image updates/s.** Their clean ROI
+cadence did not fall to 15/s. Camera 5's dominant cadence is also two rasters,
+but persistent extra CRC transitions prevent certifying a clean 30 FPS stream
+for that camera. All anomalies remain in the raw data and
+`roi_anomalies.json`; the repeat did not discard or replace the primary data.
+Sampling errors are possible, but the cause is not established. None of the
+extra transitions is treated as proof of an additional exposure.
+
+Primary raster spread: median 11.251 ms, P95 11.297 ms, maximum 11.305 ms.
+Repeat: median 10.741 ms, P95 10.778 ms, maximum 10.782 ms. These are sequential
+nearest-raster phase observations, not evidence that shutter speed caused a
+synchronization change. Physical exposure starts, trigger acceptance and actual
+integration duration were not observed. An OSD shutter value is a verified
+setting, not an independent integration-time measurement.
+
+`EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx` preserves the
+previous workbook and adds this test at Comparison row 99, with the unchanged
+settings repeat at row 129. Forty camera observations and 5,147 matched-raster
+sets are appended to the existing detail tables. Reproduction scripts and
+formula/export checks are in `trig30_exp60_20261009/reproduction/`; the original
+bench paths are retained in those scripts. Copy the reproduction scripts back
+to `.tmpCRC/eo_sync_trig30_exp60_20261009/` when reproducing their local workflow.
+
+Restoration evidence belongs to `trig30_exp60_20261009/restoration/` and its
+`verified_state.json`: operational FPGA, 1080p30, ExtTrig, 1/240 s, Freeze OFF,
+unchanged gain/DNR/delays, and matching display and pose readbacks.

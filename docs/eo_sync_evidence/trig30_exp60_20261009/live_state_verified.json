@@ -1,0 +1,58 @@
+{
+  "verified_at": "2026-10-09T02:44:00.010872+09:00",
+  "all_camera_readbacks_verified": true,
+  "physical_cameras": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "verification": "Direct visual review of all five camera OSD crops in each contact sheet",
+  "format": "1080p60",
+  "shutter": "1/60 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "mode": "ExtTrig",
+  "exttrig_delay_ms": 0,
+  "strobe_delay_ms": 0,
+  "strobe_width_ms": 1,
+  "trigger_polarity": "OFF",
+  "strobe_polarity": "OFF",
+  "freeze": "OFF",
+  "menus_closed_after_readback": true,
+  "diagnostic_bitstream_sha256": "4bc5272d453f505f14399f305149ac6a317848bb6761116a3e374ee0e5f54006",
+  "phase_taps": [
+    336,
+    280,
+    308,
+    280,
+    322
+  ],
+  "phases": [
+    "rising",
+    "rising",
+    "rising",
+    "rising",
+    "rising"
+  ],
+  "trigger_hz": 30,
+  "evidence": [
+    {
+      "file": "baseline_exposure\\contact.png",
+      "sha256": "5628268c1a69fa817881d4bbe363ed485d60cd4b439a7d9fbaa87afe1d20f071"
+    },
+    {
+      "file": "baseline_trigger\\contact.png",
+      "sha256": "22234dbdbd26a608c048fd4123b0fcafc8526236d3ea724bbb04321a166c535a"
+    },
+    {
+      "file": "baseline_format\\contact.png",
+      "sha256": "6c7fb5aa256c38a0953af1bebcfdf566abfaa672070151a2a5aaf4ffd00f84bd"
+    },
+    {
+      "file": "freeze_off\\contact.png",
+      "sha256": "3b0c5defc82e501aa87493c126d6eacfe4bede7bdb4ba845c388e952b2d1d054"
+    }
+  ]
+}

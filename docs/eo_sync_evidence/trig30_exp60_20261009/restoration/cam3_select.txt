@@ -1,0 +1,6 @@
+  current video select 2  (EO single, camera 2)
+  current params       00 00 00 00 00 00 00
+  -> select 3 (EO single, camera 3), params unchanged
+  ACK video select 3  (EO single, camera 3)
+  STATUS now reports   3  (EO single, camera 3)
+  params confirmed unchanged

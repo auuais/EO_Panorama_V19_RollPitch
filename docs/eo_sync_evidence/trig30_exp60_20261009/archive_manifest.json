@@ -1,0 +1,3156 @@
+{
+  "description": "1080p60 / generated 30 Hz trigger / verified 1/60 s shutter / zero programmed trigger delay",
+  "reused_build_evidence": "../trig30_20261008/build_checks",
+  "files": [
+    {
+      "file": "60_trig30_exp60_freeze/events_000.csv.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_freeze\\events_000.csv",
+      "source_sha256": "afa9dc207760b72dd45ba7f90f0844a6cc21bc6bd1883e1d905e33cc407ba121",
+      "source_bytes": 4336702,
+      "archive_sha256": "de85cdab700cdc8f3a1bb5481f623855e0de62a9b04dc56f47885ae53f9521e4",
+      "archive_bytes": 404870,
+      "encoding": "gzip"
+    },
+    {
+      "file": "60_trig30_exp60_freeze/phase_checks.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_freeze\\phase_checks.txt",
+      "source_sha256": "b0e452d9cf43cf331f360deb20e81642084ddd6be193906ef028e512618ea8ca",
+      "source_bytes": 185,
+      "archive_sha256": "b0e452d9cf43cf331f360deb20e81642084ddd6be193906ef028e512618ea8ca",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "60_trig30_exp60_freeze/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_freeze\\provenance.txt",
+      "source_sha256": "d765c0330b813fd911acf16f0ad77517b2cbbe37e417431fac039b0382805962",
+      "source_bytes": 10418,
+      "archive_sha256": "d765c0330b813fd911acf16f0ad77517b2cbbe37e417431fac039b0382805962",
+      "archive_bytes": 10418,
+      "encoding": "original"
+    },
+    {
+      "file": "60_trig30_exp60_live/events_000.csv.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_live\\events_000.csv",
+      "source_sha256": "ce9ed2a7104165e015de40c3fc3f9a30e1e6b0f2cb811c4d9295bf06803978d6",
+      "source_bytes": 4336702,
+      "archive_sha256": "19aa940e9a5973750440f692d918b08c511d60793dbe3aa8a077c6e34d087fe5",
+      "archive_bytes": 450455,
+      "encoding": "gzip"
+    },
+    {
+      "file": "60_trig30_exp60_live/events_001.csv.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_live\\events_001.csv",
+      "source_sha256": "631e2f61c9b209eee6269c739d8fc57ea2eabfcd08e50df9b89da350aaa412b4",
+      "source_bytes": 4336702,
+      "archive_sha256": "4044263ac1c429b2d585e18f8ecb4f08cd2e6d8389c27871009976d00dbb27fd",
+      "archive_bytes": 450687,
+      "encoding": "gzip"
+    },
+    {
+      "file": "60_trig30_exp60_live/phase_checks.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_live\\phase_checks.txt",
+      "source_sha256": "e3c43f25826b5bc901526e8874c43d53eab5b8158d86da2a20419a92449a39a8",
+      "source_bytes": 277,
+      "archive_sha256": "e3c43f25826b5bc901526e8874c43d53eab5b8158d86da2a20419a92449a39a8",
+      "archive_bytes": 277,
+      "encoding": "original"
+    },
+    {
+      "file": "60_trig30_exp60_live/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_live\\provenance.txt",
+      "source_sha256": "a213f002b7cf2916097507ad73b0ade3c59bd7a87f262928c5f8e0b9ab687a63",
+      "source_bytes": 10422,
+      "archive_sha256": "a213f002b7cf2916097507ad73b0ade3c59bd7a87f262928c5f8e0b9ab687a63",
+      "archive_bytes": 10422,
+      "encoding": "original"
+    },
+    {
+      "file": "60_trig30_exp60_repeat/events_000.csv.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_repeat\\events_000.csv",
+      "source_sha256": "35810021911d77f7b5243caa8cc5052a01d40b89324dbda44bb4050529d86b5a",
+      "source_bytes": 4336702,
+      "archive_sha256": "07ccffdbc0988084ce25ab5a4010da132a02c30bae7104fbbb873d67e2b9e1ed",
+      "archive_bytes": 448402,
+      "encoding": "gzip"
+    },
+    {
+      "file": "60_trig30_exp60_repeat/phase_checks.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_repeat\\phase_checks.txt",
+      "source_sha256": "0712bbe834c24ba823edaa11d076149d5f04febad118ba7b999729660fd327dc",
+      "source_bytes": 185,
+      "archive_sha256": "0712bbe834c24ba823edaa11d076149d5f04febad118ba7b999729660fd327dc",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "60_trig30_exp60_repeat/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_repeat\\provenance.txt",
+      "source_sha256": "b848f9e940dc4e149c8360c5921db0d9ba5dca4ea5f1f1a87ed4296eb8027550",
+      "source_bytes": 10422,
+      "archive_sha256": "b848f9e940dc4e149c8360c5921db0d9ba5dca4ea5f1f1a87ed4296eb8027550",
+      "archive_bytes": 10422,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam2\\close_keys.json",
+      "source_sha256": "0448c605f4fbedbf2dc3bbd89d2fb6b60c2c69e0bf7cfa7e8b312c73cdc12abd",
+      "source_bytes": 4765,
+      "archive_sha256": "0448c605f4fbedbf2dc3bbd89d2fb6b60c2c69e0bf7cfa7e8b312c73cdc12abd",
+      "archive_bytes": 4765,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam2/frame_13714.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam2\\frame_13714.png",
+      "source_sha256": "acff21045dae63ee91e55b6f5df9f5075a7ae6cd0c36653ebea88c2e0b33770b",
+      "source_bytes": 82331,
+      "archive_sha256": "acff21045dae63ee91e55b6f5df9f5075a7ae6cd0c36653ebea88c2e0b33770b",
+      "archive_bytes": 82331,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam2\\keys.json",
+      "source_sha256": "be02349c63e1da0e6266c6a3da233c2c0d49349466d3f0f816e64675f0d477cd",
+      "source_bytes": 3007,
+      "archive_sha256": "be02349c63e1da0e6266c6a3da233c2c0d49349466d3f0f816e64675f0d477cd",
+      "archive_bytes": 3007,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam2\\provenance.txt",
+      "source_sha256": "28ed8089ed8c642076bf5aa04562d24d1371a43490180748ad11cfc9097868c8",
+      "source_bytes": 185,
+      "archive_sha256": "28ed8089ed8c642076bf5aa04562d24d1371a43490180748ad11cfc9097868c8",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam2\\snapshot_summary.json",
+      "source_sha256": "4ec08811e51503f8c4a4aa4943e7d3eb49aeb37e02032e9c0a4f2552c1bc23ef",
+      "source_bytes": 473,
+      "archive_sha256": "4ec08811e51503f8c4a4aa4943e7d3eb49aeb37e02032e9c0a4f2552c1bc23ef",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam3\\close_keys.json",
+      "source_sha256": "c6a64055aea55ce17ce29cddcd8d80cf900ade9b1008a584f3d3cb8cd1faa42c",
+      "source_bytes": 4863,
+      "archive_sha256": "c6a64055aea55ce17ce29cddcd8d80cf900ade9b1008a584f3d3cb8cd1faa42c",
+      "archive_bytes": 4863,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam3/frame_14399.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam3\\frame_14399.png",
+      "source_sha256": "ec33b942d60f2a96323555d3f74c0657452198083e8470fa13944595470fccbc",
+      "source_bytes": 87550,
+      "archive_sha256": "ec33b942d60f2a96323555d3f74c0657452198083e8470fa13944595470fccbc",
+      "archive_bytes": 87550,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam3\\keys.json",
+      "source_sha256": "91935daa00e67e6cf710b03d0fb272814fea96fc3b088b25488cdcaad02780c7",
+      "source_bytes": 2909,
+      "archive_sha256": "91935daa00e67e6cf710b03d0fb272814fea96fc3b088b25488cdcaad02780c7",
+      "archive_bytes": 2909,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam3\\provenance.txt",
+      "source_sha256": "c9762285dfc96b813efccf46e6ffdb5a56bbc471e39b72625027e275edf41f88",
+      "source_bytes": 185,
+      "archive_sha256": "c9762285dfc96b813efccf46e6ffdb5a56bbc471e39b72625027e275edf41f88",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam3/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam3\\snapshot_summary.json",
+      "source_sha256": "6b4041730ca43ac917419c912bb27973cae2269fd69af763572c7f28a2c0ccbd",
+      "source_bytes": 473,
+      "archive_sha256": "6b4041730ca43ac917419c912bb27973cae2269fd69af763572c7f28a2c0ccbd",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam4\\close_keys.json",
+      "source_sha256": "5483c2d4a88d56a40957d2fb241d906d9b3ce619cf6833bd174c3e0a9f1df00a",
+      "source_bytes": 4667,
+      "archive_sha256": "5483c2d4a88d56a40957d2fb241d906d9b3ce619cf6833bd174c3e0a9f1df00a",
+      "archive_bytes": 4667,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam4/frame_15087.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam4\\frame_15087.png",
+      "source_sha256": "b4093e855abe0ee3f26121120c396af2642dfbcd5db6364e4e12baf663828f4c",
+      "source_bytes": 71165,
+      "archive_sha256": "b4093e855abe0ee3f26121120c396af2642dfbcd5db6364e4e12baf663828f4c",
+      "archive_bytes": 71165,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam4\\keys.json",
+      "source_sha256": "ba30b100cdb7bddb31b4adf7c3bc8059844876e6bda66c454d799a718d5e6ab3",
+      "source_bytes": 3087,
+      "archive_sha256": "ba30b100cdb7bddb31b4adf7c3bc8059844876e6bda66c454d799a718d5e6ab3",
+      "archive_bytes": 3087,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam4\\provenance.txt",
+      "source_sha256": "c090e64691688117d802cc569b0c9380ccf3b9f4388f75bd335862c8b9e8597a",
+      "source_bytes": 185,
+      "archive_sha256": "c090e64691688117d802cc569b0c9380ccf3b9f4388f75bd335862c8b9e8597a",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam4/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam4\\snapshot_summary.json",
+      "source_sha256": "6355b2656e54b1d50485033cc0961a708418609ced9ca471337c2e2369dd25a8",
+      "source_bytes": 474,
+      "archive_sha256": "6355b2656e54b1d50485033cc0961a708418609ced9ca471337c2e2369dd25a8",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam5\\close_keys.json",
+      "source_sha256": "8b4972021040175555043b862345ca599b182b1363d7633366db7dd94b5f625b",
+      "source_bytes": 4863,
+      "archive_sha256": "8b4972021040175555043b862345ca599b182b1363d7633366db7dd94b5f625b",
+      "archive_bytes": 4863,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam5/frame_15774.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam5\\frame_15774.png",
+      "source_sha256": "285f31bc5e4cbc77518ea672c3707a88f14f626e9f23709ef427f8225ad79db6",
+      "source_bytes": 80679,
+      "archive_sha256": "285f31bc5e4cbc77518ea672c3707a88f14f626e9f23709ef427f8225ad79db6",
+      "archive_bytes": 80679,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam5\\keys.json",
+      "source_sha256": "e63a9b21e44e8a33a778299401129d6a3778b843bb3979ac98792af77e786db1",
+      "source_bytes": 2909,
+      "archive_sha256": "e63a9b21e44e8a33a778299401129d6a3778b843bb3979ac98792af77e786db1",
+      "archive_bytes": 2909,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam5\\provenance.txt",
+      "source_sha256": "a32fec248b88dbf2304b9f7bcca80315f567568a880b5d2012f61fbee75c79f7",
+      "source_bytes": 185,
+      "archive_sha256": "a32fec248b88dbf2304b9f7bcca80315f567568a880b5d2012f61fbee75c79f7",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam5/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam5\\snapshot_summary.json",
+      "source_sha256": "fcb9002cd38dcf9a2ef1fb57c0aeed848c9304781d83caa7fd3e84f6c27e0175",
+      "source_bytes": 473,
+      "archive_sha256": "fcb9002cd38dcf9a2ef1fb57c0aeed848c9304781d83caa7fd3e84f6c27e0175",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam6\\close_keys.json",
+      "source_sha256": "24d84cc44cb60b633cc478e92825635277648ce6d6333a4244c1c9d6cc60d9e5",
+      "source_bytes": 4667,
+      "archive_sha256": "24d84cc44cb60b633cc478e92825635277648ce6d6333a4244c1c9d6cc60d9e5",
+      "archive_bytes": 4667,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam6/frame_17897.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam6\\frame_17897.png",
+      "source_sha256": "aed1a1fdd41ce2375cc1c8df3d1265195e3fde16dabedbfbb3133d5a41d0c671",
+      "source_bytes": 80696,
+      "archive_sha256": "aed1a1fdd41ce2375cc1c8df3d1265195e3fde16dabedbfbb3133d5a41d0c671",
+      "archive_bytes": 80696,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam6\\keys.json",
+      "source_sha256": "327e3c60f98a55d26806d444c27684cb003c941d46fea17f29fdd4308ea008cf",
+      "source_bytes": 3007,
+      "archive_sha256": "327e3c60f98a55d26806d444c27684cb003c941d46fea17f29fdd4308ea008cf",
+      "archive_bytes": 3007,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam6\\provenance.txt",
+      "source_sha256": "3ecc4ee026e2ca9da3f22e3d0c72a0c02789a506d2582567bf02a2fffcc0bd4a",
+      "source_bytes": 185,
+      "archive_sha256": "3ecc4ee026e2ca9da3f22e3d0c72a0c02789a506d2582567bf02a2fffcc0bd4a",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/cam6/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\cam6\\snapshot_summary.json",
+      "source_sha256": "40f5e9f9b804616d81d2ba6c6e59148485018f1b7e2ea41b5340dfdcf64bfa6c",
+      "source_bytes": 474,
+      "archive_sha256": "40f5e9f9b804616d81d2ba6c6e59148485018f1b7e2ea41b5340dfdcf64bfa6c",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_exposure/contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_exposure\\contact.png",
+      "source_sha256": "5628268c1a69fa817881d4bbe363ed485d60cd4b439a7d9fbaa87afe1d20f071",
+      "source_bytes": 598630,
+      "archive_sha256": "5628268c1a69fa817881d4bbe363ed485d60cd4b439a7d9fbaa87afe1d20f071",
+      "archive_bytes": 598630,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam2\\close_keys.json",
+      "source_sha256": "b41b5c2f60c64c62f5d5be46c7a1ff56908ce341e4b3a49e041717d5841c33a8",
+      "source_bytes": 11366,
+      "archive_sha256": "b41b5c2f60c64c62f5d5be46c7a1ff56908ce341e4b3a49e041717d5841c33a8",
+      "archive_bytes": 11366,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam2/frame_23101.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam2\\frame_23101.png",
+      "source_sha256": "9e12673943dc193e22cbedaebc6b803ec452c6be8662d01a9809a35199f0a208",
+      "source_bytes": 82450,
+      "archive_sha256": "9e12673943dc193e22cbedaebc6b803ec452c6be8662d01a9809a35199f0a208",
+      "archive_bytes": 82450,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam2\\keys.json",
+      "source_sha256": "1c87a8dd25cf748c7ef96513899ee8d57a34ba6827b5809d432d8b5630bac9b8",
+      "source_bytes": 9622,
+      "archive_sha256": "1c87a8dd25cf748c7ef96513899ee8d57a34ba6827b5809d432d8b5630bac9b8",
+      "archive_bytes": 9622,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam2\\provenance.txt",
+      "source_sha256": "76f85fbae5d4637d0c9cd47e9e34043c568bb4837f604e548828894ed15a310e",
+      "source_bytes": 185,
+      "archive_sha256": "76f85fbae5d4637d0c9cd47e9e34043c568bb4837f604e548828894ed15a310e",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam2\\snapshot_summary.json",
+      "source_sha256": "15c9c223074f264805f24315e904393d740d8544c5f8fd68fd89f4aba5a4de13",
+      "source_bytes": 473,
+      "archive_sha256": "15c9c223074f264805f24315e904393d740d8544c5f8fd68fd89f4aba5a4de13",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam3\\close_keys.json",
+      "source_sha256": "1a9908e3424d70ee7365b07ad67b2db93c643f8a3f843887b024573d7c5fe63e",
+      "source_bytes": 11268,
+      "archive_sha256": "1a9908e3424d70ee7365b07ad67b2db93c643f8a3f843887b024573d7c5fe63e",
+      "archive_bytes": 11268,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam3/frame_24412.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam3\\frame_24412.png",
+      "source_sha256": "da9722b92f69475296007f44fe1decfc0a2bea5651257c0a663a5a4f75a5a6af",
+      "source_bytes": 87304,
+      "archive_sha256": "da9722b92f69475296007f44fe1decfc0a2bea5651257c0a663a5a4f75a5a6af",
+      "archive_bytes": 87304,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam3\\keys.json",
+      "source_sha256": "a2631ef38ad19106a9cc3366658606062c31d3dfce2cb77f8d199e9c577e4a52",
+      "source_bytes": 9426,
+      "archive_sha256": "a2631ef38ad19106a9cc3366658606062c31d3dfce2cb77f8d199e9c577e4a52",
+      "archive_bytes": 9426,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam3\\provenance.txt",
+      "source_sha256": "ceedae316d051516216ed850c56e1b154ecb2f99a1705243dac17f8422619e81",
+      "source_bytes": 185,
+      "archive_sha256": "ceedae316d051516216ed850c56e1b154ecb2f99a1705243dac17f8422619e81",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam3/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam3\\snapshot_summary.json",
+      "source_sha256": "9f6793e1b46a6603610eb2ad9235de4dff462f7bba0628d673bd77443ea91aef",
+      "source_bytes": 473,
+      "archive_sha256": "9f6793e1b46a6603610eb2ad9235de4dff462f7bba0628d673bd77443ea91aef",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam4\\close_keys.json",
+      "source_sha256": "76cad6ae7b5d1f9b1c8e2857ce065e4615dee3bcaed4048c56a8e997ffd23fbb",
+      "source_bytes": 11268,
+      "archive_sha256": "76cad6ae7b5d1f9b1c8e2857ce065e4615dee3bcaed4048c56a8e997ffd23fbb",
+      "archive_bytes": 11268,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam4/frame_25725.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam4\\frame_25725.png",
+      "source_sha256": "51a82929fa626112208dc0a84e40784150a1d78e595eef0c416b44c2b4e8cbb8",
+      "source_bytes": 71989,
+      "archive_sha256": "51a82929fa626112208dc0a84e40784150a1d78e595eef0c416b44c2b4e8cbb8",
+      "archive_bytes": 71989,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam4\\keys.json",
+      "source_sha256": "d6fa34bc7f01295a48c1c97c9798a3c230b58f6abc099bcc19007fdfbe622374",
+      "source_bytes": 9524,
+      "archive_sha256": "d6fa34bc7f01295a48c1c97c9798a3c230b58f6abc099bcc19007fdfbe622374",
+      "archive_bytes": 9524,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam4\\provenance.txt",
+      "source_sha256": "77228a16bc383bca69912779459f23d9e5bc24e0ad3a78052bce9063111f2380",
+      "source_bytes": 185,
+      "archive_sha256": "77228a16bc383bca69912779459f23d9e5bc24e0ad3a78052bce9063111f2380",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam4/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam4\\snapshot_summary.json",
+      "source_sha256": "0b0714895bfb86503d86ef8ac0bba86877042907c230aed4f1b59ca5a8beebed",
+      "source_bytes": 474,
+      "archive_sha256": "0b0714895bfb86503d86ef8ac0bba86877042907c230aed4f1b59ca5a8beebed",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam5\\close_keys.json",
+      "source_sha256": "827843ae15eb52b75011c415deb02ce561fa37533952bdcd46c640014ea0f73a",
+      "source_bytes": 11366,
+      "archive_sha256": "827843ae15eb52b75011c415deb02ce561fa37533952bdcd46c640014ea0f73a",
+      "archive_bytes": 11366,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam5/frame_27036.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam5\\frame_27036.png",
+      "source_sha256": "a26ee4c17678fc571de9e73fa6a4b7b6e14ab1a99ca1ead9f6247049e2e06094",
+      "source_bytes": 80357,
+      "archive_sha256": "a26ee4c17678fc571de9e73fa6a4b7b6e14ab1a99ca1ead9f6247049e2e06094",
+      "archive_bytes": 80357,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam5\\keys.json",
+      "source_sha256": "e1f3017e8078a4ef94704499f11e6e86574770c24a7061104b3ac3af861ff8b4",
+      "source_bytes": 9524,
+      "archive_sha256": "e1f3017e8078a4ef94704499f11e6e86574770c24a7061104b3ac3af861ff8b4",
+      "archive_bytes": 9524,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam5\\provenance.txt",
+      "source_sha256": "15add30b88fb77c980612321bd68a3196e606f04bfcfed058ba3f344477a3f78",
+      "source_bytes": 185,
+      "archive_sha256": "15add30b88fb77c980612321bd68a3196e606f04bfcfed058ba3f344477a3f78",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam5/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam5\\snapshot_summary.json",
+      "source_sha256": "bb680c62c6567be29add7a68f149679711dd4bf177521fd65bf0b7648a9a2d4d",
+      "source_bytes": 472,
+      "archive_sha256": "bb680c62c6567be29add7a68f149679711dd4bf177521fd65bf0b7648a9a2d4d",
+      "archive_bytes": 472,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam6\\close_keys.json",
+      "source_sha256": "ab12fecaeef5accd56c7fd11d64865ff502c0d551cf10150f4533e98acccd42b",
+      "source_bytes": 11452,
+      "archive_sha256": "ab12fecaeef5accd56c7fd11d64865ff502c0d551cf10150f4533e98acccd42b",
+      "archive_bytes": 11452,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam6/frame_29783.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam6\\frame_29783.png",
+      "source_sha256": "b4783f3d86f73d64ac8f733ac74aa0cbcac704bc4e44131a34491daecce55cfd",
+      "source_bytes": 80539,
+      "archive_sha256": "b4783f3d86f73d64ac8f733ac74aa0cbcac704bc4e44131a34491daecce55cfd",
+      "archive_bytes": 80539,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam6\\keys.json",
+      "source_sha256": "ee1db175ae18fe1b5fa1513cfcc9b8be5e0fed48da1df80e8476d44d1e3554bc",
+      "source_bytes": 9524,
+      "archive_sha256": "ee1db175ae18fe1b5fa1513cfcc9b8be5e0fed48da1df80e8476d44d1e3554bc",
+      "archive_bytes": 9524,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam6\\provenance.txt",
+      "source_sha256": "d2f66a254b1e23f6f5ae8b3ed32068fb8b0747c30b64d7460ccbae1d2cec053a",
+      "source_bytes": 185,
+      "archive_sha256": "d2f66a254b1e23f6f5ae8b3ed32068fb8b0747c30b64d7460ccbae1d2cec053a",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/cam6/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\cam6\\snapshot_summary.json",
+      "source_sha256": "f5c90a34b9266f499986894534d00c22eded3d1efc35c2d27d521ecc85ca0387",
+      "source_bytes": 474,
+      "archive_sha256": "f5c90a34b9266f499986894534d00c22eded3d1efc35c2d27d521ecc85ca0387",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_format/contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_format\\contact.png",
+      "source_sha256": "6c7fb5aa256c38a0953af1bebcfdf566abfaa672070151a2a5aaf4ffd00f84bd",
+      "source_bytes": 600512,
+      "archive_sha256": "6c7fb5aa256c38a0953af1bebcfdf566abfaa672070151a2a5aaf4ffd00f84bd",
+      "archive_bytes": 600512,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam2\\close_keys.json",
+      "source_sha256": "3f67f0f8aa84dc856b29cb0652699c2aefb5a32d7a6206c66f5ba9080c946f05",
+      "source_bytes": 3850,
+      "archive_sha256": "3f67f0f8aa84dc856b29cb0652699c2aefb5a32d7a6206c66f5ba9080c946f05",
+      "archive_bytes": 3850,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam2/frame_18422.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam2\\frame_18422.png",
+      "source_sha256": "d5e5a58c4faf09506b93bef12d07e5796c9b37c702dec56edb3004fa64569965",
+      "source_bytes": 82103,
+      "archive_sha256": "d5e5a58c4faf09506b93bef12d07e5796c9b37c702dec56edb3004fa64569965",
+      "archive_bytes": 82103,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam2\\keys.json",
+      "source_sha256": "41c160c361ac09a87804a394c02aab503908c9f9cdfaaeb584d2ce00c15c8351",
+      "source_bytes": 1978,
+      "archive_sha256": "41c160c361ac09a87804a394c02aab503908c9f9cdfaaeb584d2ce00c15c8351",
+      "archive_bytes": 1978,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam2\\provenance.txt",
+      "source_sha256": "53c20f6b08f401e9aa958b551e74486bbaf895afd7cf99a1c513eb38270b4d63",
+      "source_bytes": 185,
+      "archive_sha256": "53c20f6b08f401e9aa958b551e74486bbaf895afd7cf99a1c513eb38270b4d63",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam2\\snapshot_summary.json",
+      "source_sha256": "ab9d37cbc02d6ef180d9ccb2948c95d84dc35ab69a9de14157fe95f896ad0623",
+      "source_bytes": 474,
+      "archive_sha256": "ab9d37cbc02d6ef180d9ccb2948c95d84dc35ab69a9de14157fe95f896ad0623",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam3\\close_keys.json",
+      "source_sha256": "a590d8cbb9540db6f9b26db288559399e17bc00418a24c1377ed922ce20287b1",
+      "source_bytes": 3836,
+      "archive_sha256": "a590d8cbb9540db6f9b26db288559399e17bc00418a24c1377ed922ce20287b1",
+      "archive_bytes": 3836,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam3/frame_19020.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam3\\frame_19020.png",
+      "source_sha256": "1a50034ab4afe1962536992cba2ce30ac57273f5dc7c9140cdd2660714709df7",
+      "source_bytes": 88170,
+      "archive_sha256": "1a50034ab4afe1962536992cba2ce30ac57273f5dc7c9140cdd2660714709df7",
+      "archive_bytes": 88170,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam3\\keys.json",
+      "source_sha256": "d5d0c31efdc923f0d8d5baca98d4688b0d2406a3584f184ffd58e56ad4b35a71",
+      "source_bytes": 1880,
+      "archive_sha256": "d5d0c31efdc923f0d8d5baca98d4688b0d2406a3584f184ffd58e56ad4b35a71",
+      "archive_bytes": 1880,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam3\\provenance.txt",
+      "source_sha256": "b585552ef2e2e7e5834df257faebecdd485746aaeee552bdb9b084f898cc315f",
+      "source_bytes": 185,
+      "archive_sha256": "b585552ef2e2e7e5834df257faebecdd485746aaeee552bdb9b084f898cc315f",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam3/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam3\\snapshot_summary.json",
+      "source_sha256": "a7d5378a167371e45b48c2bad0a6dca18d62ef7724456d36cbc3bcc0f80d0d75",
+      "source_bytes": 473,
+      "archive_sha256": "a7d5378a167371e45b48c2bad0a6dca18d62ef7724456d36cbc3bcc0f80d0d75",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam4\\close_keys.json",
+      "source_sha256": "41601ec0563248d47acd9433b1fff06ca2c44e4af4353d60a8af214bfcf56512",
+      "source_bytes": 3836,
+      "archive_sha256": "41601ec0563248d47acd9433b1fff06ca2c44e4af4353d60a8af214bfcf56512",
+      "archive_bytes": 3836,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam4/frame_19622.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam4\\frame_19622.png",
+      "source_sha256": "2d154eb50e42fe589b4d7fd098e2472c24b5b8baf72a9d9560614f66668b1140",
+      "source_bytes": 71712,
+      "archive_sha256": "2d154eb50e42fe589b4d7fd098e2472c24b5b8baf72a9d9560614f66668b1140",
+      "archive_bytes": 71712,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam4\\keys.json",
+      "source_sha256": "f1f1885781f1d68a24d326317c7b6f91da324144ae98616db6f312faf0500ced",
+      "source_bytes": 1914,
+      "archive_sha256": "f1f1885781f1d68a24d326317c7b6f91da324144ae98616db6f312faf0500ced",
+      "archive_bytes": 1914,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam4\\provenance.txt",
+      "source_sha256": "af5f760db6d76796f38585cd97550ba1a27353636158b5c089536b7334d7c50f",
+      "source_bytes": 185,
+      "archive_sha256": "af5f760db6d76796f38585cd97550ba1a27353636158b5c089536b7334d7c50f",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam4/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam4\\snapshot_summary.json",
+      "source_sha256": "89f5cc0c4cfb4226c7ba6a6f8586be6faaad0521c4e5d05d54cfcb7c7a3ec6d9",
+      "source_bytes": 474,
+      "archive_sha256": "89f5cc0c4cfb4226c7ba6a6f8586be6faaad0521c4e5d05d54cfcb7c7a3ec6d9",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam5\\close_keys.json",
+      "source_sha256": "a2db4263a50d276c5181e1dab7c8fd87f39c4140031eece6aa901b47d8a6d94f",
+      "source_bytes": 3836,
+      "archive_sha256": "a2db4263a50d276c5181e1dab7c8fd87f39c4140031eece6aa901b47d8a6d94f",
+      "archive_bytes": 3836,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam5/frame_20223.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam5\\frame_20223.png",
+      "source_sha256": "4ca04ea8f346e66e5d2b0cd0aeed177d0a7fdb3bf81f10cc4ccbc7008bd59344",
+      "source_bytes": 80759,
+      "archive_sha256": "4ca04ea8f346e66e5d2b0cd0aeed177d0a7fdb3bf81f10cc4ccbc7008bd59344",
+      "archive_bytes": 80759,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam5\\keys.json",
+      "source_sha256": "6a19d1196cba458e6d33e5ddcce9a7ab7cc2c0ae03a67ce6cd2296328f6fd1c7",
+      "source_bytes": 1978,
+      "archive_sha256": "6a19d1196cba458e6d33e5ddcce9a7ab7cc2c0ae03a67ce6cd2296328f6fd1c7",
+      "archive_bytes": 1978,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam5\\provenance.txt",
+      "source_sha256": "4c2d571dc742fa2e38905cac28dc541c0fb479b212fac9772ad92ba950a3a227",
+      "source_bytes": 185,
+      "archive_sha256": "4c2d571dc742fa2e38905cac28dc541c0fb479b212fac9772ad92ba950a3a227",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam5/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam5\\snapshot_summary.json",
+      "source_sha256": "02f6c78d9a6c3d0854e8f2858b4869968bf5e94191c6e0c947eab1debace9ab6",
+      "source_bytes": 473,
+      "archive_sha256": "02f6c78d9a6c3d0854e8f2858b4869968bf5e94191c6e0c947eab1debace9ab6",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam6\\close_keys.json",
+      "source_sha256": "829de5da66a74be0551ce5c8a3ea4221dc4e815aeca4284300f818c3074598c5",
+      "source_bytes": 3836,
+      "archive_sha256": "829de5da66a74be0551ce5c8a3ea4221dc4e815aeca4284300f818c3074598c5",
+      "archive_bytes": 3836,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam6/frame_22261.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam6\\frame_22261.png",
+      "source_sha256": "06418ed93d28ddb36c6fabd2e883cfa96ab0c467bbbd7993e8488d71b786acbf",
+      "source_bytes": 80500,
+      "archive_sha256": "06418ed93d28ddb36c6fabd2e883cfa96ab0c467bbbd7993e8488d71b786acbf",
+      "archive_bytes": 80500,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam6\\keys.json",
+      "source_sha256": "15f2e9316c5f4b6777885ca2b3dbd797af56c0e85ef1e9c67a582aa92ff04cff",
+      "source_bytes": 2076,
+      "archive_sha256": "15f2e9316c5f4b6777885ca2b3dbd797af56c0e85ef1e9c67a582aa92ff04cff",
+      "archive_bytes": 2076,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam6\\provenance.txt",
+      "source_sha256": "d8856090a44620644ff484eeb4d3b0caba11beef4cf479bcf36a4a5caac6cb04",
+      "source_bytes": 185,
+      "archive_sha256": "d8856090a44620644ff484eeb4d3b0caba11beef4cf479bcf36a4a5caac6cb04",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/cam6/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\cam6\\snapshot_summary.json",
+      "source_sha256": "898d8d4b6b09fc5d7adcbb1a1537a84c9a2d28e5e23d6248d726a4e1cf903c32",
+      "source_bytes": 473,
+      "archive_sha256": "898d8d4b6b09fc5d7adcbb1a1537a84c9a2d28e5e23d6248d726a4e1cf903c32",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "baseline_trigger/contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\baseline_trigger\\contact.png",
+      "source_sha256": "22234dbdbd26a608c048fd4123b0fcafc8526236d3ea724bbb04321a166c535a",
+      "source_bytes": 599688,
+      "archive_sha256": "22234dbdbd26a608c048fd4123b0fcafc8526236d3ea724bbb04321a166c535a",
+      "archive_bytes": 599688,
+      "encoding": "original"
+    },
+    {
+      "file": "build_sha256.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\build_sha256.json",
+      "source_sha256": "a5deae1ebe69a1ee6169ba586b5e355b08a481468591f3a6629e059e1f07cf37",
+      "source_bytes": 3505,
+      "archive_sha256": "a5deae1ebe69a1ee6169ba586b5e355b08a481468591f3a6629e059e1f07cf37",
+      "archive_bytes": 3505,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam3\\close_keys.json",
+      "source_sha256": "fe0c3a51b41a4f6dd0ec0984d8f86ba21e0b4c667ea0c44004b76a5635073ea8",
+      "source_bytes": 7650,
+      "archive_sha256": "fe0c3a51b41a4f6dd0ec0984d8f86ba21e0b4c667ea0c44004b76a5635073ea8",
+      "archive_bytes": 7650,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam3\\keys.json",
+      "source_sha256": "c2e4d3fa194ab6c4bbda5613aa8fd603a8d9b257a815d5dd2e201b12ba825a3e",
+      "source_bytes": 8593,
+      "archive_sha256": "c2e4d3fa194ab6c4bbda5613aa8fd603a8d9b257a815d5dd2e201b12ba825a3e",
+      "archive_bytes": 8593,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam3\\provenance.txt",
+      "source_sha256": "f17a2271fecd2c134918a78cb9320b2df9df2d3c8731b144cd215a42b0461c91",
+      "source_bytes": 185,
+      "archive_sha256": "f17a2271fecd2c134918a78cb9320b2df9df2d3c8731b144cd215a42b0461c91",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam4\\close_keys.json",
+      "source_sha256": "1c688ccce11e780026651ef596b544d713d4c1487b48055848900624dbd159bc",
+      "source_bytes": 7650,
+      "archive_sha256": "1c688ccce11e780026651ef596b544d713d4c1487b48055848900624dbd159bc",
+      "archive_bytes": 7650,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam4\\keys.json",
+      "source_sha256": "e331af950f1f0070e0bb8762534ecc0bfe8409424052e0168223741bbf449e6a",
+      "source_bytes": 8691,
+      "archive_sha256": "e331af950f1f0070e0bb8762534ecc0bfe8409424052e0168223741bbf449e6a",
+      "archive_bytes": 8691,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam4\\provenance.txt",
+      "source_sha256": "696637e2ff0149ad13e34148071b7463d783b5636511923b4895981d8e0a507a",
+      "source_bytes": 185,
+      "archive_sha256": "696637e2ff0149ad13e34148071b7463d783b5636511923b4895981d8e0a507a",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam5\\close_keys.json",
+      "source_sha256": "acbe7df28d3de35ffa0f9aa83c0f854a72fc8066b43fe12315ec74beda1b6926",
+      "source_bytes": 7552,
+      "archive_sha256": "acbe7df28d3de35ffa0f9aa83c0f854a72fc8066b43fe12315ec74beda1b6926",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam5\\keys.json",
+      "source_sha256": "81fb666ef514f0e206f0a5efeb9d34578391bbc575a7fdaf9a63227324e57413",
+      "source_bytes": 8495,
+      "archive_sha256": "81fb666ef514f0e206f0a5efeb9d34578391bbc575a7fdaf9a63227324e57413",
+      "archive_bytes": 8495,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam5\\provenance.txt",
+      "source_sha256": "991225e4afc0ffc566f6f783c2161a4a7ce544226e4ad0cb0674f18da6000e55",
+      "source_bytes": 185,
+      "archive_sha256": "991225e4afc0ffc566f6f783c2161a4a7ce544226e4ad0cb0674f18da6000e55",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam6\\close_keys.json",
+      "source_sha256": "126d46cc01a8aa067e8d430044f20a01bc70ea5b980739c8668493434b03e894",
+      "source_bytes": 7552,
+      "archive_sha256": "126d46cc01a8aa067e8d430044f20a01bc70ea5b980739c8668493434b03e894",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam6\\keys.json",
+      "source_sha256": "26487d3bd03c1d2190b72c60b87ae84b2aa9af3311ec0c8558f575751b267025",
+      "source_bytes": 8593,
+      "archive_sha256": "26487d3bd03c1d2190b72c60b87ae84b2aa9af3311ec0c8558f575751b267025",
+      "archive_bytes": 8593,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_others/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_others\\cam6\\provenance.txt",
+      "source_sha256": "3a5f8e761a4c06c650cd7ba4375b321be63de5c3f6cfacf40810d39ecf8caa00",
+      "source_bytes": 185,
+      "archive_sha256": "3a5f8e761a4c06c650cd7ba4375b321be63de5c3f6cfacf40810d39ecf8caa00",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_probe/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_probe\\cam2\\close_keys.json",
+      "source_sha256": "854e01fb945d4c602a55bd9300cc2f0408cc075d82b1b9fcafb1ef5a37756660",
+      "source_bytes": 7552,
+      "archive_sha256": "854e01fb945d4c602a55bd9300cc2f0408cc075d82b1b9fcafb1ef5a37756660",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_probe/cam2/frame_04017.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_probe\\cam2\\frame_04017.png",
+      "source_sha256": "0a68836e1a19a99088aec2f82356f42360451739dc6041a99ee8418ef1ac29c8",
+      "source_bytes": 82145,
+      "archive_sha256": "0a68836e1a19a99088aec2f82356f42360451739dc6041a99ee8418ef1ac29c8",
+      "archive_bytes": 82145,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_probe/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_probe\\cam2\\keys.json",
+      "source_sha256": "5dcdfe69c3faa2ed8398ecf364820b7325583bb36c4169d6d0f5e5715f2fe390",
+      "source_bytes": 8593,
+      "archive_sha256": "5dcdfe69c3faa2ed8398ecf364820b7325583bb36c4169d6d0f5e5715f2fe390",
+      "archive_bytes": 8593,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_probe/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_probe\\cam2\\provenance.txt",
+      "source_sha256": "7c3d3880a66c82012cb78fdb109edf32e4bdc8a39993de8b6c2594eab5c3a68f",
+      "source_bytes": 185,
+      "archive_sha256": "7c3d3880a66c82012cb78fdb109edf32e4bdc8a39993de8b6c2594eab5c3a68f",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "exposure_probe/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\exposure_probe\\cam2\\snapshot_summary.json",
+      "source_sha256": "5972fa837f5a0b323a9d30dac4ce4b571fb63acb741d385d9f158877221081f4",
+      "source_bytes": 471,
+      "archive_sha256": "5972fa837f5a0b323a9d30dac4ce4b571fb63acb741d385d9f158877221081f4",
+      "archive_bytes": 471,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam2\\close_keys.json",
+      "source_sha256": "40a16c84299cfc65673bed2923eed01552f71b5d6de2146dc209b3f813fcb4d5",
+      "source_bytes": 12295,
+      "archive_sha256": "40a16c84299cfc65673bed2923eed01552f71b5d6de2146dc209b3f813fcb4d5",
+      "archive_bytes": 12295,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam2/frame_15533.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam2\\frame_15533.png",
+      "source_sha256": "4539df391d6559e5e2aed969b93cc663dfcb224108d8d6f87f53964d7b9723a3",
+      "source_bytes": 81770,
+      "archive_sha256": "4539df391d6559e5e2aed969b93cc663dfcb224108d8d6f87f53964d7b9723a3",
+      "archive_bytes": 81770,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam2\\keys.json",
+      "source_sha256": "86369c5ca2805c1d8e887481d17a07220a99faf2f354db0240b2dfa9a7a36b11",
+      "source_bytes": 11289,
+      "archive_sha256": "86369c5ca2805c1d8e887481d17a07220a99faf2f354db0240b2dfa9a7a36b11",
+      "archive_bytes": 11289,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam2\\provenance.txt",
+      "source_sha256": "f9e7b1fc13c2a2df723aab71e36b67caf6b97187dbfda19fceab88d2bc2fded7",
+      "source_bytes": 185,
+      "archive_sha256": "f9e7b1fc13c2a2df723aab71e36b67caf6b97187dbfda19fceab88d2bc2fded7",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam2\\snapshot_summary.json",
+      "source_sha256": "5554e294bea498d94ea5d6516e4559a7cde7b2abbe56e56f89e928c76687a03c",
+      "source_bytes": 473,
+      "archive_sha256": "5554e294bea498d94ea5d6516e4559a7cde7b2abbe56e56f89e928c76687a03c",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam3\\close_keys.json",
+      "source_sha256": "3b3a7e8e5f9bc9b91691f5a97f79c1dd03c50306804a23d56ec68b3c73f7bdae",
+      "source_bytes": 12197,
+      "archive_sha256": "3b3a7e8e5f9bc9b91691f5a97f79c1dd03c50306804a23d56ec68b3c73f7bdae",
+      "archive_bytes": 12197,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam3/frame_16978.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam3\\frame_16978.png",
+      "source_sha256": "cff02b2c106dc8462aa3a41ff77564b38d6578256d7412c7df7ca3be0f635c98",
+      "source_bytes": 87274,
+      "archive_sha256": "cff02b2c106dc8462aa3a41ff77564b38d6578256d7412c7df7ca3be0f635c98",
+      "archive_bytes": 87274,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam3\\keys.json",
+      "source_sha256": "6f7e8be95cc85420730b5a3ea7849b02ab9dba625e6ccd188d0f5da7e0496765",
+      "source_bytes": 11387,
+      "archive_sha256": "6f7e8be95cc85420730b5a3ea7849b02ab9dba625e6ccd188d0f5da7e0496765",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam3\\provenance.txt",
+      "source_sha256": "0646f469a4805d682fb23a47b8045abba28e40afec2bfc1e851e9606d4edee1f",
+      "source_bytes": 185,
+      "archive_sha256": "0646f469a4805d682fb23a47b8045abba28e40afec2bfc1e851e9606d4edee1f",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam3/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam3\\snapshot_summary.json",
+      "source_sha256": "56ef232f0b10cbf5c08a1154a0d6de1b1a49d2411625284c39558dd55d5dbfcc",
+      "source_bytes": 472,
+      "archive_sha256": "56ef232f0b10cbf5c08a1154a0d6de1b1a49d2411625284c39558dd55d5dbfcc",
+      "archive_bytes": 472,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam4\\close_keys.json",
+      "source_sha256": "48f22bd032c5df89f643b7610e9149aedd4bc62cf0f853259201b1c6c0990d73",
+      "source_bytes": 12197,
+      "archive_sha256": "48f22bd032c5df89f643b7610e9149aedd4bc62cf0f853259201b1c6c0990d73",
+      "archive_bytes": 12197,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam4/frame_18423.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam4\\frame_18423.png",
+      "source_sha256": "d8e1ca86620f122315c97fca8840a0fbdddc8cb6b9369edbd162cd34e7fc78f3",
+      "source_bytes": 71668,
+      "archive_sha256": "d8e1ca86620f122315c97fca8840a0fbdddc8cb6b9369edbd162cd34e7fc78f3",
+      "archive_bytes": 71668,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam4\\keys.json",
+      "source_sha256": "8261d2524166c5f1d4d0b34ad240aecc2bce40060fb3fa326acebf5d9a06d3bc",
+      "source_bytes": 11387,
+      "archive_sha256": "8261d2524166c5f1d4d0b34ad240aecc2bce40060fb3fa326acebf5d9a06d3bc",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam4\\provenance.txt",
+      "source_sha256": "1082d387f161c9b3f8bca48d8b43f79f3b9e85e7881207269867a40f851959c1",
+      "source_bytes": 185,
+      "archive_sha256": "1082d387f161c9b3f8bca48d8b43f79f3b9e85e7881207269867a40f851959c1",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam4/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam4\\snapshot_summary.json",
+      "source_sha256": "9262d6ea5bec7a397474c1b2f904ce029faf27abc8a23bf5b471629fb1298a4e",
+      "source_bytes": 474,
+      "archive_sha256": "9262d6ea5bec7a397474c1b2f904ce029faf27abc8a23bf5b471629fb1298a4e",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam5\\close_keys.json",
+      "source_sha256": "e3f659fb70d761be31cd0893bdbd8003743d74e12ded4b3fbffa8c30c38076b8",
+      "source_bytes": 12295,
+      "archive_sha256": "e3f659fb70d761be31cd0893bdbd8003743d74e12ded4b3fbffa8c30c38076b8",
+      "archive_bytes": 12295,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam5/frame_19868.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam5\\frame_19868.png",
+      "source_sha256": "11c3cb1dcd90dfd764cb8da533af31a5372fde2ea9e0adb1cb74f31fc80cc8d1",
+      "source_bytes": 79924,
+      "archive_sha256": "11c3cb1dcd90dfd764cb8da533af31a5372fde2ea9e0adb1cb74f31fc80cc8d1",
+      "archive_bytes": 79924,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam5\\keys.json",
+      "source_sha256": "98021bd6dc61b3d2fe3ea83d523629d39fff07b53f7cfc91e507e430652d1f37",
+      "source_bytes": 11387,
+      "archive_sha256": "98021bd6dc61b3d2fe3ea83d523629d39fff07b53f7cfc91e507e430652d1f37",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam5\\provenance.txt",
+      "source_sha256": "6b315d3e7c2a6281e6846cb1be2cfcfcf57c712f3f5f877a4dca9307f4edc5ce",
+      "source_bytes": 185,
+      "archive_sha256": "6b315d3e7c2a6281e6846cb1be2cfcfcf57c712f3f5f877a4dca9307f4edc5ce",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam5/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam5\\snapshot_summary.json",
+      "source_sha256": "cccc257bfc4137b1ed1b13bd8d62b527371a0dfa0cc2e34d87ff91dbc8b90729",
+      "source_bytes": 473,
+      "archive_sha256": "cccc257bfc4137b1ed1b13bd8d62b527371a0dfa0cc2e34d87ff91dbc8b90729",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam6\\close_keys.json",
+      "source_sha256": "d0399bd7586dcbff69bca8d628d13aa76242482bfd191ab8b55148a6e1314ad7",
+      "source_bytes": 12295,
+      "archive_sha256": "d0399bd7586dcbff69bca8d628d13aa76242482bfd191ab8b55148a6e1314ad7",
+      "archive_bytes": 12295,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam6/frame_22751.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam6\\frame_22751.png",
+      "source_sha256": "0393e8a2f709e24ba9a876ebf3539821de7d47f5f44839883a2eed205243c3a1",
+      "source_bytes": 80401,
+      "archive_sha256": "0393e8a2f709e24ba9a876ebf3539821de7d47f5f44839883a2eed205243c3a1",
+      "archive_bytes": 80401,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam6\\keys.json",
+      "source_sha256": "ea7f74e8bfd6094a1feb5d29240e7be0e78cb7b29556ff9753c9fcb02c7c0c96",
+      "source_bytes": 11387,
+      "archive_sha256": "ea7f74e8bfd6094a1feb5d29240e7be0e78cb7b29556ff9753c9fcb02c7c0c96",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam6\\provenance.txt",
+      "source_sha256": "6802a152d5ece4e3b29ff0e2b1bd9c52b1ede89cb170d358f1ae1deed84d1c86",
+      "source_bytes": 185,
+      "archive_sha256": "6802a152d5ece4e3b29ff0e2b1bd9c52b1ede89cb170d358f1ae1deed84d1c86",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/cam6/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\cam6\\snapshot_summary.json",
+      "source_sha256": "8818bcea6865228b92d671240f42d0cf8226836d29cf5ec34bc6094ebac33892",
+      "source_bytes": 474,
+      "archive_sha256": "8818bcea6865228b92d671240f42d0cf8226836d29cf5ec34bc6094ebac33892",
+      "archive_bytes": 474,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_off/contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_off\\contact.png",
+      "source_sha256": "3b0c5defc82e501aa87493c126d6eacfe4bede7bdb4ba845c388e952b2d1d054",
+      "source_bytes": 596191,
+      "archive_sha256": "3b0c5defc82e501aa87493c126d6eacfe4bede7bdb4ba845c388e952b2d1d054",
+      "archive_bytes": 596191,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam2\\close_keys.json",
+      "source_sha256": "0ee4739c94642cbfceb75767693ed1ef3755c26fc0e9232219fcca8579ee54f4",
+      "source_bytes": 12197,
+      "archive_sha256": "0ee4739c94642cbfceb75767693ed1ef3755c26fc0e9232219fcca8579ee54f4",
+      "archive_bytes": 12197,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam2/frame_31062.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam2\\frame_31062.png",
+      "source_sha256": "3c79d2b770aa11f5cf7b88d222eecd9b7e20867abeb6a59f296a97672d31301a",
+      "source_bytes": 81867,
+      "archive_sha256": "3c79d2b770aa11f5cf7b88d222eecd9b7e20867abeb6a59f296a97672d31301a",
+      "archive_bytes": 81867,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam2\\keys.json",
+      "source_sha256": "bbc40379eff92994434a38f1625c5ca1694f6bc9f051ec327fd6f7591b34dd4e",
+      "source_bytes": 11289,
+      "archive_sha256": "bbc40379eff92994434a38f1625c5ca1694f6bc9f051ec327fd6f7591b34dd4e",
+      "archive_bytes": 11289,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam2\\provenance.txt",
+      "source_sha256": "858ecf2081ce1c10c2a8763f0a1c1e5b74a99a5aa7d248c5dc3e3c022f78a70c",
+      "source_bytes": 185,
+      "archive_sha256": "858ecf2081ce1c10c2a8763f0a1c1e5b74a99a5aa7d248c5dc3e3c022f78a70c",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam2\\snapshot_summary.json",
+      "source_sha256": "3867bb2915f3ac44e8cf130adada00b8c3445ef543e6fecfb455437ff68674d0",
+      "source_bytes": 473,
+      "archive_sha256": "3867bb2915f3ac44e8cf130adada00b8c3445ef543e6fecfb455437ff68674d0",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam3\\close_keys.json",
+      "source_sha256": "538695dea2f51b6c6a1696be2ed3602db940e70d84c7fb67218a7b9c268d3b7a",
+      "source_bytes": 12295,
+      "archive_sha256": "538695dea2f51b6c6a1696be2ed3602db940e70d84c7fb67218a7b9c268d3b7a",
+      "archive_bytes": 12295,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam3/frame_32506.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam3\\frame_32506.png",
+      "source_sha256": "82c2d7a00770a2a5196a898a0617d357b1ca61f457445400a648854842ecbbb2",
+      "source_bytes": 87540,
+      "archive_sha256": "82c2d7a00770a2a5196a898a0617d357b1ca61f457445400a648854842ecbbb2",
+      "archive_bytes": 87540,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam3\\keys.json",
+      "source_sha256": "c7ad78e438599cbdac58bee75f330d57d76153505f2f68501f978d9c9b3f18c0",
+      "source_bytes": 11387,
+      "archive_sha256": "c7ad78e438599cbdac58bee75f330d57d76153505f2f68501f978d9c9b3f18c0",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam3\\provenance.txt",
+      "source_sha256": "2cc9d024efd24dc6ba97ba6db04aeaa2a505bde6bb7ba6f69d297615e30bea17",
+      "source_bytes": 185,
+      "archive_sha256": "2cc9d024efd24dc6ba97ba6db04aeaa2a505bde6bb7ba6f69d297615e30bea17",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam3/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam3\\snapshot_summary.json",
+      "source_sha256": "8e2ac9cda2ccdcc9f3d2c77b3ea1ea394e38c60dfebca0d05972c6eae47ab0d2",
+      "source_bytes": 473,
+      "archive_sha256": "8e2ac9cda2ccdcc9f3d2c77b3ea1ea394e38c60dfebca0d05972c6eae47ab0d2",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam4\\close_keys.json",
+      "source_sha256": "5f020611de14c0437e3a3bf143ddd5477368eed7f0efc4846859c419594e957e",
+      "source_bytes": 12393,
+      "archive_sha256": "5f020611de14c0437e3a3bf143ddd5477368eed7f0efc4846859c419594e957e",
+      "archive_bytes": 12393,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam4/frame_01186.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam4\\frame_01186.png",
+      "source_sha256": "db3187738c25db5e43a98387d3834e434ad5e932acdebea8bf2f656acc0b4270",
+      "source_bytes": 71744,
+      "archive_sha256": "db3187738c25db5e43a98387d3834e434ad5e932acdebea8bf2f656acc0b4270",
+      "archive_bytes": 71744,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam4\\keys.json",
+      "source_sha256": "2b89df5bca076c79fbe9c82a9964513bf1c51e54ab9d240acae0f1b2e8107736",
+      "source_bytes": 11387,
+      "archive_sha256": "2b89df5bca076c79fbe9c82a9964513bf1c51e54ab9d240acae0f1b2e8107736",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam4\\provenance.txt",
+      "source_sha256": "4b9e5cde3452d808fbfe317c591edac62654522915c017f1adaa4a968e228719",
+      "source_bytes": 185,
+      "archive_sha256": "4b9e5cde3452d808fbfe317c591edac62654522915c017f1adaa4a968e228719",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam4/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam4\\snapshot_summary.json",
+      "source_sha256": "64a04e4a5e6fa885d290a22d2777ce4dd7c446065ab378f4f8378676c5ca99cd",
+      "source_bytes": 472,
+      "archive_sha256": "64a04e4a5e6fa885d290a22d2777ce4dd7c446065ab378f4f8378676c5ca99cd",
+      "archive_bytes": 472,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam5\\close_keys.json",
+      "source_sha256": "5ffac3b4312fce827151efdf9866f4fe56758637846bd25b4e0e11d050b192e7",
+      "source_bytes": 12197,
+      "archive_sha256": "5ffac3b4312fce827151efdf9866f4fe56758637846bd25b4e0e11d050b192e7",
+      "archive_bytes": 12197,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam5/frame_02632.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam5\\frame_02632.png",
+      "source_sha256": "c13bf1a7e23a22d9a31721e46ef2f1c18f40056569002bd913cc78c04af94f6d",
+      "source_bytes": 80165,
+      "archive_sha256": "c13bf1a7e23a22d9a31721e46ef2f1c18f40056569002bd913cc78c04af94f6d",
+      "archive_bytes": 80165,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam5\\keys.json",
+      "source_sha256": "f205907e3ea8d02e01b1d42d31c38d62e8e7b837e1f4000dc8ed4a3656a14f4f",
+      "source_bytes": 11289,
+      "archive_sha256": "f205907e3ea8d02e01b1d42d31c38d62e8e7b837e1f4000dc8ed4a3656a14f4f",
+      "archive_bytes": 11289,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam5\\provenance.txt",
+      "source_sha256": "3113b8b6d386dccd615a59cd8345242da0a429652c9d131bd2ab61740d08e905",
+      "source_bytes": 185,
+      "archive_sha256": "3113b8b6d386dccd615a59cd8345242da0a429652c9d131bd2ab61740d08e905",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam5/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam5\\snapshot_summary.json",
+      "source_sha256": "668c6b9fc9d743a6c647d8b4bc81e960191f910eb3c87f6989d7c02bfd44a33a",
+      "source_bytes": 471,
+      "archive_sha256": "668c6b9fc9d743a6c647d8b4bc81e960191f910eb3c87f6989d7c02bfd44a33a",
+      "archive_bytes": 471,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam6\\close_keys.json",
+      "source_sha256": "8affa431e4e7f96befcb113fa80e1b1eb2562787ba1ce59ce9c75d64b6200499",
+      "source_bytes": 12295,
+      "archive_sha256": "8affa431e4e7f96befcb113fa80e1b1eb2562787ba1ce59ce9c75d64b6200499",
+      "archive_bytes": 12295,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam6/frame_05512.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam6\\frame_05512.png",
+      "source_sha256": "688b9ba66045b46e78a673a2d70a9eaaa5df05247408df3bab71fe83bb144181",
+      "source_bytes": 80395,
+      "archive_sha256": "688b9ba66045b46e78a673a2d70a9eaaa5df05247408df3bab71fe83bb144181",
+      "archive_bytes": 80395,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam6\\keys.json",
+      "source_sha256": "2f9f7b1be5d37861b0b0f6539ea4000666d079a16aeaddde9c3020a36affb8e6",
+      "source_bytes": 11387,
+      "archive_sha256": "2f9f7b1be5d37861b0b0f6539ea4000666d079a16aeaddde9c3020a36affb8e6",
+      "archive_bytes": 11387,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam6\\provenance.txt",
+      "source_sha256": "aa574469e629ef878ef0db008cfdcaf96a736213461fc9da3239deb062fdb1f7",
+      "source_bytes": 185,
+      "archive_sha256": "aa574469e629ef878ef0db008cfdcaf96a736213461fc9da3239deb062fdb1f7",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/cam6/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\cam6\\snapshot_summary.json",
+      "source_sha256": "fd531eaf69843fc07ee2875df5985b30f893de8763b410c602f92828aaf87cb9",
+      "source_bytes": 471,
+      "archive_sha256": "fd531eaf69843fc07ee2875df5985b30f893de8763b410c602f92828aaf87cb9",
+      "archive_bytes": 471,
+      "encoding": "original"
+    },
+    {
+      "file": "freeze_on/contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\freeze_on\\contact.png",
+      "source_sha256": "dff593fe75c31262c70c80ac9250a262404c3f634f911f9bd2f02c89155b00ca",
+      "source_bytes": 595673,
+      "archive_sha256": "dff593fe75c31262c70c80ac9250a262404c3f634f911f9bd2f02c89155b00ca",
+      "archive_bytes": 595673,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_display.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_display.txt",
+      "source_sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb",
+      "source_bytes": 94,
+      "archive_sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb",
+      "archive_bytes": 94,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_pose.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_pose.txt",
+      "source_sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06",
+      "source_bytes": 265,
+      "archive_sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06",
+      "archive_bytes": 265,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_closed.json",
+      "source_sha256": "7e7ba63c335ef278f140e6839f50e0043ef65519e47b0ee533a010da3ce3cd11",
+      "source_bytes": 11206,
+      "archive_sha256": "7e7ba63c335ef278f140e6839f50e0043ef65519e47b0ee533a010da3ce3cd11",
+      "archive_bytes": 11206,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_closed.png",
+      "source_sha256": "f1ba9d7e3de65b66da50743c3a398d459fc988fd636cdc85a067f322968d105d",
+      "source_bytes": 732045,
+      "archive_sha256": "f1ba9d7e3de65b66da50743c3a398d459fc988fd636cdc85a067f322968d105d",
+      "archive_bytes": 732045,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_exposure.json",
+      "source_sha256": "d0db096be81e6af7a4c3afc8e6b3b5faafd010392a5788c08523fae0a2cf209e",
+      "source_bytes": 3776,
+      "archive_sha256": "d0db096be81e6af7a4c3afc8e6b3b5faafd010392a5788c08523fae0a2cf209e",
+      "archive_bytes": 3776,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_exposure.png",
+      "source_sha256": "124301d4e6f5bf9ca9398e1acf452ac0d3fafe582e6b37dd00b29d080a2ed9f1",
+      "source_bytes": 1092940,
+      "archive_sha256": "124301d4e6f5bf9ca9398e1acf452ac0d3fafe582e6b37dd00b29d080a2ed9f1",
+      "archive_bytes": 1092940,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_format.json",
+      "source_sha256": "4fe5dc4aea2a7c2321bcd7a5756f96b542ce2a33968924346d722e1faa371b7b",
+      "source_bytes": 13270,
+      "archive_sha256": "4fe5dc4aea2a7c2321bcd7a5756f96b542ce2a33968924346d722e1faa371b7b",
+      "archive_bytes": 13270,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_format.png",
+      "source_sha256": "0983af447a420b98ff4529ef6ab164ed44429a9383c0c124ad369407a50035bd",
+      "source_bytes": 669055,
+      "archive_sha256": "0983af447a420b98ff4529ef6ab164ed44429a9383c0c124ad369407a50035bd",
+      "archive_bytes": 669055,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_image.json",
+      "source_sha256": "1d83f09daf371ce45f6827c0ee34422d8f5123bde479d4426a0b3e8121bd4da8",
+      "source_bytes": 10391,
+      "archive_sha256": "1d83f09daf371ce45f6827c0ee34422d8f5123bde479d4426a0b3e8121bd4da8",
+      "archive_bytes": 10391,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_image.png",
+      "source_sha256": "1de166eea25f8c65d6fcd04173f33cdded9bd6f71f3f94ee9c1b89056ece0e50",
+      "source_bytes": 707814,
+      "archive_sha256": "1de166eea25f8c65d6fcd04173f33cdded9bd6f71f3f94ee9c1b89056ece0e50",
+      "archive_bytes": 707814,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_select.txt",
+      "source_sha256": "55799d56ce7dc77c7b6c61b7dcb1001180aebf347e88ec06e0873ec6eafc5ac3",
+      "source_bytes": 273,
+      "archive_sha256": "55799d56ce7dc77c7b6c61b7dcb1001180aebf347e88ec06e0873ec6eafc5ac3",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_trigger.json",
+      "source_sha256": "421ce29c39b710b08f68a92462a1d4b9fc138f685b557a28d9ff7182f635a839",
+      "source_bytes": 1916,
+      "archive_sha256": "421ce29c39b710b08f68a92462a1d4b9fc138f685b557a28d9ff7182f635a839",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam2_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam2_trigger.png",
+      "source_sha256": "de3b9e71978bb10fd2ee1ea42df9334982d7a88fd7df3030fdc91365430d682a",
+      "source_bytes": 793075,
+      "archive_sha256": "de3b9e71978bb10fd2ee1ea42df9334982d7a88fd7df3030fdc91365430d682a",
+      "archive_bytes": 793075,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_closed.json",
+      "source_sha256": "f9b8aff39734a87590b6ae82b3c90c05d780d35138ca9838f13074b705f2ca91",
+      "source_bytes": 11304,
+      "archive_sha256": "f9b8aff39734a87590b6ae82b3c90c05d780d35138ca9838f13074b705f2ca91",
+      "archive_bytes": 11304,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_closed.png",
+      "source_sha256": "92a5322ebc8551ff60a575a5b958db7da707662971113092c2c371db2885f692",
+      "source_bytes": 1050271,
+      "archive_sha256": "92a5322ebc8551ff60a575a5b958db7da707662971113092c2c371db2885f692",
+      "archive_bytes": 1050271,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_exposure.json",
+      "source_sha256": "5f96f7a54c1463fdf113851964ad5794e07ae5f764d89f25cdc6870d96adea14",
+      "source_bytes": 3776,
+      "archive_sha256": "5f96f7a54c1463fdf113851964ad5794e07ae5f764d89f25cdc6870d96adea14",
+      "archive_bytes": 3776,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_exposure.png",
+      "source_sha256": "62b329c49c2d7da9897c0c6cc0e12ad20cfbacf92f03c6d3070939fcde4076f1",
+      "source_bytes": 1019119,
+      "archive_sha256": "62b329c49c2d7da9897c0c6cc0e12ad20cfbacf92f03c6d3070939fcde4076f1",
+      "archive_bytes": 1019119,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_format.json",
+      "source_sha256": "5f5d2c91e4fe6d8a98735c51c3da445d68e38c101b79a834d4fadc8d2e0c5bf3",
+      "source_bytes": 13172,
+      "archive_sha256": "5f5d2c91e4fe6d8a98735c51c3da445d68e38c101b79a834d4fadc8d2e0c5bf3",
+      "archive_bytes": 13172,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_format.png",
+      "source_sha256": "c1f43f8516642a6d3402fd744aca313b899d044d15282c1edaee59feceb16e60",
+      "source_bytes": 854118,
+      "archive_sha256": "c1f43f8516642a6d3402fd744aca313b899d044d15282c1edaee59feceb16e60",
+      "archive_bytes": 854118,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_image.json",
+      "source_sha256": "7ca2a9a1ae2182000b19346e6d8ba38e7c7975dfb7aed925a61842c6a5087160",
+      "source_bytes": 10391,
+      "archive_sha256": "7ca2a9a1ae2182000b19346e6d8ba38e7c7975dfb7aed925a61842c6a5087160",
+      "archive_bytes": 10391,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_image.png",
+      "source_sha256": "61a77481877e0789fa98cfef99a73ce8a34b1a882e01245602fa53eceb92f32f",
+      "source_bytes": 887629,
+      "archive_sha256": "61a77481877e0789fa98cfef99a73ce8a34b1a882e01245602fa53eceb92f32f",
+      "archive_bytes": 887629,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_select.txt",
+      "source_sha256": "d23a704f53ae374c4af89e8128d0bd810f296e1a3e08cf87a4512abd6acafaaa",
+      "source_bytes": 273,
+      "archive_sha256": "d23a704f53ae374c4af89e8128d0bd810f296e1a3e08cf87a4512abd6acafaaa",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_trigger.json",
+      "source_sha256": "654252c2dbf4207f914ed390c947e5ce443539e831493f82f386fd03bc7d24c4",
+      "source_bytes": 1916,
+      "archive_sha256": "654252c2dbf4207f914ed390c947e5ce443539e831493f82f386fd03bc7d24c4",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam3_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam3_trigger.png",
+      "source_sha256": "a98d2f2d2283cc8c8a3f627d8dab83fef63ab12901cd3ac32741d60b0ca419f3",
+      "source_bytes": 1131327,
+      "archive_sha256": "a98d2f2d2283cc8c8a3f627d8dab83fef63ab12901cd3ac32741d60b0ca419f3",
+      "archive_bytes": 1131327,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_closed.json",
+      "source_sha256": "efee833c29de299837f54b086e614045cf75dc37034371491f9ef073ab0ed4aa",
+      "source_bytes": 11108,
+      "archive_sha256": "efee833c29de299837f54b086e614045cf75dc37034371491f9ef073ab0ed4aa",
+      "archive_bytes": 11108,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_closed.png",
+      "source_sha256": "fddd159f5ae67b89d46682f1172063a0265ba4a71f4ee484e30916f9232adc58",
+      "source_bytes": 1493726,
+      "archive_sha256": "fddd159f5ae67b89d46682f1172063a0265ba4a71f4ee484e30916f9232adc58",
+      "archive_bytes": 1493726,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_exposure.json",
+      "source_sha256": "7eb89468e9dbcae4cc70079cac9e883a1588f906eda3dc2c914cc77f92e2e6f5",
+      "source_bytes": 3874,
+      "archive_sha256": "7eb89468e9dbcae4cc70079cac9e883a1588f906eda3dc2c914cc77f92e2e6f5",
+      "archive_bytes": 3874,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_exposure.png",
+      "source_sha256": "22bbc6a8cc7c784f76865724e21b5506f494b3f2fafccd7afd2ce9e0b95ea716",
+      "source_bytes": 1617636,
+      "archive_sha256": "22bbc6a8cc7c784f76865724e21b5506f494b3f2fafccd7afd2ce9e0b95ea716",
+      "archive_bytes": 1617636,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_format.json",
+      "source_sha256": "d65927bfa83fe28ad02b840ddd80f83b5ef17b944fcc299e8c333072838a9cf2",
+      "source_bytes": 13172,
+      "archive_sha256": "d65927bfa83fe28ad02b840ddd80f83b5ef17b944fcc299e8c333072838a9cf2",
+      "archive_bytes": 13172,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_format.png",
+      "source_sha256": "25ee55e1e031bd956d876eb54d70281e267f604d7c884e086a78ba908f9ec996",
+      "source_bytes": 1655355,
+      "archive_sha256": "25ee55e1e031bd956d876eb54d70281e267f604d7c884e086a78ba908f9ec996",
+      "archive_bytes": 1655355,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_image.json",
+      "source_sha256": "9c7294d4cd12c23ade899dd8696ec7006e4e4a7b17eaf9e033a9a659dcbc0721",
+      "source_bytes": 10391,
+      "archive_sha256": "9c7294d4cd12c23ade899dd8696ec7006e4e4a7b17eaf9e033a9a659dcbc0721",
+      "archive_bytes": 10391,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_image.png",
+      "source_sha256": "1f06b134a61c241172e810112545e5c9a5efd36e55d4686bc373de1ec3e62506",
+      "source_bytes": 1612615,
+      "archive_sha256": "1f06b134a61c241172e810112545e5c9a5efd36e55d4686bc373de1ec3e62506",
+      "archive_bytes": 1612615,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_select.txt",
+      "source_sha256": "22a095330dd1504ab293365bc1ea6c9e7136978641844ac1f29d25e32ecdb052",
+      "source_bytes": 273,
+      "archive_sha256": "22a095330dd1504ab293365bc1ea6c9e7136978641844ac1f29d25e32ecdb052",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_trigger.json",
+      "source_sha256": "f57662bf07f8c1cbd5ce92752575efa4026e6dd314acf3ef4d93a8427c19385b",
+      "source_bytes": 1916,
+      "archive_sha256": "f57662bf07f8c1cbd5ce92752575efa4026e6dd314acf3ef4d93a8427c19385b",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam4_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam4_trigger.png",
+      "source_sha256": "38149dd3b50810e01f8ed3788a766a3df0f2b1b71b770d2966363598e73c561c",
+      "source_bytes": 1568278,
+      "archive_sha256": "38149dd3b50810e01f8ed3788a766a3df0f2b1b71b770d2966363598e73c561c",
+      "archive_bytes": 1568278,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_closed.json",
+      "source_sha256": "8001d93fa944929073f90cbdc7d771db23ec5443d6a2c5bc4c9c9aa0b1849a79",
+      "source_bytes": 11108,
+      "archive_sha256": "8001d93fa944929073f90cbdc7d771db23ec5443d6a2c5bc4c9c9aa0b1849a79",
+      "archive_bytes": 11108,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_closed.png",
+      "source_sha256": "1ed3ed7bd3b26d6e25b5e6d6ce5a2b799cf4c6c279f9da739b60d509bad265a3",
+      "source_bytes": 1492676,
+      "archive_sha256": "1ed3ed7bd3b26d6e25b5e6d6ce5a2b799cf4c6c279f9da739b60d509bad265a3",
+      "archive_bytes": 1492676,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_exposure.json",
+      "source_sha256": "292da82366c8d834bc74fe59907a44864d078376d38fcf841f5abfe033d8b1a6",
+      "source_bytes": 3776,
+      "archive_sha256": "292da82366c8d834bc74fe59907a44864d078376d38fcf841f5abfe033d8b1a6",
+      "archive_bytes": 3776,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_exposure.png",
+      "source_sha256": "7881e8c97daac1385646e9803064b9e01b16261aabc162ab6e405523b1897c8d",
+      "source_bytes": 1504072,
+      "archive_sha256": "7881e8c97daac1385646e9803064b9e01b16261aabc162ab6e405523b1897c8d",
+      "archive_bytes": 1504072,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_format.json",
+      "source_sha256": "9b0240b33aa2a8b4b902e7270102f26c730166c476e1f1f05e0476523449eb5f",
+      "source_bytes": 13074,
+      "archive_sha256": "9b0240b33aa2a8b4b902e7270102f26c730166c476e1f1f05e0476523449eb5f",
+      "archive_bytes": 13074,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_format.png",
+      "source_sha256": "cd28f69e4c3d7d3ed706771fa9753b51820c17e09ff613c34261f37662c54200",
+      "source_bytes": 1476995,
+      "archive_sha256": "cd28f69e4c3d7d3ed706771fa9753b51820c17e09ff613c34261f37662c54200",
+      "archive_bytes": 1476995,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_image.json",
+      "source_sha256": "557dc886cbd806da4e0b1c92bfd6328a914d92cbccd2fb86841be9bd2986ba74",
+      "source_bytes": 10293,
+      "archive_sha256": "557dc886cbd806da4e0b1c92bfd6328a914d92cbccd2fb86841be9bd2986ba74",
+      "archive_bytes": 10293,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_image.png",
+      "source_sha256": "a91c660028abe5c0d503402acd120b4e1fde9a572e555aee39f6d4c5411ed1ca",
+      "source_bytes": 1446496,
+      "archive_sha256": "a91c660028abe5c0d503402acd120b4e1fde9a572e555aee39f6d4c5411ed1ca",
+      "archive_bytes": 1446496,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_select.txt",
+      "source_sha256": "cefd285f9c120e5278d37987c4431453a0af5c7ef26c11d4481858a6a5a24f27",
+      "source_bytes": 273,
+      "archive_sha256": "cefd285f9c120e5278d37987c4431453a0af5c7ef26c11d4481858a6a5a24f27",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_trigger.json",
+      "source_sha256": "6f630a8971e9f0872a21d81f2f50858b6b0355ce485ab319ad298b83a670aa29",
+      "source_bytes": 1916,
+      "archive_sha256": "6f630a8971e9f0872a21d81f2f50858b6b0355ce485ab319ad298b83a670aa29",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam5_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam5_trigger.png",
+      "source_sha256": "037562de3a88109f80b3d4ed5d128ee12ea2e29da25523ca4948cf76020ec004",
+      "source_bytes": 1467978,
+      "archive_sha256": "037562de3a88109f80b3d4ed5d128ee12ea2e29da25523ca4948cf76020ec004",
+      "archive_bytes": 1467978,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_closed.json",
+      "source_sha256": "145c4efc839d502abda6f99cd671dc5cb21f6bd0324a26a2d551d5e13553f570",
+      "source_bytes": 11206,
+      "archive_sha256": "145c4efc839d502abda6f99cd671dc5cb21f6bd0324a26a2d551d5e13553f570",
+      "archive_bytes": 11206,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_closed.png",
+      "source_sha256": "d23dcabbe3f02239b463cbdde6d4e59b79058fc1be513979178e6756b3276069",
+      "source_bytes": 1356699,
+      "archive_sha256": "d23dcabbe3f02239b463cbdde6d4e59b79058fc1be513979178e6756b3276069",
+      "archive_bytes": 1356699,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_exposure.json",
+      "source_sha256": "73df932d8e6855d50d58a289a5e1ec685ad8b6d054a921494a6e9ba24c0d857b",
+      "source_bytes": 3874,
+      "archive_sha256": "73df932d8e6855d50d58a289a5e1ec685ad8b6d054a921494a6e9ba24c0d857b",
+      "archive_bytes": 3874,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_exposure.png",
+      "source_sha256": "d41c3ab388a878c406c3756af8b14110951f10986b6e36d093fce5a05400a8de",
+      "source_bytes": 2126511,
+      "archive_sha256": "d41c3ab388a878c406c3756af8b14110951f10986b6e36d093fce5a05400a8de",
+      "archive_bytes": 2126511,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_format.json",
+      "source_sha256": "2cd0122b59dd8a891ce021762b2fd4babcee44c238c34b98699344a49c052d76",
+      "source_bytes": 13172,
+      "archive_sha256": "2cd0122b59dd8a891ce021762b2fd4babcee44c238c34b98699344a49c052d76",
+      "archive_bytes": 13172,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_format.png",
+      "source_sha256": "945beff8c6dae83a43eb8edf8ae89406a72576d689b671b4b601072f81c9d39e",
+      "source_bytes": 1683612,
+      "archive_sha256": "945beff8c6dae83a43eb8edf8ae89406a72576d689b671b4b601072f81c9d39e",
+      "archive_bytes": 1683612,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_image.json",
+      "source_sha256": "f526174c1202a86347fd30d24bc8407244e1328336604d55883314eb5fa26065",
+      "source_bytes": 10391,
+      "archive_sha256": "f526174c1202a86347fd30d24bc8407244e1328336604d55883314eb5fa26065",
+      "archive_bytes": 10391,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_image.png",
+      "source_sha256": "ede6623e4e9e8ab25c17381d680e23beb29e7a54738759cf448dc9c3f0fe9796",
+      "source_bytes": 2144197,
+      "archive_sha256": "ede6623e4e9e8ab25c17381d680e23beb29e7a54738759cf448dc9c3f0fe9796",
+      "archive_bytes": 2144197,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_select.txt",
+      "source_sha256": "bbfffc48c2bb324163e2f753d9f96d649d6f21989237d4cf5749e9756c5ff7c6",
+      "source_bytes": 273,
+      "archive_sha256": "bbfffc48c2bb324163e2f753d9f96d649d6f21989237d4cf5749e9756c5ff7c6",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_trigger.json",
+      "source_sha256": "b10de8c477edb80513be04ef58dfa795cb3cafa052f6f008033260ead3a2ba97",
+      "source_bytes": 1916,
+      "archive_sha256": "b10de8c477edb80513be04ef58dfa795cb3cafa052f6f008033260ead3a2ba97",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/cam6_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\cam6_trigger.png",
+      "source_sha256": "6a7f1deb2c9176881d49671131a99b395be019aa69f2337acef17f3f9aa5f35d",
+      "source_bytes": 1461188,
+      "archive_sha256": "6a7f1deb2c9176881d49671131a99b395be019aa69f2337acef17f3f9aa5f35d",
+      "archive_bytes": 1461188,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/closed_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\closed_contact.png",
+      "source_sha256": "76a824ea578d8149468d4f48d0bb17123580c02f6dabcc0284c6b4ffd3303318",
+      "source_bytes": 1034932,
+      "archive_sha256": "76a824ea578d8149468d4f48d0bb17123580c02f6dabcc0284c6b4ffd3303318",
+      "archive_bytes": 1034932,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/display.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\display.txt",
+      "source_sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb",
+      "source_bytes": 94,
+      "archive_sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb",
+      "archive_bytes": 94,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/exposure_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\exposure_contact.png",
+      "source_sha256": "98bafd16430302739653bda8965561b377cbba5983a8fe6accd0bb5b580b6874",
+      "source_bytes": 1233661,
+      "archive_sha256": "98bafd16430302739653bda8965561b377cbba5983a8fe6accd0bb5b580b6874",
+      "archive_bytes": 1233661,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/format_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\format_contact.png",
+      "source_sha256": "94fc8eb5a5ed030e73e0126bb9db38b5203a3c52b2028536af2c4e413b5ce522",
+      "source_bytes": 1148083,
+      "archive_sha256": "94fc8eb5a5ed030e73e0126bb9db38b5203a3c52b2028536af2c4e413b5ce522",
+      "archive_bytes": 1148083,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/image_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\image_contact.png",
+      "source_sha256": "166bf8641c3cbabcd899e10c36f00454511fe1ffd704a46b4a672197bc85e8b6",
+      "source_bytes": 1143281,
+      "archive_sha256": "166bf8641c3cbabcd899e10c36f00454511fe1ffd704a46b4a672197bc85e8b6",
+      "archive_bytes": 1143281,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/pose.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\pose.txt",
+      "source_sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06",
+      "source_bytes": 265,
+      "archive_sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06",
+      "archive_bytes": 265,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_readback/trigger_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_readback\\trigger_contact.png",
+      "source_sha256": "b8f46411bfab5788b66dc320a8f5a0f81b426681aa801a5f573605fbda2da8b7",
+      "source_bytes": 1139883,
+      "archive_sha256": "b8f46411bfab5788b66dc320a8f5a0f81b426681aa801a5f573605fbda2da8b7",
+      "archive_bytes": 1139883,
+      "encoding": "original"
+    },
+    {
+      "file": "initial_state_verified.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\initial_state_verified.json",
+      "source_sha256": "5bda65226d4d705a758e27b78d3c94a665990935446b55b6ce91dc70cb1c3fbc",
+      "source_bytes": 857,
+      "archive_sha256": "5bda65226d4d705a758e27b78d3c94a665990935446b55b6ce91dc70cb1c3fbc",
+      "archive_bytes": 857,
+      "encoding": "original"
+    },
+    {
+      "file": "live_metrics.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\live_metrics.json",
+      "source_sha256": "79a2a852db925b46517f0b765964fc0230aac03e02d228f450d496c2c338782f",
+      "source_bytes": 3477,
+      "archive_sha256": "79a2a852db925b46517f0b765964fc0230aac03e02d228f450d496c2c338782f",
+      "archive_bytes": 3477,
+      "encoding": "original"
+    },
+    {
+      "file": "live_state_verified.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\live_state_verified.json",
+      "source_sha256": "abe34417536a5283200979c1e7316b41707ea5544083cfbac59e248886cec578",
+      "source_bytes": 1462,
+      "archive_sha256": "abe34417536a5283200979c1e7316b41707ea5544083cfbac59e248886cec578",
+      "archive_bytes": 1462,
+      "encoding": "original"
+    },
+    {
+      "file": "pretest_verified.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\pretest_verified.json",
+      "source_sha256": "efa16bdbd236cbd959e0fcdd88a409f3d4703ef5b0af475521854dd9eec819f6",
+      "source_bytes": 1460,
+      "archive_sha256": "efa16bdbd236cbd959e0fcdd88a409f3d4703ef5b0af475521854dd9eec819f6",
+      "archive_bytes": 1460,
+      "encoding": "original"
+    },
+    {
+      "file": "raster_cohorts.csv.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\raster_cohorts.csv.gz",
+      "source_sha256": "6ec1b268b78d11c391bebcdffeb7867a47450ef10440311d7ac5096603267ccc",
+      "source_bytes": 244350,
+      "archive_sha256": "6ec1b268b78d11c391bebcdffeb7867a47450ef10440311d7ac5096603267ccc",
+      "archive_bytes": 244350,
+      "encoding": "original"
+    },
+    {
+      "file": "repeat_metrics.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\repeat_metrics.json",
+      "source_sha256": "9e69717d40d39fcefd570e2fb4416366006bd6737c9e71da912dfd0f87fc722d",
+      "source_bytes": 2619,
+      "archive_sha256": "9e69717d40d39fcefd570e2fb4416366006bd6737c9e71da912dfd0f87fc722d",
+      "archive_bytes": 2619,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_closed.json",
+      "source_sha256": "ba28e860c61067bac1b402eb24f8c6844909206c61f88510b44bf1ba8e795e86",
+      "source_bytes": 11206,
+      "archive_sha256": "ba28e860c61067bac1b402eb24f8c6844909206c61f88510b44bf1ba8e795e86",
+      "archive_bytes": 11206,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_closed.png",
+      "source_sha256": "32c16ad32d64d75a242d64fba37dacac807545b758592405816737baa62aa99b",
+      "source_bytes": 878441,
+      "archive_sha256": "32c16ad32d64d75a242d64fba37dacac807545b758592405816737baa62aa99b",
+      "archive_bytes": 878441,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_exposure.json",
+      "source_sha256": "5287ce6531f9722cc9d5f80a471393b45da7605ab9fff59ea9de0e0a400df41a",
+      "source_bytes": 3776,
+      "archive_sha256": "5287ce6531f9722cc9d5f80a471393b45da7605ab9fff59ea9de0e0a400df41a",
+      "archive_bytes": 3776,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_exposure.png",
+      "source_sha256": "764f0fb7e844b01bf1b45eb1d067c74dec516418beb11ee7951eaf1db43de431",
+      "source_bytes": 643465,
+      "archive_sha256": "764f0fb7e844b01bf1b45eb1d067c74dec516418beb11ee7951eaf1db43de431",
+      "archive_bytes": 643465,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_format.json",
+      "source_sha256": "24bbe370f256b07b375540851cc30a8772b39f3b34f1b66eb663a28c49c38e66",
+      "source_bytes": 13172,
+      "archive_sha256": "24bbe370f256b07b375540851cc30a8772b39f3b34f1b66eb663a28c49c38e66",
+      "archive_bytes": 13172,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_format.png",
+      "source_sha256": "c525a6cff0881ed2d959a22e6491d76b23e25174dc8194dc975dc2c3f32bb4d3",
+      "source_bytes": 671411,
+      "archive_sha256": "c525a6cff0881ed2d959a22e6491d76b23e25174dc8194dc975dc2c3f32bb4d3",
+      "archive_bytes": 671411,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_image.json",
+      "source_sha256": "f33be2f7b21ba51f9bbf7225797240beb2c6183f6dee5e13efc968d039ce52bc",
+      "source_bytes": 10293,
+      "archive_sha256": "f33be2f7b21ba51f9bbf7225797240beb2c6183f6dee5e13efc968d039ce52bc",
+      "archive_bytes": 10293,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_image.png",
+      "source_sha256": "8607530bc55f76ff45f36c8af258ab4fbb18dc40116543568415c60f744fe121",
+      "source_bytes": 1123602,
+      "archive_sha256": "8607530bc55f76ff45f36c8af258ab4fbb18dc40116543568415c60f744fe121",
+      "archive_bytes": 1123602,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_select.txt",
+      "source_sha256": "55799d56ce7dc77c7b6c61b7dcb1001180aebf347e88ec06e0873ec6eafc5ac3",
+      "source_bytes": 273,
+      "archive_sha256": "55799d56ce7dc77c7b6c61b7dcb1001180aebf347e88ec06e0873ec6eafc5ac3",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_trigger.json",
+      "source_sha256": "7dd23c9dc3fbe37986e9f63fd5ce29603dd1989e9a53b9e0eff25f49f7280f58",
+      "source_bytes": 2014,
+      "archive_sha256": "7dd23c9dc3fbe37986e9f63fd5ce29603dd1989e9a53b9e0eff25f49f7280f58",
+      "archive_bytes": 2014,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam2_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam2_trigger.png",
+      "source_sha256": "925b9309756e85f738cdcf18226dfd138b269c208e2a219dd90cc1b74516fa38",
+      "source_bytes": 1036569,
+      "archive_sha256": "925b9309756e85f738cdcf18226dfd138b269c208e2a219dd90cc1b74516fa38",
+      "archive_bytes": 1036569,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_closed.json",
+      "source_sha256": "f36940a514696287c9ca94f668bbc5e936eb5ec463a47c8112afb10ffa4f5b4e",
+      "source_bytes": 11206,
+      "archive_sha256": "f36940a514696287c9ca94f668bbc5e936eb5ec463a47c8112afb10ffa4f5b4e",
+      "archive_bytes": 11206,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_closed.png",
+      "source_sha256": "78714ee1bfa6547e0c3acb1bb2e770e63fc7edc81232fe23c3b463a07a133a39",
+      "source_bytes": 1030035,
+      "archive_sha256": "78714ee1bfa6547e0c3acb1bb2e770e63fc7edc81232fe23c3b463a07a133a39",
+      "archive_bytes": 1030035,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_exposure.json",
+      "source_sha256": "5fbaf9bcb35375b6be072c5dc68cb1b75d4ba9baad477df29790c76e6ae2476f",
+      "source_bytes": 3678,
+      "archive_sha256": "5fbaf9bcb35375b6be072c5dc68cb1b75d4ba9baad477df29790c76e6ae2476f",
+      "archive_bytes": 3678,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_exposure.png",
+      "source_sha256": "f3c74151f55b78428c95ff45fd41de01851fbb3b78eeaaa9e85c83c18d4fbba3",
+      "source_bytes": 1147508,
+      "archive_sha256": "f3c74151f55b78428c95ff45fd41de01851fbb3b78eeaaa9e85c83c18d4fbba3",
+      "archive_bytes": 1147508,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_format.json",
+      "source_sha256": "a2d5033a12fde27198e0216f743a03a196045b121e6d31d7f4f1d3ad010a07e2",
+      "source_bytes": 13074,
+      "archive_sha256": "a2d5033a12fde27198e0216f743a03a196045b121e6d31d7f4f1d3ad010a07e2",
+      "archive_bytes": 13074,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_format.png",
+      "source_sha256": "6bec54e7edeb772282abd4fbeb9079f7255bde89fa70e77017a47fb3007c4e02",
+      "source_bytes": 1095902,
+      "archive_sha256": "6bec54e7edeb772282abd4fbeb9079f7255bde89fa70e77017a47fb3007c4e02",
+      "archive_bytes": 1095902,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_image.json",
+      "source_sha256": "e0dc57353450695d7cfa4e5ae0ea0c3f2b9d962fc978574b501439da54962ce1",
+      "source_bytes": 10195,
+      "archive_sha256": "e0dc57353450695d7cfa4e5ae0ea0c3f2b9d962fc978574b501439da54962ce1",
+      "archive_bytes": 10195,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_image.png",
+      "source_sha256": "44e743ee1e2b9f5b991dc34d563a5953691440c9868ef6b9a72807233ccf2a10",
+      "source_bytes": 978712,
+      "archive_sha256": "44e743ee1e2b9f5b991dc34d563a5953691440c9868ef6b9a72807233ccf2a10",
+      "archive_bytes": 978712,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_select.txt",
+      "source_sha256": "d23a704f53ae374c4af89e8128d0bd810f296e1a3e08cf87a4512abd6acafaaa",
+      "source_bytes": 273,
+      "archive_sha256": "d23a704f53ae374c4af89e8128d0bd810f296e1a3e08cf87a4512abd6acafaaa",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_trigger.json",
+      "source_sha256": "e60e9f8c04ef957fdb30dce55373a25de07d294bc1bac4b0a3f363247a714bce",
+      "source_bytes": 2014,
+      "archive_sha256": "e60e9f8c04ef957fdb30dce55373a25de07d294bc1bac4b0a3f363247a714bce",
+      "archive_bytes": 2014,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam3_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam3_trigger.png",
+      "source_sha256": "da7f6d6f1235efefb0f74d535c67fa6f20b458e37e7aea83327c12835c6edd2e",
+      "source_bytes": 1148399,
+      "archive_sha256": "da7f6d6f1235efefb0f74d535c67fa6f20b458e37e7aea83327c12835c6edd2e",
+      "archive_bytes": 1148399,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_closed.json",
+      "source_sha256": "ff4c22580626529791a8ce9adc88f72d14ba713bb7db24aaf6de5550805539a2",
+      "source_bytes": 11304,
+      "archive_sha256": "ff4c22580626529791a8ce9adc88f72d14ba713bb7db24aaf6de5550805539a2",
+      "archive_bytes": 11304,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_closed.png",
+      "source_sha256": "ecb55bb9981696e5c381ea7808fc36480e16d8a64dbf55f3bc35f90516ce4d7e",
+      "source_bytes": 1532658,
+      "archive_sha256": "ecb55bb9981696e5c381ea7808fc36480e16d8a64dbf55f3bc35f90516ce4d7e",
+      "archive_bytes": 1532658,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_exposure.json",
+      "source_sha256": "f42dfc26ca4147c0825264f9aa58dac52360fc16ce0e8b332afe0f9904ff35e7",
+      "source_bytes": 3776,
+      "archive_sha256": "f42dfc26ca4147c0825264f9aa58dac52360fc16ce0e8b332afe0f9904ff35e7",
+      "archive_bytes": 3776,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_exposure.png",
+      "source_sha256": "4a2beedb464483fb6f8ec959542eed36da04708dbbfc9da5c5f7a19c4766d0fd",
+      "source_bytes": 1647105,
+      "archive_sha256": "4a2beedb464483fb6f8ec959542eed36da04708dbbfc9da5c5f7a19c4766d0fd",
+      "archive_bytes": 1647105,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_format.json",
+      "source_sha256": "c925dbe71be6ac1bf8894b4600f31a5e889b54c6c893903b57a01a69aa9708cb",
+      "source_bytes": 13074,
+      "archive_sha256": "c925dbe71be6ac1bf8894b4600f31a5e889b54c6c893903b57a01a69aa9708cb",
+      "archive_bytes": 13074,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_format.png",
+      "source_sha256": "55a1e09f5fea1b9a4cc6a797f847a90d38f2ca01185f7016b4d930a657859469",
+      "source_bytes": 1653739,
+      "archive_sha256": "55a1e09f5fea1b9a4cc6a797f847a90d38f2ca01185f7016b4d930a657859469",
+      "archive_bytes": 1653739,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_image.json",
+      "source_sha256": "611924bbaa2ef006dd162678b15e8fa6be28c2ef3b061682011f30016d72f51a",
+      "source_bytes": 10293,
+      "archive_sha256": "611924bbaa2ef006dd162678b15e8fa6be28c2ef3b061682011f30016d72f51a",
+      "archive_bytes": 10293,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_image.png",
+      "source_sha256": "3b06f3585d37201b230b787d169c0bc576ba1ada7f345523051ce7ffa8a35790",
+      "source_bytes": 1637003,
+      "archive_sha256": "3b06f3585d37201b230b787d169c0bc576ba1ada7f345523051ce7ffa8a35790",
+      "archive_bytes": 1637003,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_select.txt",
+      "source_sha256": "22a095330dd1504ab293365bc1ea6c9e7136978641844ac1f29d25e32ecdb052",
+      "source_bytes": 273,
+      "archive_sha256": "22a095330dd1504ab293365bc1ea6c9e7136978641844ac1f29d25e32ecdb052",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_trigger.json",
+      "source_sha256": "f9730bfb24dde9f9b32609e5899885a9161014c14886b2d6950ee2b83d61a72c",
+      "source_bytes": 1916,
+      "archive_sha256": "f9730bfb24dde9f9b32609e5899885a9161014c14886b2d6950ee2b83d61a72c",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam4_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam4_trigger.png",
+      "source_sha256": "40ee4ed08b786e0a8aaadad4e1b3123aaa8c6f91b92d9bd88a016b7fb8f2dce5",
+      "source_bytes": 1569657,
+      "archive_sha256": "40ee4ed08b786e0a8aaadad4e1b3123aaa8c6f91b92d9bd88a016b7fb8f2dce5",
+      "archive_bytes": 1569657,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_closed.json",
+      "source_sha256": "204e7d3275d0259c66e381e20d76b6ae0dbbbba8eddb53a9470a61ef19b3851b",
+      "source_bytes": 11304,
+      "archive_sha256": "204e7d3275d0259c66e381e20d76b6ae0dbbbba8eddb53a9470a61ef19b3851b",
+      "archive_bytes": 11304,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_closed.png",
+      "source_sha256": "eecedad3f8c2e0bf22afc1b6a7d52c7b9217581c9e1da60c8d31d8b4eaefaecb",
+      "source_bytes": 1565490,
+      "archive_sha256": "eecedad3f8c2e0bf22afc1b6a7d52c7b9217581c9e1da60c8d31d8b4eaefaecb",
+      "archive_bytes": 1565490,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_exposure.json",
+      "source_sha256": "40bea3f2b03a1e59bd3cca404d213dfc47d070c2d735c3b39c77b7d854ad6c41",
+      "source_bytes": 3776,
+      "archive_sha256": "40bea3f2b03a1e59bd3cca404d213dfc47d070c2d735c3b39c77b7d854ad6c41",
+      "archive_bytes": 3776,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_exposure.png",
+      "source_sha256": "f9995d405b3410bde5b976ac2d24cacc91e8d015071d859a798508b14c3974a9",
+      "source_bytes": 1589899,
+      "archive_sha256": "f9995d405b3410bde5b976ac2d24cacc91e8d015071d859a798508b14c3974a9",
+      "archive_bytes": 1589899,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_format.json",
+      "source_sha256": "9702686f22436ea78dfb73e7c9c620ee92e03a5fb23a6c56dc974afc287bb0d2",
+      "source_bytes": 13074,
+      "archive_sha256": "9702686f22436ea78dfb73e7c9c620ee92e03a5fb23a6c56dc974afc287bb0d2",
+      "archive_bytes": 13074,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_format.png",
+      "source_sha256": "4a387ac996a12b4dc75f190ca49733a432951e8d75ebe141bcccba6a42777738",
+      "source_bytes": 1587134,
+      "archive_sha256": "4a387ac996a12b4dc75f190ca49733a432951e8d75ebe141bcccba6a42777738",
+      "archive_bytes": 1587134,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_image.json",
+      "source_sha256": "f519d79d9d2b7b3f0f4708a7c9d6b3bf4264782640a8ebdf7ab763d1b825623b",
+      "source_bytes": 10293,
+      "archive_sha256": "f519d79d9d2b7b3f0f4708a7c9d6b3bf4264782640a8ebdf7ab763d1b825623b",
+      "archive_bytes": 10293,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_image.png",
+      "source_sha256": "64b47c21e134c03b7cfdf1b56e765bc512f4dcfec2424e4acd60e4a50c181bdc",
+      "source_bytes": 1524640,
+      "archive_sha256": "64b47c21e134c03b7cfdf1b56e765bc512f4dcfec2424e4acd60e4a50c181bdc",
+      "archive_bytes": 1524640,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_select.txt",
+      "source_sha256": "cefd285f9c120e5278d37987c4431453a0af5c7ef26c11d4481858a6a5a24f27",
+      "source_bytes": 273,
+      "archive_sha256": "cefd285f9c120e5278d37987c4431453a0af5c7ef26c11d4481858a6a5a24f27",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_trigger.json",
+      "source_sha256": "11fdf179c31cb4fffd9b329d21043cb7b07b90e558e05b85234c3610edf67676",
+      "source_bytes": 1916,
+      "archive_sha256": "11fdf179c31cb4fffd9b329d21043cb7b07b90e558e05b85234c3610edf67676",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam5_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam5_trigger.png",
+      "source_sha256": "b4667e63ac18958ff9fd2aa21204cf36b1edef153af4f5162a60f63aeec63248",
+      "source_bytes": 1676820,
+      "archive_sha256": "b4667e63ac18958ff9fd2aa21204cf36b1edef153af4f5162a60f63aeec63248",
+      "archive_bytes": 1676820,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_closed.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_closed.json",
+      "source_sha256": "c19f9fd2cb36fb4cb1e94cd8481a62f5bb4c89629edef9b4274b81c9f6ee9dd7",
+      "source_bytes": 11250,
+      "archive_sha256": "c19f9fd2cb36fb4cb1e94cd8481a62f5bb4c89629edef9b4274b81c9f6ee9dd7",
+      "archive_bytes": 11250,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_closed.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_closed.png",
+      "source_sha256": "848f2c48cf0c844dcc13898cc580b19672d95da17eb945a15287f81076298610",
+      "source_bytes": 1352792,
+      "archive_sha256": "848f2c48cf0c844dcc13898cc580b19672d95da17eb945a15287f81076298610",
+      "archive_bytes": 1352792,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_exposure.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_exposure.json",
+      "source_sha256": "360f80671623c529a9e01b8514da15ce7b65d0d0f85c185589c063213cf6c5ae",
+      "source_bytes": 3874,
+      "archive_sha256": "360f80671623c529a9e01b8514da15ce7b65d0d0f85c185589c063213cf6c5ae",
+      "archive_bytes": 3874,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_exposure.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_exposure.png",
+      "source_sha256": "bdb0b9505ec65313e155684c2b74bf927be2ca8c9cd52918ad3677a97c37b454",
+      "source_bytes": 2188073,
+      "archive_sha256": "bdb0b9505ec65313e155684c2b74bf927be2ca8c9cd52918ad3677a97c37b454",
+      "archive_bytes": 2188073,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_format.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_format.json",
+      "source_sha256": "5c36b12b01a2d488fad3a2ae29d18da437c75edea6e5cf1225b39dbe76a04e61",
+      "source_bytes": 13172,
+      "archive_sha256": "5c36b12b01a2d488fad3a2ae29d18da437c75edea6e5cf1225b39dbe76a04e61",
+      "archive_bytes": 13172,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_format.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_format.png",
+      "source_sha256": "6a9e9bbf087c92879db8c08697f3a3a1dbcf6d235b352f78d455ea318a3233ee",
+      "source_bytes": 2195600,
+      "archive_sha256": "6a9e9bbf087c92879db8c08697f3a3a1dbcf6d235b352f78d455ea318a3233ee",
+      "archive_bytes": 2195600,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_image.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_image.json",
+      "source_sha256": "a17d39e03dfb8ffce1d3262270d082b2cbfe9d4272f1885925fb52bbe07db080",
+      "source_bytes": 10391,
+      "archive_sha256": "a17d39e03dfb8ffce1d3262270d082b2cbfe9d4272f1885925fb52bbe07db080",
+      "archive_bytes": 10391,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_image.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_image.png",
+      "source_sha256": "4b6a39756412acf91c794db14848fa2076e2c5a1a37d3873c2b1187eb2554d3b",
+      "source_bytes": 1854575,
+      "archive_sha256": "4b6a39756412acf91c794db14848fa2076e2c5a1a37d3873c2b1187eb2554d3b",
+      "archive_bytes": 1854575,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_select.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_select.txt",
+      "source_sha256": "bbfffc48c2bb324163e2f753d9f96d649d6f21989237d4cf5749e9756c5ff7c6",
+      "source_bytes": 273,
+      "archive_sha256": "bbfffc48c2bb324163e2f753d9f96d649d6f21989237d4cf5749e9756c5ff7c6",
+      "archive_bytes": 273,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_trigger.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_trigger.json",
+      "source_sha256": "6f1852643fa5d5fcbb2f604ca9bbff58c996f145c6a0e2bda922cf9a8c40e514",
+      "source_bytes": 1916,
+      "archive_sha256": "6f1852643fa5d5fcbb2f604ca9bbff58c996f145c6a0e2bda922cf9a8c40e514",
+      "archive_bytes": 1916,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/cam6_trigger.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\cam6_trigger.png",
+      "source_sha256": "b1f0e2b38c19350ac30e07ad2d65c6a2f2aa0148cf4ca1914241c2fe5f303cee",
+      "source_bytes": 2178978,
+      "archive_sha256": "b1f0e2b38c19350ac30e07ad2d65c6a2f2aa0148cf4ca1914241c2fe5f303cee",
+      "archive_bytes": 2178978,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/closed_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\closed_contact.png",
+      "source_sha256": "cf36cf7edcf8a1d460cfdb3de9e8fe6ea2445d58bde61b503c0010a9932f68a0",
+      "source_bytes": 1071963,
+      "archive_sha256": "cf36cf7edcf8a1d460cfdb3de9e8fe6ea2445d58bde61b503c0010a9932f68a0",
+      "archive_bytes": 1071963,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/display.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\display.txt",
+      "source_sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb",
+      "source_bytes": 94,
+      "archive_sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb",
+      "archive_bytes": 94,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/exposure_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\exposure_contact.png",
+      "source_sha256": "11f01cabb7ec445be33b136e09cd3ab8e6ad003d6e7550ae747ac3d5bb647daa",
+      "source_bytes": 1216494,
+      "archive_sha256": "11f01cabb7ec445be33b136e09cd3ab8e6ad003d6e7550ae747ac3d5bb647daa",
+      "archive_bytes": 1216494,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/format_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\format_contact.png",
+      "source_sha256": "90a8923af545f22dcb01737eb364651b1631caed6d939f971a8a7bc5c51912b7",
+      "source_bytes": 1224214,
+      "archive_sha256": "90a8923af545f22dcb01737eb364651b1631caed6d939f971a8a7bc5c51912b7",
+      "archive_bytes": 1224214,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/image_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\image_contact.png",
+      "source_sha256": "9616aa89858925043b7e37de46f33396ed6194c52735a288382e72826d2b483d",
+      "source_bytes": 1194739,
+      "archive_sha256": "9616aa89858925043b7e37de46f33396ed6194c52735a288382e72826d2b483d",
+      "archive_bytes": 1194739,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/pose.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\pose.txt",
+      "source_sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06",
+      "source_bytes": 265,
+      "archive_sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06",
+      "archive_bytes": 265,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/trigger_contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\trigger_contact.png",
+      "source_sha256": "5c02b3057c06263dac74238c52b52e401feab52dd70ddfc555254c0f418e869e",
+      "source_bytes": 1279336,
+      "archive_sha256": "5c02b3057c06263dac74238c52b52e401feab52dd70ddfc555254c0f418e869e",
+      "archive_bytes": 1279336,
+      "encoding": "original"
+    },
+    {
+      "file": "restoration/verified_state.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restoration\\verified_state.json",
+      "source_sha256": "a1126179f2d976daa36f43d7acb67bedf25592036d2ae410607573adc36607a2",
+      "source_bytes": 5758,
+      "archive_sha256": "a1126179f2d976daa36f43d7acb67bedf25592036d2ae410607573adc36607a2",
+      "archive_bytes": 5758,
+      "encoding": "original"
+    },
+    {
+      "file": "restore30_cam2.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore30_cam2.json",
+      "source_sha256": "f58ea92a0ad98c94594c2118386579bcfc807f0e84918ee74931f953207895f2",
+      "source_bytes": 21715,
+      "archive_sha256": "f58ea92a0ad98c94594c2118386579bcfc807f0e84918ee74931f953207895f2",
+      "archive_bytes": 21715,
+      "encoding": "original"
+    },
+    {
+      "file": "restore30_cam3.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore30_cam3.json",
+      "source_sha256": "1857e6b97a2ec530d5a508386029673b0032b94e26750465b3b60d517587e513",
+      "source_bytes": 21609,
+      "archive_sha256": "1857e6b97a2ec530d5a508386029673b0032b94e26750465b3b60d517587e513",
+      "archive_bytes": 21609,
+      "encoding": "original"
+    },
+    {
+      "file": "restore30_cam4.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore30_cam4.json",
+      "source_sha256": "692bb96ca9143a1f595350b061403d8bdb0c4d1ce160c5fec717f6bd36c747f0",
+      "source_bytes": 21609,
+      "archive_sha256": "692bb96ca9143a1f595350b061403d8bdb0c4d1ce160c5fec717f6bd36c747f0",
+      "archive_bytes": 21609,
+      "encoding": "original"
+    },
+    {
+      "file": "restore30_cam5.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore30_cam5.json",
+      "source_sha256": "1a56104f3ec69857d939fc88262356069ab9db4fde77c0ef65f4cecce84ab550",
+      "source_bytes": 21707,
+      "archive_sha256": "1a56104f3ec69857d939fc88262356069ab9db4fde77c0ef65f4cecce84ab550",
+      "archive_bytes": 21707,
+      "encoding": "original"
+    },
+    {
+      "file": "restore30_cam6.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore30_cam6.json",
+      "source_sha256": "f1017a297ad506362ba8b817c81bbb21b27a0e8917ebc6caf0cb2281872fb01f",
+      "source_bytes": 21707,
+      "archive_sha256": "f1017a297ad506362ba8b817c81bbb21b27a0e8917ebc6caf0cb2281872fb01f",
+      "archive_bytes": 21707,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam2/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam2\\close_keys.json",
+      "source_sha256": "3f8cc36b328ded13b9e3abfee8733d1896afb9ab2baaa4c8a700120cdf2ea86d",
+      "source_bytes": 7552,
+      "archive_sha256": "3f8cc36b328ded13b9e3abfee8733d1896afb9ab2baaa4c8a700120cdf2ea86d",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam2/frame_11344.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam2\\frame_11344.png",
+      "source_sha256": "67f8501fd668b8319ddeb0ae580b9bd5ff2e856641c6dcddaa29b1a4bab58817",
+      "source_bytes": 74660,
+      "archive_sha256": "67f8501fd668b8319ddeb0ae580b9bd5ff2e856641c6dcddaa29b1a4bab58817",
+      "archive_bytes": 74660,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam2/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam2\\keys.json",
+      "source_sha256": "bb511dfae6430ab16439c1ba242b954774be78bab52070c3eca9c109a621c16d",
+      "source_bytes": 8498,
+      "archive_sha256": "bb511dfae6430ab16439c1ba242b954774be78bab52070c3eca9c109a621c16d",
+      "archive_bytes": 8498,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam2/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam2\\provenance.txt",
+      "source_sha256": "3dd0801b31ecc83a0ff805504212a1226fa5783c1537c30dd1dad0c3cab524f9",
+      "source_bytes": 185,
+      "archive_sha256": "3dd0801b31ecc83a0ff805504212a1226fa5783c1537c30dd1dad0c3cab524f9",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam2/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam2\\snapshot_summary.json",
+      "source_sha256": "fa5c135eca386405425545c967e1ab04a3f27dfd086bf9943459f465960ff9d0",
+      "source_bytes": 473,
+      "archive_sha256": "fa5c135eca386405425545c967e1ab04a3f27dfd086bf9943459f465960ff9d0",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam3/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam3\\close_keys.json",
+      "source_sha256": "c350e31ee0d4846e9a3277e5db65e9ce5299ab0783dc820bd9f9145054141094",
+      "source_bytes": 7552,
+      "archive_sha256": "c350e31ee0d4846e9a3277e5db65e9ce5299ab0783dc820bd9f9145054141094",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam3/frame_12432.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam3\\frame_12432.png",
+      "source_sha256": "5ecfdaa1a6d4a5539e98afc37b05fb10b6b0cc1fba739ff75ecb592a2fdf20a2",
+      "source_bytes": 84181,
+      "archive_sha256": "5ecfdaa1a6d4a5539e98afc37b05fb10b6b0cc1fba739ff75ecb592a2fdf20a2",
+      "archive_bytes": 84181,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam3/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam3\\keys.json",
+      "source_sha256": "975cf04223ee8da51ff6d4bd3b78abfca2810288d9a88e51e5efdcc57d775020",
+      "source_bytes": 8596,
+      "archive_sha256": "975cf04223ee8da51ff6d4bd3b78abfca2810288d9a88e51e5efdcc57d775020",
+      "archive_bytes": 8596,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam3/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam3\\provenance.txt",
+      "source_sha256": "1db70fb55791883fba10acefe44ffbfef60ddbed797dc20dd25a5100c26d8666",
+      "source_bytes": 185,
+      "archive_sha256": "1db70fb55791883fba10acefe44ffbfef60ddbed797dc20dd25a5100c26d8666",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam3/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam3\\snapshot_summary.json",
+      "source_sha256": "02637acb80a9b2fff484b5a7f14254b6528967aa1aac67ba702e5734525f42c3",
+      "source_bytes": 473,
+      "archive_sha256": "02637acb80a9b2fff484b5a7f14254b6528967aa1aac67ba702e5734525f42c3",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam4/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam4\\close_keys.json",
+      "source_sha256": "030937c61411aa10500e9ad5089ea8b5dcb0723391f42c7105936ae7b0273ec2",
+      "source_bytes": 7650,
+      "archive_sha256": "030937c61411aa10500e9ad5089ea8b5dcb0723391f42c7105936ae7b0273ec2",
+      "archive_bytes": 7650,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam4/frame_13526.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam4\\frame_13526.png",
+      "source_sha256": "32e85730053a472612051a4948dbc76647349cfab2523ea5730c48108c00dc99",
+      "source_bytes": 75326,
+      "archive_sha256": "32e85730053a472612051a4948dbc76647349cfab2523ea5730c48108c00dc99",
+      "archive_bytes": 75326,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam4/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam4\\keys.json",
+      "source_sha256": "9431cca7a4629394384d080352f92263e400f9c233cf5fe67ae76b47ec8eaf1d",
+      "source_bytes": 8498,
+      "archive_sha256": "9431cca7a4629394384d080352f92263e400f9c233cf5fe67ae76b47ec8eaf1d",
+      "archive_bytes": 8498,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam4/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam4\\provenance.txt",
+      "source_sha256": "6ea533ba542c143ced92b3689124ba0596e893b1f8dd5b07f98f3694766a0706",
+      "source_bytes": 185,
+      "archive_sha256": "6ea533ba542c143ced92b3689124ba0596e893b1f8dd5b07f98f3694766a0706",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam4/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam4\\snapshot_summary.json",
+      "source_sha256": "32156cac5262a4f42d678f9d560cd3ee49b379e8c732c5cfd63471bf14a0c9ee",
+      "source_bytes": 473,
+      "archive_sha256": "32156cac5262a4f42d678f9d560cd3ee49b379e8c732c5cfd63471bf14a0c9ee",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam5/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam5\\close_keys.json",
+      "source_sha256": "c648cd6428aed7d2999bad7d31e7195645f30bff8470678c2c565b3aabbd748a",
+      "source_bytes": 7552,
+      "archive_sha256": "c648cd6428aed7d2999bad7d31e7195645f30bff8470678c2c565b3aabbd748a",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam5/frame_14613.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam5\\frame_14613.png",
+      "source_sha256": "c6c88cfddac8fba9a02e7725b8d13f14d664b4fa4269dc85d48d6c65c9f6f201",
+      "source_bytes": 74088,
+      "archive_sha256": "c6c88cfddac8fba9a02e7725b8d13f14d664b4fa4269dc85d48d6c65c9f6f201",
+      "archive_bytes": 74088,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam5/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam5\\keys.json",
+      "source_sha256": "5a1a8a0cae4e2597b0d25bcda55f82528bdbe107b12e2f6b1adc7d0451b7c7ca",
+      "source_bytes": 8498,
+      "archive_sha256": "5a1a8a0cae4e2597b0d25bcda55f82528bdbe107b12e2f6b1adc7d0451b7c7ca",
+      "archive_bytes": 8498,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam5/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam5\\provenance.txt",
+      "source_sha256": "fbdb13a3902c2d8e499d02a7b3facbf853ecc9dc5df6c5e44d033323b0436af1",
+      "source_bytes": 185,
+      "archive_sha256": "fbdb13a3902c2d8e499d02a7b3facbf853ecc9dc5df6c5e44d033323b0436af1",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam5/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam5\\snapshot_summary.json",
+      "source_sha256": "e1335e396cdf600ab861748b55e0ccba50623d584e0627d98e1ec6fd5864c81b",
+      "source_bytes": 473,
+      "archive_sha256": "e1335e396cdf600ab861748b55e0ccba50623d584e0627d98e1ec6fd5864c81b",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam6/close_keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam6\\close_keys.json",
+      "source_sha256": "ba710b8ec57c271be8bbc1757a21c4a06d64d23cb91223ce343fb293442780bf",
+      "source_bytes": 7552,
+      "archive_sha256": "ba710b8ec57c271be8bbc1757a21c4a06d64d23cb91223ce343fb293442780bf",
+      "archive_bytes": 7552,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam6/frame_17139.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam6\\frame_17139.png",
+      "source_sha256": "9d92e33f2e828bb47df92aa7aaed488acf8c293c1520f29f9804edfa8f893dc7",
+      "source_bytes": 71786,
+      "archive_sha256": "9d92e33f2e828bb47df92aa7aaed488acf8c293c1520f29f9804edfa8f893dc7",
+      "archive_bytes": 71786,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam6/keys.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam6\\keys.json",
+      "source_sha256": "21703c7718ba2193d06aeebaa945743361c6493b9c85f8ec2f2268063c410bd6",
+      "source_bytes": 8596,
+      "archive_sha256": "21703c7718ba2193d06aeebaa945743361c6493b9c85f8ec2f2268063c410bd6",
+      "archive_bytes": 8596,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam6/provenance.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam6\\provenance.txt",
+      "source_sha256": "2fb4a8d89aad69544a1ffcfcd4685515238073b707b6f92b755e84da30f470ec",
+      "source_bytes": 185,
+      "archive_sha256": "2fb4a8d89aad69544a1ffcfcd4685515238073b707b6f92b755e84da30f470ec",
+      "archive_bytes": 185,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/cam6/snapshot_summary.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\cam6\\snapshot_summary.json",
+      "source_sha256": "199517f44ecd27dc45899e185224ac60053ce9e133e71115cd858d1f88ece932",
+      "source_bytes": 473,
+      "archive_sha256": "199517f44ecd27dc45899e185224ac60053ce9e133e71115cd858d1f88ece932",
+      "archive_bytes": 473,
+      "encoding": "original"
+    },
+    {
+      "file": "restore_exposure/contact.png",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\restore_exposure\\contact.png",
+      "source_sha256": "c4569c8cfec77d16d2d589bb7d35b8ac790d074095f2990d33bc4bc63968b871",
+      "source_bytes": 542675,
+      "archive_sha256": "c4569c8cfec77d16d2d589bb7d35b8ac790d074095f2990d33bc4bc63968b871",
+      "archive_bytes": 542675,
+      "encoding": "original"
+    },
+    {
+      "file": "roi_anomalies.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\roi_anomalies.json",
+      "source_sha256": "5472cd4452c9d9b7662f596f92cc1f8709fed735743dd9f03d292e3ef98d9329",
+      "source_bytes": 42071,
+      "archive_sha256": "5472cd4452c9d9b7662f596f92cc1f8709fed735743dd9f03d292e3ef98d9329",
+      "archive_bytes": 42071,
+      "encoding": "original"
+    },
+    {
+      "file": "selected_events.csv.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\selected_events.csv.gz",
+      "source_sha256": "ff4e39ccfe4f357f562dd211be439cf28d3fb4602ed70e5f2881b352d91cd5bb",
+      "source_bytes": 615353,
+      "archive_sha256": "ff4e39ccfe4f357f562dd211be439cf28d3fb4602ed70e5f2881b352d91cd5bb",
+      "archive_bytes": 615353,
+      "encoding": "original"
+    },
+    {
+      "file": "selected_phase/phase.txt",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\selected_phase\\phase.txt",
+      "source_sha256": "f91ef1f9f00d706347ebbad6a5aadc24c1ed02e883ea7819ada2beebb8465687",
+      "source_bytes": 3653,
+      "archive_sha256": "f91ef1f9f00d706347ebbad6a5aadc24c1ed02e883ea7819ada2beebb8465687",
+      "archive_bytes": 3653,
+      "encoding": "original"
+    },
+    {
+      "file": "set60_cam2.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\set60_cam2.json",
+      "source_sha256": "50a8557a75b3609d1eda02427a920f1c0e64a82cff742e92d6532c51e288b1a1",
+      "source_bytes": 21708,
+      "archive_sha256": "50a8557a75b3609d1eda02427a920f1c0e64a82cff742e92d6532c51e288b1a1",
+      "archive_bytes": 21708,
+      "encoding": "original"
+    },
+    {
+      "file": "set60_cam3.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\set60_cam3.json",
+      "source_sha256": "2b75bd4d40f2a3c24938ce9e2a4984961b2e9264130de5cfa502cc293fdfa921",
+      "source_bytes": 21708,
+      "archive_sha256": "2b75bd4d40f2a3c24938ce9e2a4984961b2e9264130de5cfa502cc293fdfa921",
+      "archive_bytes": 21708,
+      "encoding": "original"
+    },
+    {
+      "file": "set60_cam4.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\set60_cam4.json",
+      "source_sha256": "ae37521f8f7eeb7f7171862e295ce944eb7fa70f94f67143df25a4de7cc9c103",
+      "source_bytes": 21708,
+      "archive_sha256": "ae37521f8f7eeb7f7171862e295ce944eb7fa70f94f67143df25a4de7cc9c103",
+      "archive_bytes": 21708,
+      "encoding": "original"
+    },
+    {
+      "file": "set60_cam5.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\set60_cam5.json",
+      "source_sha256": "fe6769393727bf95006208c6103c576a29f4c76ad06490f088c15a69a3ae0d24",
+      "source_bytes": 21610,
+      "archive_sha256": "fe6769393727bf95006208c6103c576a29f4c76ad06490f088c15a69a3ae0d24",
+      "archive_bytes": 21610,
+      "encoding": "original"
+    },
+    {
+      "file": "set60_cam6.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\set60_cam6.json",
+      "source_sha256": "3f72db2547a4c85967592dad28faa42caa1e8d60968da6dce9bb16605b286e26",
+      "source_bytes": 21610,
+      "archive_sha256": "3f72db2547a4c85967592dad28faa42caa1e8d60968da6dce9bb16605b286e26",
+      "archive_bytes": 21610,
+      "encoding": "original"
+    },
+    {
+      "file": "study.json.gz",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\study.json",
+      "source_sha256": "dc9cd6c57eae9c9313e0ec2696dbfd0d8f5a603bb0119ca4e05987df2637491c",
+      "source_bytes": 3956976,
+      "archive_sha256": "48a2e755a5b5d7e117ca5b5df57f47b95ae27393256263745e10658de62ec647",
+      "archive_bytes": 287990,
+      "encoding": "gzip"
+    },
+    {
+      "file": "study_config.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo_sync_trig30_exp60_20261009\\study_config.json",
+      "source_sha256": "0ed07df25fa06ad851aedef8faefb99c28faabcfd90610b5b5ebda8e69f72a20",
+      "source_bytes": 2818,
+      "archive_sha256": "0ed07df25fa06ad851aedef8faefb99c28faabcfd90610b5b5ebda8e69f72a20",
+      "archive_bytes": 2818,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/bench.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\bench.py",
+      "source_sha256": "43e69eb76bcaa9426af23ef8d89f07efd723439c221524b217c157d524374cdc",
+      "source_bytes": 3410,
+      "archive_sha256": "43e69eb76bcaa9426af23ef8d89f07efd723439c221524b217c157d524374cdc",
+      "archive_bytes": 3410,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/prepare.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\prepare.py",
+      "source_sha256": "566dbb765fd53398fe35d8ae7dd60a25b24ad2fed38b029b62be697100192e4e",
+      "source_bytes": 2128,
+      "archive_sha256": "566dbb765fd53398fe35d8ae7dd60a25b24ad2fed38b029b62be697100192e4e",
+      "archive_bytes": 2128,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/report_addendum.mjs",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\report_addendum.mjs",
+      "source_sha256": "ad3fa008a73b1fa2fa4deadf248eb424c71c7c74a68de46455f1783fbf1d0968",
+      "source_bytes": 14097,
+      "archive_sha256": "ad3fa008a73b1fa2fa4deadf248eb424c71c7c74a68de46455f1783fbf1d0968",
+      "archive_bytes": 14097,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/report_validation.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\report_validation.json",
+      "source_sha256": "bab37c14f413df61a0440702b0d63b332890b164f5896b630668b0da51218171",
+      "source_bytes": 2649,
+      "archive_sha256": "bab37c14f413df61a0440702b0d63b332890b164f5896b630668b0da51218171",
+      "archive_bytes": 2649,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/report_error_scan.ndjson",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\report_error_scan.ndjson",
+      "source_sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "source_bytes": 60,
+      "archive_sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "archive_bytes": 60,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/verify_followup_workbook.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\verify_followup_workbook.py",
+      "source_sha256": "e949b08695af47e7ad6547b987609e89ec3727b09ee6f0b8350b08c61fa69891",
+      "source_bytes": 4521,
+      "archive_sha256": "e949b08695af47e7ad6547b987609e89ec3727b09ee6f0b8350b08c61fa69891",
+      "archive_bytes": 4521,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/saved_workbook_validation.json",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\saved_workbook_validation.json",
+      "source_sha256": "45b90f3ab16046f17dbac4e536dca8b892da415304f8e70026bc1eb3110d3c71",
+      "source_bytes": 391,
+      "archive_sha256": "45b90f3ab16046f17dbac4e536dca8b892da415304f8e70026bc1eb3110d3c71",
+      "archive_bytes": 391,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/live_metrics.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\live_metrics.py",
+      "source_sha256": "0d8339608af89374a98013d30b03753958478880469cf14928c7c286cd71a403",
+      "source_bytes": 2026,
+      "archive_sha256": "0d8339608af89374a98013d30b03753958478880469cf14928c7c286cd71a403",
+      "archive_bytes": 2026,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/inspect_anomalies.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\inspect_anomalies.py",
+      "source_sha256": "f77b148c49c755bf59661da774573464e04c524396bd31e0039cac78b30b27bc",
+      "source_bytes": 1565,
+      "archive_sha256": "f77b148c49c755bf59661da774573464e04c524396bd31e0039cac78b30b27bc",
+      "archive_bytes": 1565,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/record_restored.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\record_restored.py",
+      "source_sha256": "5827a7d49adb28e17e559f4d05e2fc49cc08d76e33f216439def9e035c4ddb7e",
+      "source_bytes": 2018,
+      "archive_sha256": "5827a7d49adb28e17e559f4d05e2fc49cc08d76e33f216439def9e035c4ddb7e",
+      "archive_bytes": 2018,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/record_test_state.py",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\record_test_state.py",
+      "source_sha256": "0d8f08365fcf3fc29c4f600f02a7c3de3a3c03c19fb2a296d96690e7dbcaee1e",
+      "source_bytes": 1625,
+      "archive_sha256": "0d8f08365fcf3fc29c4f600f02a7c3de3a3c03c19fb2a296d96690e7dbcaee1e",
+      "archive_bytes": 1625,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/program_r4.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\program_r4.log",
+      "source_sha256": "59f71c0c3acb319f0099553647f36a401572e447c8b913196074c99709bfbcaa",
+      "source_bytes": 2796,
+      "archive_sha256": "59f71c0c3acb319f0099553647f36a401572e447c8b913196074c99709bfbcaa",
+      "archive_bytes": 2796,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/selected_phase.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\selected_phase.log",
+      "source_sha256": "3e6173daa7f9ad5ca8c931d8d7d143af3f91bbbe6985dbe27b449ad5989ec042",
+      "source_bytes": 8005,
+      "archive_sha256": "3e6173daa7f9ad5ca8c931d8d7d143af3f91bbbe6985dbe27b449ad5989ec042",
+      "archive_bytes": 8005,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/snapshot_rising.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\snapshot_rising.log",
+      "source_sha256": "88ded8d127122dcf15f36d86f85ee50db583ea69a6cb77b86ff92ee9706408b4",
+      "source_bytes": 4629,
+      "archive_sha256": "88ded8d127122dcf15f36d86f85ee50db583ea69a6cb77b86ff92ee9706408b4",
+      "archive_bytes": 4629,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/restore_operational.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\restore_operational.log",
+      "source_sha256": "fe163a960aec3f7490c186e855ce6f95d78c166ff32b5fcaacb5ff88c6253791",
+      "source_bytes": 2829,
+      "archive_sha256": "fe163a960aec3f7490c186e855ce6f95d78c166ff32b5fcaacb5ff88c6253791",
+      "archive_bytes": 2829,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/60_trig30_exp60_freeze.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_freeze.log",
+      "source_sha256": "0f190925353d86b4f3054c6fccd7d3c6bdae6baaf1971e6ce51d8d75cf2eceb4",
+      "source_bytes": 7612,
+      "archive_sha256": "0f190925353d86b4f3054c6fccd7d3c6bdae6baaf1971e6ce51d8d75cf2eceb4",
+      "archive_bytes": 7612,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/60_trig30_exp60_live.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_live.log",
+      "source_sha256": "71d98033e0d85f62f7665f2c7ddd713bd89c94e6fb77b66722c814cb96e38608",
+      "source_bytes": 8046,
+      "archive_sha256": "71d98033e0d85f62f7665f2c7ddd713bd89c94e6fb77b66722c814cb96e38608",
+      "archive_bytes": 8046,
+      "encoding": "original"
+    },
+    {
+      "file": "reproduction/60_trig30_exp60_repeat.log",
+      "source": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\.tmpCRC\\eo_sync_trig30_exp60_20261009\\60_trig30_exp60_repeat.log",
+      "source_sha256": "f22d7e5123ac205048a8bcf92080e013dc5ff07d99d8cd2360262ebd6d26e45c",
+      "source_bytes": 7612,
+      "archive_sha256": "f22d7e5123ac205048a8bcf92080e013dc5ff07d99d8cd2360262ebd6d26e45c",
+      "archive_bytes": 7612,
+      "encoding": "original"
+    }
+  ]
+}

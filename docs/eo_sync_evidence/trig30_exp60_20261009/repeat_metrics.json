@@ -1,0 +1,115 @@
+{
+  "cameras": [
+    {
+      "camera": 2,
+      "seconds": 28.550361111111112,
+      "rasters": 1714,
+      "raster_hz": 59.999241107088544,
+      "roi_changes": 857,
+      "roi_changes_hz": 30.01713346688551,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 3,
+      "seconds": 28.567159333333333,
+      "rasters": 1715,
+      "raster_hz": 59.998965245383516,
+      "roi_changes": 857,
+      "roi_changes_hz": 29.999482622691758,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 4,
+      "seconds": 28.56711059259259,
+      "rasters": 1715,
+      "raster_hz": 59.99906761464485,
+      "roi_changes": 857,
+      "roi_changes_hz": 29.999533807322425,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 5,
+      "seconds": 28.55040688888889,
+      "rasters": 1714,
+      "raster_hz": 59.99914490418899,
+      "roi_changes": 862,
+      "roi_changes_hz": 30.192214189965505,
+      "sequence_gaps": 0
+    },
+    {
+      "camera": 6,
+      "seconds": 28.55038385185185,
+      "rasters": 1714,
+      "raster_hz": 59.99919331693645,
+      "roi_changes": 857,
+      "roi_changes_hz": 30.01710955786021,
+      "sequence_gaps": 0
+    }
+  ],
+  "patterns": [
+    {
+      "camera": 2,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 856
+      }
+    },
+    {
+      "camera": 3,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 856
+      }
+    },
+    {
+      "camera": 4,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 856
+      }
+    },
+    {
+      "camera": 5,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 851,
+        "1": 10
+      }
+    },
+    {
+      "camera": 6,
+      "block": "events_000",
+      "rasters_between_roi_changes": {
+        "2": 856
+      }
+    }
+  ],
+  "observed_s": 28.570827666666666,
+  "raster_spread_us": {
+    "n": 1712,
+    "min": 10699.296296296296,
+    "median": 10740.555555555555,
+    "p95": 10777.646296296296,
+    "max": 10781.777777777777,
+    "mean": 10740.527366735894
+  },
+  "roi_change_spread_us": {
+    "n": 855,
+    "min": 11838.74074074074,
+    "median": 11881.37037037037,
+    "p95": 11919.725925925926,
+    "max": 11923.962962962964,
+    "mean": 11881.361230236083
+  },
+  "trigger": [
+    {
+      "n": 857,
+      "min": 33333.333333333336,
+      "median": 33333.333333333336,
+      "p95": 33333.333333333336,
+      "max": 33333.333333333336,
+      "mean": 33333.333333333336
+    }
+  ],
+  "condition": "60_trig30_exp60_repeat"
+}

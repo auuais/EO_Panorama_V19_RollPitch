@@ -1,0 +1,1452 @@
+{
+  "observations": [
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_000",
+      "camera": 2,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_000",
+      "camera": 3,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_000",
+      "camera": 4,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_000",
+      "camera": 5,
+      "single_raster_intervals": 4,
+      "xor_counts": {
+        "014480a9": 1,
+        "7eb25af2": 1,
+        "a64453bd": 1,
+        "56d21092": 1
+      },
+      "neighborhoods": [
+        {
+          "index": 195,
+          "neighborhood": [
+            {
+              "sequence": 57941,
+              "tick": 26720639900,
+              "roi_crc": 1476000000,
+              "full_crc": 3285370990,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57942,
+              "tick": 26721089906,
+              "roi_crc": 1476000000,
+              "full_crc": 3285370990,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57943,
+              "tick": 26721539913,
+              "roi_crc": 2516668535,
+              "full_crc": 2952946271,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57944,
+              "tick": 26721989919,
+              "roi_crc": 2537935070,
+              "full_crc": 73958252,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57945,
+              "tick": 26722439926,
+              "roi_crc": 3925314092,
+              "full_crc": 1611092730,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57946,
+              "tick": 26722889932,
+              "roi_crc": 3925314092,
+              "full_crc": 3702680035,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57947,
+              "tick": 26723339938,
+              "roi_crc": 987347621,
+              "full_crc": 3054354557,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 196,
+          "neighborhood": [
+            {
+              "sequence": 57942,
+              "tick": 26721089906,
+              "roi_crc": 1476000000,
+              "full_crc": 3285370990,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57943,
+              "tick": 26721539913,
+              "roi_crc": 2516668535,
+              "full_crc": 2952946271,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57944,
+              "tick": 26721989919,
+              "roi_crc": 2537935070,
+              "full_crc": 73958252,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57945,
+              "tick": 26722439926,
+              "roi_crc": 3925314092,
+              "full_crc": 1611092730,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57946,
+              "tick": 26722889932,
+              "roi_crc": 3925314092,
+              "full_crc": 3702680035,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57947,
+              "tick": 26723339938,
+              "roi_crc": 987347621,
+              "full_crc": 3054354557,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 57948,
+              "tick": 26723789945,
+              "roi_crc": 987347621,
+              "full_crc": 3054354557,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1387,
+          "neighborhood": [
+            {
+              "sequence": 59133,
+              "tick": 27257047573,
+              "roi_crc": 3663877193,
+              "full_crc": 2800739679,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59134,
+              "tick": 27257497580,
+              "roi_crc": 3663877193,
+              "full_crc": 2800739679,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59135,
+              "tick": 27257947586,
+              "roi_crc": 3865467407,
+              "full_crc": 3917402950,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59136,
+              "tick": 27258397592,
+              "roi_crc": 1075972530,
+              "full_crc": 1415810629,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59137,
+              "tick": 27258847599,
+              "roi_crc": 384833824,
+              "full_crc": 1864054145,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59138,
+              "tick": 27259297605,
+              "roi_crc": 384833824,
+              "full_crc": 1864054145,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59139,
+              "tick": 27259747612,
+              "roi_crc": 3370493601,
+              "full_crc": 2482447771,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1388,
+          "neighborhood": [
+            {
+              "sequence": 59134,
+              "tick": 27257497580,
+              "roi_crc": 3663877193,
+              "full_crc": 2800739679,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59135,
+              "tick": 27257947586,
+              "roi_crc": 3865467407,
+              "full_crc": 3917402950,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59136,
+              "tick": 27258397592,
+              "roi_crc": 1075972530,
+              "full_crc": 1415810629,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59137,
+              "tick": 27258847599,
+              "roi_crc": 384833824,
+              "full_crc": 1864054145,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59138,
+              "tick": 27259297605,
+              "roi_crc": 384833824,
+              "full_crc": 1864054145,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59139,
+              "tick": 27259747612,
+              "roi_crc": 3370493601,
+              "full_crc": 2482447771,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 59140,
+              "tick": 27260197618,
+              "roi_crc": 3370493601,
+              "full_crc": 2482447771,
+              "geometry_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_000",
+      "camera": 6,
+      "single_raster_intervals": 2,
+      "xor_counts": {
+        "c6f0d231": 1,
+        "aeab0cc4": 1
+      },
+      "neighborhoods": [
+        {
+          "index": 883,
+          "neighborhood": [
+            {
+              "sequence": 60065,
+              "tick": 27030255168,
+              "roi_crc": 2992102370,
+              "full_crc": 158772053,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60066,
+              "tick": 27030705174,
+              "roi_crc": 2992102370,
+              "full_crc": 3801779880,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60067,
+              "tick": 27031155180,
+              "roi_crc": 2905769248,
+              "full_crc": 891527621,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60068,
+              "tick": 27031605186,
+              "roi_crc": 1807898385,
+              "full_crc": 1204404935,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60069,
+              "tick": 27032055192,
+              "roi_crc": 3312016341,
+              "full_crc": 1120538626,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60070,
+              "tick": 27032505198,
+              "roi_crc": 3312016341,
+              "full_crc": 1120538626,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60071,
+              "tick": 27032955205,
+              "roi_crc": 2946224489,
+              "full_crc": 1539703552,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 884,
+          "neighborhood": [
+            {
+              "sequence": 60066,
+              "tick": 27030705174,
+              "roi_crc": 2992102370,
+              "full_crc": 3801779880,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60067,
+              "tick": 27031155180,
+              "roi_crc": 2905769248,
+              "full_crc": 891527621,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60068,
+              "tick": 27031605186,
+              "roi_crc": 1807898385,
+              "full_crc": 1204404935,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60069,
+              "tick": 27032055192,
+              "roi_crc": 3312016341,
+              "full_crc": 1120538626,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60070,
+              "tick": 27032505198,
+              "roi_crc": 3312016341,
+              "full_crc": 1120538626,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60071,
+              "tick": 27032955205,
+              "roi_crc": 2946224489,
+              "full_crc": 1539703552,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60072,
+              "tick": 27033405211,
+              "roi_crc": 2946224489,
+              "full_crc": 566370748,
+              "geometry_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_001",
+      "camera": 2,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_001",
+      "camera": 3,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_001",
+      "camera": 4,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_001",
+      "camera": 5,
+      "single_raster_intervals": 8,
+      "xor_counts": {
+        "d100f9cd": 1,
+        "b64a9fde": 1,
+        "a64453bd": 1,
+        "b39f9cef": 1,
+        "45fdfe68": 2,
+        "6ab56996": 1,
+        "5100d72b": 1
+      },
+      "neighborhoods": [
+        {
+          "index": 468,
+          "neighborhood": [
+            {
+              "sequence": 60391,
+              "tick": 27823155665,
+              "roi_crc": 4112148128,
+              "full_crc": 4243254369,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60392,
+              "tick": 27823605671,
+              "roi_crc": 4112148128,
+              "full_crc": 4243254369,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60393,
+              "tick": 27824055677,
+              "roi_crc": 4205584600,
+              "full_crc": 1443759872,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60394,
+              "tick": 27824505684,
+              "roi_crc": 732748053,
+              "full_crc": 3336034321,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60395,
+              "tick": 27824955690,
+              "roi_crc": 2649114315,
+              "full_crc": 3698511459,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60396,
+              "tick": 27825405697,
+              "roi_crc": 2649114315,
+              "full_crc": 3698511459,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60397,
+              "tick": 27825855703,
+              "roi_crc": 670880945,
+              "full_crc": 2826428928,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 469,
+          "neighborhood": [
+            {
+              "sequence": 60392,
+              "tick": 27823605671,
+              "roi_crc": 4112148128,
+              "full_crc": 4243254369,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60393,
+              "tick": 27824055677,
+              "roi_crc": 4205584600,
+              "full_crc": 1443759872,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60394,
+              "tick": 27824505684,
+              "roi_crc": 732748053,
+              "full_crc": 3336034321,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60395,
+              "tick": 27824955690,
+              "roi_crc": 2649114315,
+              "full_crc": 3698511459,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60396,
+              "tick": 27825405697,
+              "roi_crc": 2649114315,
+              "full_crc": 3698511459,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60397,
+              "tick": 27825855703,
+              "roi_crc": 670880945,
+              "full_crc": 2826428928,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60398,
+              "tick": 27826305710,
+              "roi_crc": 670880945,
+              "full_crc": 421630179,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 828,
+          "neighborhood": [
+            {
+              "sequence": 60751,
+              "tick": 27985157979,
+              "roi_crc": 697143425,
+              "full_crc": 3818012256,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60752,
+              "tick": 27985607985,
+              "roi_crc": 697143425,
+              "full_crc": 554507289,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60753,
+              "tick": 27986057991,
+              "roi_crc": 4104687504,
+              "full_crc": 1069494077,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60754,
+              "tick": 27986507998,
+              "roi_crc": 1391254573,
+              "full_crc": 2191684158,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60755,
+              "tick": 27986958004,
+              "roi_crc": 3782426818,
+              "full_crc": 59469032,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60756,
+              "tick": 27987408011,
+              "roi_crc": 3782426818,
+              "full_crc": 59469032,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60757,
+              "tick": 27987858017,
+              "roi_crc": 514864798,
+              "full_crc": 1593185342,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 829,
+          "neighborhood": [
+            {
+              "sequence": 60752,
+              "tick": 27985607985,
+              "roi_crc": 697143425,
+              "full_crc": 554507289,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60753,
+              "tick": 27986057991,
+              "roi_crc": 4104687504,
+              "full_crc": 1069494077,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60754,
+              "tick": 27986507998,
+              "roi_crc": 1391254573,
+              "full_crc": 2191684158,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60755,
+              "tick": 27986958004,
+              "roi_crc": 3782426818,
+              "full_crc": 59469032,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60756,
+              "tick": 27987408011,
+              "roi_crc": 3782426818,
+              "full_crc": 59469032,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60757,
+              "tick": 27987858017,
+              "roi_crc": 514864798,
+              "full_crc": 1593185342,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 60758,
+              "tick": 27988308024,
+              "roi_crc": 514864798,
+              "full_crc": 1593185342,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1456,
+          "neighborhood": [
+            {
+              "sequence": 61379,
+              "tick": 28267762013,
+              "roi_crc": 47986456,
+              "full_crc": 3663681179,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61380,
+              "tick": 28268212019,
+              "roi_crc": 47986456,
+              "full_crc": 3663681179,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61381,
+              "tick": 28268662026,
+              "roi_crc": 336657443,
+              "full_crc": 3358108217,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61382,
+              "tick": 28269112032,
+              "roi_crc": 1374487115,
+              "full_crc": 3572064197,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61383,
+              "tick": 28269562039,
+              "roi_crc": 995650525,
+              "full_crc": 732562973,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61384,
+              "tick": 28270012045,
+              "roi_crc": 995650525,
+              "full_crc": 732562973,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61385,
+              "tick": 28270462051,
+              "roi_crc": 664555201,
+              "full_crc": 530051670,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1457,
+          "neighborhood": [
+            {
+              "sequence": 61380,
+              "tick": 28268212019,
+              "roi_crc": 47986456,
+              "full_crc": 3663681179,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61381,
+              "tick": 28268662026,
+              "roi_crc": 336657443,
+              "full_crc": 3358108217,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61382,
+              "tick": 28269112032,
+              "roi_crc": 1374487115,
+              "full_crc": 3572064197,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61383,
+              "tick": 28269562039,
+              "roi_crc": 995650525,
+              "full_crc": 732562973,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61384,
+              "tick": 28270012045,
+              "roi_crc": 995650525,
+              "full_crc": 732562973,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61385,
+              "tick": 28270462051,
+              "roi_crc": 664555201,
+              "full_crc": 530051670,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61386,
+              "tick": 28270912058,
+              "roi_crc": 664555201,
+              "full_crc": 530051670,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1486,
+          "neighborhood": [
+            {
+              "sequence": 61409,
+              "tick": 28281262205,
+              "roi_crc": 1709914235,
+              "full_crc": 1598850146,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61410,
+              "tick": 28281712212,
+              "roi_crc": 1709914235,
+              "full_crc": 1598850146,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61411,
+              "tick": 28282162218,
+              "roi_crc": 2111073903,
+              "full_crc": 2664771715,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61412,
+              "tick": 28282612225,
+              "roi_crc": 942247943,
+              "full_crc": 4103136078,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61413,
+              "tick": 28283062231,
+              "roi_crc": 1764312876,
+              "full_crc": 750824859,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61414,
+              "tick": 28283512238,
+              "roi_crc": 1764312876,
+              "full_crc": 750824859,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61415,
+              "tick": 28283962244,
+              "roi_crc": 2764975985,
+              "full_crc": 1195406432,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1487,
+          "neighborhood": [
+            {
+              "sequence": 61410,
+              "tick": 28281712212,
+              "roi_crc": 1709914235,
+              "full_crc": 1598850146,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61411,
+              "tick": 28282162218,
+              "roi_crc": 2111073903,
+              "full_crc": 2664771715,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61412,
+              "tick": 28282612225,
+              "roi_crc": 942247943,
+              "full_crc": 4103136078,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61413,
+              "tick": 28283062231,
+              "roi_crc": 1764312876,
+              "full_crc": 750824859,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61414,
+              "tick": 28283512238,
+              "roi_crc": 1764312876,
+              "full_crc": 750824859,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61415,
+              "tick": 28283962244,
+              "roi_crc": 2764975985,
+              "full_crc": 1195406432,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 61416,
+              "tick": 28284412250,
+              "roi_crc": 2764975985,
+              "full_crc": 1195406432,
+              "geometry_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "60_trig30_exp60_live",
+      "block": "events_001",
+      "camera": 6,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_repeat",
+      "block": "events_000",
+      "camera": 2,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_repeat",
+      "block": "events_000",
+      "camera": 3,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_repeat",
+      "block": "events_000",
+      "camera": 4,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    },
+    {
+      "condition": "60_trig30_exp60_repeat",
+      "block": "events_000",
+      "camera": 5,
+      "single_raster_intervals": 10,
+      "xor_counts": {
+        "45fdfe68": 1,
+        "13dfbd28": 1,
+        "a64453bd": 1,
+        "941544ad": 1,
+        "5e481fbe": 1,
+        "18e40fc1": 1,
+        "88b2e6bf": 1,
+        "a734fab0": 1,
+        "e6bd04a4": 1,
+        "173df683": 1
+      },
+      "neighborhoods": [
+        {
+          "index": 296,
+          "neighborhood": [
+            {
+              "sequence": 5459,
+              "tick": 32595023801,
+              "roi_crc": 3476879442,
+              "full_crc": 2752187864,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5460,
+              "tick": 32595473807,
+              "roi_crc": 3476879442,
+              "full_crc": 2752187864,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5461,
+              "tick": 32595923813,
+              "roi_crc": 3475026927,
+              "full_crc": 4121003797,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5462,
+              "tick": 32596373820,
+              "roi_crc": 2329759111,
+              "full_crc": 3915412201,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5463,
+              "tick": 32596823826,
+              "roi_crc": 2567106735,
+              "full_crc": 1055556402,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5464,
+              "tick": 32597273833,
+              "roi_crc": 2567106735,
+              "full_crc": 1055556402,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5465,
+              "tick": 32597723839,
+              "roi_crc": 2566638379,
+              "full_crc": 96790077,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 297,
+          "neighborhood": [
+            {
+              "sequence": 5460,
+              "tick": 32595473807,
+              "roi_crc": 3476879442,
+              "full_crc": 2752187864,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5461,
+              "tick": 32595923813,
+              "roi_crc": 3475026927,
+              "full_crc": 4121003797,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5462,
+              "tick": 32596373820,
+              "roi_crc": 2329759111,
+              "full_crc": 3915412201,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5463,
+              "tick": 32596823826,
+              "roi_crc": 2567106735,
+              "full_crc": 1055556402,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5464,
+              "tick": 32597273833,
+              "roi_crc": 2567106735,
+              "full_crc": 1055556402,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5465,
+              "tick": 32597723839,
+              "roi_crc": 2566638379,
+              "full_crc": 96790077,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5466,
+              "tick": 32598173845,
+              "roi_crc": 2566638379,
+              "full_crc": 96790077,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 422,
+          "neighborhood": [
+            {
+              "sequence": 5585,
+              "tick": 32651724608,
+              "roi_crc": 359998596,
+              "full_crc": 3528184614,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5586,
+              "tick": 32652174615,
+              "roi_crc": 359998596,
+              "full_crc": 3528184614,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5587,
+              "tick": 32652624621,
+              "roi_crc": 996393456,
+              "full_crc": 3119599218,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5588,
+              "tick": 32653074627,
+              "roi_crc": 2636616269,
+              "full_crc": 82580337,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5589,
+              "tick": 32653524634,
+              "roi_crc": 154326752,
+              "full_crc": 2319764286,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5590,
+              "tick": 32653974640,
+              "roi_crc": 154326752,
+              "full_crc": 2319764286,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5591,
+              "tick": 32654424647,
+              "roi_crc": 1461292360,
+              "full_crc": 535274020,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 423,
+          "neighborhood": [
+            {
+              "sequence": 5586,
+              "tick": 32652174615,
+              "roi_crc": 359998596,
+              "full_crc": 3528184614,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5587,
+              "tick": 32652624621,
+              "roi_crc": 996393456,
+              "full_crc": 3119599218,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5588,
+              "tick": 32653074627,
+              "roi_crc": 2636616269,
+              "full_crc": 82580337,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5589,
+              "tick": 32653524634,
+              "roi_crc": 154326752,
+              "full_crc": 2319764286,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5590,
+              "tick": 32653974640,
+              "roi_crc": 154326752,
+              "full_crc": 2319764286,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5591,
+              "tick": 32654424647,
+              "roi_crc": 1461292360,
+              "full_crc": 535274020,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5592,
+              "tick": 32654874653,
+              "roi_crc": 1461292360,
+              "full_crc": 535274020,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 722,
+          "neighborhood": [
+            {
+              "sequence": 5885,
+              "tick": 32786726533,
+              "roi_crc": 2329363386,
+              "full_crc": 1128364227,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5886,
+              "tick": 32787176539,
+              "roi_crc": 2329363386,
+              "full_crc": 1128364227,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5887,
+              "tick": 32787626546,
+              "roi_crc": 2408367015,
+              "full_crc": 2838519529,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5888,
+              "tick": 32788076552,
+              "roi_crc": 3519339545,
+              "full_crc": 163141944,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5889,
+              "tick": 32788526559,
+              "roi_crc": 3374371800,
+              "full_crc": 3457556778,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5890,
+              "tick": 32788976565,
+              "roi_crc": 3374371800,
+              "full_crc": 3457556778,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5891,
+              "tick": 32789426571,
+              "roi_crc": 2953339760,
+              "full_crc": 1733892686,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 723,
+          "neighborhood": [
+            {
+              "sequence": 5886,
+              "tick": 32787176539,
+              "roi_crc": 2329363386,
+              "full_crc": 1128364227,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5887,
+              "tick": 32787626546,
+              "roi_crc": 2408367015,
+              "full_crc": 2838519529,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5888,
+              "tick": 32788076552,
+              "roi_crc": 3519339545,
+              "full_crc": 163141944,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5889,
+              "tick": 32788526559,
+              "roi_crc": 3374371800,
+              "full_crc": 3457556778,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5890,
+              "tick": 32788976565,
+              "roi_crc": 3374371800,
+              "full_crc": 3457556778,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5891,
+              "tick": 32789426571,
+              "roi_crc": 2953339760,
+              "full_crc": 1733892686,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 5892,
+              "tick": 32789876578,
+              "roi_crc": 2953339760,
+              "full_crc": 1733892686,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 958,
+          "neighborhood": [
+            {
+              "sequence": 6121,
+              "tick": 32892928048,
+              "roi_crc": 1869865242,
+              "full_crc": 2230890679,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6122,
+              "tick": 32893378054,
+              "roi_crc": 1869865242,
+              "full_crc": 2230890679,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6123,
+              "tick": 32893828060,
+              "roi_crc": 4113892205,
+              "full_crc": 2541507682,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6124,
+              "tick": 32894278067,
+              "roi_crc": 2106058194,
+              "full_crc": 2786364170,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6125,
+              "tick": 32894728073,
+              "roi_crc": 3669172066,
+              "full_crc": 2883618833,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6126,
+              "tick": 32895178080,
+              "roi_crc": 3669172066,
+              "full_crc": 2883618833,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6127,
+              "tick": 32895628086,
+              "roi_crc": 1519498408,
+              "full_crc": 846349541,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 959,
+          "neighborhood": [
+            {
+              "sequence": 6122,
+              "tick": 32893378054,
+              "roi_crc": 1869865242,
+              "full_crc": 2230890679,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6123,
+              "tick": 32893828060,
+              "roi_crc": 4113892205,
+              "full_crc": 2541507682,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6124,
+              "tick": 32894278067,
+              "roi_crc": 2106058194,
+              "full_crc": 2786364170,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6125,
+              "tick": 32894728073,
+              "roi_crc": 3669172066,
+              "full_crc": 2883618833,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6126,
+              "tick": 32895178080,
+              "roi_crc": 3669172066,
+              "full_crc": 2883618833,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6127,
+              "tick": 32895628086,
+              "roi_crc": 1519498408,
+              "full_crc": 846349541,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6128,
+              "tick": 32896078092,
+              "roi_crc": 1519498408,
+              "full_crc": 846349541,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1676,
+          "neighborhood": [
+            {
+              "sequence": 6839,
+              "tick": 33216032652,
+              "roi_crc": 2051245259,
+              "full_crc": 1471555962,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6840,
+              "tick": 33216482658,
+              "roi_crc": 2051245259,
+              "full_crc": 1403289774,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6841,
+              "tick": 33216932665,
+              "roi_crc": 1900715397,
+              "full_crc": 3112498295,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6842,
+              "tick": 33217382671,
+              "roi_crc": 2549586209,
+              "full_crc": 3949719326,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6843,
+              "tick": 33217832678,
+              "roi_crc": 2160750498,
+              "full_crc": 3680970024,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6844,
+              "tick": 33218282684,
+              "roi_crc": 2160750498,
+              "full_crc": 3680970024,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6845,
+              "tick": 33218732690,
+              "roi_crc": 1428212524,
+              "full_crc": 1789485993,
+              "geometry_valid": true
+            }
+          ]
+        },
+        {
+          "index": 1677,
+          "neighborhood": [
+            {
+              "sequence": 6840,
+              "tick": 33216482658,
+              "roi_crc": 2051245259,
+              "full_crc": 1403289774,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6841,
+              "tick": 33216932665,
+              "roi_crc": 1900715397,
+              "full_crc": 3112498295,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6842,
+              "tick": 33217382671,
+              "roi_crc": 2549586209,
+              "full_crc": 3949719326,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6843,
+              "tick": 33217832678,
+              "roi_crc": 2160750498,
+              "full_crc": 3680970024,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6844,
+              "tick": 33218282684,
+              "roi_crc": 2160750498,
+              "full_crc": 3680970024,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6845,
+              "tick": 33218732690,
+              "roi_crc": 1428212524,
+              "full_crc": 1789485993,
+              "geometry_valid": true
+            },
+            {
+              "sequence": 6846,
+              "tick": 33219182697,
+              "roi_crc": 1428212524,
+              "full_crc": 1789485993,
+              "geometry_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "60_trig30_exp60_repeat",
+      "block": "events_000",
+      "camera": 6,
+      "single_raster_intervals": 0,
+      "xor_counts": {},
+      "neighborhoods": []
+    }
+  ],
+  "limitation": "CRC neighborhoods alone cannot distinguish receiver sampling errors, camera payload changes or tearing. Repeated CRC XOR values are suggestive, not a diagnosis."
+}

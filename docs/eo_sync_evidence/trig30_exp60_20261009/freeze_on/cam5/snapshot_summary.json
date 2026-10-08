@@ -1,0 +1,23 @@
+{
+  "width": 512,
+  "height": 448,
+  "original_xywh": [
+    512,
+    128,
+    1024,
+    896
+  ],
+  "sampling": "Every second Y pixel and row of the OSD crop; no filtering",
+  "frames": [
+    {
+      "sequence": 2632,
+      "file": "frame_02632.png",
+      "packets": 28672,
+      "sha256": "7952a685fa6ce94d6b672d1ca9e647126ae6ce7f521819445bf3f03615f5745c",
+      "mean_y": 97.16139439174107
+    }
+  ],
+  "partial_frames": {
+    "2633": 4096
+  }
+}

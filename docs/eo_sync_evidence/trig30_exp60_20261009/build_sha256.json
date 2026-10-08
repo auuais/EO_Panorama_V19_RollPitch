@@ -1,0 +1,91 @@
+{
+  "build": "builds\\eo_sync_20261008_r4_trig30",
+  "revision": "r4",
+  "source_commit": "a9020ee",
+  "validation": {
+    "wns_ns": 0.723,
+    "tns_ns": 0.0,
+    "whs_ns": 0.01,
+    "ths_ns": 0.0,
+    "wpws_ns": 1.347,
+    "tpws_ns": 0.0,
+    "camera_clock_mhz": 148.5,
+    "input_delays": "Zero-reference aperture model, not measured board/camera timing",
+    "trigger_hz": 30,
+    "trigger_high_us": 2000,
+    "reference_hz": 27000000
+  },
+  "files": [
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\EoSyncTop.bit",
+      "bytes": 18204640,
+      "sha256": "4bc5272d453f505f14399f305149ac6a317848bb6761116a3e374ee0e5f54006"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\EoSyncTop.ltx",
+      "bytes": 213694,
+      "sha256": "40d5728d16f684f0e07388c32abef7fc3dd2a649c5c3c55fd6a2092d423a8e5c"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\EoSyncTop_routed.dcp",
+      "bytes": 19764904,
+      "sha256": "7264bde64c776d05def066d7b88d5b3a6135899836cb4ae627101ce65ff494a9"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\build_validation.json",
+      "bytes": 264,
+      "sha256": "662937bb80819eacb8857f264193b77881820f313fb2888a60a4bc7f35e574dd"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\build_options.tcl",
+      "bytes": 38,
+      "sha256": "0b5e8b6194961d01adef6b5db1cf38112c65bcc8eec5372931a2bbf6faf3474b"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\Eo60InputSampler.v",
+      "bytes": 1137,
+      "sha256": "7bb2daca05c83c08435ca22a8eff4689fa0d0dfc74a62065bdabd1bb550de07c"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\Eo60RasterMonitor.v",
+      "bytes": 4325,
+      "sha256": "51daaed9aba5c7e93e84c615e3b3bbb0c526110f56bdd1e166274cd2e8fd50df"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\EoSyncPhaseClock.v",
+      "bytes": 1870,
+      "sha256": "8b137144176334df850d76a92fdeadd9f659023f9e96e3982f0676d7481ddbc5"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\EoSyncPhaseControl.v",
+      "bytes": 1098,
+      "sha256": "d381c600b1c1cc189b60c7dfbcce99b8722d224f7b68f19b7cabf2cbebd2d177"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\EoSyncSnapshot.v",
+      "bytes": 1651,
+      "sha256": "9b56c6bf1bf6284eea343ed3bdc71e25fdd946d84fab947a9b523d3828dfd34b"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\EoSyncTelemetry.v",
+      "bytes": 2518,
+      "sha256": "75794d3d7c4557fe992917e1e1ae8e2bd6dd78b665596d37b4dd5e80a028c284"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\rtl\\EoSyncTop.v",
+      "bytes": 9528,
+      "sha256": "6cee924d19547a3e6f1f6ee5fb538b571f76234e6a7599bfd301f389aa39ec61"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\constraints\\eo_sync_board.xdc",
+      "bytes": 13015,
+      "sha256": "47387b15d3e9b32c82d34b92a783bacc0aad2f6f1ee016f14b157b8f24299274"
+    },
+    {
+      "path": "builds\\eo_sync_20261008_r4_trig30\\source_snapshot\\constraints\\eo_sync_phase60.xdc",
+      "bytes": 557,
+      "sha256": "546013fef1b943d2d3085c4ec5574a5cd3cb2f11446cfb1f13897f55bcb88541"
+    }
+  ],
+  "reuse_note": "Existing r4 build reused without rebuilding for the 1/60 s exposure comparison."
+}

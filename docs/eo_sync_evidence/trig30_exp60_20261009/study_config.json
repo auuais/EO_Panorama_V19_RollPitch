@@ -1,0 +1,95 @@
+{
+  "protocol": {
+    "date": "9 October 2026 KST",
+    "physical_cameras": "2\u20136",
+    "trigger_hz": 30,
+    "trigger_high_us": 2000,
+    "reference_hz_nominal": 27000000,
+    "shutter_s": 0.016666666666666666,
+    "agc_db": 0,
+    "dnr": "2D+3D",
+    "mode": "ExtTrig",
+    "format_fps": 60,
+    "exttrig_delay_ms": 0.0,
+    "strobe_delay_ms": 0.0,
+    "strobe_width_ms": 1.0,
+    "trigger_polarity": "OFF",
+    "manual": "DM-G15-42 v1.04, printed page 41: ExtTrig Delay lies between incoming trigger edge and exposure start; Strobe Delay controls the separate output pulse.",
+    "manual_sha256": "e1f5c8ce23da0bca8b7f631279c96de8f947967754329e5fa9586fe79a0b1634",
+    "setting_evidence": "pretest_verified.json; baseline_exposure, baseline_trigger, baseline_format, freeze_on and freeze_off direct OSD crops.",
+    "sampling_selection": "Reused final r4 rising-edge taps from prior phase qualification; fresh five-camera frozen-image control at 1/60 s.",
+    "limits": "Nominal reference is uncalibrated. Raster boundaries and qualified ROI changes do not establish physical exposure starts or shared frame identity. DNR remains enabled. Capture gaps are not joined.",
+    "trigger_scope": "ILA measures the common FPGA-generated trigger; electrical arrival, optocoupler latency and acceptance at camera inputs are not measured.",
+    "timestamp_boundary": "V 1-to-0 active-raster boundary. CRC describes the preceding complete raster."
+  },
+  "conditions": [
+    {
+      "id": "60_trig30_exp60_freeze",
+      "format_fps": 60,
+      "mode": "ExtTrig 30 Hz",
+      "control": true,
+      "blocks": 1,
+      "build": "r4_trig30",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        336,
+        280,
+        308,
+        280,
+        322
+      ]
+    },
+    {
+      "id": "60_trig30_exp60_live",
+      "format_fps": 60,
+      "mode": "ExtTrig 30 Hz",
+      "control": false,
+      "control_id": "60_trig30_exp60_freeze",
+      "blocks": 2,
+      "build": "r4_trig30",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        336,
+        280,
+        308,
+        280,
+        322
+      ]
+    },
+    {
+      "id": "60_trig30_exp60_repeat",
+      "format_fps": 60,
+      "mode": "ExtTrig 30 Hz",
+      "control": false,
+      "control_id": "60_trig30_exp60_freeze",
+      "blocks": 1,
+      "build": "r4_trig30",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        336,
+        280,
+        308,
+        280,
+        322
+      ]
+    }
+  ]
+}
