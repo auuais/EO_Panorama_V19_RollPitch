@@ -1,0 +1,82 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BCA145BE12F759BDCDFFE30A6E59321A22A9BD681A4E9E0CBF442AD9E7DC7CF0",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\build_validation.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "F45B39275438826990C998F783C858C24D45F54438E6C1FC77B76A10B045AD5E",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\bus_skew.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "CB9B8F95D8B13409B7CEA13070464590FE022CAF0372385F3F25772235678F7F",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\cdc.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "31D37AA8350582B8E48370C7B0981D0FF86079A7621C96E69803FC1F799FFF89",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\clocks.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E7D4314524896CCAD7BF474D31F265F71C83970C7EBC2103A6045926E7DA4C67",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\drc.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C511B866832FF6319EB26CECA2BC64059EC817A8E94F1456F7305C9D662974E1",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\EoSyncTop_routed.dcp"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3E03A88B7B9A7F110A219E5B70B574D450DA74EBFFB3E37742FA6DD3C10117B7",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\EoSyncTop.bit"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4E1AA1C46B1AA50738B676591A150EA404DF149BEF36625788680E452DD0EA9B",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\EoSyncTop.ltx"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E4EAC85056033D8F396A2DE629A1C6BB4716FEF03B9B51AA33252A07FC4A3ADE",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\input_hold_zero_reference.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "79D9D4E116512D3BE2733F633875995A17663AF7454FA5294E7313A29AC02685",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\input_setup_zero_reference.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "D8324142470E96F5048FC43AB6A885E8F3470B2D8A59E312680E94E7A0B378DA",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\internal_hold.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "6E0F7A8B84E68FC3D87D952720DBF34D00DEDB8599AB42DB1E8F0963F9B1A126",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\internal_setup.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0F670162CDD8C3818AB7087CA10825AC93562AF3468C6C0C2F3B0E0F1B9D8492",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\io.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "96E0609B1F77BF77AB862FFD3C5DD1E52B1FEE61220F870238F0BE31BB788DBE",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\sampler_placement.csv"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0B45441FA7C457DEC0E82548D5C89B65362A8599C5B735EDD7DFF24D7C30A70B",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\timing_summary.rpt"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "941BDB560D112BAF394AA861BC800C418D93C47D73E12F44BFC620A5E258C090",
+    "Path": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\builds\\eo_sync_20261008_r1\\utilization.rpt"
+  }
+]

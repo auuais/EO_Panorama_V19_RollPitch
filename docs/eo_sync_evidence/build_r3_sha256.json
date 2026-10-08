@@ -1,0 +1,30 @@
+{
+  "build": "r3 phase60",
+  "files": {
+    "EoSyncTop.bit": "d7792802795b56739a60a6cb27955b4ba45fcbfb89b0c3793a86ce110cb7f6ea",
+    "EoSyncTop.ltx": "40d5728d16f684f0e07388c32abef7fc3dd2a649c5c3c55fd6a2092d423a8e5c",
+    "EoSyncTop_routed.dcp": "cb65d5afab42517ad5ee58dc7fc8dc41581a05d06f31a6394e68cc5dce5d83ed",
+    "build_validation.json": "2dda2c4ddedc9222f9cebc4eec6204efcdf82f4c16072352c146b7a5ffced3f8",
+    "phase_clock_placement.txt": "c242a2db59ab030c1d431e233687c55f099b659260baaeb570ec90deeb6c741c",
+    "bus_skew.rpt": "a744b250bf611048d0c37cd7c95bf0d2d05fab7092eaa68b896011fae3518bf2"
+  },
+  "rtl_source_commit": "207bf75",
+  "route_recipe": "diagnostics/eo_sync/scripts/route_phase_checkpoint.tcl",
+  "constraint": "ANY_CMT_COLUMN; no FALSE clock-routing override",
+  "timing": {
+    "wns_ns": 1.257,
+    "tns_ns": 0.0,
+    "whs_ns": 0.01,
+    "ths_ns": 0.0,
+    "wpws_ns": 1.347,
+    "tpws_ns": 0.0,
+    "camera_clock_mhz": 148.5,
+    "input_delays": "Zero-reference aperture model, not measured board/camera timing",
+    "trigger_hz": 60,
+    "reference_hz": 27000000
+  },
+  "bus_skew_minimum_slack_ns": 36.55,
+  "phase_clock_mmcms": 5,
+  "sdr_input_registers": 160,
+  "custom_cdc_warning_or_critical_rows": 0
+}

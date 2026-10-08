@@ -1,0 +1,66 @@
+LTX: E:/Xylinx/EO_Panorama_V19_RollPitch/builds/eo_sync_20261008_r1/EoSyncTop.ltx
+Started: Thu Oct 08 18:45:45 +0900 2026
+Device: xcku15p_0
+ILA: hw_ila_1
+Property                                       Type    Read-only  Value
+CELL_NAME                                      enum    true       u_ila
+CLASS                                          string  true       hw_ila
+CONTROL.CAPTURE_CONDITION                      enum    false      AND
+CONTROL.CAPTURE_MODE                           enum    false      ALWAYS
+CONTROL.DATA_DEPTH                             int     false      16384
+CONTROL.TRIGGER_CONDITION                      string  false      AND
+CONTROL.TRIGGER_MODE                           enum    true       BASIC_ONLY
+CONTROL.TRIGGER_POSITION                       int     false      8192
+CONTROL.TRIG_OUT_MODE                          enum    true       DISABLED
+CONTROL.TSM_FILE                               string  false      
+CONTROL.WINDOW_COUNT                           int     false      1
+CORE_REFRESH_RATE_MS                           int     false      500
+CORE_UUID                                      string  true       C30A833047BA52038DBC7E3E3214D902
+NAME                                           string  true       hw_ila_1
+STATIC.ILA_CLOCK_FREQ                          int     true       0
+STATIC.IS_ADVANCED_TRIGGER_MODE_SUPPORTED      bool    true       0
+STATIC.IS_BASIC_CAPTURE_MODE_SUPPORTED         bool    true       1
+STATIC.IS_TRANSITIONAL_CAPTURE_MODE_SUPPORTED  bool    true       0
+STATIC.IS_TRIG_IN_SUPPORTED                    bool    true       0
+STATIC.IS_TRIG_OUT_SUPPORTED                   bool    true       0
+STATIC.MAX_DATA_DEPTH                          int     true       16384
+STATIC.PORTS.COUNT                             int     true       5
+STATIC.PORTS.PORT_0.COMPARATOR_COUNT           int     true       2
+STATIC.PORTS.PORT_0.IS_DATA                    bool    true       1
+STATIC.PORTS.PORT_0.IS_TRIGGER                 bool    true       1
+STATIC.PORTS.PORT_0.WIDTH                      int     true       64
+STATIC.PORTS.PORT_1.COMPARATOR_COUNT           int     true       2
+STATIC.PORTS.PORT_1.IS_DATA                    bool    true       1
+STATIC.PORTS.PORT_1.IS_TRIGGER                 bool    true       1
+STATIC.PORTS.PORT_1.WIDTH                      int     true       256
+STATIC.PORTS.PORT_2.COMPARATOR_COUNT           int     true       2
+STATIC.PORTS.PORT_2.IS_DATA                    bool    true       1
+STATIC.PORTS.PORT_2.IS_TRIGGER                 bool    true       1
+STATIC.PORTS.PORT_2.WIDTH                      int     true       1
+STATIC.PORTS.PORT_3.COMPARATOR_COUNT           int     true       2
+STATIC.PORTS.PORT_3.IS_DATA                    bool    true       1
+STATIC.PORTS.PORT_3.IS_TRIGGER                 bool    true       1
+STATIC.PORTS.PORT_3.WIDTH                      int     true       16
+STATIC.PORTS.PORT_4.COMPARATOR_COUNT           int     true       2
+STATIC.PORTS.PORT_4.IS_DATA                    bool    true       1
+STATIC.PORTS.PORT_4.IS_TRIGGER                 bool    true       1
+STATIC.PORTS.PORT_4.WIDTH                      int     true       32
+STATIC.TIME_TAG_PORT                           int     true       -1
+STATIC.TIME_TAG_WIDTH                          int     true       0
+STATIC.TSM_COUNTER_0_WIDTH                     int     true       0
+STATIC.TSM_COUNTER_1_WIDTH                     int     true       0
+STATIC.TSM_COUNTER_2_WIDTH                     int     true       0
+STATIC.TSM_COUNTER_3_WIDTH                     int     true       0
+STATUS.CORE_STATUS                             string  true       IDLE
+STATUS.DATA_DEPTH                              int     true       1
+STATUS.IS_TRIGGER_AT_STARTUP                   bool    true       0
+STATUS.SAMPLE_COUNT                            int     true       0
+STATUS.TRIGGER_POSITION                        int     true       0
+STATUS.TSM_FLAG0                               bool    true       0
+STATUS.TSM_FLAG1                               bool    true       0
+STATUS.TSM_FLAG2                               bool    true       0
+STATUS.TSM_FLAG3                               bool    true       0
+STATUS.TSM_STATE                               int     true       0
+STATUS.WINDOW_COUNT                            int     true       1
+TRIGGER_START_TIME_SECONDS                     string  true       
+TRIGGER_STOP_TIME_SECONDS                      string  true       

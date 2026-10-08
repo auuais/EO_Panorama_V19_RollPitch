@@ -1,0 +1,1360 @@
+{
+  "reference_hz": 27000000,
+  "timestamp_quantum_ns": 37.03703703703704,
+  "blocks": [
+    {
+      "file": "events_000.csv",
+      "sha256": "2ef52a46afa43faf1ba7c1221080ca234506d7210e39b8ca8d0c09f985c4d5a8",
+      "duration_s": 39.14872344444444,
+      "events": 16384,
+      "phases": {
+        "rising": {
+          "cameras": [
+            {
+              "camera": 2,
+              "phase": "rising",
+              "records": 1175,
+              "timing_valid": 1175,
+              "valid": 1175,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1174,
+              "duration_s": 39.13384855555555,
+              "raster_hz": 29.999605030753756,
+              "period_us": {
+                "n": 1174,
+                "min": 33333.74074074074,
+                "median": 33333.77777777778,
+                "p95": 33333.77777777778,
+                "max": 33333.77777777778,
+                "mean": 33333.77219382927
+              },
+              "full_changes": 1174,
+              "roi_changes": 1174,
+              "full_change_hz": 29.999605030753756,
+              "roi_change_hz": 29.999605030753756,
+              "since_trigger_fall_us": {
+                "n": 1175,
+                "min": 5093.259259259259,
+                "median": 5350.962962962963,
+                "p95": 5582.688888888889,
+                "max": 5608.481481481482,
+                "mean": 5350.872970843184
+              }
+            },
+            {
+              "camera": 3,
+              "phase": "rising",
+              "records": 1175,
+              "timing_valid": 1175,
+              "valid": 1175,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1174,
+              "duration_s": 39.134017,
+              "raster_hz": 29.999475903534258,
+              "period_us": {
+                "n": 1174,
+                "min": 33333.88888888889,
+                "median": 33333.92592592593,
+                "p95": 33333.92592592593,
+                "max": 33333.92592592593,
+                "mean": 33333.91567291312
+              },
+              "full_changes": 1174,
+              "roi_changes": 1174,
+              "full_change_hz": 29.999475903534258,
+              "roi_change_hz": 29.999475903534258,
+              "since_trigger_fall_us": {
+                "n": 1175,
+                "min": 12706.444444444445,
+                "median": 13048.407407407407,
+                "p95": 13355.918518518518,
+                "max": 13390.111111111111,
+                "mean": 13048.31085894405
+              }
+            },
+            {
+              "camera": 4,
+              "phase": "rising",
+              "records": 1174,
+              "timing_valid": 1174,
+              "valid": 1174,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1173,
+              "duration_s": 39.10062059259259,
+              "raster_hz": 29.999523849558,
+              "period_us": {
+                "n": 1173,
+                "min": 33333.851851851854,
+                "median": 33333.851851851854,
+                "p95": 33333.88888888889,
+                "max": 33333.88888888889,
+                "mean": 33333.86239777715
+              },
+              "full_changes": 1173,
+              "roi_changes": 1173,
+              "full_change_hz": 29.999523849558,
+              "roi_change_hz": 29.999523849558,
+              "since_trigger_fall_us": {
+                "n": 1174,
+                "min": 0.0,
+                "median": 16356.0,
+                "p95": 16635.083333333336,
+                "max": 16666.14814814815,
+                "mean": 16055.234084169348
+              }
+            },
+            {
+              "camera": 5,
+              "phase": "rising",
+              "records": 1175,
+              "timing_valid": 1175,
+              "valid": 1175,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1174,
+              "duration_s": 39.133906814814814,
+              "raster_hz": 29.99956036987245,
+              "period_us": {
+                "n": 1174,
+                "min": 33333.81481481482,
+                "median": 33333.81481481482,
+                "p95": 33333.851851851854,
+                "max": 33333.851851851854,
+                "mean": 33333.821818411256
+              },
+              "full_changes": 1174,
+              "roi_changes": 1174,
+              "full_change_hz": 29.99956036987245,
+              "roi_change_hz": 29.99956036987245,
+              "since_trigger_fall_us": {
+                "n": 1175,
+                "min": 2209.5185185185187,
+                "median": 2496.3333333333335,
+                "p95": 2754.2925925925924,
+                "max": 2783.0,
+                "mean": 2496.2616548463357
+              }
+            },
+            {
+              "camera": 6,
+              "phase": "rising",
+              "records": 1175,
+              "timing_valid": 1175,
+              "valid": 1175,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1174,
+              "duration_s": 39.13387511111111,
+              "raster_hz": 29.999584673552334,
+              "period_us": {
+                "n": 1174,
+                "min": 33333.77777777778,
+                "median": 33333.77777777778,
+                "p95": 33333.81481481482,
+                "max": 33333.81481481482,
+                "mean": 33333.79481355291
+              },
+              "full_changes": 1174,
+              "roi_changes": 1174,
+              "full_change_hz": 29.999584673552334,
+              "roi_change_hz": 29.999584673552334,
+              "since_trigger_fall_us": {
+                "n": 1174,
+                "min": 0.0,
+                "median": 270.64814814814815,
+                "p95": 16639.08148148148,
+                "max": 16666.185185185186,
+                "mean": 5448.74752350306
+              }
+            }
+          ],
+          "spans": {
+            "raster": {
+              "n": 1173,
+              "min": 16231.851851851852,
+              "median": 16271.37037037037,
+              "p95": 16307.044444444444,
+              "max": 16311.037037037036,
+              "mean": 16271.377032616589
+            },
+            "full_crc": {
+              "n": 1172,
+              "min": 16231.888888888889,
+              "median": 16271.388888888889,
+              "p95": 16307.05,
+              "max": 16311.037037037036,
+              "mean": 16271.410757173555
+            },
+            "roi_crc": {
+              "n": 1172,
+              "min": 16231.888888888889,
+              "median": 16271.388888888889,
+              "p95": 16307.05,
+              "max": 16311.037037037036,
+              "mean": 16271.410757173555
+            }
+          },
+          "matching": {
+            "raster": {
+              "cadence_ticks": {
+                "2": 900012.0,
+                "3": 900016.0,
+                "4": 900014,
+                "5": 900013.0,
+                "6": 900012.0
+              },
+              "comparable_cadence": true,
+              "offsets": {
+                "2": {
+                  "unwrapped_offset_us": {
+                    "n": 1173,
+                    "min": 0.0,
+                    "median": 0.0,
+                    "p95": 0.0,
+                    "max": 0.0,
+                    "mean": 0.0
+                  },
+                  "end_minus_start_us": 0.0,
+                  "drift_us_per_second": 0.0
+                },
+                "3": {
+                  "unwrapped_offset_us": {
+                    "n": 1173,
+                    "min": 7613.333333333333,
+                    "median": 7697.444444444444,
+                    "p95": 7773.096296296297,
+                    "max": 7781.481481481482,
+                    "mean": 7697.437940071359
+                  },
+                  "end_minus_start_us": 168.14814814814872,
+                  "drift_us_per_second": 4.303828416943427
+                },
+                "4": {
+                  "unwrapped_offset_us": {
+                    "n": 1173,
+                    "min": 10964.074074074075,
+                    "median": 11016.962962962964,
+                    "p95": 11064.488888888889,
+                    "max": 11069.777777777777,
+                    "mean": 11016.948217612327
+                  },
+                  "end_minus_start_us": 105.70370370370256,
+                  "drift_us_per_second": 2.705275576949696
+                },
+                "5": {
+                  "unwrapped_offset_us": {
+                    "n": 1173,
+                    "min": -2883.703703703704,
+                    "median": -2854.6296296296296,
+                    "p95": -2828.4296296296297,
+                    "max": -2825.5185185185187,
+                    "mean": -2854.611316346184
+                  },
+                  "end_minus_start_us": 58.18518518518522,
+                  "drift_us_per_second": 1.4887472700432287
+                },
+                "6": {
+                  "unwrapped_offset_us": {
+                    "n": 1173,
+                    "min": -5267.777777777777,
+                    "median": -5254.407407407408,
+                    "p95": -5242.555555555556,
+                    "max": -5241.259259259259,
+                    "mean": -5254.428815004263
+                  },
+                  "end_minus_start_us": 26.51851851851825,
+                  "drift_us_per_second": 0.6782863415263355
+                }
+              }
+            },
+            "full_crc": {
+              "cadence_ticks": {
+                "2": 900012,
+                "3": 900016,
+                "4": 900014.0,
+                "5": 900013,
+                "6": 900012
+              },
+              "comparable_cadence": true,
+              "offsets": {
+                "2": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": 0.0,
+                    "median": 0.0,
+                    "p95": 0.0,
+                    "max": 0.0,
+                    "mean": 0.0
+                  },
+                  "end_minus_start_us": 0.0,
+                  "drift_us_per_second": 0.0
+                },
+                "3": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": 7613.518518518518,
+                    "median": 7697.5370370370365,
+                    "p95": 7773.103703703704,
+                    "max": 7781.481481481482,
+                    "mean": 7697.509701681203
+                  },
+                  "end_minus_start_us": 167.9629629629635,
+                  "drift_us_per_second": 4.303823776071158
+                },
+                "4": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": 10964.185185185184,
+                    "median": 11017.018518518518,
+                    "p95": 11064.494444444445,
+                    "max": 11069.777777777777,
+                    "mean": 11016.99333206927
+                  },
+                  "end_minus_start_us": 105.59259259259306,
+                  "drift_us_per_second": 2.70527159009457
+                },
+                "5": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": -2883.5925925925926,
+                    "median": -2854.5925925925926,
+                    "p95": -2828.427777777778,
+                    "max": -2825.5185185185187,
+                    "mean": -2854.586493490077
+                  },
+                  "end_minus_start_us": 58.074074074073906,
+                  "drift_us_per_second": 1.488745721397424
+                },
+                "6": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": -5267.7037037037035,
+                    "median": -5254.37037037037,
+                    "p95": -5242.555555555556,
+                    "max": -5241.259259259259,
+                    "mean": -5254.417425104285
+                  },
+                  "end_minus_start_us": 26.444444444444343,
+                  "drift_us_per_second": 0.6782732792037768
+                }
+              }
+            },
+            "roi_crc": {
+              "cadence_ticks": {
+                "2": 900012,
+                "3": 900016,
+                "4": 900014.0,
+                "5": 900013,
+                "6": 900012
+              },
+              "comparable_cadence": true,
+              "offsets": {
+                "2": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": 0.0,
+                    "median": 0.0,
+                    "p95": 0.0,
+                    "max": 0.0,
+                    "mean": 0.0
+                  },
+                  "end_minus_start_us": 0.0,
+                  "drift_us_per_second": 0.0
+                },
+                "3": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": 7613.518518518518,
+                    "median": 7697.5370370370365,
+                    "p95": 7773.103703703704,
+                    "max": 7781.481481481482,
+                    "mean": 7697.509701681203
+                  },
+                  "end_minus_start_us": 167.9629629629635,
+                  "drift_us_per_second": 4.303823776071158
+                },
+                "4": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": 10964.185185185184,
+                    "median": 11017.018518518518,
+                    "p95": 11064.494444444445,
+                    "max": 11069.777777777777,
+                    "mean": 11016.99333206927
+                  },
+                  "end_minus_start_us": 105.59259259259306,
+                  "drift_us_per_second": 2.70527159009457
+                },
+                "5": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": -2883.5925925925926,
+                    "median": -2854.5925925925926,
+                    "p95": -2828.427777777778,
+                    "max": -2825.5185185185187,
+                    "mean": -2854.586493490077
+                  },
+                  "end_minus_start_us": 58.074074074073906,
+                  "drift_us_per_second": 1.488745721397424
+                },
+                "6": {
+                  "unwrapped_offset_us": {
+                    "n": 1172,
+                    "min": -5267.7037037037035,
+                    "median": -5254.37037037037,
+                    "p95": -5242.555555555556,
+                    "max": -5241.259259259259,
+                    "mean": -5254.417425104285
+                  },
+                  "end_minus_start_us": 26.444444444444343,
+                  "drift_us_per_second": 0.6782732792037768
+                }
+              }
+            }
+          },
+          "trigger_rise_period_us": {
+            "n": 2348,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_fall_period_us": {
+            "n": 2348,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_high_us": {
+            "n": 2349,
+            "min": 2000.0,
+            "median": 2000.0,
+            "p95": 2000.0,
+            "max": 2000.0,
+            "mean": 2000.0
+          }
+        },
+        "falling": {
+          "cameras": [
+            {
+              "camera": 2,
+              "phase": "falling",
+              "records": 1114,
+              "timing_valid": 0,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 0,
+              "raster_hz": null,
+              "period_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": null,
+              "roi_change_hz": null,
+              "since_trigger_fall_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              }
+            },
+            {
+              "camera": 3,
+              "phase": "falling",
+              "records": 1174,
+              "timing_valid": 1174,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 39.10068307407408,
+              "raster_hz": 29.999475911400747,
+              "period_us": {
+                "n": 1173,
+                "min": 33333.88888888889,
+                "median": 33333.92592592593,
+                "p95": 33333.92592592593,
+                "max": 33333.92592592593,
+                "mean": 33333.91566417227
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": 0.0,
+              "roi_change_hz": 0.0,
+              "since_trigger_fall_us": {
+                "n": 1174,
+                "min": 12706.444444444445,
+                "median": 13048.111111111111,
+                "p95": 13355.355555555556,
+                "max": 13389.518518518518,
+                "mean": 13048.01946495047
+              }
+            },
+            {
+              "camera": 4,
+              "phase": "falling",
+              "records": 1174,
+              "timing_valid": 0,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 0,
+              "raster_hz": null,
+              "period_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": null,
+              "roi_change_hz": null,
+              "since_trigger_fall_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              }
+            },
+            {
+              "camera": 5,
+              "phase": "falling",
+              "records": 1175,
+              "timing_valid": 0,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 0,
+              "raster_hz": null,
+              "period_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": null,
+              "roi_change_hz": null,
+              "since_trigger_fall_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              }
+            },
+            {
+              "camera": 6,
+              "phase": "falling",
+              "records": 1175,
+              "timing_valid": 1175,
+              "valid": 1175,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1174,
+              "duration_s": 39.13387511111111,
+              "raster_hz": 29.999584673552334,
+              "period_us": {
+                "n": 1174,
+                "min": 33333.77777777778,
+                "median": 33333.77777777778,
+                "p95": 33333.81481481482,
+                "max": 33333.81481481482,
+                "mean": 33333.79481355291
+              },
+              "full_changes": 1174,
+              "roi_changes": 1174,
+              "full_change_hz": 29.999584673552334,
+              "roi_change_hz": 29.999584673552334,
+              "since_trigger_fall_us": {
+                "n": 1174,
+                "min": 0.0,
+                "median": 270.64814814814815,
+                "p95": 16639.08148148148,
+                "max": 16666.185185185186,
+                "mean": 5448.747491955329
+              }
+            }
+          ],
+          "spans": {
+            "raster": {
+              "n": 0,
+              "min": null,
+              "median": null,
+              "p95": null,
+              "max": null,
+              "mean": null
+            },
+            "full_crc": {
+              "n": 0,
+              "min": null,
+              "median": null,
+              "p95": null,
+              "max": null,
+              "mean": null
+            },
+            "roi_crc": {
+              "n": 0,
+              "min": null,
+              "median": null,
+              "p95": null,
+              "max": null,
+              "mean": null
+            }
+          },
+          "matching": {
+            "raster": {
+              "cadence_ticks": {
+                "2": null,
+                "3": 900016,
+                "4": null,
+                "5": null,
+                "6": 900012.0
+              },
+              "comparable_cadence": false
+            },
+            "full_crc": {
+              "cadence_ticks": {
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": 900012
+              },
+              "comparable_cadence": false
+            },
+            "roi_crc": {
+              "cadence_ticks": {
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": 900012
+              },
+              "comparable_cadence": false
+            }
+          },
+          "trigger_rise_period_us": {
+            "n": 2348,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_fall_period_us": {
+            "n": 2348,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_high_us": {
+            "n": 2349,
+            "min": 2000.0,
+            "median": 2000.0,
+            "p95": 2000.0,
+            "max": 2000.0,
+            "mean": 2000.0
+          }
+        }
+      }
+    },
+    {
+      "file": "events_001.csv",
+      "sha256": "98df1946619a2f851cf3bd565a12e84983b6366103af232c527e2560136b1ff2",
+      "duration_s": 39.086090703703704,
+      "events": 16384,
+      "phases": {
+        "rising": {
+          "cameras": [
+            {
+              "camera": 2,
+              "phase": "rising",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 1173,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1172,
+              "duration_s": 39.06718074074074,
+              "raster_hz": 29.999605238414194,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.74074074074,
+                "median": 33333.77777777778,
+                "p95": 33333.77777777778,
+                "max": 33333.77777777778,
+                "mean": 33333.77196308937
+              },
+              "full_changes": 1172,
+              "roi_changes": 1172,
+              "full_change_hz": 29.999605238414194,
+              "roi_change_hz": 29.999605238414194,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 5713.37037037037,
+                "median": 5970.481481481482,
+                "p95": 6201.65925925926,
+                "max": 6227.444444444444,
+                "mean": 5970.451011966784
+              }
+            },
+            {
+              "camera": 3,
+              "phase": "rising",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 1173,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1172,
+              "duration_s": 39.067348814814814,
+              "raster_hz": 29.99947617524441,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.88888888889,
+                "median": 33333.92592592593,
+                "p95": 33333.92592592593,
+                "max": 33333.92592592593,
+                "mean": 33333.915371002404
+              },
+              "full_changes": 1172,
+              "roi_changes": 1172,
+              "full_change_hz": 29.99947617524441,
+              "roi_change_hz": 29.99947617524441,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 13529.25925925926,
+                "median": 13870.407407407407,
+                "p95": 14177.237037037037,
+                "max": 14211.407407407407,
+                "mean": 13870.367244482333
+              }
+            },
+            {
+              "camera": 4,
+              "phase": "rising",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 1173,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1172,
+              "duration_s": 39.067286037037036,
+              "raster_hz": 29.999524381829506,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.851851851854,
+                "median": 33333.851851851854,
+                "p95": 33333.88888888889,
+                "max": 33333.88888888889,
+                "mean": 33333.861806345594
+              },
+              "full_changes": 1172,
+              "roi_changes": 1172,
+              "full_change_hz": 29.999524381829506,
+              "roi_change_hz": 29.999524381829506,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 138.0,
+                "median": 447.77777777777777,
+                "p95": 726.3185185185184,
+                "max": 757.3703703703703,
+                "mean": 447.7232483975877
+              }
+            },
+            {
+              "camera": 5,
+              "phase": "rising",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 1173,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1172,
+              "duration_s": 39.06723892592593,
+              "raster_hz": 29.999560558200432,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.81481481482,
+                "median": 33333.81481481482,
+                "p95": 33333.851851851854,
+                "max": 33333.851851851854,
+                "mean": 33333.82160915182
+              },
+              "full_changes": 1172,
+              "roi_changes": 1172,
+              "full_change_hz": 29.99956055820043,
+              "roi_change_hz": 29.99956055820043,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 2899.703703703704,
+                "median": 3185.8888888888887,
+                "p95": 3443.2666666666664,
+                "max": 3471.962962962963,
+                "mean": 3185.867354993527
+              }
+            },
+            {
+              "camera": 6,
+              "phase": "rising",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 1173,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1172,
+              "duration_s": 39.06720662962963,
+              "raster_hz": 29.999585358404495,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.77777777778,
+                "median": 33333.77777777778,
+                "p95": 33333.81481481482,
+                "max": 33333.81481481482,
+                "mean": 33333.79405258501
+              },
+              "full_changes": 1172,
+              "roi_changes": 1172,
+              "full_change_hz": 29.99958535840449,
+              "roi_change_hz": 29.99958535840449,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 477.4074074074074,
+                "median": 747.4814814814815,
+                "p95": 990.2888888888888,
+                "max": 1017.3703703703703,
+                "mean": 747.4412554071548
+              }
+            }
+          ],
+          "spans": {
+            "raster": {
+              "n": 1171,
+              "min": 16327.296296296296,
+              "median": 16366.962962962964,
+              "p95": 16402.64814814815,
+              "max": 16406.62962962963,
+              "mean": 16366.948635227884
+            },
+            "full_crc": {
+              "n": 1170,
+              "min": 16327.407407407407,
+              "median": 16366.981481481482,
+              "p95": 16402.65,
+              "max": 16406.62962962963,
+              "mean": 16366.98252611586
+            },
+            "roi_crc": {
+              "n": 1170,
+              "min": 16327.407407407407,
+              "median": 16366.981481481482,
+              "p95": 16402.65,
+              "max": 16406.62962962963,
+              "mean": 16366.98252611586
+            }
+          },
+          "matching": {
+            "raster": {
+              "cadence_ticks": {
+                "2": 900012.0,
+                "3": 900016.0,
+                "4": 900014.0,
+                "5": 900013.0,
+                "6": 900012.0
+              },
+              "comparable_cadence": true,
+              "offsets": {
+                "2": {
+                  "unwrapped_offset_us": {
+                    "n": 1171,
+                    "min": 0.0,
+                    "median": 0.0,
+                    "p95": 0.0,
+                    "max": 0.0,
+                    "mean": 0.0
+                  },
+                  "end_minus_start_us": 0.0,
+                  "drift_us_per_second": 0.0
+                },
+                "3": {
+                  "unwrapped_offset_us": {
+                    "n": 1171,
+                    "min": 7816.037037037037,
+                    "median": 7899.925925925926,
+                    "p95": 7975.425925925925,
+                    "max": 7983.814814814815,
+                    "mean": 7899.916215959768
+                  },
+                  "end_minus_start_us": 167.77777777777737,
+                  "drift_us_per_second": 4.302439523394314
+                },
+                "4": {
+                  "unwrapped_offset_us": {
+                    "n": 1171,
+                    "min": 11091.37037037037,
+                    "median": 11143.962962962964,
+                    "p95": 11191.24074074074,
+                    "max": 11196.518518518518,
+                    "mean": 11143.938893633172
+                  },
+                  "end_minus_start_us": 105.14814814814781,
+                  "drift_us_per_second": 2.6951206199091593
+                },
+                "5": {
+                  "unwrapped_offset_us": {
+                    "n": 1171,
+                    "min": -2813.6296296296296,
+                    "median": -2784.5925925925926,
+                    "p95": -2758.4444444444443,
+                    "max": -2755.5185185185187,
+                    "mean": -2784.5836733402916
+                  },
+                  "end_minus_start_us": 58.11111111111086,
+                  "drift_us_per_second": 1.4895779488883973
+                },
+                "6": {
+                  "unwrapped_offset_us": {
+                    "n": 1171,
+                    "min": -5235.925925925926,
+                    "median": -5223.0,
+                    "p95": -5211.407407407407,
+                    "max": -5210.111111111111,
+                    "mean": -5223.009741594712
+                  },
+                  "end_minus_start_us": 25.81481481481478,
+                  "drift_us_per_second": 0.6613915735359902
+                }
+              }
+            },
+            "full_crc": {
+              "cadence_ticks": {
+                "2": 900012,
+                "3": 900016,
+                "4": 900014,
+                "5": 900013,
+                "6": 900012
+              },
+              "comparable_cadence": true,
+              "offsets": {
+                "2": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": 0.0,
+                    "median": 0.0,
+                    "p95": 0.0,
+                    "max": 0.0,
+                    "mean": 0.0
+                  },
+                  "end_minus_start_us": 0.0,
+                  "drift_us_per_second": 0.0
+                },
+                "3": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": 7816.148148148148,
+                    "median": 7899.981481481482,
+                    "p95": 7975.435185185185,
+                    "max": 7983.814814814815,
+                    "mean": 7899.987907565685
+                  },
+                  "end_minus_start_us": 167.66666666666697,
+                  "drift_us_per_second": 4.302442089122958
+                },
+                "4": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": 11091.481481481482,
+                    "median": 11144.0,
+                    "p95": 11191.246296296296,
+                    "max": 11196.518518518518,
+                    "mean": 11143.983823994935
+                  },
+                  "end_minus_start_us": 105.0370370370365,
+                  "drift_us_per_second": 2.6951189117643746
+                },
+                "5": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": -2813.5925925925926,
+                    "median": -2784.574074074074,
+                    "p95": -2758.4407407407407,
+                    "max": -2755.5185185185187,
+                    "mean": -2784.5588477366255
+                  },
+                  "end_minus_start_us": 58.074074074073906,
+                  "drift_us_per_second": 1.4895781062849862
+                },
+                "6": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": -5235.925925925926,
+                    "median": -5222.981481481482,
+                    "p95": -5211.403703703703,
+                    "max": -5210.111111111111,
+                    "mean": -5222.9987021209245
+                  },
+                  "end_minus_start_us": 25.81481481481478,
+                  "drift_us_per_second": 0.6613890890111672
+                }
+              }
+            },
+            "roi_crc": {
+              "cadence_ticks": {
+                "2": 900012,
+                "3": 900016,
+                "4": 900014,
+                "5": 900013,
+                "6": 900012
+              },
+              "comparable_cadence": true,
+              "offsets": {
+                "2": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": 0.0,
+                    "median": 0.0,
+                    "p95": 0.0,
+                    "max": 0.0,
+                    "mean": 0.0
+                  },
+                  "end_minus_start_us": 0.0,
+                  "drift_us_per_second": 0.0
+                },
+                "3": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": 7816.148148148148,
+                    "median": 7899.981481481482,
+                    "p95": 7975.435185185185,
+                    "max": 7983.814814814815,
+                    "mean": 7899.987907565685
+                  },
+                  "end_minus_start_us": 167.66666666666697,
+                  "drift_us_per_second": 4.302442089122958
+                },
+                "4": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": 11091.481481481482,
+                    "median": 11144.0,
+                    "p95": 11191.246296296296,
+                    "max": 11196.518518518518,
+                    "mean": 11143.983823994935
+                  },
+                  "end_minus_start_us": 105.0370370370365,
+                  "drift_us_per_second": 2.6951189117643746
+                },
+                "5": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": -2813.5925925925926,
+                    "median": -2784.574074074074,
+                    "p95": -2758.4407407407407,
+                    "max": -2755.5185185185187,
+                    "mean": -2784.5588477366255
+                  },
+                  "end_minus_start_us": 58.074074074073906,
+                  "drift_us_per_second": 1.4895781062849862
+                },
+                "6": {
+                  "unwrapped_offset_us": {
+                    "n": 1170,
+                    "min": -5235.925925925926,
+                    "median": -5222.981481481482,
+                    "p95": -5211.403703703703,
+                    "max": -5210.111111111111,
+                    "mean": -5222.9987021209245
+                  },
+                  "end_minus_start_us": 25.81481481481478,
+                  "drift_us_per_second": 0.6613890890111672
+                }
+              }
+            }
+          },
+          "trigger_rise_period_us": {
+            "n": 2345,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_fall_period_us": {
+            "n": 2345,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_high_us": {
+            "n": 2346,
+            "min": 2000.0,
+            "median": 2000.0,
+            "p95": 2000.0,
+            "max": 2000.0,
+            "mean": 2000.0
+          }
+        },
+        "falling": {
+          "cameras": [
+            {
+              "camera": 2,
+              "phase": "falling",
+              "records": 1136,
+              "timing_valid": 0,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 0,
+              "raster_hz": null,
+              "period_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": null,
+              "roi_change_hz": null,
+              "since_trigger_fall_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              }
+            },
+            {
+              "camera": 3,
+              "phase": "falling",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 39.067348814814814,
+              "raster_hz": 29.99947617524441,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.88888888889,
+                "median": 33333.92592592593,
+                "p95": 33333.92592592593,
+                "max": 33333.92592592593,
+                "mean": 33333.915371002404
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": 0.0,
+              "roi_change_hz": 0.0,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 13529.25925925926,
+                "median": 13870.407407407407,
+                "p95": 14177.237037037037,
+                "max": 14211.407407407407,
+                "mean": 13870.367023459947
+              }
+            },
+            {
+              "camera": 4,
+              "phase": "falling",
+              "records": 1172,
+              "timing_valid": 0,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 0,
+              "raster_hz": null,
+              "period_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": null,
+              "roi_change_hz": null,
+              "since_trigger_fall_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              }
+            },
+            {
+              "camera": 5,
+              "phase": "falling",
+              "records": 1173,
+              "timing_valid": 0,
+              "valid": 0,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 0,
+              "duration_s": 0,
+              "raster_hz": null,
+              "period_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              },
+              "full_changes": 0,
+              "roi_changes": 0,
+              "full_change_hz": null,
+              "roi_change_hz": null,
+              "since_trigger_fall_us": {
+                "n": 0,
+                "min": null,
+                "median": null,
+                "p95": null,
+                "max": null,
+                "mean": null
+              }
+            },
+            {
+              "camera": 6,
+              "phase": "falling",
+              "records": 1173,
+              "timing_valid": 1173,
+              "valid": 1173,
+              "sequence_gaps": 0,
+              "adjacent_pairs": 1172,
+              "duration_s": 39.06720662962963,
+              "raster_hz": 29.999585358404495,
+              "period_us": {
+                "n": 1172,
+                "min": 33333.77777777778,
+                "median": 33333.77777777778,
+                "p95": 33333.81481481482,
+                "max": 33333.81481481482,
+                "mean": 33333.79405258501
+              },
+              "full_changes": 1172,
+              "roi_changes": 1172,
+              "full_change_hz": 29.99958535840449,
+              "roi_change_hz": 29.99958535840449,
+              "since_trigger_fall_us": {
+                "n": 1173,
+                "min": 477.4074074074074,
+                "median": 747.4814814814815,
+                "p95": 990.2888888888888,
+                "max": 1017.3703703703703,
+                "mean": 747.4411922579015
+              }
+            }
+          ],
+          "spans": {
+            "raster": {
+              "n": 0,
+              "min": null,
+              "median": null,
+              "p95": null,
+              "max": null,
+              "mean": null
+            },
+            "full_crc": {
+              "n": 0,
+              "min": null,
+              "median": null,
+              "p95": null,
+              "max": null,
+              "mean": null
+            },
+            "roi_crc": {
+              "n": 0,
+              "min": null,
+              "median": null,
+              "p95": null,
+              "max": null,
+              "mean": null
+            }
+          },
+          "matching": {
+            "raster": {
+              "cadence_ticks": {
+                "2": null,
+                "3": 900016.0,
+                "4": null,
+                "5": null,
+                "6": 900012.0
+              },
+              "comparable_cadence": false
+            },
+            "full_crc": {
+              "cadence_ticks": {
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": 900012
+              },
+              "comparable_cadence": false
+            },
+            "roi_crc": {
+              "cadence_ticks": {
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": 900012
+              },
+              "comparable_cadence": false
+            }
+          },
+          "trigger_rise_period_us": {
+            "n": 2345,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_fall_period_us": {
+            "n": 2345,
+            "min": 16666.666666666668,
+            "median": 16666.666666666668,
+            "p95": 16666.666666666668,
+            "max": 16666.666666666668,
+            "mean": 16666.666666666668
+          },
+          "trigger_high_us": {
+            "n": 2346,
+            "min": 2000.0,
+            "median": 2000.0,
+            "p95": 2000.0,
+            "max": 2000.0,
+            "mean": 2000.0
+          }
+        }
+      }
+    }
+  ],
+  "definition": "Shortest circular arc containing five nearest camera event phases; camera 2 reference.",
+  "limits": "Raster timing and CRC-change timing do not measure physical exposure timing. CRC requires Freeze qualification."
+}

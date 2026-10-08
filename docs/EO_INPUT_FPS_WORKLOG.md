@@ -184,3 +184,39 @@ full CRC errors. The 60-mode comparison therefore uses raster timing and central
 96×96 ROI-change timing only. It does not qualify whole-frame image updates.
 Freeze OFF was directly verified on all five cameras at 20:49 KST before the
 first live 60-mode comparison capture. Camera 1 remains untouched.
+
+## 2026-10-08 synchronization comparison completed and restored
+
+Both requested formats are complete. The separate report and reproducible
+evidence are indexed in [eo_sync_evidence/README.md](eo_sync_evidence/README.md).
+All tests used physical cameras 2–6, a generated 60 Hz / 2 ms trigger,
+1/240 s shutter, 0 dB and DNR 2D+3D, with direct mode/exposure readbacks.
+
+At 1080p60, ExtTrig A / FreeRun / ExtTrig B captured 49.624 / 49.638 / 49.620 s.
+Median five-camera raster spreads were 9.617 / 8.852 / 8.114 ms; corresponding
+P95 values were 9.672 / 8.909 / 8.171 ms. Raster cadence remained about 60 Hz.
+Qualified central-ROI changes were approximately 30 / 60 / 30 per second,
+with median change-event spreads 13.183 / 8.852 / 20.848 ms. The latter uses
+the observed update period, about 33.33 ms in ExtTrig, not the raster period.
+Full-frame 60-mode changes remain unqualified due to the frozen camera-6
+sampling errors. No fresh-exposure FPS is inferred from CRC changes.
+
+All selected comparison paths passed strict geometry, sequence continuity and
+telemetry checks. All r3 block phase readbacks matched rising tap 322 on all
+five cameras with locks set, controllers idle and no sticky faults. The
+collector independently verified all 16,218 matched raster spreads and retained
+94,833 selected raw frame reports including controls. Camera-3 drift relative
+to camera 2 remained approximately 4.3 us/s at 1080p30 and 4.6 us/s at 1080p60
+in both modes. Sequential spread differences are not a causal mode benefit.
+The data arrivals were not aligned at the tested trigger rate. Sensor exposure
+alignment and electrical trigger acceptance remain unmeasured.
+
+The original operational bitstream was reloaded, SHA256
+`d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd`.
+All five camera OSDs were directly verified over USB at 1080p30, ExtTrig,
+1/240 s, 0 dB, DNR 2D+3D and Freeze OFF; polarities OFF, delays 0.0 and width
+1.0. Menus are closed. Display 6 and seven zero parameter bytes match the
+initial readback. All IR offsets are zero; EO roll offsets are zero and pitch
+offsets remain -500/+500/-500/+500/-500/+500. Camera 1 was untouched. No flash
+write or OSD SAVE/DFLT command was used. Evidence is in
+`captures/eo_sync_20261008/restoration` and its compact Git archive.

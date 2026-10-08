@@ -1,0 +1,184 @@
+{
+  "protocol": {
+    "date": "2026-10-08",
+    "physical_cameras": "2–6",
+    "trigger_hz": 60,
+    "trigger_high_us": 2000,
+    "reference_hz_nominal": 27000000,
+    "shutter_s": 0.004166666666666667,
+    "dnr": "2D+3D",
+    "agc_db": 0,
+    "mode_specific_osd": "FreeRun automatically displays strobe delay 31.0 at 1080p30 and 15.0 at 1080p60; trigger-input fields are disabled. ExtTrig return readbacks restore both delays 0.0. No manual strobe-delay change was made. Camera strobe outputs were not measured.",
+    "manual": "DM-G15-42 v1.04, printed page 39: ExtTrig described as synchronous image output; no numerical skew tolerance found in reviewed trigger section.",
+    "manual_sha256": "e1f5c8ce23da0bca8b7f631279c96de8f947967754329e5fa9586fe79a0b1634",
+    "limits": "Measures BT.1120 arrival/report boundaries and qualified payload changes, not physical exposure starts. Nominal oscillator scale is uncalibrated. Modes were changed with operational FPGA for direct 1080p30 OSD readback, then the same r1 diagnostic was reloaded before each 1080p30 measurement. Capture gaps and reprogramming boundaries are never joined.",
+    "timestamp_boundary": "BT.1120 V 1-to-0 active-raster boundary. The emitted CRC describes the preceding complete raster; timestamp follows a common-clock synchronizer. Serialization adds no channel-dependent timestamp delay.",
+    "trigger_scope": "ILA verifies FPGA-generated common trigger only. Electrical arrival, optocoupler delay, acceptance and sensor exposure start were not measured at camera inputs."
+  },
+  "conditions": [
+    {
+      "id": "30_freeze",
+      "format_fps": 30,
+      "mode": "ExtTrig",
+      "control": true,
+      "blocks": 1,
+      "build": "r1",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ]
+    },
+    {
+      "id": "30_trigger_a",
+      "format_fps": 30,
+      "mode": "ExtTrig A",
+      "control": false,
+      "control_id": "30_freeze",
+      "blocks": 2,
+      "build": "r1",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ]
+    },
+    {
+      "id": "30_free",
+      "format_fps": 30,
+      "mode": "FreeRun",
+      "control": false,
+      "control_id": "30_freeze",
+      "blocks": 2,
+      "build": "r1",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ]
+    },
+    {
+      "id": "30_trigger_b",
+      "format_fps": 30,
+      "mode": "ExtTrig B",
+      "control": false,
+      "control_id": "30_freeze",
+      "blocks": 2,
+      "build": "r1",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ]
+    },
+    {
+      "id": "60_freeze",
+      "format_fps": 60,
+      "mode": "ExtTrig",
+      "control": true,
+      "blocks": 1,
+      "build": "r3",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        322,
+        322,
+        322,
+        322,
+        322
+      ]
+    },
+    {
+      "id": "60_trigger_a",
+      "format_fps": 60,
+      "mode": "ExtTrig A",
+      "control": false,
+      "blocks": 2,
+      "build": "r3",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        322,
+        322,
+        322,
+        322,
+        322
+      ],
+      "control_id": "60_freeze"
+    },
+    {
+      "id": "60_free",
+      "format_fps": 60,
+      "mode": "FreeRun",
+      "control": false,
+      "blocks": 2,
+      "build": "r3",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        322,
+        322,
+        322,
+        322,
+        322
+      ],
+      "control_id": "60_freeze"
+    },
+    {
+      "id": "60_trigger_b",
+      "format_fps": 60,
+      "mode": "ExtTrig B",
+      "control": false,
+      "blocks": 2,
+      "build": "r3",
+      "phases": [
+        "rising",
+        "rising",
+        "rising",
+        "rising",
+        "rising"
+      ],
+      "phase_taps": [
+        322,
+        322,
+        322,
+        322,
+        322
+      ],
+      "control_id": "60_freeze"
+    }
+  ],
+  "report_notes": [
+    "Both formats: raster arrivals drifted in ExtTrig and FreeRun. Returning to ExtTrig did not align the five cameras.",
+    "1080p60: about 30 ROI changes/s in ExtTrig and 60/s in FreeRun at 1/240 s. These counts do not establish fresh sensor exposures.",
+    "Sequential spread differences reflect evolving camera phase. They do not establish an improvement caused by trigger mode.",
+    "Spread is the shortest circular arc of five nearest event phases. Matching does not prove shared exposure or frame identity.",
+    "Nominal tick: 37.037 ns. Oscillator frequency, receiver latency and camera/board delays were not independently calibrated.",
+    "Trigger logs verify the FPGA common 60 Hz / 2 ms waveform. Electrical arrival and acceptance at each camera were not measured.",
+    "The manual gives no numerical skew tolerance in its trigger section. Exposure alignment needs strobe timing or a shared optical time code.",
+    "Capture blocks stay separate. Sampling controls, rejected edges, per-camera counts and source hashes are retained in Camera results."
+  ]
+}

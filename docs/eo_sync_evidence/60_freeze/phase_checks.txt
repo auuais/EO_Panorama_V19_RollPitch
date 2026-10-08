@@ -1,0 +1,2 @@
+before_capture Thu Oct 08 20:45:33 +0900 2026 003F42A150A8542 expected_current=142A150A8542
+after_block_0 Thu Oct 08 20:46:06 +0900 2026 003F42A150A8542 expected_current=142A150A8542

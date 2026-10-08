@@ -1,0 +1,15 @@
+{
+  "sheets": [
+    "Comparison",
+    "Camera results",
+    "Matched rasters"
+  ],
+  "conditions": 6,
+  "camera_rows": 140,
+  "matched_rows": 16218,
+  "all_matched_formulas_and_caches_verified": true,
+  "headline_values_verified": true,
+  "formula_errors": [],
+  "workbook_sha256": "7853fac75d9e10249cbd5049befdce50e1fa20accb3ca00b08e5cd834cf9e451",
+  "engine": "Artifact Tool recalculation and read-only OpenXML validation; native Excel execution not performed"
+}

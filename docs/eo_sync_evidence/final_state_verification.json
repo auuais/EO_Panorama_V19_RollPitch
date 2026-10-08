@@ -1,0 +1,346 @@
+{
+  "reviewed_at": "2026-10-08T21:01:56.571047+09:00",
+  "method": "Direct visual inspection of all five decoded ILA OSD crops in each contact sheet",
+  "build": "r3 phase60",
+  "phase_taps": [
+    322,
+    322,
+    322,
+    322,
+    322
+  ],
+  "phases": [
+    "rising",
+    "rising",
+    "rising",
+    "rising",
+    "rising"
+  ],
+  "readbacks": [
+    {
+      "section": "60_freeze_off",
+      "camera": 2,
+      "observed": {
+        "freeze": "OFF",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "e_zoom": "OFF"
+      },
+      "image": "60_freeze_off/cam2/frame_00084.png",
+      "image_sha256": "557c9ca235bad504952968b9a935d6c7b947076d6f8980e07e8f78307239b156"
+    },
+    {
+      "section": "60_freeze_off",
+      "camera": 3,
+      "observed": {
+        "freeze": "OFF",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "e_zoom": "OFF"
+      },
+      "image": "60_freeze_off/cam3/frame_30935.png",
+      "image_sha256": "95f0e7bf85a54c28170017f79bf6208ad9c48653b5e83479bbee3a440a8a32e8"
+    },
+    {
+      "section": "60_freeze_off",
+      "camera": 4,
+      "observed": {
+        "freeze": "OFF",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "e_zoom": "OFF"
+      },
+      "image": "60_freeze_off/cam4/frame_02883.png",
+      "image_sha256": "d07cd0842a7b4bf2a5a46c0a4e7c55777ef6e1531624af7425455125ad78f590"
+    },
+    {
+      "section": "60_freeze_off",
+      "camera": 5,
+      "observed": {
+        "freeze": "OFF",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "e_zoom": "OFF"
+      },
+      "image": "60_freeze_off/cam5/frame_05949.png",
+      "image_sha256": "21a34b8b5701cd925aadad8cff0ab7fd11f35b58ab04d3d61d921da5903d7818"
+    },
+    {
+      "section": "60_freeze_off",
+      "camera": 6,
+      "observed": {
+        "freeze": "OFF",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "e_zoom": "OFF"
+      },
+      "image": "60_freeze_off/cam6/frame_18104.png",
+      "image_sha256": "14ed2764c2b4a590c56cfcbd043a567705293c8f211c4b4a02d515b3c3ab541f"
+    },
+    {
+      "section": "60_free_mode",
+      "camera": 2,
+      "observed": {
+        "mode": "FreeRun",
+        "trigger_polarity": "---",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": "---",
+        "strobe_delay": 15.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_free_mode/cam2/frame_15454.png",
+      "image_sha256": "e032894fa2dddc68a51486b39edeb70398eaaeb38ed1585034c3fc6a028dd633"
+    },
+    {
+      "section": "60_free_mode",
+      "camera": 3,
+      "observed": {
+        "mode": "FreeRun",
+        "trigger_polarity": "---",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": "---",
+        "strobe_delay": 15.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_free_mode/cam3/frame_12741.png",
+      "image_sha256": "bff26c170d51662bf31e45ea85c4819f0a95428fc387b8c4dcba73c4f9bf1509"
+    },
+    {
+      "section": "60_free_mode",
+      "camera": 4,
+      "observed": {
+        "mode": "FreeRun",
+        "trigger_polarity": "---",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": "---",
+        "strobe_delay": 15.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_free_mode/cam4/frame_16653.png",
+      "image_sha256": "a71b1834985772ed674d153d3fd47e4f13a228a72c5fdfed2439cc160e962f1d"
+    },
+    {
+      "section": "60_free_mode",
+      "camera": 5,
+      "observed": {
+        "mode": "FreeRun",
+        "trigger_polarity": "---",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": "---",
+        "strobe_delay": 15.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_free_mode/cam5/frame_18914.png",
+      "image_sha256": "a2457028783eb05ea48d5dd957ee54dd7d17e4ab48c63bcc0fcc44b7d7f65c6d"
+    },
+    {
+      "section": "60_free_mode",
+      "camera": 6,
+      "observed": {
+        "mode": "FreeRun",
+        "trigger_polarity": "---",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": "---",
+        "strobe_delay": 15.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_free_mode/cam6/frame_30270.png",
+      "image_sha256": "e0b27af229f354309e692e13453ea6d72f557f1f9c4e0cfca527a4e303300e58"
+    },
+    {
+      "section": "60_free_exposure",
+      "camera": 2,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "MANUAL",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_free_exposure/cam2/frame_24531.png",
+      "image_sha256": "27e003ada95f27c3f9189b6c3c0cd7f5968cb8456bccadbd351ef8d9eb28c9dd"
+    },
+    {
+      "section": "60_free_exposure",
+      "camera": 3,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "MANUAL",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_free_exposure/cam3/frame_21867.png",
+      "image_sha256": "7c10ef3347f64202033a9433b4db39f0e954765b94c9814d63a785610629d955"
+    },
+    {
+      "section": "60_free_exposure",
+      "camera": 4,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "MANUAL",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_free_exposure/cam4/frame_25825.png",
+      "image_sha256": "c7e6ed862ccf8da0127b7e9f21b4d7191baf15c12774ca5e42db1cfac491a9a8"
+    },
+    {
+      "section": "60_free_exposure",
+      "camera": 5,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "MANUAL",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_free_exposure/cam5/frame_28131.png",
+      "image_sha256": "bd2557996fa7cb68ea991154b8ef5d6905dbb68c38229b93ad54c0ec142c1f7a"
+    },
+    {
+      "section": "60_free_exposure",
+      "camera": 6,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "MANUAL",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_free_exposure/cam6/frame_06769.png",
+      "image_sha256": "b1143d45bc93b56729c22f59bb7285ea8c5ede7239588cf344cc5654108e66f1"
+    },
+    {
+      "section": "60_trigger_b_mode",
+      "camera": 2,
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_trigger_b_mode/cam2/frame_05329.png",
+      "image_sha256": "19dfe59487cee72d199320d29dff74ecb4fecb7d23e5392320437afaccd33453"
+    },
+    {
+      "section": "60_trigger_b_mode",
+      "camera": 3,
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_trigger_b_mode/cam3/frame_02610.png",
+      "image_sha256": "a30a80a23c771f6120297574b588830736e92bafb2a981c15922c12c7a952e90"
+    },
+    {
+      "section": "60_trigger_b_mode",
+      "camera": 4,
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_trigger_b_mode/cam4/frame_06524.png",
+      "image_sha256": "bfee1cba51f5e6fe0e10264507a8928bde1e580dff600cd152f33fa32b08180e"
+    },
+    {
+      "section": "60_trigger_b_mode",
+      "camera": 5,
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_trigger_b_mode/cam5/frame_08786.png",
+      "image_sha256": "21541b28b3dc9fbd7d8e270b55f4203d3f82faaa0fe898fd331af8e6fad36832"
+    },
+    {
+      "section": "60_trigger_b_mode",
+      "camera": 6,
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_trigger_b_mode/cam6/frame_20142.png",
+      "image_sha256": "e3cd521b975114b60ad61132994cfb5f101cb11d0aa6c334193e8e4f47b97b63"
+    },
+    {
+      "section": "60_trigger_b_exposure",
+      "camera": 2,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "---",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_trigger_b_exposure/cam2/frame_12346.png",
+      "image_sha256": "d96fc31e0222d322d293536568ec27d70e408ea760a1faa871afad1d5e71f382"
+    },
+    {
+      "section": "60_trigger_b_exposure",
+      "camera": 3,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "---",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_trigger_b_exposure/cam3/frame_09672.png",
+      "image_sha256": "728b564802eb59d8ca352f497e46fcdee696a40cd9010f29ee513cd413d73a25"
+    },
+    {
+      "section": "60_trigger_b_exposure",
+      "camera": 4,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "---",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_trigger_b_exposure/cam4/frame_13630.png",
+      "image_sha256": "e0c5e685a9c16ad86937ead5d998a25ad4682a69e7efa34d818ae83f6f320dc7"
+    },
+    {
+      "section": "60_trigger_b_exposure",
+      "camera": 5,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "---",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_trigger_b_exposure/cam5/frame_15934.png",
+      "image_sha256": "e3b3e02d5d96b3446a5bbef572347c75a3f50b882091f2a3fd67444c75c5589d"
+    },
+    {
+      "section": "60_trigger_b_exposure",
+      "camera": 6,
+      "observed": {
+        "lens": "MANUAL",
+        "mode": "---",
+        "gain_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_trigger_b_exposure/cam6/frame_27334.png",
+      "image_sha256": "11926355b3ab190abfc44f6d91fdb57120e195fed8b8adbc6a64212027f35848"
+    }
+  ]
+}

@@ -60,12 +60,19 @@ def main():
             if p.is_file() and p.suffix in ['.png','.json','.txt']:save(p)
     for name in ['60_r1_smoke','60_r2_osd_smoke']:
         save(source/name/'summary.json')
+    for revision in ['r1','r2','r3']:
+        build=root/f'builds/eo_sync_20261008_{revision}'
+        for name in ['build_validation.json','sampler_placement.csv','phase_clock_placement.txt',
+                     'dedicated_clock_routes.txt','drc.rpt','bus_skew.rpt','cdc.rpt','timing_summary.rpt']:
+            if (build/name).exists():
+                save(build/name,Path('build_checks')/revision/name,compress=name.endswith('.rpt'))
     workbook=root/'outputs/01a1110b-4bdf-79b3-af63-c2b05f5fcb99/EO_Camera_Synchronization_Comparison_20261008.xlsx'
     save(workbook,workbook.name)
     scratch=root/'.tmpCRC/eo_sync_20261008'
     for name in ['report.mjs','report_validation.json','report_error_scan.ndjson','verify_restoration.py',
-                 'saved_workbook_validation.json']:
+                 'verify_saved_workbook.py','saved_workbook_validation.json']:
         save(scratch/name,Path('report_source')/name)
+    save(scratch/'restore_operational.log',Path('restoration')/'program.log')
     manifest=dict(description='Five-camera synchronization comparison, 8 October 2026 KST',files=records)
     (target/'archive_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     # Verify every archived byte and every decompressed event source hash.

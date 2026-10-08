@@ -1,0 +1,260 @@
+{
+  "verified_at": "2026-10-08T20:33:03.248483+09:00",
+  "method": "Direct visual inspection of all five decoded ILA OSD crops in each contact sheet",
+  "build": "r3 phase60",
+  "tap_targets": [
+    322,
+    322,
+    322,
+    322,
+    322
+  ],
+  "snapshot_edge": "rising",
+  "readbacks": [
+    {
+      "camera": 2,
+      "section": "60_baseline_format",
+      "observed": {
+        "hd_format": "1080p60",
+        "system": "NTSC",
+        "output": "BT.1120/SDI"
+      },
+      "image": "60_baseline_format\\cam2\\frame_21244.png",
+      "image_sha256": "d1f748d82d5153f5fe121119e14179b4a771b31020e0ce69006fb6ef97fdb3a1"
+    },
+    {
+      "camera": 3,
+      "section": "60_baseline_format",
+      "observed": {
+        "hd_format": "1080p60",
+        "system": "NTSC",
+        "output": "BT.1120/SDI"
+      },
+      "image": "60_baseline_format\\cam3\\frame_22541.png",
+      "image_sha256": "960d6ae6fd832fe8a012ee4e790983e8a2c08d225877140d505fbd5ca859e944"
+    },
+    {
+      "camera": 4,
+      "section": "60_baseline_format",
+      "observed": {
+        "hd_format": "1080p60",
+        "system": "NTSC",
+        "output": "BT.1120/SDI"
+      },
+      "image": "60_baseline_format\\cam4\\frame_24032.png",
+      "image_sha256": "e43cfda1c7dc45b253f5e9c152507c8d6356ec732014b454a5980875571ee888"
+    },
+    {
+      "camera": 5,
+      "section": "60_baseline_format",
+      "observed": {
+        "hd_format": "1080p60",
+        "system": "NTSC",
+        "output": "BT.1120/SDI"
+      },
+      "image": "60_baseline_format\\cam5\\frame_26387.png",
+      "image_sha256": "7011ddd530d9d13785811924355ad5bd61868373f5b4f9c30a741e528a51c7b9"
+    },
+    {
+      "camera": 6,
+      "section": "60_baseline_format",
+      "observed": {
+        "hd_format": "1080p60",
+        "system": "NTSC",
+        "output": "BT.1120/SDI"
+      },
+      "image": "60_baseline_format\\cam6\\frame_04971.png",
+      "image_sha256": "536700df3e74676f4af45ab885eb1ca3844d961c9bba47546ae1f3af2e9492ef"
+    },
+    {
+      "camera": 2,
+      "section": "60_baseline_exposure",
+      "observed": {
+        "lens": "MANUAL",
+        "agc_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_baseline_exposure\\cam2\\frame_31651.png",
+      "image_sha256": "dbb3d4dcbb34125ddda2b1dcead35bab0d1c4f42b49570c07df8a71329c904d3"
+    },
+    {
+      "camera": 3,
+      "section": "60_baseline_exposure",
+      "observed": {
+        "lens": "MANUAL",
+        "agc_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_baseline_exposure\\cam3\\frame_32325.png",
+      "image_sha256": "85ea06bb854097add19fad1a6cdc0fca878701a58f215625ced392a7e89bf46e"
+    },
+    {
+      "camera": 4,
+      "section": "60_baseline_exposure",
+      "observed": {
+        "lens": "MANUAL",
+        "agc_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_baseline_exposure\\cam4\\frame_00425.png",
+      "image_sha256": "65df5dfdd2c74bd6499593a3ebfd061b5930257ba02af2892252d3cdca6e6e51"
+    },
+    {
+      "camera": 5,
+      "section": "60_baseline_exposure",
+      "observed": {
+        "lens": "MANUAL",
+        "agc_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_baseline_exposure\\cam5\\frame_02157.png",
+      "image_sha256": "6d485124bc16556c0243584aaa270786aa419f4cad10cbd3bc3b94f06d046c7b"
+    },
+    {
+      "camera": 6,
+      "section": "60_baseline_exposure",
+      "observed": {
+        "lens": "MANUAL",
+        "agc_db": 0,
+        "shutter": "1/240 s"
+      },
+      "image": "60_baseline_exposure\\cam6\\frame_12886.png",
+      "image_sha256": "7da838d918bb714789b716088cf43ab0cac415fa95cba53c65dc20c3443dab30"
+    },
+    {
+      "camera": 2,
+      "section": "60_baseline_trigger",
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_baseline_trigger\\cam2\\frame_04438.png",
+      "image_sha256": "60a6e3216fd66b6badeca1f96e245a0ba37b423fb3f52415d0318bcd6795cc09"
+    },
+    {
+      "camera": 3,
+      "section": "60_baseline_trigger",
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_baseline_trigger\\cam3\\frame_05024.png",
+      "image_sha256": "17edf4b2d8bae30fe01e45aacc372b04e1a24484f657e719cd4500ee46a88691"
+    },
+    {
+      "camera": 4,
+      "section": "60_baseline_trigger",
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_baseline_trigger\\cam4\\frame_05803.png",
+      "image_sha256": "c5354553e9fc85f8317f2480b9d4002d0d74c3509b0689f3f3ab92b2d08cece5"
+    },
+    {
+      "camera": 5,
+      "section": "60_baseline_trigger",
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_baseline_trigger\\cam5\\frame_07448.png",
+      "image_sha256": "37ad9ecdd1ff7db6ee5c1365683c7f601b2362f4f48e00fc43cd021561902b78"
+    },
+    {
+      "camera": 6,
+      "section": "60_baseline_trigger",
+      "observed": {
+        "mode": "ExtTrig",
+        "trigger_polarity": "OFF",
+        "strobe_polarity": "OFF",
+        "ext_trigger_delay": 0.0,
+        "strobe_delay": 0.0,
+        "strobe_width": 1.0
+      },
+      "image": "60_baseline_trigger\\cam6\\frame_18087.png",
+      "image_sha256": "9e8f8f1d6961a48f22d9303c89a3e802773a831411fc9b85999337d37c20d3c9"
+    },
+    {
+      "camera": 2,
+      "section": "60_freeze_on",
+      "observed": {
+        "freeze": "ON",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "ezoom": "OFF"
+      },
+      "image": "60_freeze_on\\cam2\\frame_12725.png",
+      "image_sha256": "f139cd7815cf8a3e3cebbecf28c82ec2200481ee2ecb71e317a5f543eb223a34"
+    },
+    {
+      "camera": 3,
+      "section": "60_freeze_on",
+      "observed": {
+        "freeze": "ON",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "ezoom": "OFF"
+      },
+      "image": "60_freeze_on\\cam3\\frame_14156.png",
+      "image_sha256": "e846d9ea4a26e33c5af7b040e914f073a67aea2f96c44e7eb82534ea005a5d55"
+    },
+    {
+      "camera": 4,
+      "section": "60_freeze_on",
+      "observed": {
+        "freeze": "ON",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "ezoom": "OFF"
+      },
+      "image": "60_freeze_on\\cam4\\frame_15781.png",
+      "image_sha256": "9b5aaae57446e14f5f0305fc7965b6d43a4d13229e936b60b3a0456dd5259816"
+    },
+    {
+      "camera": 5,
+      "section": "60_freeze_on",
+      "observed": {
+        "freeze": "ON",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "ezoom": "OFF"
+      },
+      "image": "60_freeze_on\\cam5\\frame_18272.png",
+      "image_sha256": "a238cd5e8a2abcc33f6b0102b2dbb3bb6f3892198bbedb0625fb85e48e02fbf6"
+    },
+    {
+      "camera": 6,
+      "section": "60_freeze_on",
+      "observed": {
+        "freeze": "ON",
+        "dnr": "2D+3D",
+        "sharpness": 5,
+        "gamma": 0.45,
+        "ezoom": "OFF"
+      },
+      "image": "60_freeze_on\\cam6\\frame_29757.png",
+      "image_sha256": "1d589318fd8e78f2100287b46045012d43998db3a97449a7b1dc90a013a5ea41"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+raw_clock1 ANY_CMT_COLUMN
+raw_clock2 ANY_CMT_COLUMN
+raw_clock3 ANY_CMT_COLUMN
+raw_clock4 ANY_CMT_COLUMN
+raw_clock5 ANY_CMT_COLUMN
