@@ -29,20 +29,20 @@ if {[llength $argv]==4} {
     }
     set phase_vio [get_hw_vios -of_objects $dev -filter {CELL_NAME =~ "*u_snapshot_select*"}]
     if {[llength $phase_vio]!=1} {error "Phase VIO missing"}
-    set phase_status [create_hw_probe -map {probe_in0[59:0]} {capture_phase_status[59:0]} $phase_vio]
+    source [file join [file dirname [info script]] phase_status.tcl]
+    set phase_status [phase_native_probes $phase_vio]
 }
 proc verify_phase {label} {
     global phase_status phase_vio expected_phase out
     if {$phase_status eq ""} {return}
-    refresh_hw_vio $phase_vio
-    set raw [get_property INPUT_VALUE $phase_status]
+    set raw [phase_read_hex $phase_vio $phase_status]
     if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid phase status $raw"}
     set word [expr 0x$raw]
     if {($word & ((1<<45)-1))!=$expected_phase || (($word>>45)&31)!=31 || ($word>>50)!=0} {
         error "Unsettled, unlocked or faulted phase clocks: $raw"
     }
     set f [open $out/phase_checks.txt a]
-    puts $f "$label [clock format [clock seconds]] $raw expected_current=[format %012X $expected_phase]"
+    puts $f "$label [clock format [clock seconds]] $raw expected_current=[format %012llX $expected_phase]"
     close $f
 }
 verify_phase before_capture
@@ -88,7 +88,6 @@ set status [catch {
 } result options]
 dict for {property value} $old {set_property $property $value $ila}
 delete_hw_probe $probes
-if {$phase_status ne ""} {delete_hw_probe $phase_status}
 close_hw_target
 close_hw_manager
 if {$status} {return -options $options $result}

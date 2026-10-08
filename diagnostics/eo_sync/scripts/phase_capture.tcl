@@ -4,7 +4,7 @@ set ltx [file normalize [lindex $argv 0]]
 set out [file normalize [lindex $argv 1]]
 set mode [lindex $argv 2]
 if {$mode ni {sweep set}} {error "Unknown phase action"}
-set taps {0 28 56 84 112 140 168 196}
+set taps {0 28 56 84 112 140 168 196 224 252 280 308 336 364 392 420}
 if {[llength $argv]==4} {set taps [split [string map {: ,} [lindex $argv 3]] ,]}
 foreach tap $taps {if {![string is integer -strict $tap] || $tap<0 || $tap>447} {error "Tap must be 0..447"}}
 if {$mode eq "set" && [llength $taps]!=5} {error "Set needs five camera targets"}
@@ -25,18 +25,18 @@ set vio [get_hw_vios -of_objects $dev -filter {CELL_NAME =~ "*u_snapshot_select*
 if {[llength $vio]!=1} {error "Phase controller VIO not found"}
 set phase_target [get_hw_probes -of_objects $vio -filter {NAME =~ "*phase_targets*"}]
 if {[llength $phase_target]!=1} {error "Phase target probe not found"}
-set phase_status [create_hw_probe -map {probe_in0[59:0]} {phase_status_full[59:0]} $vio]
+source [file join [file dirname [info script]] phase_status.tcl]
+set phase_status [phase_native_probes $vio]
 proc set_phase {values dir} {
     global phase_target phase_status vio
     set packed 0;set i 0
     foreach value $values {set packed [expr {$packed | ($value << (9*$i))}];incr i}
-    set_property OUTPUT_VALUE [format %012X $packed] $phase_target
+    set_property OUTPUT_VALUE [format %012llX $packed] $phase_target
     commit_hw_vio $vio
     set deadline [expr {[clock milliseconds]+5000}]
     set settled 0
     while {[clock milliseconds]<$deadline} {
-        refresh_hw_vio $vio
-        set raw [get_property INPUT_VALUE $phase_status]
+        set raw [phase_read_hex $vio $phase_status]
         if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid phase status $raw"}
         set word [expr 0x$raw]
         set current [expr {$word & ((1<<45)-1)}]
@@ -51,7 +51,7 @@ proc set_phase {values dir} {
     file mkdir $dir
     set f [open $dir/phase.txt w]
     puts $f "Targets, physical cameras 2..6: $values\nSettled status: $raw\nTime: [clock format [clock seconds]]"
-    puts $f [report_property -return_string $phase_status]
+    dict for {name probe} $phase_status {puts $f [report_property -return_string $probe]}
     close $f
     # Discard many complete rasters after any clock adjustment.
     after 500
@@ -85,8 +85,7 @@ set status [catch {
             wait_on_hw_ila -timeout 180 $ila
             set data [upload_hw_ila_data $ila]
             write_hw_ila_data -csv_file $dir/events_000.csv $data
-            refresh_hw_vio $vio
-            set raw [get_property INPUT_VALUE $phase_status]
+            set raw [phase_read_hex $vio $phase_status]
             if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid post-capture phase status"}
             set word [expr 0x$raw]
             if {($word & ((1<<45)-1))!=$expected || (($word>>45)&31)!=31 || ($word>>50)!=0} {
@@ -98,7 +97,6 @@ set status [catch {
     }
 } result options]
 delete_hw_probe $probes
-delete_hw_probe $phase_status
 close_hw_target
 close_hw_manager
 if {$status} {return -options $options $result}

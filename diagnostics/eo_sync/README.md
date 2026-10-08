@@ -61,7 +61,9 @@ lock, handshake, watchdog and sticky lock-loss status. A coarse sweep advances
 28 taps at a time and observes both sampling edges. Do not use the phase60
 variant with 1080p30 clocks. The default build retains direct camera clocks.
 
-`phase_capture.tcl MATCHING.ltx NEW_DIRECTORY sweep` captures eight positions;
+`phase_capture.tcl MATCHING.ltx NEW_DIRECTORY sweep` captures sixteen positions
+over a full cycle on each edge. Rising/falling input registers have independent
+data routing, so one edge cannot substitute for the other half of a sweep;
 `summarize_phase_sweep.py DIRECTORY --frozen` summarizes a sweep made only after
 directly verifying Freeze on every camera. Geometry validity alone does not
 qualify pixels. Require unchanged frozen CRCs across adjacent valid phases and
@@ -87,6 +89,11 @@ For phase-qualified measurements, pass the same five colon-separated taps as
 the fourth argument to `capture.tcl`. It checks current tap readback, all five
 locks, idle controllers and no sticky faults before capture and after each
 block. `collect_study.py` rejects missing or mismatched phase checks.
+VIO status is read through its native LTX probes, since ILA-style aliases are
+not supported for VIO. This Vivado Tcl runtime truncates `%X` formatting to
+32 bits; use `%llX` for the 45-bit phase targets and 60-bit status word.
+`test_phase_status.tcl` checks all five tap fields and the highest fault bit
+without connecting to hardware.
 
 ## Reproduce
 
