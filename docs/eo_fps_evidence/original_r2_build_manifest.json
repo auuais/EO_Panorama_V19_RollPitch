@@ -1,0 +1,47 @@
+{
+  "created": "2026-10-08T01:22:50.765750+09:00",
+  "bitstream_sha256": "83295cfeff46c0595e1e1d126d3f4763fbbe85696a77dd1ab147083fff273ef0",
+  "ltx_sha256": "bbf9fcde43fb8b1dfed505738ec2263cfa65ba30f5962bd8f3b7d7a2b9f0c94d",
+  "device": "xcku15p-ffve1517-2-i",
+  "vivado": "2025.2",
+  "rtl_matches_routed_source_snapshot": true,
+  "source_sha256": {
+    "README.md": "d9345ce52f0a8a948beb8dadde8533edd992afe2a460d8c2d371c47b3c5efa84",
+    "constraints\\eo60_board.xdc": "723734e781e88f85b94f75a7e8165232b1467b1bfbe11a0f9dd6caa269d6071b",
+    "rtl\\Eo60InputSampler.v": "7bb2daca05c83c08435ca22a8eff4689fa0d0dfc74a62065bdabd1bb550de07c",
+    "rtl\\Eo60InputTestTop.v": "2714bb7deed7cf30d9a4883422f334ad2674706c83b4f1d9908bae840e5fcbad",
+    "rtl\\Eo60RasterMonitor.v": "51daaed9aba5c7e93e84c615e3b3bbb0c526110f56bdd1e166274cd2e8fd50df",
+    "rtl\\Eo60Telemetry.v": "e0e9e95b1e7f16a5c915bbdee4a30fede32f90f5b412c9626c3c337492f5a106",
+    "scripts\\audit_routed.tcl": "e5926d8c59f9951417c5263c544f7640c41a90f0b6c8bd9580a6f6fb749320a5",
+    "scripts\\build.tcl": "83515d4b282bbda8dc6cd1ba34aa99f5e77ca8db56d04d3dcee70f0e8df53996",
+    "scripts\\capture.tcl": "a9362955c6160d0499becf2ae8f05c268e30d90ff4ce23c6b52acfceeeb28edc",
+    "scripts\\decode.py": "66aa4c50e5a7faee81bb2696271fa4e8692cca0da85d2f6b37d7f61b23c47a75",
+    "scripts\\program.tcl": "269cc6c3c97c81d17999345b218da7a7c7addc32ba1a58b332661c2fc23f0347",
+    "scripts\\simulate.ps1": "2fc2ee9af7e926835ad5c4b76b41495935da6a057e8f81f8c20d3fb3f094946a",
+    "scripts\\test_decode.py": "d5a935e1b222f49e1b60c4942d1deebdd2833935c027cad9dec496f6ffbe0dc2",
+    "sim\\tb_Eo60FullRaster.sv": "4a2332d20d8e92d9fcf56b6185342673e5b951ad489af303a085ebcba35a0828",
+    "sim\\tb_Eo60InputSampler.sv": "6a1a97aeae72cbe71d003f89543cba2348000f0dcd2af70da069a3c09345be47",
+    "sim\\tb_Eo60RasterMonitor.sv": "ce6b289087b8eb14ca90835febac727ca6ec76bc19372d16be76dd9c6b0b0d1d",
+    "sim\\tb_Eo60Telemetry.sv": "3b67faf5ae49d089821a12b294389171d89fbb5379f3e72352fba3bee7e0535c"
+  },
+  "timing": {
+    "wns_ns": 2.345,
+    "tns_ns": 0.0,
+    "whs_ns": 0.01,
+    "ths_ns": 0.0,
+    "wpws_ns": 2.825,
+    "tpws_ns": 0.0,
+    "camera_clock_mhz": 148.5,
+    "input_delays": "Zero-reference aperture model, not measured board/camera timing",
+    "trigger_hz": 60,
+    "reference_hz": 27000000
+  },
+  "simulations": [
+    "repeated/changed/corrupted raster",
+    "full 1080p60 independent CRC vectors",
+    "asynchronous telemetry and trigger/frequency counting",
+    "vendor FDRE sampler alignment"
+  ],
+  "decoder_tests": 8,
+  "live_results": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\captures\\eo60_diagnostic_20261008_0051\\live_results.json"
+}

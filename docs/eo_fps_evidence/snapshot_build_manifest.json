@@ -1,0 +1,24 @@
+{
+  "build_validation": {
+    "wns_ns": 1.16,
+    "tns_ns": 0.0,
+    "whs_ns": 0.001,
+    "ths_ns": 0.0,
+    "wpws_ns": 2.825,
+    "tpws_ns": 0.0,
+    "camera_clock_mhz": 148.5,
+    "input_delays": "Zero-reference aperture model, not measured board/camera timing",
+    "trigger_hz": 60,
+    "reference_hz": 27000000
+  },
+  "files": {
+    "source_snapshot\\rtl\\Eo60InputSampler.v": "7bb2daca05c83c08435ca22a8eff4689fa0d0dfc74a62065bdabd1bb550de07c",
+    "source_snapshot\\rtl\\Eo60InputTestTop.v": "835db51522f4e73c9bb5dd489b352acb8c6b257d92c880b20a7a261062fa8d45",
+    "source_snapshot\\rtl\\Eo60RasterMonitor.v": "51daaed9aba5c7e93e84c615e3b3bbb0c526110f56bdd1e166274cd2e8fd50df",
+    "source_snapshot\\rtl\\Eo60Snapshot.v": "b603f1fcdc077dc625bbf3ba5ca20d2e0f2e257eeeae7e3e015f6dad980bba53",
+    "source_snapshot\\rtl\\Eo60Telemetry.v": "e0e9e95b1e7f16a5c915bbdee4a30fede32f90f5b412c9626c3c337492f5a106",
+    "source_snapshot\\constraints\\eo60_board.xdc": "723734e781e88f85b94f75a7e8165232b1467b1bfbe11a0f9dd6caa269d6071b",
+    "Eo60InputTestTop.bit": "5f8e2eb39d7676f7b250dfdcdba9c5b2d584144ed55d89a121cb1c57a7083a62",
+    "Eo60InputTestTop.ltx": "904156adff3c76a82256dfde12de41cc08696743b4b7cf4bd9c8aa39f4c001cc"
+  }
+}

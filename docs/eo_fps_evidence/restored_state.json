@@ -1,0 +1,49 @@
+{
+  "restored": true,
+  "recorded_at": "2026-10-08T15:42:36.509973+09:00",
+  "operational_bit": "E:/Xylinx/EO_Panorama_V19_RollPitch/builds/bit_archive/20261006_221847_trsmon_trig60_9a8a81e/KintexTop_EO_IR_HD_SDI_panorama_base.bit",
+  "bit_sha256": "d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd",
+  "camera2": {
+    "format": "1080p30",
+    "shutter_osd": "1/240 sec",
+    "lens": "MANUAL",
+    "gain": "0 dB",
+    "exposure_mode_display": "---",
+    "day_night": "AUTO",
+    "trigger": "ExtTrig",
+    "trigger_polarity": "OFF",
+    "strobe_polarity": "OFF",
+    "trigger_delay": 0,
+    "strobe_delay": 0,
+    "strobe_width": 1,
+    "dnr": "2D+3D",
+    "freeze": "OFF"
+  },
+  "display_camera": 6,
+  "display_parameters": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "pose_unchanged": true,
+  "menus_closed": true,
+  "reviewed_images": {
+    "final_image_settings.png": "821d265d1aeae5ea4d1e28539d3c8c6b366bd7428d80c59eafe55aaeddf17cec",
+    "final_exposure240.png": "0ece2de8061366992197e3cde9b22949ff55c0e120b1919ea993460898e603ec",
+    "final_trigger.png": "bcb0980b15feee09a6d5aef446045a7c474c90d74e99bf87a9fb45f3d1cd97b2",
+    "final_format.png": "2e9c8ac785be4a26e1c992c1c50886327c04eabfc5e64cf8256c9cfd2869b445",
+    "final_camera2_closed.png": "2b0c6c817d0824d4c562dde689136ee9a32b98732baecc61e2f3ac13ce8c1eb0",
+    "final_camera6.png": "f3f1d71e2e0cdf7990d29fc944bef91ddf5e7cf6d058d2885eaf089094a037d9"
+  },
+  "review": "All six listed images visually inspected. Display and pose text matches initial records exactly.",
+  "other_cameras": "No OSD changes to cameras 1 or 3-6.",
+  "no_qspi_write": true,
+  "no_mcu_flash": true,
+  "no_camera_power_cycle": true,
+  "no_osd_save": true,
+  "note": "post30_control_shutter.png reads 1/60 s after the frozen 30-mode control, before any restoration shutter writes. final_exposure.png is an intermediate 1/300 s restoration image; final_exposure240.png is the verified final value."
+}

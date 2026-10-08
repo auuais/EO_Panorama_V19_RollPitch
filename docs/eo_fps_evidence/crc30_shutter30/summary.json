@@ -1,0 +1,70 @@
+{
+  "protocol": "EO60-v1",
+  "reference_hz": 27000000,
+  "expected_raster_hz": 30,
+  "complete_reports": 256,
+  "excluded_partial_mailboxes": 0,
+  "pclk_hz_observations": {
+    "74248960": 8,
+    "74249216": 2
+  },
+  "trigger_hz_observations": {
+    "60": 10
+  },
+  "phases": {
+    "rising": {
+      "reports": 128,
+      "valid_reports": 128,
+      "invalid_reports": 0,
+      "flags": {
+        "3": 128
+      },
+      "raster_starts_hz": 29.999577934630757,
+      "missing_between_reports": 462,
+      "valid_adjacent_pairs": 120,
+      "crc_changed_pairs": 63,
+      "crc_repeated_pairs": 57,
+      "spacing": {
+        "crc": {
+          "2": 55
+        },
+        "roi_crc": {
+          "2": 55
+        }
+      },
+      "maximum_identical_run": {
+        "crc": 2,
+        "roi_crc": 2
+      },
+      "content_rate_accepted": true,
+      "input_updates_hz": 14.999788967315379
+    },
+    "falling": {
+      "reports": 128,
+      "valid_reports": 128,
+      "invalid_reports": 0,
+      "flags": {
+        "3": 128
+      },
+      "raster_starts_hz": 29.99963599762547,
+      "missing_between_reports": 462,
+      "valid_adjacent_pairs": 120,
+      "crc_changed_pairs": 63,
+      "crc_repeated_pairs": 57,
+      "spacing": {
+        "crc": {
+          "2": 55
+        },
+        "roi_crc": {
+          "2": 55
+        }
+      },
+      "maximum_identical_run": {
+        "crc": 2,
+        "roi_crc": 2
+      },
+      "content_rate_accepted": true,
+      "input_updates_hz": 14.999817998812736
+    }
+  }
+}

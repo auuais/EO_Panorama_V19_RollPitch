@@ -1,0 +1,315 @@
+{
+  "entries": [
+    {
+      "tag": "crc30_shutter30",
+      "label": "30-mode 1/30 s",
+      "format_hz": 30,
+      "shutter_osd": "1/30 s",
+      "dnr": "2D+3D",
+      "freeze": "OFF",
+      "build_label": "Snapshot",
+      "raster_hz": 29.99963599762547,
+      "reports": 128,
+      "valid_reports": 128,
+      "pairs": 120,
+      "full_changed": 63,
+      "roi_changed": 63,
+      "full_spacing": {
+        "2": 55
+      },
+      "roi_spacing": {
+        "2": 55
+      },
+      "fresh_input_fps": 14.999817998812736,
+      "raw_decoder_accepted": true,
+      "raw_decoder_input_updates_hz": 14.999817998812736,
+      "osd_evidence": "osd30_shutter30_reopened/frame_04757.png",
+      "trigger_hz_observations": {
+        "60": 10
+      },
+      "pclk_hz_observations": {
+        "74248960": 8,
+        "74249216": 2
+      },
+      "freeze_control_pass": null,
+      "roi_spacing_rasters": 2
+    },
+    {
+      "tag": "crc60_2x",
+      "label": "60-mode 2x",
+      "format_hz": 60,
+      "shutter_osd": "2x",
+      "dnr": "2D+3D",
+      "freeze": "OFF",
+      "build_label": "Snapshot",
+      "raster_hz": 59.999316674448984,
+      "reports": 128,
+      "valid_reports": 128,
+      "pairs": 120,
+      "full_changed": 105,
+      "roi_changed": 60,
+      "full_spacing": {
+        "1": 84,
+        "2": 13
+      },
+      "roi_spacing": {
+        "2": 52
+      },
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": false,
+      "raw_decoder_input_updates_hz": null,
+      "osd_evidence": "osd60_slower_attempt/frame_20084.png",
+      "trigger_hz_observations": {
+        "60": 12
+      },
+      "pclk_hz_observations": {
+        "148497920": 2,
+        "148498176": 10
+      },
+      "freeze_control_pass": null,
+      "roi_spacing_rasters": 2
+    },
+    {
+      "tag": "crc60_freeze_on",
+      "label": "Freeze: snapshot RTL",
+      "format_hz": 60,
+      "shutter_osd": "2x",
+      "dnr": "2D+3D",
+      "freeze": "ON",
+      "build_label": "Snapshot",
+      "raster_hz": 59.9992490143749,
+      "reports": 128,
+      "valid_reports": 128,
+      "pairs": 120,
+      "full_changed": 117,
+      "roi_changed": 0,
+      "full_spacing": {
+        "1": 106,
+        "2": 3
+      },
+      "roi_spacing": {},
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": false,
+      "raw_decoder_input_updates_hz": null,
+      "osd_evidence": "osd60_freeze_on/frame_07205.png",
+      "trigger_hz_observations": {
+        "60": 11
+      },
+      "pclk_hz_observations": {
+        "148498176": 9,
+        "148497920": 2
+      },
+      "freeze_control_pass": false,
+      "roi_spacing_rasters": null
+    },
+    {
+      "tag": "crc60_freeze_original",
+      "label": "Freeze: original RTL",
+      "format_hz": 60,
+      "shutter_osd": "2x",
+      "dnr": "2D+3D",
+      "freeze": "ON",
+      "build_label": "Original r2",
+      "raster_hz": 59.999246070079685,
+      "reports": 256,
+      "valid_reports": 256,
+      "pairs": 248,
+      "full_changed": 248,
+      "roi_changed": 248,
+      "full_spacing": {
+        "1": 240
+      },
+      "roi_spacing": {
+        "1": 240
+      },
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": true,
+      "raw_decoder_input_updates_hz": 59.999246070079685,
+      "osd_evidence": "osd60_freeze_on/frame_07205.png",
+      "trigger_hz_observations": {
+        "60": 13
+      },
+      "pclk_hz_observations": {
+        "148498176": 12,
+        "148497920": 1
+      },
+      "freeze_control_pass": false,
+      "roi_spacing_rasters": 1
+    },
+    {
+      "tag": "crc60_frozen_dnr_off",
+      "label": "Freeze: DNR OFF",
+      "format_hz": 60,
+      "shutter_osd": "2x",
+      "dnr": "OFF",
+      "freeze": "ON",
+      "build_label": "Snapshot",
+      "raster_hz": 59.999307724326165,
+      "reports": 128,
+      "valid_reports": 128,
+      "pairs": 120,
+      "full_changed": 118,
+      "roi_changed": 0,
+      "full_spacing": {
+        "1": 108,
+        "2": 2
+      },
+      "roi_spacing": {},
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": false,
+      "raw_decoder_input_updates_hz": null,
+      "osd_evidence": "osd60_frozen_dnr_off/frame_06681.png",
+      "trigger_hz_observations": {
+        "60": 9
+      },
+      "pclk_hz_observations": {
+        "148498176": 9
+      },
+      "freeze_control_pass": false,
+      "roi_spacing_rasters": null
+    },
+    {
+      "tag": "crc60_2x_dnr_off",
+      "label": "2x, DNR OFF",
+      "format_hz": 60,
+      "shutter_osd": "2x",
+      "dnr": "OFF",
+      "freeze": "OFF",
+      "build_label": "Snapshot",
+      "raster_hz": 59.999252696477754,
+      "reports": 128,
+      "valid_reports": 128,
+      "pairs": 120,
+      "full_changed": 119,
+      "roi_changed": 60,
+      "full_spacing": {
+        "1": 110,
+        "2": 1
+      },
+      "roi_spacing": {
+        "2": 52
+      },
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": false,
+      "raw_decoder_input_updates_hz": null,
+      "osd_evidence": "osd60_unfrozen_dnr_off/frame_24369.png",
+      "trigger_hz_observations": {
+        "60": 10
+      },
+      "pclk_hz_observations": {
+        "148498176": 10
+      },
+      "freeze_control_pass": null,
+      "roi_spacing_rasters": 2
+    },
+    {
+      "tag": "crc60_shutter60_dnr_off",
+      "label": "1/60 s, DNR OFF",
+      "format_hz": 60,
+      "shutter_osd": "1/60 s",
+      "dnr": "OFF",
+      "freeze": "OFF",
+      "build_label": "Snapshot",
+      "raster_hz": 59.999254645850804,
+      "reports": 128,
+      "valid_reports": 128,
+      "pairs": 120,
+      "full_changed": 117,
+      "roi_changed": 60,
+      "full_spacing": {
+        "1": 106,
+        "2": 3
+      },
+      "roi_spacing": {
+        "2": 52
+      },
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": false,
+      "raw_decoder_input_updates_hz": null,
+      "osd_evidence": "osd60_shutter60_dnr_off/frame_00950.png",
+      "trigger_hz_observations": {
+        "60": 8
+      },
+      "pclk_hz_observations": {
+        "148498176": 7,
+        "148497920": 1
+      },
+      "freeze_control_pass": null,
+      "roi_spacing_rasters": 2
+    },
+    {
+      "tag": "crc30_freeze_control",
+      "label": "30-mode Freeze control",
+      "format_hz": 30,
+      "shutter_osd": "1/60 s",
+      "dnr": "OFF",
+      "freeze": "ON",
+      "build_label": "Snapshot",
+      "raster_hz": 29.99960745014504,
+      "reports": 127,
+      "valid_reports": 127,
+      "pairs": 119,
+      "full_changed": 0,
+      "roi_changed": 0,
+      "full_spacing": {},
+      "roi_spacing": {},
+      "fresh_input_fps": null,
+      "raw_decoder_accepted": false,
+      "raw_decoder_input_updates_hz": null,
+      "osd_evidence": "osd30_freeze_control/frame_11517.png",
+      "trigger_hz_observations": {
+        "60": 12
+      },
+      "pclk_hz_observations": {
+        "74248960": 8,
+        "74249216": 4
+      },
+      "freeze_control_pass": true,
+      "roi_spacing_rasters": null,
+      "shutter_readback_evidence": "post30_control_shutter.png",
+      "shutter_readback_context": "After capture at unchanged 1080p30, before any restoration shutter writes; 1/60 s was visually reviewed."
+    }
+  ],
+  "manual_path": "C:/SVNProjects/IMU_Stabilize_v40/Manual/EO/\uc6d0\uc6b0Approval sheet _DM-G15-42_v1.04_240104.pdf",
+  "manual_sha256": "e1f5c8ce23da0bca8b7f631279c96de8f947967754329e5fa9586fe79a0b1634",
+  "key_images": {
+    "exposure30": "osd30_shutter30_reopened/frame_04757.png",
+    "exposure60": "osd60_exposure_after_switch/frame_15230.png",
+    "freeze60": "osd60_freeze_on/frame_07205.png"
+  },
+  "frozen_image_sha256": "9be07f6b8ad95324d3a02039f93f00b44a5dad8a0eb4fb226f5080917bb11a7a",
+  "frozen_image_retained_across_original_build": true,
+  "frozen_image_sampling": "960x540 Y, every second pixel and row. Equality is not a full-resolution Y/C byte comparison.",
+  "primary_verdict": "Withdraw 60 fresh input FPS at 1/30 s. Direct 60-mode OSD shows 1/60 s after a 30-mode 1/30 s preselection; original CRC diagnostic fails a frozen-camera control.",
+  "headline_lines": [
+    "Confirmed: 1080p30 at 1/30 s changes to an OSD value of 1/60 s when switched to 1080p60, without a shutter command.",
+    "Original diagnostic: FREEZE ON still produces 248/248 changed full and ROI CRC pairs. Its 60 fresh-FPS conclusion is withdrawn.",
+    "At directly read 1/60 s: about 60 rasters/s and 30 ROI changes/s. Whole-frame fresh FPS and physical integration remain unverified."
+  ],
+  "verdict_lines": [
+    "The supplied manual lists shutter values for 30/25 fps mode. It does not specify the 60-mode exposure mapping used by the earlier sweep.",
+    "The same frozen sampled image is byte-identical before and after the original-bitstream test. Camera settings were not changed during that bracket.",
+    "The snapshot build keeps the frozen ROI CRC constant but its full CRC changes. Turning DNR OFF does not remove those full-CRC changes.",
+    "At 1080p30, the same snapshot build passes the frozen control: 0/119 changed falling-phase pairs and 0/120 rising-phase pairs in both CRCs.",
+    "At 1080p60 with DNR OFF, both 2x and directly read 1/60 s show a two-raster ROI change cadence (about 30/s). This is a local image measurement.",
+    "Passing geometry and internal timing is insufficient to qualify active-pixel integrity at 148.5 MHz. The cause is not yet isolated.",
+    "Old 60-mode shutter labels were 30-mode preselected values. Raw counts are retained; the former fresh-FPS conclusions are marked unverified.",
+    "Earlier 1080p30 exposure sweeps remain separate: roughly 15 or 30 payload updates/s, depending on the shutter setting and recorded controls.",
+    "The manufacturer\u2019s quoted 25 Hz claim is not a documented universal limit in these manuals. Its original wording and test conditions remain unavailable.",
+    "Operational FPGA and starting camera/display settings were restored. See the linked restoration record."
+  ],
+  "method_lines": [
+    "Manual: DM-G15-42 approval sheet v1.04, 4 January 2024. Printed pages 15 (1080p60 geometry), 39/41 (trigger), 43 (30/25-mode shutter table), 47/48 (DNR/Freeze).",
+    "The snapshot ILA stores two complete 960x540 Y sample arrays without filtering, plus 1472 packets of the next raster. Coordinates, byte order and packet completeness are checked.",
+    "Two RTL/snapshot decoder checks passed. Snapshot build timing: setup +1.160 ns, hold +0.001 ns, pulse width +2.825 ns; bus skew passes.",
+    "External input timing is only a zero-reference aperture model. No camera/PCB clock-to-data limits or electrical timing margin were measured.",
+    "All tests use generated 60 Hz / 2 ms-high trigger pulses. The internal counter does not measure camera-accepted triggers or sensor exposure starts.",
+    "CRC comparisons use only adjacent valid sequence numbers. Full Y/C CRC and central 96x96 Y/C ROI CRC are compared independently.",
+    "Original r2 frozen capture is bracketed by the identical sampled Y image on the snapshot build, with no camera commands between the closed-image snapshots.",
+    "The raw decoder can label a frozen original-r2 capture as accepted 60 FPS. That automatic result is rejected by this report\u2019s independent Freeze control.",
+    "No 60-mode full-frame fresh-image FPS is accepted here. ROI cadence, when available, is a local observation and does not independently count physical exposures.",
+    "Freeze controls do not fully isolate camera post-processing from FPGA input sampling. Disabling DNR excludes that setting as the sole explanation.",
+    "To qualify 60 fresh FPS: first obtain stable full Y/C data on a frozen input, then repeat an unfrozen capture with direct 60-mode shutter readback and a timed optical stimulus.",
+    "To verify actual integration time: use a calibrated pulsed-light or moving target and exposure timing. A configurable strobe width alone is not sensor integration time."
+  ]
+}

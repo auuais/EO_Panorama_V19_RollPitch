@@ -1,0 +1,121 @@
+{
+  "updated": "2026-10-08",
+  "timezone": "Asia/Seoul",
+  "files": {
+    "verification_results.json": {
+      "bytes": 12123,
+      "sha256": "726879661a01c1edacfc6e126a02e194262b297dbcaf671e949a6f804c6c7cad",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/verification_results.json"
+    },
+    "restored_state.json": {
+      "bytes": 2015,
+      "sha256": "e55a4e445e49766b9e0c94f98075007f2d6cf76539d2e535f47b066ad4895875",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/final_state.json"
+    },
+    "snapshot_build_manifest.json": {
+      "bytes": 1247,
+      "sha256": "dab019c3f458819e8dd348ca3eac9ad1c01234a7aa887f9b153204714855c84b",
+      "source_relative_to_repo": "builds/eo60_snapshot_20261008_r1/manifest.json"
+    },
+    "original_r2_build_manifest.json": {
+      "bytes": 2723,
+      "sha256": "b5db252e17c87cc6368fa3ce207700668fd3498f3ee9a44aa47df43303cc5042",
+      "source_relative_to_repo": "builds/eo60_input_20261008_r2/manifest.json"
+    },
+    "workbook_validation.json": {
+      "bytes": 1289,
+      "sha256": "09a7c0e3a7cef34c47f7efe19f322af7b8809e3178d8f10adb0e373cff422cd1",
+      "source_relative_to_repo": ".tmpCRC/eo60_verify_20261008/workbook_validation.json"
+    },
+    "EO_Camera_FPS_Consolidated_Report_20261007.xlsx": {
+      "bytes": 602950,
+      "sha256": "aafa13264e0c47329f207344ec898d8eee40275efda250c028416b29509ea906",
+      "source_relative_to_repo": "outputs/01a1110b-4bdf-79b3-af63-c2b05f5fcb99/EO_Camera_FPS_Consolidated_Report_20261007.xlsx"
+    },
+    "report_source/build_report.mjs": {
+      "bytes": 70864,
+      "sha256": "c5202181e421fee3911a1ebf35f5ec84b80b9ecc8d5f78422208ca420f482b43",
+      "source_relative_to_repo": ".tmpCRC/excel_report_20261007/build_report.mjs"
+    },
+    "report_source/add_native_links.py": {
+      "bytes": 2808,
+      "sha256": "c953bd061a0673b08fd78d7eb192c6456e351304bc29245a7d28fe71cf605faf",
+      "source_relative_to_repo": ".tmpCRC/excel_report_20261007/add_native_links.py"
+    },
+    "report_source/consolidate.py": {
+      "bytes": 8269,
+      "sha256": "66b976e6469c38e108e1901e94d7342511837c86c9272f70290c20b12b0d7992",
+      "source_relative_to_repo": ".tmpCRC/eo60_verify_20261008/consolidate.py"
+    },
+    "report_source/verify_workbook.py": {
+      "bytes": 6242,
+      "sha256": "ea1368ce3af39efbe45d352bc6e7ab836012396132287f3405c0aff9695aad55",
+      "source_relative_to_repo": ".tmpCRC/eo60_verify_20261008/verify_workbook.py"
+    },
+    "osd30_shutter30_reopened/frame_04757.png": {
+      "bytes": 172307,
+      "sha256": "2f534b6f63ced5ba2bd2a89862a436186e2b6b9993c0524f46306bc1aa86ba9d",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/osd30_shutter30_reopened/frame_04757.png"
+    },
+    "osd60_exposure_after_switch/frame_15230.png": {
+      "bytes": 171917,
+      "sha256": "fbcb08128d57345fd22de7fefa1942d4c7523a94409c7ba4b490745fc9c853ab",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/osd60_exposure_after_switch/frame_15230.png"
+    },
+    "osd60_freeze_on/frame_07205.png": {
+      "bytes": 171479,
+      "sha256": "10414ab4a5734f1097cddc0200da2d0d7149feec82a09fd419277df8f122024a",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/osd60_freeze_on/frame_07205.png"
+    },
+    "crc30_shutter30/summary.json": {
+      "bytes": 1575,
+      "sha256": "a3c2e3ee9025596fcaaddbf675ff0f5bf3438a5a21ba90fca7af9f6c3b1e571e",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc30_shutter30/summary.json"
+    },
+    "crc60_2x/summary.json": {
+      "bytes": 1550,
+      "sha256": "0dbc6ee3ae39ffd2b9482b1aaabf8caa59f61c255f407173a5717afa76b20758",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc60_2x/summary.json"
+    },
+    "crc60_freeze_on/summary.json": {
+      "bytes": 1498,
+      "sha256": "df89f2c7a935d77fa1dc1eeadb168921a208fd697a1ed9a5a617e6d26ee8097a",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc60_freeze_on/summary.json"
+    },
+    "crc60_freeze_original/summary.json": {
+      "bytes": 1460,
+      "sha256": "de37b58972c3fb7a27bc1de7fad87db2bbf2078b3003afe68c6fc74f24b7c2ce",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc60_freeze_original/summary.json"
+    },
+    "crc60_frozen_dnr_off/summary.json": {
+      "bytes": 1480,
+      "sha256": "dc0244d204ff3c4d19dfddf7e12975a298a4ca2972761f9306f3a3ece0b392f0",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc60_frozen_dnr_off/summary.json"
+    },
+    "crc60_2x_dnr_off/summary.json": {
+      "bytes": 1527,
+      "sha256": "ea966f09feac72d3ef8455fd91543f3e2bbd124a41730e079c0d1e4a812b2d4d",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc60_2x_dnr_off/summary.json"
+    },
+    "crc60_shutter60_dnr_off/summary.json": {
+      "bytes": 1547,
+      "sha256": "9b2b7eafdee8ea0263a8a4b64f7303fc622df086f5e3249e875826b73e138228",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc60_shutter60_dnr_off/summary.json"
+    },
+    "crc30_freeze_control/summary.json": {
+      "bytes": 1436,
+      "sha256": "d35ac02723fa56c30889e9bd2715af886074302e3a5aeae4b0f70b59a52f82dd",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/crc30_freeze_control/summary.json"
+    },
+    "image60_frozen/snapshot_summary.json": {
+      "bytes": 3393,
+      "sha256": "046beb88d3629e31d41c4089371dfd573f5a5097e3863d4c4bece44390538b28",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/image60_frozen/snapshot_summary.json"
+    },
+    "image60_frozen_after_original/snapshot_summary.json": {
+      "bytes": 3390,
+      "sha256": "627aae5513848456fe2fb3d61593518f28343c8f1c48292c90fa8811b9614af3",
+      "source_relative_to_repo": "captures/eo60_verify_20261008/image60_frozen_after_original/snapshot_summary.json"
+    }
+  }
+}

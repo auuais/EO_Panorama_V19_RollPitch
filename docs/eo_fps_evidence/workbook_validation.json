@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "output": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\outputs\\01a1110b-4bdf-79b3-af63-c2b05f5fcb99\\EO_Camera_FPS_Consolidated_Report_20261007.xlsx",
+  "sha256": "aafa13264e0c47329f207344ec898d8eee40275efda250c028416b29509ea906",
+  "worksheets": [
+    "Report",
+    "Exposure Sweep",
+    "ILA Results",
+    "USB Results"
+  ],
+  "verified_conditions": 8,
+  "native_hyperlinks": 492,
+  "embedded_osd_images": 3,
+  "preserved_chart_series": 2,
+  "formula_errors": 0,
+  "intentional_historical_changes": {
+    "Report": [
+      "A4",
+      "A66",
+      "A80",
+      "A90",
+      "A91",
+      "A94",
+      "A95",
+      "A103",
+      "A104",
+      "A106",
+      "B106",
+      "D106",
+      "A113",
+      "A114",
+      "A115",
+      "A118",
+      "F122"
+    ],
+    "Exposure Sweep": [
+      "A208",
+      "B210",
+      "C210",
+      "F210",
+      "F211",
+      "F212",
+      "F213",
+      "F214",
+      "F215",
+      "A219",
+      "A225"
+    ],
+    "ILA Results": [
+      "A71",
+      "D73",
+      "D101",
+      "L105",
+      "A115"
+    ],
+    "USB Results": []
+  },
+  "preserved": "All other historical nonempty cells, their formatting, original table ranges/styles and freeze panes.",
+  "hardware_restored": true
+}
