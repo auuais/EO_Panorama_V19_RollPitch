@@ -70,3 +70,31 @@ The existing local modifications to `EO_Panorama_V19_M1.xpr` and
 bandwidth JSON files and offset-setting helper remain local as well.
 Diagnostic source packages are reproducible standalone projects and do not
 require committing the generated Vivado project or bitstream.
+
+## 2026-10-08: five-camera synchronization comparison started
+
+The user requested a separate Excel comparison of physical cameras 2–6 in
+ExtTrig and FreeRun, and explicitly selected both 1080p30 and 1080p60. The
+existing follower-spread counter references an older unused trigger source;
+it is not suitable evidence. A new standalone package, `diagnostics/eo_sync`,
+timestamps ten camera/edge channels independently on the common 27 MHz clock
+before serialization. It records the actual generated 60 Hz / 2 ms-high
+trigger and includes direct OSD crops for all five cameras.
+
+Before changing settings, USB OSD readbacks confirmed cameras 2–6 at ExtTrig,
+1080p30, manual 1/240 s, 0 dB, DNR 2D+3D, Freeze OFF, mirror OFF, gamma 0.45,
+sharpness 5, ACE manual, defog OFF and electronic zoom OFF. Trigger/strobe
+polarities were OFF, trigger/strobe delays 0.0 and strobe width 1.0. Display
+and pose readbacks were retained. Camera 1 was not changed. Initial evidence
+is under `captures/eo_sync_20261008`.
+
+Two RTL simulations passed: simultaneous ten-channel timestamp/payload
+retention and two complete known-pattern OSD crops. Four Python tests passed
+for circular phase wrapping, differing camera sequence origins, CSV integrity
+rejection, and crop reconstruction/missing-packet rejection. Build r1 is in
+progress; no synchronization measurements or verdict are claimed yet.
+
+Planned protocol: ExtTrig / FreeRun / ExtTrig return at each format with fixed
+generated 60 Hz trigger, direct OSD settings readback, separate Freeze controls,
+and full restoration. Report raster spread separately from qualified image
+change spread. Neither quantity alone proves physical exposure alignment.
