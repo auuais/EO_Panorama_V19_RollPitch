@@ -1,0 +1,49 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/rtl/EoSyncTelemetry.v" into library work
+INFO: [VRFC 10-311] analyzing module EoSyncTelemetry
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/rtl/EoSyncSnapshot.v" into library work
+INFO: [VRFC 10-311] analyzing module EoSyncSnapshot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/rtl/EoSyncPhaseControl.v" into library work
+INFO: [VRFC 10-311] analyzing module EoSyncPhaseControl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/sim/tb_EoSyncTelemetry.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_EoSyncTelemetry
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/sim/tb_EoSyncSnapshot.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_EoSyncSnapshot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/sim/tb_EoSyncPhaseControl.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_EoSyncPhaseControl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/sim/tb_EoSyncTriggerRates.sv" into library work
+INFO: [VRFC 10-311] analyzing module trigger_rate_checker
+INFO: [VRFC 10-311] analyzing module tb_EoSyncTriggerRates
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_EoSyncTriggerRates -s tb_EoSyncTriggerRates --debug typical 
+Multi-threading is on. Using 10 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.EoSyncTelemetry(TRIGGER_HZ=30)
+Compiling module work.trigger_rate_checker_default
+Compiling module work.EoSyncTelemetry_default
+Compiling module work.trigger_rate_checker(RATE=60)
+Compiling module work.tb_EoSyncTriggerRates
+Built simulation snapshot tb_EoSyncTriggerRates
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Oct  8 23:30:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_EoSyncTriggerRates/xsim_script.tcl
+# xsim {tb_EoSyncTriggerRates} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: real-scale 30/60 Hz trigger periods, 2 ms high time and ILA edge timestamps
+$finish called at time : 18550010 ns : File "E:/Xylinx/EO_Panorama_V19_RollPitch/diagnostics/eo_sync/sim/tb_EoSyncTriggerRates.sv" Line 45
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Oct  8 23:30:26 2026...

@@ -1,0 +1,1 @@
+[{"expected_hz": 60, "captured_hz": 60, "verified": [true, true]}, {"expected_hz": 30, "captured_hz": 60, "verified": [false, false]}]
