@@ -71,3 +71,14 @@ dfx_runtime.txt
 clockInfo.txt
 xvlog.pb
 sim_out/
+
+# Local diagnostic builds and report-authoring scratch space. Curated results
+# and the current workbook are versioned under docs/eo_fps_evidence/ instead.
+/.tmpCRC/
+/builds/
+/outputs/
+/build_done.txt
+/build_eto_console.txt
+/build_progress.txt
+/build_sweep_console.txt
+/build_sweep_result.txt
