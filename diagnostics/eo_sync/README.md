@@ -53,6 +53,33 @@ allow at least two complete rasters before taking a crop. Revision 1 fixed the
 crop to falling; its first 1080p30 control qualified rising on all five cameras
 but exposed invalid falling sampling on several cameras.
 
+Revision 3 adds an optional `phase60` build argument. This variant requires
+148.5 MHz camera clocks: five MMCMs use an 1188 MHz VCO and divide by eight.
+One fine-phase tap is 1/56 VCO cycle (about 15.03 ps); 448 taps span one pixel
+clock period. Each camera has an independently commanded 9-bit target, with
+lock, handshake, watchdog and sticky lock-loss status. A coarse sweep advances
+28 taps at a time and observes both sampling edges. Do not use the phase60
+variant with 1080p30 clocks. The default build retains direct camera clocks.
+
+`phase_capture.tcl MATCHING.ltx NEW_DIRECTORY sweep` captures eight positions;
+`summarize_phase_sweep.py DIRECTORY --frozen` summarizes a sweep made only after
+directly verifying Freeze on every camera. Geometry validity alone does not
+qualify pixels. Require unchanged frozen CRCs across adjacent valid phases and
+choose an interior sampling position; then run a full-length Freeze control at
+the exact selected taps/edges before comparing modes.
+
+Set independent targets with `phase_capture.tcl MATCHING.ltx NEW_DIRECTORY set
+TAP2:TAP3:TAP4:TAP5:TAP6`. Use colon-separated lists on Windows: the Vivado batch
+launcher can split comma-separated arguments even when PowerShell quoted them.
+`capture_snapshots.tcl` likewise accepts colon-separated cameras and keys, and
+can send keys immediately before arming a crop. Inspect its durable key logs
+and the actual OSD; a successful serial command does not establish menu state.
+
+Phase-clock constraints use dedicated BACKBONE clock routing from the input
+BUFGs to remote MMCMs. They never permit general fabric clock routing. The
+phase-controller interface follows AMD UG572, Dynamic Phase Shift Interface:
+https://docs.amd.com/r/en-US/ug572-ultrascale-clocking/Dynamic-Phase-Shift-Interface-in-the-MMCM
+
 ## Reproduce
 
 Use Vivado 2025.2, KU15P, one local hardware target and JTAG at 6 MHz. Camera and

@@ -115,3 +115,34 @@ edge for each OSD crop only; both timestamp/CRC observers remain active.
 The r2 build is in progress. The operational FPGA is used temporarily for
 direct 1080p30 OSD readbacks between r1 acquisitions. Reprogramming boundaries
 and separate capture blocks must remain explicit in the results.
+## 2026-10-08 synchronization comparison: 1080p30 complete, 1080p60 qualification in progress
+
+Physical cameras 2–6 were tested at 1080p30, manual 1/240 s, 0 dB and DNR
+2D+3D. The generated trigger remained 60 Hz, 2 ms high. Revision-1 rising
+sampling passed the all-camera Freeze control: 41.188 s, 100% strict geometry,
+zero complete-raster and ROI CRC changes. ExtTrig A / FreeRun / ExtTrig B
+observations lasted 82.125 / 78.235 / 83.194 s, with median five-camera circular
+spreads 15.415 / 16.311 / 17.269 ms. Switching back to ExtTrig did not realign
+the raster phases; camera-3 drift relative to camera 2 stayed approximately
+4.3 microseconds/second in both modes. These are arrival/payload boundaries,
+not physical exposure-start measurements. The increasing phase spread across
+wall time must not be presented as a causal improvement from trigger mode.
+
+The first 1080p60 captures with revisions 1 and 2 failed input-integrity checks
+on four cameras and are excluded from synchronization conclusions. Revision 3
+adds a 60-only MMCM phase sweep to qualify the input aperture empirically.
+The phase sequencer passed simulated stepping, wrap, handshake and fault
+checks. Initial implementation failed dedicated clock placement. The first
+constraint repair used a conditional loop that XDC rejected; the corrected
+phase-only XDC uses five explicit BACKBONE constraints, and implementation is
+being resumed from the optimized checkpoint with asserted property readback.
+No failed or unqualified revision-3 image has been programmed.
+
+Snapshot helper validation found that the Windows Vivado batch launcher splits
+comma lists despite PowerShell quoting. For example, an intended up/enter pair
+became an up key before capture and enter after capture. Durable logs exposed
+this; colon lists now preserve argument boundaries. This affected only pending
+1080p60 menu navigation, not the directly verified 1080p30 conditions. Existing
+failed attempts and logs are retained. Cameras currently remain at 1080p60 with
+the revision-2 diagnostic; restoration is pending completion of the tests.
+

@@ -208,7 +208,7 @@ set_clock_uncertainty 0.100 [get_clocks camera6]
 # Zero-reference aperture only; not measured camera/board timing.
 set_input_delay -clock camera6 -min 0 [get_ports {CAM5_YOUT[*] CAM5_COUT[*]}]
 set_input_delay -clock camera6 -max 0 [get_ports {CAM5_YOUT[*] CAM5_COUT[*]}]
-set_clock_groups -asynchronous -group [get_clocks ref27] -group [get_clocks camera2] -group [get_clocks camera3] -group [get_clocks camera4] -group [get_clocks camera5] -group [get_clocks camera6]
+set_clock_groups -asynchronous -group [get_clocks -include_generated_clocks ref27] -group [get_clocks -include_generated_clocks camera2] -group [get_clocks -include_generated_clocks camera3] -group [get_clocks -include_generated_clocks camera4] -group [get_clocks -include_generated_clocks camera5] -group [get_clocks -include_generated_clocks camera6]
 set_false_path -to [get_ports {TRIG_IN1 TRIG_IN2 TRIG_IN3 TRIG_IN4 TRIG_IN5}]
 set_property SLEW SLOW [get_ports {TRIG_IN1 TRIG_IN2 TRIG_IN3 TRIG_IN4 TRIG_IN5}]
 set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]

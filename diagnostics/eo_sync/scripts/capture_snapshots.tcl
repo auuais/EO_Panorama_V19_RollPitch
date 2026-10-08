@@ -1,9 +1,15 @@
 # Read one OSD crop from each requested camera during one JTAG connection.
-if {[llength $argv]<2 || [llength $argv]>3} {error "Usage: capture_snapshots.tcl matching.ltx NEW_DIRECTORY ?2,3,4,5,6?"}
+if {[llength $argv]<2 || [llength $argv]>5} {error "Usage: capture_snapshots.tcl matching.ltx NEW_DIRECTORY ?2:3:4:5:6? ?keys:colon:separated? ?close:keys?"}
 set ltx [file normalize [lindex $argv 0]]
 set out [file normalize [lindex $argv 1]]
 set cameras {2 3 4 5 6}
-if {[llength $argv]==3} {set cameras [split [lindex $argv 2] ,]}
+if {[llength $argv]>=3} {set cameras [split [string map {: ,} [lindex $argv 2]] ,]}
+set keys {};set close_keys {}
+if {[llength $argv]>=4 && [lindex $argv 3] ne "-"} {set keys [split [string map {: ,} [lindex $argv 3]] ,]}
+if {[llength $argv]>=5 && [lindex $argv 4] ne "-"} {set close_keys [split [string map {: ,} [lindex $argv 4]] ,]}
+set key_script [file join [file dirname [info script]] osd_keys.py]
+set key_python [file join $::env(LOCALAPPDATA) Programs Python Python39 python.exe]
+if {[info exists ::env(EO_OSD_PYTHON)]} {set key_python $::env(EO_OSD_PYTHON)}
 foreach camera $cameras {if {$camera<2 || $camera>6} {error "Camera must be 2..6"}}
 if {[file exists $out]} {error "Refusing existing directory"}
 file mkdir $out
@@ -48,10 +54,16 @@ foreach camera $cameras {
         set_property CONTROL.CAPTURE_CONDITION AND $ila
         set_property TRIGGER_COMPARE_VALUE {eq2'b11} $control
         set_property CAPTURE_COMPARE_VALUE {eq2'bX1} $control
+        # Issue keys after JTAG setup so the menu cannot time out during connection.
+        if {[llength $keys]} {
+            puts [exec $key_python -E $key_script --cam $camera --keys {*}$keys --out $dir/keys.json]
+            after 200
+        }
         run_hw_ila $ila
         wait_on_hw_ila -timeout 20 $ila
         set data [upload_hw_ila_data $ila]
         write_hw_ila_data -csv_file $dir/snapshot.csv $data
+        if {[llength $close_keys]} {puts [exec $key_python -E $key_script --cam $camera --keys {*}$close_keys --out $dir/close_keys.json]}
     } result options]
     dict for {property value} $old {set_property $property $value $ila}
     delete_hw_probe $probes

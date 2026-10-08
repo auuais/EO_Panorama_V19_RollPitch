@@ -16,7 +16,7 @@ set_property FULL_PROBES.FILE $ltx $dev
 refresh_hw_device $dev
 set vio [get_hw_vios -of_objects $dev -filter {CELL_NAME =~ "*u_snapshot_select*"}]
 if {[llength $vio]!=1} {error "Expected one snapshot-edge selector"}
-set probe [get_hw_probes -of_objects $vio]
+set probe [get_hw_probes -of_objects $vio -filter {NAME =~ "*snapshot_falling*"}]
 if {[llength $probe]!=1} {error "Expected one VIO output"}
 puts "BEFORE: [report_property -return_string $probe]"
 set_property OUTPUT_VALUE [format %02X $mask] $probe

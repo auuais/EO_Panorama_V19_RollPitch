@@ -31,6 +31,10 @@ foreach {port name width} {0 event_metadata 64 1 event_payload 256 2 event_valid
 set f [open $out/provenance.txt w]
 puts $f "LTX: $ltx\nStarted: [clock format [clock seconds]]\nDevice: $dev\nILA: $ila"
 puts $f [report_property -return_string $ila]
+foreach vio [get_hw_vios -quiet -of_objects $dev] {
+    refresh_hw_vio $vio
+    foreach p [get_hw_probes -of_objects $vio] {puts $f [report_property -return_string $p]}
+}
 close $f
 foreach property {CONTROL.DATA_DEPTH CONTROL.WINDOW_COUNT CONTROL.TRIGGER_POSITION CONTROL.CAPTURE_MODE CONTROL.CAPTURE_CONDITION} {
     dict set old $property [get_property $property $ila]
