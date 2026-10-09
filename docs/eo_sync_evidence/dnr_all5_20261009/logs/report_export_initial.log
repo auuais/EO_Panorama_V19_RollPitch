@@ -1,0 +1,6 @@
+The first Artifact Tool export used the default Node heap limit and terminated with:
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+The four comparison previews were produced, but the output workbook remained at its pre-edit hash.
+The same builder was retried with --max-old-space-size=12288 and progress logging.
+The retry changes the raster-pair caption to explicitly say both shutters are set to 1/60 s.
+No live hardware tests were rerun for the export retry.

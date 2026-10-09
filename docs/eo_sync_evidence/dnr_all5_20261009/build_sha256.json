@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "builds/eo_sync_20261008_r2/EoSyncTop.bit",
+      "sha256": "786c7b9c270494f102e02d1d411f9547c5f641742fd74d26eee12964f1be54e4"
+    },
+    {
+      "path": "builds/eo_sync_20261008_r2/EoSyncTop.ltx",
+      "sha256": "6a4aa0790cd8358e24710a381d12d5d8ea21b160f7d0a16fbd45b51abc83a62a"
+    },
+    {
+      "path": "builds/eo_sync_20261008_r4_trig30/EoSyncTop.bit",
+      "sha256": "4bc5272d453f505f14399f305149ac6a317848bb6761116a3e374ee0e5f54006"
+    },
+    {
+      "path": "builds/eo_sync_20261008_r4_trig30/EoSyncTop.ltx",
+      "sha256": "40d5728d16f684f0e07388c32abef7fc3dd2a649c5c3c55fd6a2092d423a8e5c"
+    },
+    {
+      "path": "builds/bit_archive/20261006_221847_trsmon_trig60_9a8a81e/KintexTop_EO_IR_HD_SDI_panorama_base.bit",
+      "sha256": "d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd"
+    }
+  ],
+  "note": "Existing diagnostic builds reused; no RTL changes or rebuild."
+}

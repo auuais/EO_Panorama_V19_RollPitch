@@ -1,0 +1,55 @@
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct  9 16:04:34 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source {E:\Xylinx\EO_Panorama_V19_RollPitch\diagnostics\eo_sync\scripts\program.tcl}
+# if {[llength $argv]!=1} {error "Usage: program.tcl bitstream.bit"}
+# set bit [file normalize [lindex $argv 0]]
+# set ltx [file rootname $bit].ltx
+# if {![file exists $bit] || ![file exists $ltx]} {error "Bitstream and matching LTX required"}
+# open_hw_manager
+open_hw_manager: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 526.754 ; gain = 220.684
+# connect_hw_server -url TCP:127.0.0.1:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:127.0.0.1:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.2.0
+  ****** Build date   : Nov 14 2025-08:16:52
+    **** Build number : 2025.2.1763075812
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+# set target [get_hw_targets]
+# if {[llength $target]!=1} {error "Expected exactly one target"}
+# set_property PARAM.FREQUENCY 6000000 $target
+# open_hw_target $target
+INFO: [Labtoolstcl 44-466] Opening hw_target 127.0.0.1:3121/xilinx_tcf/Xilinx/00001bd45a2c01
+# set dev [get_hw_devices -quiet xcku15p_0]
+# if {[llength $dev]!=1} {error "Expected KU15P"}
+# current_hw_device $dev
+# set_property PROBES.FILE $ltx $dev
+# set_property FULL_PROBES.FILE $ltx $dev
+# set_property PROGRAM.FILE $bit $dev
+# program_hw_devices $dev
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 532.988 ; gain = 0.000
+# refresh_hw_device $dev
+INFO: [Labtools 27-2302] Device xcku15p (JTAG device index = 0) is programmed with a design that has 6 ILA core(s).
+INFO: [Labtools 27-2302] Device xcku15p (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+INFO: [Labtools 27-1889] Uploading output probe values for VIO core [hw_vio_1]
+# puts "PROGRAMMED=$bit"
+PROGRAMMED=E:/Xylinx/EO_Panorama_V19_RollPitch/builds/eo_sync_20261008_r2/EoSyncTop.bit
+# close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target 127.0.0.1:3121/xilinx_tcf/Xilinx/00001bd45a2c01
+# close_hw_manager
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  9 16:05:50 2026...

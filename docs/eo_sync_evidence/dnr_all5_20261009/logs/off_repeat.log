@@ -1,0 +1,158 @@
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct  9 16:43:29 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source {E:\Xylinx\EO_Panorama_V19_RollPitch\diagnostics\eo_sync\scripts\capture.tcl}
+# if {[llength $argv]<2 || [llength $argv]>4} {error "Usage: capture.tcl matching.ltx NEW_DIRECTORY ?blocks=2? ?phaseTargets2:3:4:5:6?"}
+# set ltx [file normalize [lindex $argv 0]]
+# set out [file normalize [lindex $argv 1]]
+# set blocks 2
+# if {[llength $argv]>2} {set blocks [lindex $argv 2]}
+# if {[file exists $out]} {error "Refusing existing capture directory"}
+# file mkdir $out
+# open_hw_manager
+open_hw_manager: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 526.305 ; gain = 221.465
+# connect_hw_server -url TCP:127.0.0.1:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:127.0.0.1:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.2.0
+  ****** Build date   : Nov 14 2025-08:16:52
+    **** Build number : 2025.2.1763075812
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+# set target [get_hw_targets]
+# if {[llength $target]!=1} {error "Expected exactly one target"}
+# set_property PARAM.FREQUENCY 6000000 $target
+# open_hw_target $target
+INFO: [Labtoolstcl 44-466] Opening hw_target 127.0.0.1:3121/xilinx_tcf/Xilinx/00001bd45a2c01
+# set dev [get_hw_devices -quiet xcku15p_0]
+# if {[llength $dev]!=1} {error "Expected KU15P"}
+# set_property PROBES.FILE $ltx $dev
+# set_property FULL_PROBES.FILE $ltx $dev
+# refresh_hw_device $dev
+INFO: [Labtools 27-2302] Device xcku15p (JTAG device index = 0) is programmed with a design that has 6 ILA core(s).
+INFO: [Labtools 27-2302] Device xcku15p (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+INFO: [Labtools 27-1889] Uploading output probe values for VIO core [hw_vio_1]
+# set phase_status ""
+# set expected_phase 0
+# if {[llength $argv]==4} {
+#     set taps [split [lindex $argv 3] :]
+#     if {[llength $taps]!=5} {error "Expected five phase targets"}
+#     set i 0
+#     foreach tap $taps {
+#         if {![string is integer -strict $tap] || $tap<0 || $tap>447} {error "Phase target outside 0..447"}
+#         set expected_phase [expr {$expected_phase | ($tap << (9*$i))}];incr i
+#     }
+#     set phase_vio [get_hw_vios -of_objects $dev -filter {CELL_NAME =~ "*u_snapshot_select*"}]
+#     if {[llength $phase_vio]!=1} {error "Phase VIO missing"}
+#     source [file join [file dirname [info script]] phase_status.tcl]
+#     set phase_status [phase_native_probes $phase_vio]
+# }
+## proc phase_native_probes {vio} {
+##     set result [dict create]
+##     foreach name {current locked busy fault} {
+##         set probe [get_hw_probes -of_objects $vio -filter "NAME =~ *phase_${name}*"]
+##         if {[llength $probe]!=1} {error "Missing/ambiguous phase_$name VIO probe"}
+##         dict set result $name $probe
+##     }
+##     return $result
+## }
+## proc phase_read_hex {vio probes} {
+##     refresh_hw_vio $vio
+##     set word 0
+##     foreach {name shift width} {current 0 45 locked 45 5 busy 50 5 fault 55 5} {
+##         set raw [get_property INPUT_VALUE [dict get $probes $name]]
+##         if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid $name phase readback $raw"}
+##         set value [expr 0x$raw]
+##         if {$value >= (1<<$width)} {error "Oversized $name phase readback"}
+##         set word [expr {$word | ($value<<$shift)}]
+##     }
+##     return [format %015llX $word]
+## }
+# proc verify_phase {label} {
+#     global phase_status phase_vio expected_phase out
+#     if {$phase_status eq ""} {return}
+#     set raw [phase_read_hex $phase_vio $phase_status]
+#     if {![regexp {^[0-9a-fA-F]+$} $raw]} {error "Invalid phase status $raw"}
+#     set word [expr 0x$raw]
+#     if {($word & ((1<<45)-1))!=$expected_phase || (($word>>45)&31)!=31 || ($word>>50)!=0} {
+#         error "Unsettled, unlocked or faulted phase clocks: $raw"
+#     }
+#     set f [open $out/phase_checks.txt a]
+#     puts $f "$label [clock format [clock seconds]] $raw expected_current=[format %012llX $expected_phase]"
+#     close $f
+# }
+# verify_phase before_capture
+# set ila ""
+# foreach candidate [get_hw_ilas -of_objects $dev] {
+#     if {[llength [get_hw_probes -quiet -of_objects $candidate -filter {NAME =~ "*sync_metadata*"}]]==1} {set ila $candidate;break}
+# }
+# if {$ila eq ""} {error "Synchronization ILA not found"}
+# set probes {}
+# foreach {port name width} {0 event_metadata 64 1 event_payload 256 2 event_valid 1 3 event_overruns 16 4 event_signature 32} {
+#     set p [create_hw_probe -map [format {probe%d[%d:0]} $port [expr {$width-1}]] [format {%s[%d:0]} $name [expr {$width-1}]] $ila]
+#     lappend probes $p
+#     if {$port==2} {set valid $p}
+# }
+# set f [open $out/provenance.txt w]
+# puts $f "LTX: $ltx\nStarted: [clock format [clock seconds]]\nDevice: $dev\nILA: $ila"
+# puts $f [report_property -return_string $ila]
+# foreach vio [get_hw_vios -quiet -of_objects $dev] {
+#     refresh_hw_vio $vio
+#     foreach p [get_hw_probes -of_objects $vio] {puts $f [report_property -return_string $p]}
+# }
+# close $f
+# foreach property {CONTROL.DATA_DEPTH CONTROL.WINDOW_COUNT CONTROL.TRIGGER_POSITION CONTROL.CAPTURE_MODE CONTROL.CAPTURE_CONDITION} {
+#     dict set old $property [get_property $property $ila]
+# }
+SYNC_BLOCK_ARMED=0
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Oct-09 16:43:49
+wait_on_hw_ila: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 593.090 ; gain = 0.875
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Oct-09 16:44:19
+upload_hw_ila_data: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 598.793 ; gain = 5.703
+SYNC_BLOCK_SAVED=0
+SYNC_BLOCK_ARMED=1
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Oct-09 16:44:26
+wait_on_hw_ila: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 636.715 ; gain = 0.000
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Oct-09 16:44:56
+upload_hw_ila_data: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 636.715 ; gain = 0.000
+SYNC_BLOCK_SAVED=1
+# set status [catch {
+#     set_property CONTROL.WINDOW_COUNT 1 $ila
+#     set_property CONTROL.DATA_DEPTH 16384 $ila
+#     set_property CONTROL.TRIGGER_POSITION 0 $ila
+#     set_property CONTROL.CAPTURE_MODE BASIC $ila
+#     set_property CONTROL.CAPTURE_CONDITION AND $ila
+#     set_property TRIGGER_COMPARE_VALUE {eq1'b1} $valid
+#     set_property CAPTURE_COMPARE_VALUE {eq1'b1} $valid
+#     for {set i 0} {$i<$blocks} {incr i} {
+#         puts "SYNC_BLOCK_ARMED=$i"
+#         run_hw_ila $ila
+#         wait_on_hw_ila -timeout 180 $ila
+#         set data [upload_hw_ila_data $ila]
+#         write_hw_ila_data -csv_file [file join $out [format "events_%03d.csv" $i]] $data
+#         verify_phase after_block_$i
+#         puts "SYNC_BLOCK_SAVED=$i"
+#     }
+# } result options]
+# dict for {property value} $old {set_property $property $value $ila}
+# delete_hw_probe $probes
+# close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target 127.0.0.1:3121/xilinx_tcf/Xilinx/00001bd45a2c01
+# close_hw_manager
+# if {$status} {return -options $options $result}
+# puts "SYNC_CAPTURE_DONE=$out"
+SYNC_CAPTURE_DONE=E:/Xylinx/EO_Panorama_V19_RollPitch/captures/eo_dnr_all5_20261009/off_repeat
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  9 16:45:03 2026...

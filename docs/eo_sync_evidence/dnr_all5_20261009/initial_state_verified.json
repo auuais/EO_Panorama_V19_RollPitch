@@ -1,0 +1,114 @@
+{
+  "verified_at": "2026-10-09T16:14:05.746016+09:00",
+  "verification": "Direct visual review of all five reconstructed ILA OSD crops in every listed contact sheet",
+  "stage": "initial",
+  "physical_cameras": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "all_camera_readbacks_verified": true,
+  "format": "1080p30",
+  "shutter": "1/240 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "freeze": "OFF",
+  "menus_closed_after_snapshot": true,
+  "camera1": "No camera 1 OSD or parameter commands sent",
+  "evidence": [
+    {
+      "camera": 2,
+      "section": "initial_format",
+      "image": "initial_format/cam2/frame_02543.png",
+      "sha256": "e9b715ff69ea70270b88c6a7487b1008ab682b28e481312529dfb6cf8b4bb65f"
+    },
+    {
+      "camera": 3,
+      "section": "initial_format",
+      "image": "initial_format/cam3/frame_03199.png",
+      "sha256": "12942234742af9dc6fa11d4dc1c86bf25323baed7f36efe7f5eb80d299c3a8be"
+    },
+    {
+      "camera": 4,
+      "section": "initial_format",
+      "image": "initial_format/cam4/frame_03854.png",
+      "sha256": "730f4dd22cc7a06d330c754df3a13c6ef27493d4ad5af6c889f3eeeac8edf0fe"
+    },
+    {
+      "camera": 5,
+      "section": "initial_format",
+      "image": "initial_format/cam5/frame_04510.png",
+      "sha256": "f0cc93367ae08ecc5eec0869714f639b1a6933673adaa28d5499e24790faecc8"
+    },
+    {
+      "camera": 6,
+      "section": "initial_format",
+      "image": "initial_format/cam6/frame_05164.png",
+      "sha256": "0139588d2ce2f52432c3bbb8f36a2087022ddf62f60fda0e62bd1378d82e42c2"
+    },
+    {
+      "camera": 2,
+      "section": "initial_exposure",
+      "image": "initial_exposure/cam2/frame_07083.png",
+      "sha256": "76307d204dbee132474d894b4985ecdde9546e5a95bca5ed01b41a3d268fc72d"
+    },
+    {
+      "camera": 3,
+      "section": "initial_exposure",
+      "image": "initial_exposure/cam3/frame_07427.png",
+      "sha256": "09581c545294a5a094c14ae58cbfa03250a690d958ccd1db78535c9137f96e6f"
+    },
+    {
+      "camera": 4,
+      "section": "initial_exposure",
+      "image": "initial_exposure/cam4/frame_07771.png",
+      "sha256": "4523a3c04ee517443839674d7878581ab1c1c6085b6da6b840746e16496c31a7"
+    },
+    {
+      "camera": 5,
+      "section": "initial_exposure",
+      "image": "initial_exposure/cam5/frame_08114.png",
+      "sha256": "1491def00301b745ceaa78e7c78969ad133a2f02a6afd033bd5a37d04f053069"
+    },
+    {
+      "camera": 6,
+      "section": "initial_exposure",
+      "image": "initial_exposure/cam6/frame_08457.png",
+      "sha256": "ee7c8e6ea44b0c747649994814731f5d853c4151e932d63d3e17321282076fc5"
+    },
+    {
+      "camera": 2,
+      "section": "initial_image",
+      "image": "initial_image/cam2/frame_10220.png",
+      "sha256": "27ed8d09b5fff35872f6a28bddd8ab9e0d6a515c471d613c5b4bb0b4b59f4429"
+    },
+    {
+      "camera": 3,
+      "section": "initial_image",
+      "image": "initial_image/cam3/frame_10655.png",
+      "sha256": "d97914525b7c527a8c2b540dcacf641372acb3ef2d58e67067d34f5de31f922a"
+    },
+    {
+      "camera": 4,
+      "section": "initial_image",
+      "image": "initial_image/cam4/frame_11086.png",
+      "sha256": "0c765c92b9f32d6b65553b7a16a6575be98e140f2028a10626ef0c33983962e8"
+    },
+    {
+      "camera": 5,
+      "section": "initial_image",
+      "image": "initial_image/cam5/frame_11518.png",
+      "sha256": "4e1b6a879a0de2a619d566e6e60f19b4407a6214437b900a3fa3132d2ff13f33"
+    },
+    {
+      "camera": 6,
+      "section": "initial_image",
+      "image": "initial_image/cam6/frame_11953.png",
+      "sha256": "04d790c2a863071ee5346e0fde3c50694aced5406a55a67c76a0a8a05b5eebd3"
+    }
+  ],
+  "display_selection": 3,
+  "initial_usb_capture_note": "The no-key USB command used --cam 6 as a metadata label; it did not select a camera. Actual display selection was EO3, independently read from the controller."
+}

@@ -1018,8 +1018,8 @@
     },
     {
       "path": "README.md",
-      "size": 9150,
-      "sha256": "c30ebf90f13280218d7fab803e940f739c155f062ea8099478d133b6cc0d3010"
+      "size": 9401,
+      "sha256": "dc15313fcf8b8dad7fd821d9000f82cd0fd50a6fa8b728b38ec7d7397196ec87"
     },
     {
       "path": "restoration_verified.json",
@@ -1597,7 +1597,7 @@
       "sha256": "fe8ef1cfcb8647d1fdcd91d31a5567776c008b6ce799a5ffac3ce3ffd4e6c048"
     }
   ],
-  "total_bytes": 118262077,
-  "updated_at": "2026-10-09T15:58:40.242575+09:00",
+  "total_bytes": 118262328,
+  "updated_at": "2026-10-09T17:26:51.146700+09:00",
   "update_reason": "Correct actual simultaneous cam2/cam3 spread and document reference-camera CRC update phase shift before DNR OFF."
 }

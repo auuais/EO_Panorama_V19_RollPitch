@@ -1,0 +1,444 @@
+{
+  "output": "E:\\Xylinx\\EO_Panorama_V19_RollPitch\\outputs\\01a1110b-4bdf-79b3-af63-c2b05f5fcb99\\EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx",
+  "cameraStart": 219,
+  "cameraEnd": 268,
+  "matchedStart": 24644,
+  "matchedEnd": 38694,
+  "expected": [
+    {
+      "row": 157,
+      "expected": [
+        3485,
+        7.791222222222222,
+        7.965296296296296,
+        8.087985185185186,
+        8.10162962962963
+      ]
+    },
+    {
+      "row": 158,
+      "expected": [
+        3452,
+        6.992518518518518,
+        7.167,
+        7.290218518518518,
+        7.303851851851852
+      ]
+    },
+    {
+      "row": 159,
+      "expected": [
+        3494,
+        6.178407407407408,
+        6.316333333333334,
+        6.4773351851851855,
+        6.491148148148148
+      ]
+    },
+    {
+      "row": 165,
+      "expected": [
+        1740,
+        7.864703703703704,
+        8.038388888888889,
+        8.861896296296296,
+        8.875555555555554
+      ]
+    },
+    {
+      "row": 166,
+      "expected": [
+        1726,
+        9.363185185185184,
+        9.5,
+        9.660675925925927,
+        9.674444444444445
+      ]
+    },
+    {
+      "row": 167,
+      "expected": [
+        1746,
+        10.175962962962963,
+        10.350648148148148,
+        10.474694444444445,
+        10.488444444444445
+      ]
+    },
+    {
+      "row": 179,
+      "expected": [
+        3515,
+        10.825962962962963,
+        10.854518518518518,
+        10.873862962962964,
+        10.876037037037037
+      ]
+    },
+    {
+      "row": 180,
+      "expected": [
+        3523,
+        10.642962962962963,
+        10.669592592592593,
+        10.68962962962963,
+        10.692037037037036
+      ]
+    },
+    {
+      "row": 181,
+      "expected": [
+        3478,
+        10.454407407407407,
+        10.477703703703705,
+        10.50456111111111,
+        10.50662962962963
+      ]
+    },
+    {
+      "row": 182,
+      "expected": [
+        3535,
+        10.221592592592593,
+        10.252,
+        10.271677777777777,
+        10.273777777777777
+      ]
+    },
+    {
+      "row": 187,
+      "expected": [
+        1755,
+        11.152148148148148,
+        11.262518518518519,
+        11.339651851851851,
+        19.119814814814813
+      ]
+    },
+    {
+      "row": 188,
+      "expected": [
+        1759,
+        13.459888888888889,
+        15.502925925925926,
+        15.607344444444445,
+        15.616185185185184
+      ]
+    },
+    {
+      "row": 189,
+      "expected": [
+        1736,
+        10.454407407407407,
+        13.241462962962963,
+        13.270416666666666,
+        13.273111111111112
+      ]
+    },
+    {
+      "row": 190,
+      "expected": [
+        1764,
+        10.221592592592593,
+        10.252092592592593,
+        10.27180925925926,
+        13.000407407407407
+      ]
+    },
+    {
+      "row": 193,
+      "expected": [
+        3518,
+        7.290259259259259,
+        7.4644259259259265,
+        7.587714814814815,
+        7.601407407407408
+      ]
+    },
+    {
+      "row": 194,
+      "expected": [
+        3527,
+        6.176925925925926,
+        6.3518888888888885,
+        6.475829629629629,
+        6.489629629629629
+      ]
+    },
+    {
+      "row": 195,
+      "expected": [
+        3481,
+        4.962444444444444,
+        5.097888888888889,
+        5.257444444444444,
+        5.271037037037037
+      ]
+    },
+    {
+      "row": 196,
+      "expected": [
+        3538,
+        3.5450370370370368,
+        3.7189444444444444,
+        3.8436777777777773,
+        3.8575185185185186
+      ]
+    },
+    {
+      "row": 241,
+      "expected": [
+        1758,
+        9.06562962962963,
+        9.2025,
+        9.362905555555555,
+        9.376592592592592
+      ]
+    },
+    {
+      "row": 242,
+      "expected": [
+        1763,
+        6.176925925925926,
+        6.351814814814815,
+        6.475688888888889,
+        6.489481481481482
+      ]
+    },
+    {
+      "row": 243,
+      "expected": [
+        1739,
+        4.962444444444444,
+        5.097703703703703,
+        5.257311111111111,
+        5.270851851851853
+      ]
+    },
+    {
+      "row": 244,
+      "expected": [
+        1768,
+        3.545148148148148,
+        3.7189814814814817,
+        3.843614814814815,
+        3.8574444444444445
+      ]
+    }
+  ],
+  "roiQualified": true,
+  "anomalies": [
+    {
+      "condition": "on_a",
+      "block": "events_000.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 888,
+      "interval_rasters": {
+        "1": 14,
+        "2": 873
+      },
+      "sequence_parity": {
+        "0": 881,
+        "1": 7
+      }
+    },
+    {
+      "condition": "on_a",
+      "block": "events_000.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 882,
+      "interval_rasters": {
+        "1": 2,
+        "2": 879
+      },
+      "sequence_parity": {
+        "0": 1,
+        "1": 881
+      }
+    },
+    {
+      "condition": "on_a",
+      "block": "events_001.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 878,
+      "interval_rasters": {
+        "1": 2,
+        "2": 875
+      },
+      "sequence_parity": {
+        "0": 1,
+        "1": 877
+      }
+    },
+    {
+      "condition": "off_b",
+      "block": "events_000.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 888,
+      "interval_rasters": {
+        "1": 10,
+        "2": 877
+      },
+      "sequence_parity": {
+        "0": 883,
+        "1": 5
+      }
+    },
+    {
+      "condition": "off_b",
+      "block": "events_000.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 889,
+      "interval_rasters": {
+        "1": 12,
+        "2": 876
+      },
+      "sequence_parity": {
+        "0": 6,
+        "1": 883
+      }
+    },
+    {
+      "condition": "off_b",
+      "block": "events_001.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 883,
+      "interval_rasters": {
+        "1": 4,
+        "2": 878
+      },
+      "sequence_parity": {
+        "0": 881,
+        "1": 2
+      }
+    },
+    {
+      "condition": "off_b",
+      "block": "events_001.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 884,
+      "interval_rasters": {
+        "1": 6,
+        "2": 877
+      },
+      "sequence_parity": {
+        "0": 3,
+        "1": 881
+      }
+    },
+    {
+      "condition": "on_return",
+      "block": "events_000.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 866,
+      "interval_rasters": {
+        "1": 4,
+        "2": 861
+      },
+      "sequence_parity": {
+        "0": 2,
+        "1": 864
+      }
+    },
+    {
+      "condition": "on_return",
+      "block": "events_001.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 885,
+      "interval_rasters": {
+        "1": 18,
+        "2": 866
+      },
+      "sequence_parity": {
+        "0": 9,
+        "1": 876
+      }
+    },
+    {
+      "condition": "on_return",
+      "block": "events_001.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 877,
+      "interval_rasters": {
+        "1": 2,
+        "2": 873,
+        "3": 1
+      },
+      "sequence_parity": {
+        "0": 319,
+        "1": 558
+      }
+    },
+    {
+      "condition": "off_repeat",
+      "block": "events_000.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 888,
+      "interval_rasters": {
+        "1": 6,
+        "2": 881
+      },
+      "sequence_parity": {
+        "0": 3,
+        "1": 885
+      }
+    },
+    {
+      "condition": "off_repeat",
+      "block": "events_000.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 890,
+      "interval_rasters": {
+        "1": 10,
+        "2": 879
+      },
+      "sequence_parity": {
+        "0": 885,
+        "1": 5
+      }
+    },
+    {
+      "condition": "off_repeat",
+      "block": "events_001.csv",
+      "camera": 5,
+      "series": "roi_crc",
+      "changes": 887,
+      "interval_rasters": {
+        "1": 6,
+        "2": 880
+      },
+      "sequence_parity": {
+        "0": 3,
+        "1": 884
+      }
+    },
+    {
+      "condition": "off_repeat",
+      "block": "events_001.csv",
+      "camera": 6,
+      "series": "roi_crc",
+      "changes": 886,
+      "interval_rasters": {
+        "1": 4,
+        "2": 881
+      },
+      "sequence_parity": {
+        "0": 884,
+        "1": 2
+      }
+    }
+  ],
+  "maxResidual": 7.369812792059179
+}

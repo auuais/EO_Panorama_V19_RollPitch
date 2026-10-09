@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-09T17:11:42.892975+09:00",
+  "source": "C:\\SVNProjects\\IMU_Stabilize_v40\\EO_OSD_Remote_20260812\\ST_Link-test\\Core\\Src\\mcu_fsm.c",
+  "source_sha256": "a6468b4aadd51c23e2575a67814556222bfabb5e6aff81c54a88a9282a9fd072",
+  "selected_eo_camera": 3,
+  "payload_hex": "03ffffffffffffff",
+  "semantics": "Route first; inspected firmware skips ancillary camera/display writes because their fields exceed its checked ranges.",
+  "standard_eo_video_mode_select_used": false,
+  "mcu_mode_flash_written": true,
+  "fpga_configuration_flash_programmed": false,
+  "status_before_hex": "030101010101010101010101010300000000000000",
+  "ack_hex": "0300000000000000",
+  "status_after_hex": "030101010101010101010101010300000000000000",
+  "controller_mode_and_parameters_unchanged": true
+}

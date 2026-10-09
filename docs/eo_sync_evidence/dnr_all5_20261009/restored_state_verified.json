@@ -1,0 +1,152 @@
+{
+  "verified_at": "2026-10-09T17:12:42.308756+09:00",
+  "verification": "Direct visual review of all five reconstructed ILA OSD crops in every listed contact sheet",
+  "stage": "restored",
+  "physical_cameras": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "all_camera_readbacks_verified": true,
+  "format": "1080p30",
+  "shutter": "1/240 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "freeze": "OFF",
+  "menus_closed_after_snapshot": true,
+  "camera1": "No camera 1 OSD or parameter commands sent",
+  "evidence": [
+    {
+      "camera": 2,
+      "section": "restored_format",
+      "image": "restored_format/cam2/frame_03175.png",
+      "sha256": "89d4994cd4792bb243ddc6df77723b1d9d37cbb1d50ab683a5ab23d51b8e7492"
+    },
+    {
+      "camera": 3,
+      "section": "restored_format",
+      "image": "restored_format/cam3/frame_03831.png",
+      "sha256": "7ae8f1ae5d20bdef6eef0074d16e3821bf52366c10e5bd0fa7e208a3e55640cb"
+    },
+    {
+      "camera": 4,
+      "section": "restored_format",
+      "image": "restored_format/cam4/frame_04486.png",
+      "sha256": "15f31210b4363256cf6b2ecf7331441517efdabe4ffa7d483fba625326aa8438"
+    },
+    {
+      "camera": 5,
+      "section": "restored_format",
+      "image": "restored_format/cam5/frame_05142.png",
+      "sha256": "650da8f5267081784b1e252a32da0dd8bb9c03f77a0419a7f5b95a05f757a3cc"
+    },
+    {
+      "camera": 6,
+      "section": "restored_format",
+      "image": "restored_format/cam6/frame_05797.png",
+      "sha256": "0167c565003b2ca474839b4dd428dad7b82afb294bd8ab4c481e06edf944538d"
+    },
+    {
+      "camera": 2,
+      "section": "restored_exposure",
+      "image": "restored_exposure/cam2/frame_07485.png",
+      "sha256": "1a4d9ff79d98713f5643c275e17edb2e314eb5b7356ab1b8e39974ab3fb7f845"
+    },
+    {
+      "camera": 3,
+      "section": "restored_exposure",
+      "image": "restored_exposure/cam3/frame_07829.png",
+      "sha256": "8bea36f3776b469c2b61dc840da6b693df0e7bc5d67868f4821a8c71a709a0f1"
+    },
+    {
+      "camera": 4,
+      "section": "restored_exposure",
+      "image": "restored_exposure/cam4/frame_08174.png",
+      "sha256": "0e6294048777f3cb1b50e076505194680205d3562ce91c346c44361d30a9ab18"
+    },
+    {
+      "camera": 5,
+      "section": "restored_exposure",
+      "image": "restored_exposure/cam5/frame_08516.png",
+      "sha256": "d438c2b89152276112614602fc70ec8c1f7bb3d88b14b47d7932af16f238cac4"
+    },
+    {
+      "camera": 6,
+      "section": "restored_exposure",
+      "image": "restored_exposure/cam6/frame_08861.png",
+      "sha256": "b3e651b10b7d256fa8a0e39bdf83535770e09a502204df5eac855716bab226c3"
+    },
+    {
+      "camera": 2,
+      "section": "restored_image",
+      "image": "restored_image/cam2/frame_11139.png",
+      "sha256": "7d0a036129e7e5864e0d16d79657987da1cb68d29d28a9295f5156e43cf78611"
+    },
+    {
+      "camera": 3,
+      "section": "restored_image",
+      "image": "restored_image/cam3/frame_11574.png",
+      "sha256": "92b21e726fd8e79c8012481e502959d2d357bdd2e31710267f5fe5ac08480222"
+    },
+    {
+      "camera": 4,
+      "section": "restored_image",
+      "image": "restored_image/cam4/frame_12007.png",
+      "sha256": "7dacf64fa2a0ae477f23310c33d19a4b7dde4755c61f026a4f0194199340c4b5"
+    },
+    {
+      "camera": 5,
+      "section": "restored_image",
+      "image": "restored_image/cam5/frame_12439.png",
+      "sha256": "61081be9330412fb5314b386c0b464512d1f6c34d231d5030550d59627259053"
+    },
+    {
+      "camera": 6,
+      "section": "restored_image",
+      "image": "restored_image/cam6/frame_12870.png",
+      "sha256": "e57beb7a87ebb521b6ec73435bc95162fe8162897fb3cde9f89d0b27a16270d5"
+    },
+    {
+      "camera": 2,
+      "section": "restored_closed",
+      "image": "restored_closed/cam2/frame_14491.png",
+      "sha256": "df814e72f82bde30329801a40afcedb365311fd9aa4a8d6805a0fed09e7395c4"
+    },
+    {
+      "camera": 3,
+      "section": "restored_closed",
+      "image": "restored_closed/cam3/frame_14621.png",
+      "sha256": "09fb3a6036ddc79d1abb34610f732bb0b8e67ebce0cb5bded02bbb314a117436"
+    },
+    {
+      "camera": 4,
+      "section": "restored_closed",
+      "image": "restored_closed/cam4/frame_14754.png",
+      "sha256": "5d2b1bf1404484c8cd139f529657837c7df6456a3969cb8f0b202a6c823a4d8b"
+    },
+    {
+      "camera": 5,
+      "section": "restored_closed",
+      "image": "restored_closed/cam5/frame_14883.png",
+      "sha256": "2c16563c06663a2ed150402b4647bbe1f839e6de99da1bcf129d2bd822154e89"
+    },
+    {
+      "camera": 6,
+      "section": "restored_closed",
+      "image": "restored_closed/cam6/frame_15015.png",
+      "sha256": "146198b3d5024e91be44d56a81db9ed58493f9081459c0dcee0d650540435415"
+    }
+  ],
+  "display_matches_initial": true,
+  "pose_matches_initial": true,
+  "usb_scene_verified": true,
+  "display_selection": 3,
+  "osd_save_or_defaults_used": false,
+  "configuration_flash_programmed": false,
+  "mode_only_route_reapplied": true,
+  "mcu_mode_flash_written": true,
+  "usb_image": "final_usb.png",
+  "usb_sha256": "10a0cedba98b9eb2d7e2c021adcecd8234305cda70c41c1ff22c632e0e6a1ff4"
+}

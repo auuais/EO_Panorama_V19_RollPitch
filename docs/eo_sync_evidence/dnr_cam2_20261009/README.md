@@ -50,13 +50,13 @@ The fitted relative raster drift (camera 2 minus camera 3) was −4.74956 µs/s.
 
 Camera-2 CRC measurements passed the frozen controls above. Camera-3 CRC timing has the separate qualification limit described above. Neither received-raster timing nor CRC-change timing directly measures physical exposure synchronization or end-to-end latency; a whole frame of internal buffering can preserve output cadence and modulo-trigger phase. This single-camera DNR intervention is not a measurement of all five cameras with DNR OFF.
 
-## Restoration and unchanged report
+## Restoration and report provenance
 
 Direct ILA OSD readbacks confirmed cameras 2–6 back at 1080p30 and camera 2 back at 1/240 s, 0 dB, DNR 2D+3D, Freeze OFF, external trigger and 0.0 ms trigger delay. The original operational FPGA image was reloaded. Read-only USB display/parameter and pose reads exactly matched their starting values. See restoration_verified.json and restored_* folders.
 
 FPGA reconfiguration resets its local mode register while the MCU still remembers EO camera 6. This caused the incomplete boot/default view recorded in final_closed.png. A custom mode-only 0x2203 request (06 FF FF FF FF FF FF FF) restored EO6 routing. The ancillary fields exceed the inspected firmware's checked ranges, so its handler skips their camera/display parameter writes. This is specific to the inspected firmware, not a general protocol no-change sentinel. Source path/hash, payload, ACK and unchanged before/after controller parameters are recorded in restore_route_only.json. The same MCU mode was persisted once to MCU mode flash; FPGA configuration flash was not programmed. The restored full camera-6 scene was directly verified in final_route_restored.png. Fresh post-route display/pose readbacks still match the initial values.
 
-The latest workbook EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx was not edited; SHA-256 remains cd7dc5ae1e5fc248c90c3675ba9eb918822012ee6fe68619acfecc752879a036.
+The workbook was left unchanged when this single-camera experiment completed (SHA-256 cd7dc5ae1e5fc248c90c3675ba9eb918822012ee6fe68619acfecc752879a036). The later all-five DNR study in [dnr_all5_20261009](../dnr_all5_20261009/README.md) adds both experiments to the consolidated workbook EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx. The pre-edit workbook is retained in that study's report_provenance directory.
 
 ## Reproduce analysis
 

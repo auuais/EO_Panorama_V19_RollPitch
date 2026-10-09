@@ -1,0 +1,164 @@
+{
+  "verified_at": "2026-10-09T16:26:12.952406+09:00",
+  "verification": "Direct visual review of all five reconstructed ILA OSD crops in every listed contact sheet",
+  "stage": "on_frozen",
+  "physical_cameras": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "all_camera_readbacks_verified": true,
+  "format": "1080p60",
+  "shutter": "1/60 s",
+  "gain_db": 0,
+  "dnr": "2D+3D",
+  "freeze": "ON",
+  "menus_closed_after_snapshot": true,
+  "camera1": "No camera 1 OSD or parameter commands sent",
+  "evidence": [
+    {
+      "camera": 2,
+      "section": "test_format",
+      "image": "test_format/cam2/frame_13082.png",
+      "sha256": "57a31b7fc6794d5141917c4926e6ea90adb9ae4c37d5bfdd4d7310f781391852"
+    },
+    {
+      "camera": 3,
+      "section": "test_format",
+      "image": "test_format/cam3/frame_14393.png",
+      "sha256": "c4ca13650f6f81735847468cb77bbb03e001430d7c856ab3ad88ebaf0f0ff59f"
+    },
+    {
+      "camera": 4,
+      "section": "test_format",
+      "image": "test_format/cam4/frame_15706.png",
+      "sha256": "7bdecb9c7182a9bd4800aa19734ce12dd1eeca4ced4e500cdf7f39f7719c6cf6"
+    },
+    {
+      "camera": 5,
+      "section": "test_format",
+      "image": "test_format/cam5/frame_17015.png",
+      "sha256": "a0a76d1adad42fce8994ca561b30f1d9ca1bf9e2ea2d29967a85bd8966ec7d69"
+    },
+    {
+      "camera": 6,
+      "section": "test_format",
+      "image": "test_format/cam6/frame_21265.png",
+      "sha256": "0c3f73864795ba10600a3e124b9768a736967134085a7fa64ea378b15d53be22"
+    },
+    {
+      "camera": 2,
+      "section": "set_exposure60",
+      "image": "set_exposure60/cam2/frame_05287.png",
+      "sha256": "29f95f99b26f44c857a10e4b905df10eae9f17619ff2f0f96028bb10a4bd4ee7"
+    },
+    {
+      "camera": 3,
+      "section": "set_exposure60",
+      "image": "set_exposure60/cam3/frame_06376.png",
+      "sha256": "63c469d7731940e5108c2de366227d2397dfbd1288f047d4029782763fd73aa0"
+    },
+    {
+      "camera": 4,
+      "section": "set_exposure60",
+      "image": "set_exposure60/cam4/frame_07464.png",
+      "sha256": "cd22143d6ff74d68a7b6a51807676d59ebd64ecce13b4eeb784cbdec0287aa6a"
+    },
+    {
+      "camera": 5,
+      "section": "set_exposure60",
+      "image": "set_exposure60/cam5/frame_08553.png",
+      "sha256": "cfd14947cc3b2ed2cbfeaba8a1542709d59fb506606b043bf5ee6010ee3eb83c"
+    },
+    {
+      "camera": 6,
+      "section": "set_exposure60",
+      "image": "set_exposure60/cam6/frame_12582.png",
+      "sha256": "6f60fc95fbb1760595692e828c51497d84acc31d6379e65344a0dc2a456390f9"
+    },
+    {
+      "camera": 2,
+      "section": "test_trigger",
+      "image": "test_trigger/cam2/frame_21409.png",
+      "sha256": "9dee54463e07a7f717035cf6b16b5885ff250b9b0b62607c8040aaa7e5b99cfe"
+    },
+    {
+      "camera": 3,
+      "section": "test_trigger",
+      "image": "test_trigger/cam3/frame_22009.png",
+      "sha256": "88312c22b43767cd6b8d59a277158f45480c61a9295ed19bbd034179adae1b63"
+    },
+    {
+      "camera": 4,
+      "section": "test_trigger",
+      "image": "test_trigger/cam4/frame_22609.png",
+      "sha256": "e1f7376d05951cc6e69775aee500f52505d7ef27f265c0d4956a67dc17929252"
+    },
+    {
+      "camera": 5,
+      "section": "test_trigger",
+      "image": "test_trigger/cam5/frame_23210.png",
+      "sha256": "cc9a8a967f498197ef6774bd2b62099c92e97f7b92d4efa1ccb1a9023f0a2d88"
+    },
+    {
+      "camera": 6,
+      "section": "test_trigger",
+      "image": "test_trigger/cam6/frame_26747.png",
+      "sha256": "bc6170a6dedd2675335fb19dd40c9bb3d1df2cba5dde2a3654246ba82de817db"
+    },
+    {
+      "camera": 2,
+      "section": "freeze_on_on",
+      "image": "freeze_on_on/cam2/frame_26919.png",
+      "sha256": "c034ba26907a7ff0bd83e2eebfeb562a18a36b3fdda11f5319afcac1850f26c7"
+    },
+    {
+      "camera": 3,
+      "section": "freeze_on_on",
+      "image": "freeze_on_on/cam3/frame_28366.png",
+      "sha256": "fa9347cef8cc846b320d3470660d2cbd034db6f1e64e1eae3cf77e68ba4d9b8a"
+    },
+    {
+      "camera": 4,
+      "section": "freeze_on_on",
+      "image": "freeze_on_on/cam4/frame_29813.png",
+      "sha256": "ce1cbe88e38a6def6e183195838c7070d283478d3a57e0520db01d8956369ae4"
+    },
+    {
+      "camera": 5,
+      "section": "freeze_on_on",
+      "image": "freeze_on_on/cam5/frame_31258.png",
+      "sha256": "55d9d95b56bbffa31a7cc081a891e80b31df1b97675b1a4dc1f94a15366ef1c9"
+    },
+    {
+      "camera": 6,
+      "section": "freeze_on_on",
+      "image": "freeze_on_on/cam6/frame_02873.png",
+      "sha256": "987c18169e79374ddde8e92f9241b743dcffa2fe8b33772cbce3ef56110d7850"
+    }
+  ],
+  "mode": "ExtTrig",
+  "exttrig_delay_ms": 0,
+  "strobe_delay_ms": 0,
+  "strobe_width_ms": 1,
+  "trigger_polarity": "OFF",
+  "strobe_polarity": "OFF",
+  "trigger_hz": 30,
+  "trigger_high_us": 2000,
+  "phase_taps": [
+    336,
+    280,
+    308,
+    280,
+    322
+  ],
+  "phases": [
+    "rising",
+    "rising",
+    "rising",
+    "rising",
+    "rising"
+  ]
+}
