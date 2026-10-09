@@ -1,0 +1,5 @@
+LTX: E:/Xylinx/EO_Panorama_V19_RollPitch/builds/eo_sync_20261008_r2/EoSyncTop.ltx
+Started: Fri Oct 09 15:24:22 +0900 2026
+Device: xcku15p_0
+ILA: hw_ila_6
+Physical camera: 6

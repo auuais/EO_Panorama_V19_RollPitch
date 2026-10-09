@@ -1,0 +1,417 @@
+{
+  "qualification": {
+    "full": true,
+    "roi": true
+  },
+  "drift_fit": {
+    "intercept_us": 8103.1567641706315,
+    "slope_us_per_s": -4.749562343234028,
+    "residual_us": {
+      "n": 6979,
+      "min": -1.5438265147722632,
+      "median": -0.03848639401985565,
+      "p95": 1.1465775891720114,
+      "max": 1.3349583827821334,
+      "mean": 1.400926786654102e-13
+    }
+  },
+  "image_change_phase_vs_trigger": {
+    "full_crc": {
+      "initial_on_fit": {
+        "intercept_us": 29330.049919610476,
+        "slope_us_per_s": 12.49168536550677,
+        "residual_us": {
+          "n": 1742,
+          "min": -0.159540964410553,
+          "median": -0.011080229829531163,
+          "p95": 0.13562583710026951,
+          "max": 0.16752246584292152,
+          "mean": -2.2554633247181689e-13
+        }
+      },
+      "bracketed_on_fit": {
+        "intercept_us": 29331.654911869613,
+        "slope_us_per_s": 12.441069380093463,
+        "residual_us": {
+          "n": 3488,
+          "min": -1.7360175640205853,
+          "median": -0.05296200437442167,
+          "p95": 1.3818252280019805,
+          "max": 1.6459906144918932,
+          "mean": -1.6854855941112982e-12
+        }
+      },
+      "conditions": {
+        "on_a": {
+          "phase_us": {
+            "n": 1742,
+            "min": 29330.14814814815,
+            "median": 29692.851851851854,
+            "p95": 30117.535185185185,
+            "max": 30153.777777777777,
+            "mean": 29742.015839605392
+          },
+          "residual_to_initial_on_drift_us": {
+            "n": 1742,
+            "min": -0.159540964410553,
+            "median": -0.011080229829531163,
+            "p95": 0.13562583710026951,
+            "max": 0.16752246584292152,
+            "mean": -2.2554633247181689e-13
+          },
+          "residual_to_bracketed_on_drift_us": {
+            "n": 1742,
+            "min": -1.7360175640205853,
+            "median": 0.001310407926212065,
+            "p95": 1.4886934546768316,
+            "max": 1.6459906144918932,
+            "mean": 0.06428297371618084
+          }
+        },
+        "off_b": {
+          "phase_us": {
+            "n": 1726,
+            "min": 31438.62962962963,
+            "median": 31796.055555555555,
+            "p95": 32214.185185185182,
+            "max": 32249.85185185185,
+            "mean": 31844.05952534226
+          },
+          "residual_to_initial_on_drift_us": {
+            "n": 1726,
+            "min": -7.2546934413476265,
+            "median": -4.459108459161143,
+            "p95": -2.9212510186898726,
+            "max": -2.739577778338571,
+            "mean": -4.839640242259605
+          },
+          "residual_to_bracketed_on_drift_us": {
+            "n": 1726,
+            "min": 2.995569414255442,
+            "median": 3.943449545662588,
+            "p95": 4.237521267078591,
+            "max": 4.274048350809608,
+            "mean": 3.7616793742279437
+          }
+        },
+        "on_return": {
+          "phase_us": {
+            "n": 1746,
+            "min": 33553.40740740741,
+            "median": 34012.018518518526,
+            "p95": 34337.75,
+            "max": 34373.88888888889,
+            "mean": 33963.776589877394
+          },
+          "residual_to_initial_on_drift_us": {
+            "n": 1746,
+            "min": -18.905997196146927,
+            "median": -17.47036611787189,
+            "p95": -15.872098272233416,
+            "max": -15.748699389601825,
+            "mean": -17.30500326790388
+          },
+          "residual_to_bracketed_on_drift_us": {
+            "n": 1746,
+            "min": -0.26390113566594664,
+            "median": -0.0592486803943757,
+            "p95": 0.05239491178872413,
+            "max": 0.08594194451143267,
+            "mean": -0.0641357045930504
+          }
+        }
+      },
+      "interpretation": "CRC transition phase modulo trigger period; an integer raster parity change alone does not identify exposure pairing or pipeline latency."
+    },
+    "roi_crc": {
+      "initial_on_fit": {
+        "intercept_us": 29330.049919610476,
+        "slope_us_per_s": 12.49168536550677,
+        "residual_us": {
+          "n": 1742,
+          "min": -0.159540964410553,
+          "median": -0.011080229829531163,
+          "p95": 0.13562583710026951,
+          "max": 0.16752246584292152,
+          "mean": -2.2554633247181689e-13
+        }
+      },
+      "bracketed_on_fit": {
+        "intercept_us": 29331.654911869613,
+        "slope_us_per_s": 12.441069380093463,
+        "residual_us": {
+          "n": 3488,
+          "min": -1.7360175640205853,
+          "median": -0.05296200437442167,
+          "p95": 1.3818252280019805,
+          "max": 1.6459906144918932,
+          "mean": -1.6854855941112982e-12
+        }
+      },
+      "conditions": {
+        "on_a": {
+          "phase_us": {
+            "n": 1742,
+            "min": 29330.14814814815,
+            "median": 29692.851851851854,
+            "p95": 30117.535185185185,
+            "max": 30153.777777777777,
+            "mean": 29742.015839605392
+          },
+          "residual_to_initial_on_drift_us": {
+            "n": 1742,
+            "min": -0.159540964410553,
+            "median": -0.011080229829531163,
+            "p95": 0.13562583710026951,
+            "max": 0.16752246584292152,
+            "mean": -2.2554633247181689e-13
+          },
+          "residual_to_bracketed_on_drift_us": {
+            "n": 1742,
+            "min": -1.7360175640205853,
+            "median": 0.001310407926212065,
+            "p95": 1.4886934546768316,
+            "max": 1.6459906144918932,
+            "mean": 0.06428297371618084
+          }
+        },
+        "off_b": {
+          "phase_us": {
+            "n": 1726,
+            "min": 31438.62962962963,
+            "median": 31796.055555555555,
+            "p95": 32214.185185185182,
+            "max": 32249.85185185185,
+            "mean": 31844.05952534226
+          },
+          "residual_to_initial_on_drift_us": {
+            "n": 1726,
+            "min": -7.2546934413476265,
+            "median": -4.459108459161143,
+            "p95": -2.9212510186898726,
+            "max": -2.739577778338571,
+            "mean": -4.839640242259605
+          },
+          "residual_to_bracketed_on_drift_us": {
+            "n": 1726,
+            "min": 2.995569414255442,
+            "median": 3.943449545662588,
+            "p95": 4.237521267078591,
+            "max": 4.274048350809608,
+            "mean": 3.7616793742279437
+          }
+        },
+        "on_return": {
+          "phase_us": {
+            "n": 1746,
+            "min": 33553.40740740741,
+            "median": 34012.018518518526,
+            "p95": 34337.75,
+            "max": 34373.88888888889,
+            "mean": 33963.776589877394
+          },
+          "residual_to_initial_on_drift_us": {
+            "n": 1746,
+            "min": -18.905997196146927,
+            "median": -17.47036611787189,
+            "p95": -15.872098272233416,
+            "max": -15.748699389601825,
+            "mean": -17.30500326790388
+          },
+          "residual_to_bracketed_on_drift_us": {
+            "n": 1746,
+            "min": -0.26390113566594664,
+            "median": -0.0592486803943757,
+            "p95": 0.05239491178872413,
+            "max": 0.08594194451143267,
+            "mean": -0.0641357045930504
+          }
+        }
+      },
+      "interpretation": "CRC transition phase modulo trigger period; an integer raster parity change alone does not identify exposure pairing or pipeline latency."
+    }
+  },
+  "conditions": {
+    "control_on": {
+      "camera2": {
+        "duration_s": 29.083697592592593,
+        "records": 1746,
+        "valid": 1746,
+        "sequence_gaps": 0,
+        "raster_hz": 59.99924852899168,
+        "full_changes": 0,
+        "full_change_hz": 0.0,
+        "full_change_intervals_rasters": {},
+        "full_change_interval_hz": null,
+        "roi_changes": 0,
+        "roi_change_hz": 0.0,
+        "roi_change_intervals_rasters": {},
+        "roi_change_interval_hz": null
+      }
+    },
+    "on_a": {
+      "camera2": {
+        "duration_s": 58.067392148148144,
+        "records": 3486,
+        "valid": 3486,
+        "sequence_gaps": 0,
+        "raster_hz": 59.99925037293258,
+        "full_changes": 1742,
+        "full_change_hz": 29.99962518646629,
+        "full_change_intervals_rasters": {
+          "2": 1740
+        },
+        "full_change_interval_hz": 29.999625177096924,
+        "roi_changes": 1742,
+        "roi_change_hz": 29.99962518646629,
+        "roi_change_intervals_rasters": {
+          "2": 1740
+        },
+        "roi_change_interval_hz": 29.999625177096924
+      },
+      "relative_phase_us": {
+        "n": 3485,
+        "min": 7791.222222222223,
+        "median": 7965.2962962962965,
+        "p95": 8087.985185185185,
+        "max": 8101.62962962963,
+        "mean": 7946.629799670546
+      },
+      "residual_to_on_drift_us": {
+        "n": 3485,
+        "min": -1.5438265147722632,
+        "median": 0.04196891730862262,
+        "p95": 1.2176625187374157,
+        "max": 1.3349583827821334,
+        "mean": 0.06495078146102554
+      },
+      "within_capture_fit": {
+        "intercept_us": 8101.784970242505,
+        "slope_us_per_s": -4.705984687534287,
+        "residual_us": {
+          "n": 3485,
+          "min": -0.2253863464557071,
+          "median": 0.00610450287877029,
+          "p95": 0.1297090080059206,
+          "max": 0.17163635108590825,
+          "mean": -6.088525507134122e-13
+        }
+      }
+    },
+    "off_b": {
+      "camera2": {
+        "duration_s": 57.51738129629629,
+        "records": 3453,
+        "valid": 3453,
+        "sequence_gaps": 0,
+        "raster_hz": 59.99925452486168,
+        "full_changes": 1726,
+        "full_change_hz": 30.008320286847656,
+        "full_change_intervals_rasters": {
+          "2": 1724
+        },
+        "full_change_interval_hz": 29.99962728614643,
+        "roi_changes": 1726,
+        "roi_change_hz": 30.008320286847656,
+        "roi_change_intervals_rasters": {
+          "2": 1724
+        },
+        "roi_change_interval_hz": 29.99962728614643
+      },
+      "relative_phase_us": {
+        "n": 3452,
+        "min": 6992.518518518518,
+        "median": 7167.0,
+        "p95": 7290.218518518518,
+        "max": 7303.851851851852,
+        "mean": 7148.482071584911
+      },
+      "residual_to_on_drift_us": {
+        "n": 3452,
+        "min": 2.246721339420219,
+        "median": 3.0975226141417807,
+        "p95": 3.435317651820378,
+        "max": 3.476828221555479,
+        "mean": 2.986559068403134
+      },
+      "within_capture_fit": {
+        "intercept_us": 8109.893301198617,
+        "slope_us_per_s": -4.768160520902831,
+        "residual_us": {
+          "n": 3452,
+          "min": -0.23237924117347575,
+          "median": 0.019600800108491967,
+          "p95": 0.07065668337945681,
+          "max": 0.09647349744773237,
+          "mean": 5.190337666548866e-14
+        }
+      }
+    },
+    "on_return": {
+      "camera2": {
+        "duration_s": 58.21739114814815,
+        "records": 3495,
+        "valid": 3495,
+        "sequence_gaps": 0,
+        "raster_hz": 59.99925333499094,
+        "full_changes": 1746,
+        "full_change_hz": 29.991038168592667,
+        "full_change_intervals_rasters": {
+          "2": 1744
+        },
+        "full_change_interval_hz": 29.99962662926465,
+        "roi_changes": 1746,
+        "roi_change_hz": 29.991038168592667,
+        "roi_change_intervals_rasters": {
+          "2": 1744
+        },
+        "roi_change_interval_hz": 29.99962662926465
+      },
+      "relative_phase_us": {
+        "n": 3494,
+        "min": 6178.407407407408,
+        "median": 6316.333333333334,
+        "p95": 6477.335185185186,
+        "max": 6491.148148148148,
+        "mean": 6334.736659670546
+      },
+      "residual_to_on_drift_us": {
+        "n": 3494,
+        "min": -0.41914596146853,
+        "median": -0.08189068493629748,
+        "p95": 0.24405193833581507,
+        "max": 0.2982960382651072,
+        "mean": -0.06478347836024508
+      },
+      "within_capture_fit": {
+        "intercept_us": 8099.3637530207525,
+        "slope_us_per_s": -4.739548829804264,
+        "residual_us": {
+          "n": 3494,
+          "min": -0.06516635139269056,
+          "median": 0.0002915345139626879,
+          "p95": 0.0309015717240527,
+          "max": 0.05020157390208624,
+          "mean": 5.122740621319756e-13
+        }
+      }
+    },
+    "control_off": {
+      "camera2": {
+        "duration_s": 29.133696037037037,
+        "records": 1749,
+        "valid": 1749,
+        "sequence_gaps": 0,
+        "raster_hz": 59.99925302226691,
+        "full_changes": 0,
+        "full_change_hz": 0.0,
+        "full_change_intervals_rasters": {},
+        "full_change_interval_hz": null,
+        "roi_changes": 0,
+        "roi_change_hz": 0.0,
+        "roi_change_intervals_rasters": {},
+        "roi_change_interval_hz": null
+      }
+    }
+  }
+}

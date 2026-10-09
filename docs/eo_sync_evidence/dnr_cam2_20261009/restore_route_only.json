@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-09T15:35:44.318697+09:00",
+  "source": "C:\\SVNProjects\\IMU_Stabilize_v40\\EO_OSD_Remote_20260812\\ST_Link-test\\Core\\Src\\mcu_fsm.c",
+  "source_sha256": "a6468b4aadd51c23e2575a67814556222bfabb5e6aff81c54a88a9282a9fd072",
+  "reviewed_functions": [
+    "mcu_on_icd_frame/PANORAMA_CONTROL",
+    "icd_apply_panorama_camera_params",
+    "icd_apply_mode"
+  ],
+  "request_payload_hex": "06ffffffffffffff",
+  "semantics": "Select EO physical camera 6; all ancillary fields are outside checked ranges, so the inspected handler skips camera/display parameter writes.",
+  "standard_eo_video_mode_select_used": false,
+  "valid_camera_parameter_fields_sent": false,
+  "mcu_mode_flash_write": true,
+  "fpga_configuration_flash_write": false,
+  "status_before_hex": "030101010101010101010101010600000000000000",
+  "ack_hex": "0600000000000000",
+  "status_after_hex": "030101010101010101010101010600000000000000",
+  "reported_mode_and_all_parameters_unchanged": true
+}

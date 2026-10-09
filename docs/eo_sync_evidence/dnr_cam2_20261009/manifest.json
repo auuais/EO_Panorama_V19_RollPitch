@@ -1,0 +1,1586 @@
+{
+  "created_at": "2026-10-09T15:37:54.533072+09:00",
+  "files": [
+    {
+      "path": "build_sha256.json",
+      "size": 485,
+      "sha256": "76306759fca9545ddda3b8be8856a7b80366521a4b6069f2805e379afbeda0cc"
+    },
+    {
+      "path": "camera2_relative_phase.csv",
+      "size": 1125784,
+      "sha256": "bbb2eaf9656a1982b14ece67d54283d1dd18f98d881d88ed4976eb28a9c4f786"
+    },
+    {
+      "path": "comparison.json",
+      "size": 129552,
+      "sha256": "36cba9ff726fbc380bf563182e07864a919678ae7eceacacd15f2a0a0c2080ee"
+    },
+    {
+      "path": "contact_dnr_off.png",
+      "size": 189243,
+      "sha256": "99ddd1c648a6b284824966b70c8a504c85e867ea78e53b30a4390e624ee9db7b"
+    },
+    {
+      "path": "contact_dnr_on_return.png",
+      "size": 123614,
+      "sha256": "5a8c398c41b76870dfdbba025d35173fa253e3f8a5efa86b9778af977dbaeadf"
+    },
+    {
+      "path": "contact_freeze_off_on.png",
+      "size": 121426,
+      "sha256": "280c806b4a5416c75a5fb2bd86df4f32984d2365a767058e9a252258ab085efb"
+    },
+    {
+      "path": "contact_freeze_on_on.png",
+      "size": 121214,
+      "sha256": "21c024e02af96e4dafd192750f8abc085bae546f08957021cf8b644a240ab3a6"
+    },
+    {
+      "path": "contact_initial_exposure.png",
+      "size": 108792,
+      "sha256": "56b79a7a07662b5011229c9bbdeb75900b9b5df52cfcf0e88a5a336b58148b61"
+    },
+    {
+      "path": "contact_initial_format.png",
+      "size": 559459,
+      "sha256": "474cef0f3419981838a5e8dab5bf818399097277878db2f2e80b77f60b2c7946"
+    },
+    {
+      "path": "contact_initial_image.png",
+      "size": 104944,
+      "sha256": "f89a633b3d9f050b56cd8f8fb805b345e13c00519025861f732369575bc61fcc"
+    },
+    {
+      "path": "contact_initial_trigger.png",
+      "size": 106924,
+      "sha256": "ff969761e6052d2b3c739fd4970b6e44306e06a8ab3584f36a0d1fcf19a00ed8"
+    },
+    {
+      "path": "contact_off_frozen_setup.png",
+      "size": 189352,
+      "sha256": "91b20a1445df048928280ce003597a9a3388c7163ff528b5accc4d1c1b45ba1e"
+    },
+    {
+      "path": "contact_restored_closed.png",
+      "size": 599818,
+      "sha256": "32c0fcaf3832dff0f7c91233e6c7c6d9b6cd1b6dd7bc7cdafc5f1583ab12c0e7"
+    },
+    {
+      "path": "contact_restored_exposure_restored_trigger_restored_image.png",
+      "size": 297670,
+      "sha256": "cb3cc088652dffa7f8345e22fa82fabc4b2b1adb5183298d1dbd308802641aaf"
+    },
+    {
+      "path": "contact_restored_format.png",
+      "size": 577365,
+      "sha256": "cde6e0cf447ce720d37389a90b7aa0eaa577bf3bb40b6bf9a5b4a9ff976715df"
+    },
+    {
+      "path": "contact_test_exposure.png",
+      "size": 122504,
+      "sha256": "ecd370cb00ea25fc2a6318ff2ea886f03379b9fec74415a8af073a66737580ed"
+    },
+    {
+      "path": "contact_test_format_test_trigger.png",
+      "size": 240126,
+      "sha256": "8d911e05a565e3718495ff8ca436b3ecb141c544f10a7aeb5ac6c188b5d2c715"
+    },
+    {
+      "path": "contact_test_image_on.png",
+      "size": 121195,
+      "sha256": "d6371f3cae173b44c4d13f8981143aafb6dad000a62e27c7210992f566249c5e"
+    },
+    {
+      "path": "control_off/events_000.csv",
+      "size": 4336702,
+      "sha256": "2ffef3dd55c17a338797d3210ac0d724c99d926ccb2f87cb75a2fb390b464cba"
+    },
+    {
+      "path": "control_off/phase_checks.txt",
+      "size": 185,
+      "sha256": "696e52f6e226efbafa62f386584f3c894c0ade0f31d8225977e73064d173678a"
+    },
+    {
+      "path": "control_off/provenance.txt",
+      "size": 10422,
+      "sha256": "f480c13e4303a2a2d13fea7e3c6f05af1fdeb6be080176f98e5c7d45587dd711"
+    },
+    {
+      "path": "control_on/events_000.csv",
+      "size": 4336702,
+      "sha256": "baa7ebe4c0d66d65246b1e955e6411c9374227cf1e4798374a578096f64fb4a3"
+    },
+    {
+      "path": "control_on/phase_checks.txt",
+      "size": 185,
+      "sha256": "71db3d00331758b5f6193685e98c7e5819662ece6877f1a191a1fefa395e6aac"
+    },
+    {
+      "path": "control_on/provenance.txt",
+      "size": 10418,
+      "sha256": "227ab6cfaae604e49db9560a990765e5a605a552a748e0411a411f86fcbd12f7"
+    },
+    {
+      "path": "dnr_off/cam2/close_keys.json",
+      "size": 7650,
+      "sha256": "a516705e26d5fc16d63019f6ea020bb2d2aa35906766840df7d7365736aed568"
+    },
+    {
+      "path": "dnr_off/cam2/frame_01105.png",
+      "size": 114808,
+      "sha256": "656b5ae8ecb9483359ec3a4daaa21650f0ae0da5db120e5a4a6a9bbe90f96afa"
+    },
+    {
+      "path": "dnr_off/cam2/keys.json",
+      "size": 8639,
+      "sha256": "58bce924ce70dbef1307043781a16cd18bb307fcfa8301ec82ee9880858d67ce"
+    },
+    {
+      "path": "dnr_off/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "1485f9041ff318c659bb69d59617e5eab9fcf29a285e653d33a642baa3052f9e"
+    },
+    {
+      "path": "dnr_off/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "f902945a8c2c5de660ac2f24dd85d001ef0cff145d3e9ae39fe70afcab6effed"
+    },
+    {
+      "path": "dnr_off/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "4d79e58a76e996cc2d9cf4f6513384b5a80d02235290251a9140c0b9a78fbc48"
+    },
+    {
+      "path": "dnr_on_return/cam2/close_keys.json",
+      "size": 7650,
+      "sha256": "4e42f64d0da668c460eb8f8a330192510dc82582988be8df2e5ec95b618eab76"
+    },
+    {
+      "path": "dnr_on_return/cam2/frame_10490.png",
+      "size": 79294,
+      "sha256": "41f2487eb923357e40b2fe082a1dafd4b1c27f5ea3d75f2a02d8d3b9a8c4f7c8"
+    },
+    {
+      "path": "dnr_on_return/cam2/keys.json",
+      "size": 8498,
+      "sha256": "9c53dfd9e0971b8c32a1e638214ca2907b784ee7f543930a5c75a2696a5501b8"
+    },
+    {
+      "path": "dnr_on_return/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "e6ca61730268edd5c796a3825f90b4d9be962f3df2071f204d14847ca71d9c28"
+    },
+    {
+      "path": "dnr_on_return/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "463d9cced9188e7c3f5eba958155433410623632675b78eccf8a49d91f6980d3"
+    },
+    {
+      "path": "dnr_on_return/cam2/snapshot_summary.json",
+      "size": 473,
+      "sha256": "24f08cd41ad69a8f3c826d83bef03976952e0041e1542bd97c055b3607780717"
+    },
+    {
+      "path": "final_closed.json",
+      "size": 49,
+      "sha256": "a9c4dad35205700816bd4e8348ee6b360d951d3a5ea5bcffded13c2a1814e77c"
+    },
+    {
+      "path": "final_closed.png",
+      "size": 165915,
+      "sha256": "b13565a2b7bdf97095fbcde73adb49a9072fe719bfd09be40258babfe52db307"
+    },
+    {
+      "path": "final_display.txt",
+      "size": 94,
+      "sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb"
+    },
+    {
+      "path": "final_display_verified.txt",
+      "size": 94,
+      "sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb"
+    },
+    {
+      "path": "final_pose.txt",
+      "size": 265,
+      "sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06"
+    },
+    {
+      "path": "final_pose_verified.txt",
+      "size": 265,
+      "sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06"
+    },
+    {
+      "path": "final_route_restored.json",
+      "size": 49,
+      "sha256": "a9c4dad35205700816bd4e8348ee6b360d951d3a5ea5bcffded13c2a1814e77c"
+    },
+    {
+      "path": "final_route_restored.png",
+      "size": 2132375,
+      "sha256": "3f811957d0f55b219098d30a02bbbbe2b6d8bd0377f1843c0dc79738c5431ce2"
+    },
+    {
+      "path": "freeze_off_on/cam2/close_keys.json",
+      "size": 12295,
+      "sha256": "0024fbdbac521d5a99692d1a70d1aed7c28cbc2c0a196c5071c00d28621302d6"
+    },
+    {
+      "path": "freeze_off_on/cam2/frame_23510.png",
+      "size": 77740,
+      "sha256": "8be7b69cbee1a67dad833d79dd455c2df776490c674b8a1d4316a30d39c0af66"
+    },
+    {
+      "path": "freeze_off_on/cam2/keys.json",
+      "size": 11289,
+      "sha256": "d11235fc3b099954e3a36a4acac7469c492b74b9fd0b069ee85592a529740f66"
+    },
+    {
+      "path": "freeze_off_on/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "4691b6580624afc841d4c5b48751a4031bb00d47475d4e271ed7ed1a49b581e9"
+    },
+    {
+      "path": "freeze_off_on/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "3c0b02dd1b24f754727f5ec1edc7f91d722829caa1880c57369aa61cfe001eb0"
+    },
+    {
+      "path": "freeze_off_on/cam2/snapshot_summary.json",
+      "size": 473,
+      "sha256": "e777ba9f3d0d01b5ec2860e8117f95fc206b7f88f532351f0945681993603b3d"
+    },
+    {
+      "path": "freeze_on_on/cam2/close_keys.json",
+      "size": 12295,
+      "sha256": "5985d9cb6c46bc68f914b04adc9fe39198660941c2dfc1a6dc494842a317e1ee"
+    },
+    {
+      "path": "freeze_on_on/cam2/frame_15870.png",
+      "size": 77820,
+      "sha256": "88f49e959f16638b57d1b6f034cddfbedeb7f8baa379b310a9605c3d9349ec71"
+    },
+    {
+      "path": "freeze_on_on/cam2/keys.json",
+      "size": 11387,
+      "sha256": "38c79fe0f7f2a119a1f0bcdb2520366114e119157aae798a94a579789758dcdc"
+    },
+    {
+      "path": "freeze_on_on/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "f1ddcbebfd99ab7a53f59cb2a3a231c7ab6c4f4fa04a46bcdc3439aff915a4a1"
+    },
+    {
+      "path": "freeze_on_on/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "53640b35634db79bf606d229a1ed28b33fbc9e29907505d7bcc77b934ccb4d96"
+    },
+    {
+      "path": "freeze_on_on/cam2/snapshot_summary.json",
+      "size": 473,
+      "sha256": "ac65ec6d331f5101a45181b29e8149718faafdd6eeb1e8a0b62beacf3e01dfb5"
+    },
+    {
+      "path": "initial_closed.json",
+      "size": 49,
+      "sha256": "a9c4dad35205700816bd4e8348ee6b360d951d3a5ea5bcffded13c2a1814e77c"
+    },
+    {
+      "path": "initial_closed.png",
+      "size": 2076399,
+      "sha256": "d635ccb3b50ab0d054f093920364012f789c67eed7a6711564963dc58667a6f7"
+    },
+    {
+      "path": "initial_display.txt",
+      "size": 94,
+      "sha256": "ac1547a137c0fe6bfa30db1a1dfd7ee191768245ba528309c175fc346227c2eb"
+    },
+    {
+      "path": "initial_exposure/cam2/close_keys.json",
+      "size": 4667,
+      "sha256": "da013d289adf26e284caa74c456f308bf17ce2be90089196ed61102f178b27c7"
+    },
+    {
+      "path": "initial_exposure/cam2/frame_06070.png",
+      "size": 72154,
+      "sha256": "ef8935f4baded1cd50715fb475cba41a26be772388675d98805e769ec7055633"
+    },
+    {
+      "path": "initial_exposure/cam2/keys.json",
+      "size": 2863,
+      "sha256": "867e6299911ca64493d48c0daaf0f36b819eedd44ce741b8abcd30a9be3767e8"
+    },
+    {
+      "path": "initial_exposure/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "8c9317d76e47a833599bd787f1edc57ba86e98fdaaa18a894edeea662e2d4517"
+    },
+    {
+      "path": "initial_exposure/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "27414e19c31c05abed2fbcc84956fb74ace7eb01db70a041b1ccbbc35cce3e6b"
+    },
+    {
+      "path": "initial_exposure/cam2/snapshot_summary.json",
+      "size": 472,
+      "sha256": "f41a9d6cf508b0b4944c73c2100abff37fb2479118b1179be6538b6c6619f7e6"
+    },
+    {
+      "path": "initial_format/cam2/close_keys.json",
+      "size": 11366,
+      "sha256": "d652891d71e5effbcec475492d01bc7aba433ebe4680b79e05f6af8e549958e6"
+    },
+    {
+      "path": "initial_format/cam2/frame_02167.png",
+      "size": 65144,
+      "sha256": "1386445af44d3d528dc93233e6a28bc9ab138d32b629ad27120670ea48d3757e"
+    },
+    {
+      "path": "initial_format/cam2/keys.json",
+      "size": 9524,
+      "sha256": "4b9120a096fadb8d645a291b761bc885c70c25d37d2788e28bcd920f89aac520"
+    },
+    {
+      "path": "initial_format/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "7e090a1095677b16e2e43bb54fda8720afe489b6ab258f65f39aedad7f4878bc"
+    },
+    {
+      "path": "initial_format/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "bde430e5db6ca7fc099d6634fd6f0a4894bb08da16d56f679a738443f1c8f770"
+    },
+    {
+      "path": "initial_format/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "5dd57e3e3841c4dbb69c84c054d41bef578c5254f9335fb03a51721c0c3b805b"
+    },
+    {
+      "path": "initial_format/cam3/close_keys.json",
+      "size": 11366,
+      "sha256": "96810b59d4db85b6d72fe0aed181f7c7ea6a9f59f8b095716150dda698a781c5"
+    },
+    {
+      "path": "initial_format/cam3/frame_02823.png",
+      "size": 72914,
+      "sha256": "648e5646fbbe7a5ab73f78e8fee4c47308cb7a61390f1b84f7217fd4e05cd89b"
+    },
+    {
+      "path": "initial_format/cam3/keys.json",
+      "size": 9426,
+      "sha256": "985995b31e31e862658a12813da7322bf90b6aa9391bd0704d96bb1e0e42cc52"
+    },
+    {
+      "path": "initial_format/cam3/provenance.txt",
+      "size": 178,
+      "sha256": "d80ebb4e4a10785b609be35581fa8cbc9b60889f58487897cb3454c19e2327e5"
+    },
+    {
+      "path": "initial_format/cam3/snapshot.csv",
+      "size": 2304555,
+      "sha256": "6bb24c4d15e10e8da49900edfaf8b83bd340fcce329094e884a9541221b4b76f"
+    },
+    {
+      "path": "initial_format/cam3/snapshot_summary.json",
+      "size": 471,
+      "sha256": "45c73670c66af33ce733b41536ca50ab4dae1cdf0a949c0144ddb2bd8bfae01c"
+    },
+    {
+      "path": "initial_format/cam4/close_keys.json",
+      "size": 11366,
+      "sha256": "1a806071dbfebb28d39a9e5998cd8fa182ef75f067c458d9f456be12e8b634dc"
+    },
+    {
+      "path": "initial_format/cam4/frame_03478.png",
+      "size": 81769,
+      "sha256": "7493b9eec44012acb27e4aad3f6f515e218b895ac46498937d1e1c9c6b661f73"
+    },
+    {
+      "path": "initial_format/cam4/keys.json",
+      "size": 9426,
+      "sha256": "78f708296afd699772ab54dc20320504c65996c4745c182dc545559ed11c4af4"
+    },
+    {
+      "path": "initial_format/cam4/provenance.txt",
+      "size": 178,
+      "sha256": "769a39d3c032eec4f3cc63535d1245da2b2250a2254b5b703acd01c7e00973a9"
+    },
+    {
+      "path": "initial_format/cam4/snapshot.csv",
+      "size": 2304555,
+      "sha256": "cbb1895897f09b5d8975aba8bec76906eb99aeb0f60b63d4d4051ccf78cbb6d9"
+    },
+    {
+      "path": "initial_format/cam4/snapshot_summary.json",
+      "size": 472,
+      "sha256": "9a2e1042ca92ca22c51a232bdfb5e8b3749be50a6862927688498c741b2a6d7f"
+    },
+    {
+      "path": "initial_format/cam5/close_keys.json",
+      "size": 11366,
+      "sha256": "ccf50da7aa5a233482c0be35a291619e1c5a6936afe806cec882289996a3ad11"
+    },
+    {
+      "path": "initial_format/cam5/frame_04134.png",
+      "size": 72842,
+      "sha256": "25e3cb164bb07243da3691caeeb391441b1db094ed37903a79dfa243d7c7f358"
+    },
+    {
+      "path": "initial_format/cam5/keys.json",
+      "size": 9426,
+      "sha256": "2e37abff6c3da4f34a7ab6cc03cf2715bca299600c50c338a9040a6c0f0d8e10"
+    },
+    {
+      "path": "initial_format/cam5/provenance.txt",
+      "size": 178,
+      "sha256": "c527481da75af8eb0edb83321138eb780aa1c753dcdb30b30ba8ba785b1bb1df"
+    },
+    {
+      "path": "initial_format/cam5/snapshot.csv",
+      "size": 2304555,
+      "sha256": "ea5a9b07c0dc187f1e3000046bb70c3d208244cc419470f16dab382477369e5b"
+    },
+    {
+      "path": "initial_format/cam5/snapshot_summary.json",
+      "size": 471,
+      "sha256": "53bb70dfdce9d0773ed0cbfdc1f1552949cf76f5d7f79c365b7f581b3658702a"
+    },
+    {
+      "path": "initial_format/cam6/close_keys.json",
+      "size": 11366,
+      "sha256": "513cb9b46977695157ffb73629329f6e027bbe7583fd452e62ccf3d31ec3fdfa"
+    },
+    {
+      "path": "initial_format/cam6/frame_04790.png",
+      "size": 60737,
+      "sha256": "d3de92dc4643bed1cb192e08c229bfaf6bd9103916a11b5a7a87316aa9df010c"
+    },
+    {
+      "path": "initial_format/cam6/keys.json",
+      "size": 9426,
+      "sha256": "18acfcf96ec3989b0556b61b0ef6ef93e033e10c831ca37af43250c72f906069"
+    },
+    {
+      "path": "initial_format/cam6/provenance.txt",
+      "size": 178,
+      "sha256": "2dff030c950bf33866cc00f34eb864911bba24b936021dbc6e558bf3e9f79405"
+    },
+    {
+      "path": "initial_format/cam6/snapshot.csv",
+      "size": 2304555,
+      "sha256": "c646366db135661711e30101f4021cfa526e1b9443401d8b8a4beb96562face7"
+    },
+    {
+      "path": "initial_format/cam6/snapshot_summary.json",
+      "size": 471,
+      "sha256": "b6c42f61a6d7212699310cada43741f7fd696be3d15400b77777d2cd6b6ecfd3"
+    },
+    {
+      "path": "initial_image/cam2/close_keys.json",
+      "size": 6623,
+      "sha256": "3e131ab2cab83a2d9358bf39193df66caa8ac4b6988bc68ad01b36dc34012336"
+    },
+    {
+      "path": "initial_image/cam2/frame_08161.png",
+      "size": 69852,
+      "sha256": "ba23a8ce9f340df333f79ed2d0c0a554e4f097abeb3ea27725672431aacbc9ea"
+    },
+    {
+      "path": "initial_image/cam2/keys.json",
+      "size": 4869,
+      "sha256": "adea8d5cfcc3f8ba5417c652a96e92929bfcc94d36f5d0124d3be14e4237ab15"
+    },
+    {
+      "path": "initial_image/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "69b8df3c7c8aad7f880ddac708d60a7b9b407e3e51ca31bc445d4a47ec4ecd8b"
+    },
+    {
+      "path": "initial_image/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "4d637ebf7834dc2fe139f8f0aab2a9bf94078505c6fd457cb15dbf108e03a79b"
+    },
+    {
+      "path": "initial_image/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "9cf1a858a97ba4a6b0406ec3899dbd2202fb319a921e85e5226b27dacddd1011"
+    },
+    {
+      "path": "initial_pose.txt",
+      "size": 265,
+      "sha256": "dcfc4cea1cf42b6f7ae71be04b8f4461bf2c5b28314accda1917817d59e62a06"
+    },
+    {
+      "path": "initial_trigger/cam2/close_keys.json",
+      "size": 3934,
+      "sha256": "146b748d16e8229b6200be78aac45d0431172b391c97a997afe6f969c5a699bc"
+    },
+    {
+      "path": "initial_trigger/cam2/frame_07099.png",
+      "size": 71112,
+      "sha256": "33984f2c6d68333cf1e46dd3b9e345a21fbbf4f6b694cb9642569c663f943769"
+    },
+    {
+      "path": "initial_trigger/cam2/keys.json",
+      "size": 1978,
+      "sha256": "35b037134dd682c90b956d66f958f50f3a74689e15f7b11f6abac515eac38594"
+    },
+    {
+      "path": "initial_trigger/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "0a01216ace7f3b493e47726872d1fe5e551f955d0fcd07421bc31e332ee2b732"
+    },
+    {
+      "path": "initial_trigger/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "62219eda365a0cd2dc23b04bea647bea341645ea860f3d6a36529f21ec2319ed"
+    },
+    {
+      "path": "initial_trigger/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "f4440c1a08df6fa393dd1109c78a31da8b0be6fefab54199d9507f6169ce8e28"
+    },
+    {
+      "path": "logs/analysis.log",
+      "size": 13307,
+      "sha256": "d03fea7de9fe66bbd04ebb1be4ff3c810a72481b85911b45c37daf444725fb9f"
+    },
+    {
+      "path": "logs/control_off.log",
+      "size": 7592,
+      "sha256": "62e36d4bf899b91c9db53176988a93704a10fd496446991676f7393a8bbb771f"
+    },
+    {
+      "path": "logs/control_on.log",
+      "size": 7591,
+      "sha256": "736917de2d9872c277cc222954fd126411e6345b4c6704177768748d42c93b00"
+    },
+    {
+      "path": "logs/dnr_off.log",
+      "size": 6227,
+      "sha256": "b32d0837ff255fd294254026646bd098db776f4c1dc104cf63c9e9740f7ab73a"
+    },
+    {
+      "path": "logs/dnr_off_decode_cam2.log",
+      "size": 471,
+      "sha256": "4d79e58a76e996cc2d9cf4f6513384b5a80d02235290251a9140c0b9a78fbc48"
+    },
+    {
+      "path": "logs/dnr_on_return.log",
+      "size": 6245,
+      "sha256": "1140644651d3f824b5c261b119c6c5625e12e15bff915f09ae9564ee5e4f0091"
+    },
+    {
+      "path": "logs/dnr_on_return_decode_cam2.log",
+      "size": 473,
+      "sha256": "24f08cd41ad69a8f3c826d83bef03976952e0041e1542bd97c055b3607780717"
+    },
+    {
+      "path": "logs/freeze_off_on.log",
+      "size": 6245,
+      "sha256": "785bfb669df966e11ca2dc336b42b0247f9fb34df916ef19d32e60f734454226"
+    },
+    {
+      "path": "logs/freeze_off_on_decode_cam2.log",
+      "size": 473,
+      "sha256": "e777ba9f3d0d01b5ec2860e8117f95fc206b7f88f532351f0945681993603b3d"
+    },
+    {
+      "path": "logs/freeze_on_on.log",
+      "size": 6242,
+      "sha256": "692efe19404140c39e74e11665e47372791ed5f9a524a6e96ec201dc56a0d2ff"
+    },
+    {
+      "path": "logs/freeze_on_on_decode_cam2.log",
+      "size": 473,
+      "sha256": "ac65ec6d331f5101a45181b29e8149718faafdd6eeb1e8a0b62beacf3e01dfb5"
+    },
+    {
+      "path": "logs/initial_exposure.log",
+      "size": 6254,
+      "sha256": "c848e72d09264b7ca0a8ee11eb7dd5c8c5930100022ef50b71be629fb02442c9"
+    },
+    {
+      "path": "logs/initial_exposure_decode_cam2.log",
+      "size": 472,
+      "sha256": "f41a9d6cf508b0b4944c73c2100abff37fb2479118b1179be6538b6c6619f7e6"
+    },
+    {
+      "path": "logs/initial_format.log",
+      "size": 7868,
+      "sha256": "52b765a5e04e385f4ed3787322e0b785a5130fa0ff689e929f1a735ea01fd601"
+    },
+    {
+      "path": "logs/initial_format_decode_cam2.log",
+      "size": 471,
+      "sha256": "5dd57e3e3841c4dbb69c84c054d41bef578c5254f9335fb03a51721c0c3b805b"
+    },
+    {
+      "path": "logs/initial_format_decode_cam3.log",
+      "size": 471,
+      "sha256": "45c73670c66af33ce733b41536ca50ab4dae1cdf0a949c0144ddb2bd8bfae01c"
+    },
+    {
+      "path": "logs/initial_format_decode_cam4.log",
+      "size": 472,
+      "sha256": "9a2e1042ca92ca22c51a232bdfb5e8b3749be50a6862927688498c741b2a6d7f"
+    },
+    {
+      "path": "logs/initial_format_decode_cam5.log",
+      "size": 471,
+      "sha256": "53bb70dfdce9d0773ed0cbfdc1f1552949cf76f5d7f79c365b7f581b3658702a"
+    },
+    {
+      "path": "logs/initial_format_decode_cam6.log",
+      "size": 471,
+      "sha256": "b6c42f61a6d7212699310cada43741f7fd696be3d15400b77777d2cd6b6ecfd3"
+    },
+    {
+      "path": "logs/initial_image.log",
+      "size": 6245,
+      "sha256": "5102d43aefe3fb66e25f9052c8de6cec8c59d656cbf5c68e62c20d281a0770ca"
+    },
+    {
+      "path": "logs/initial_image_decode_cam2.log",
+      "size": 471,
+      "sha256": "9cf1a858a97ba4a6b0406ec3899dbd2202fb319a921e85e5226b27dacddd1011"
+    },
+    {
+      "path": "logs/initial_trigger.log",
+      "size": 6251,
+      "sha256": "4ac0cc16976936b9d9e26dbffe603a2824a31884e40d717eb2024f01c063ea5a"
+    },
+    {
+      "path": "logs/initial_trigger_decode_cam2.log",
+      "size": 471,
+      "sha256": "f4440c1a08df6fa393dd1109c78a31da8b0be6fefab54199d9507f6169ce8e28"
+    },
+    {
+      "path": "logs/off_b.log",
+      "size": 8022,
+      "sha256": "603ee70b303466ccf14f846d25cc5bf895027ad5fa097ad4aec7ad1288d62497"
+    },
+    {
+      "path": "logs/off_frozen_setup.log",
+      "size": 6254,
+      "sha256": "217333284afe7169d13ab8426f7cf4e55348c196f4f8523a8a8260bded2514a6"
+    },
+    {
+      "path": "logs/off_frozen_setup_decode_cam2.log",
+      "size": 473,
+      "sha256": "9f8be40a5a969986461749d86f46bfbfa8e4f4e74e592c603aa7b18e8edbb335"
+    },
+    {
+      "path": "logs/on_a.log",
+      "size": 8021,
+      "sha256": "06ee74c624a381008efdac91daf17a32c95e045039da1e551f068ca2b1d3a33a"
+    },
+    {
+      "path": "logs/on_return.log",
+      "size": 8026,
+      "sha256": "26bc576a683570c95ef584a09b505efaec4f444685eb39a0a05298ffb90e01fb"
+    },
+    {
+      "path": "logs/program_r2_initial.log",
+      "size": 2789,
+      "sha256": "98ba8f03bd29d3b41836419aad0df1ed8c375a7b0d86a800525661637ea901ce"
+    },
+    {
+      "path": "logs/program_r2_restore.log",
+      "size": 2789,
+      "sha256": "4911a3afda33e8977c809a2ecd3324652023c97e11dd5c14d55ac7b252e0586b"
+    },
+    {
+      "path": "logs/program_r4.log",
+      "size": 2796,
+      "sha256": "2a81ad608f0ddaedc34585755457dfef9e887b274c19d9e584c28d296fd56235"
+    },
+    {
+      "path": "logs/r2_initial_snapshot_rising.log",
+      "size": 4629,
+      "sha256": "9c083ed9362b5297722540488f7bad10db8ec56f6cd02f08bd0dd7923098c1ee"
+    },
+    {
+      "path": "logs/r2_restore_snapshot_rising.log",
+      "size": 4629,
+      "sha256": "965a29600b0f0fd6dbee69fb930e1164966da4cbbb8bb4266ab221180a21e41d"
+    },
+    {
+      "path": "logs/r4_snapshot_rising.log",
+      "size": 4629,
+      "sha256": "ee1d1044dd10f92c9181fda4b9a75fb254e878cf32a9fbee45d252e85dd1e8e0"
+    },
+    {
+      "path": "logs/restore30_cam2.log",
+      "size": 87,
+      "sha256": "c4e1cd8a7df6b508dea09a4c63f62bffb2b21ea6f07afa503bb0cc18b1cc3aed"
+    },
+    {
+      "path": "logs/restore30_cam3.log",
+      "size": 87,
+      "sha256": "f032888408ac45567daa2969cccd31b0b217cbd11878211f2f607d0a91a26463"
+    },
+    {
+      "path": "logs/restore30_cam4.log",
+      "size": 87,
+      "sha256": "c3dfd8a55f64a94b5ad9ee3b2c372b61f449948b7f67d456f04b654e474b969d"
+    },
+    {
+      "path": "logs/restore30_cam5.log",
+      "size": 87,
+      "sha256": "995de29f3d5546fa0e4be5326965e0e95e222e6db99d63553755e9adca046262"
+    },
+    {
+      "path": "logs/restore30_cam6.log",
+      "size": 87,
+      "sha256": "668119ca5d4036e45d265f9d9e0dec84e4426c8b8aedadc61b5d06898143526f"
+    },
+    {
+      "path": "logs/restore_cam2_exposure_keys.log",
+      "size": 99,
+      "sha256": "a9b50fe3d0f8ff66d7070c448ab26ea78f0d16fb45447b8325ac55c52eb3baa0"
+    },
+    {
+      "path": "logs/restore_cam2_image_keys.log",
+      "size": 96,
+      "sha256": "470bad5903adbed7653dec6808e2d13b8a1dbbf8fd8a2f6e0a0082ecf8c12b0b"
+    },
+    {
+      "path": "logs/restore_operational.log",
+      "size": 2829,
+      "sha256": "45ae96752c1d2031245a5579ac0520d8d5387add0559824a57ca1a9eb71811b4"
+    },
+    {
+      "path": "logs/restored_closed.log",
+      "size": 6869,
+      "sha256": "d31bea28103af8ed76c1c95611f084298389c57ae50c9c910e544b02faa45b4e"
+    },
+    {
+      "path": "logs/restored_closed_decode_cam2.log",
+      "size": 472,
+      "sha256": "94a616dc68c16d07b8ae10d89ef8618c9dfbbf099985af7f66d42fb64ceca082"
+    },
+    {
+      "path": "logs/restored_closed_decode_cam3.log",
+      "size": 472,
+      "sha256": "ef90d518848ef755238e9ae193339d628231c27f95cbdb0c0b309dba93eca3a0"
+    },
+    {
+      "path": "logs/restored_closed_decode_cam4.log",
+      "size": 472,
+      "sha256": "a726d4cca1c4f89a2ce45bbdc8e69420af3b9191b11b0fbc58b819aace7dc5ab"
+    },
+    {
+      "path": "logs/restored_closed_decode_cam5.log",
+      "size": 473,
+      "sha256": "244255d549e7e31fc9b98a8f30e69485ac6bcf870050d04c656200eadd781d1e"
+    },
+    {
+      "path": "logs/restored_closed_decode_cam6.log",
+      "size": 473,
+      "sha256": "05a94c9b24e06fa4c6d95bd9dff6998e1a39a9ecd72a6cf261c5b66f029b13d2"
+    },
+    {
+      "path": "logs/restored_exposure.log",
+      "size": 6257,
+      "sha256": "3127f6a9bef59a8c66f4d3025df9e7183a45e68d7321074eb2de5956729d6e5f"
+    },
+    {
+      "path": "logs/restored_exposure_decode_cam2.log",
+      "size": 471,
+      "sha256": "107cab4d0b300acd85e35db835782774df1cfdeb230fec86f605c8518b4ce7e3"
+    },
+    {
+      "path": "logs/restored_format.log",
+      "size": 7879,
+      "sha256": "b532962bbabb23ce1100196dac2163a3db48acb7a1e4db3c4bee6e04aeb90f96"
+    },
+    {
+      "path": "logs/restored_format_decode_cam2.log",
+      "size": 470,
+      "sha256": "aa826574b657e823413badac5c762d2f64696169c869946ef971188d27003c0c"
+    },
+    {
+      "path": "logs/restored_format_decode_cam3.log",
+      "size": 472,
+      "sha256": "855e1a1c7844d4f6d86d7e89ebe0e20b4241669a19bb3845c06814f51451c854"
+    },
+    {
+      "path": "logs/restored_format_decode_cam4.log",
+      "size": 471,
+      "sha256": "7ca13ab6b9e58730170ba1d29e1b2005ae82f845d25e86c10e42d2c613e64ae9"
+    },
+    {
+      "path": "logs/restored_format_decode_cam5.log",
+      "size": 471,
+      "sha256": "e30bc1aefb009ae44828b3b762d8b1b8671a9ddce05bb3e807a282aa4ab6c87a"
+    },
+    {
+      "path": "logs/restored_format_decode_cam6.log",
+      "size": 470,
+      "sha256": "565368e8514335977f8b363967cf0ef53b47cdc7bc16bd9c08e1aefe994ee879"
+    },
+    {
+      "path": "logs/restored_image.log",
+      "size": 6248,
+      "sha256": "39ffd618672392cb581f258e26dc7b64fc52018bdd280ca596b9431cb764f2f5"
+    },
+    {
+      "path": "logs/restored_image_decode_cam2.log",
+      "size": 472,
+      "sha256": "d4efa0a52fe6d1b7bb4f0365862d7a7b51d218e662b3de8710adb757df580c40"
+    },
+    {
+      "path": "logs/restored_trigger.log",
+      "size": 6254,
+      "sha256": "5c2dc3d01695af3185b05143e1bd6e55f614eca7005b55c8da9a731082260ac3"
+    },
+    {
+      "path": "logs/restored_trigger_decode_cam2.log",
+      "size": 472,
+      "sha256": "50465ef46dced6faf165a929e45e630168853a4b7f780ccd9797955dd2e3b0a9"
+    },
+    {
+      "path": "logs/selected_phase.log",
+      "size": 7996,
+      "sha256": "2e998e801fcddaa6b213bfc4cb5cf489602437e2cbae48ee026c22a1c57f785c"
+    },
+    {
+      "path": "logs/set60_cam2.log",
+      "size": 83,
+      "sha256": "8d1192099f5d815f45f192af69d2b4dc439071acd1a1de401340eba2f54f9eba"
+    },
+    {
+      "path": "logs/set60_cam3.log",
+      "size": 83,
+      "sha256": "275cf6f14aba4fe1155e70dee413c937026e4a824b2f293a143ba0898ad80483"
+    },
+    {
+      "path": "logs/set60_cam4.log",
+      "size": 83,
+      "sha256": "5f06496ebcdcd9528a076138de1308062d1c2651157233cddbf7dc0502e8127c"
+    },
+    {
+      "path": "logs/set60_cam5.log",
+      "size": 83,
+      "sha256": "cb66eb6e310ec352778c045015db089d46c138d999e566a3067498b1c1fbc750"
+    },
+    {
+      "path": "logs/set60_cam6.log",
+      "size": 83,
+      "sha256": "516dbe79817ef21e2fc59236868f4ac10f7ef93cc112dd7dd0730681fbb8fa76"
+    },
+    {
+      "path": "logs/test_exposure.log",
+      "size": 6245,
+      "sha256": "817f6b9549b1f2bed606b8443b6b3953f63860d864dea9a0e1c502097a579d85"
+    },
+    {
+      "path": "logs/test_exposure_decode_cam2.log",
+      "size": 471,
+      "sha256": "cc5abe9f9204967108c1aec2bca12c743b436fd95b6a7090860a57aa839387fd"
+    },
+    {
+      "path": "logs/test_format.log",
+      "size": 6239,
+      "sha256": "91ab87ed1c730bf978f0a9575abf4d8f5c3b611e2730549d2505b49ce1760fe0"
+    },
+    {
+      "path": "logs/test_format_decode_cam2.log",
+      "size": 471,
+      "sha256": "c760b9c4583ffd64d87008d4ff977a174338f3e2883be1d2b1ce71062694a2bb"
+    },
+    {
+      "path": "logs/test_image_on.log",
+      "size": 6245,
+      "sha256": "c01af61cb075fde22cf27421b661367a3f876efb1961c07009ac9a3059650258"
+    },
+    {
+      "path": "logs/test_image_on_decode_cam2.log",
+      "size": 473,
+      "sha256": "6a9a382d88bf9f7bd49d7226d16c4752476efb203924aa2e4adfdf2d8060f92c"
+    },
+    {
+      "path": "logs/test_trigger.log",
+      "size": 6242,
+      "sha256": "e3b7d92f1b7c6c7ba6c87354733c1cb66b67fdf1a135c7b49b13765941abb0be"
+    },
+    {
+      "path": "logs/test_trigger_decode_cam2.log",
+      "size": 471,
+      "sha256": "fe8ef1cfcb8647d1fdcd91d31a5567776c008b6ce799a5ffac3ce3ffd4e6c048"
+    },
+    {
+      "path": "off_b/events_000.csv",
+      "size": 4336702,
+      "sha256": "a970485f3ac795b49943eca3d9f42824a57776bec2866abd6a61e05a0e88385e"
+    },
+    {
+      "path": "off_b/events_001.csv",
+      "size": 4336702,
+      "sha256": "46935bbbd7bc05a23dad16ce6b0fb2154d4430b6cacdd80cee16305244e504d0"
+    },
+    {
+      "path": "off_b/phase_checks.txt",
+      "size": 277,
+      "sha256": "45c2a8eacb1f52f4654211e67ebf4d99d425e0f311b4756704d13ae24da66cf8"
+    },
+    {
+      "path": "off_b/provenance.txt",
+      "size": 10422,
+      "sha256": "9d1467832938051720e8b7cf1456150ff8b169fa88b7c6c092665dd98bb62bda"
+    },
+    {
+      "path": "off_frozen_setup/cam2/close_keys.json",
+      "size": 12295,
+      "sha256": "6e29c7a9bb5bf2c82a5722ca84031237849d5d1bcbac0d4156f212b20bfc1a1b"
+    },
+    {
+      "path": "off_frozen_setup/cam2/frame_20579.png",
+      "size": 114766,
+      "sha256": "222ee129933cf94dd0f96b6c6bd624f10972e2176c302e50ff3b017f3cfb0f39"
+    },
+    {
+      "path": "off_frozen_setup/cam2/keys.json",
+      "size": 14180,
+      "sha256": "2402561ae47cb780c8534e40786241756b8f0fd4291fbc0112bd3083122272c2"
+    },
+    {
+      "path": "off_frozen_setup/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "682a3ef7c47a771e00e4663a7561abbdc9bdfd60b931b4f9d18ce12050f1c553"
+    },
+    {
+      "path": "off_frozen_setup/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "77a6ae35fa3d2a0fc5ff40e559844b7ef88a9b7ecb8f25ff6a1ea69eea04c895"
+    },
+    {
+      "path": "off_frozen_setup/cam2/snapshot_summary.json",
+      "size": 473,
+      "sha256": "9f8be40a5a969986461749d86f46bfbfa8e4f4e74e592c603aa7b18e8edbb335"
+    },
+    {
+      "path": "on_a/events_000.csv",
+      "size": 4336702,
+      "sha256": "b016cce5286bc53cbe02139733daaf5562604754a5ee4be5eb9e37b34c822504"
+    },
+    {
+      "path": "on_a/events_001.csv",
+      "size": 4336702,
+      "sha256": "a252ea2d098b0a7933dfba7011f697ded6fd3aee71ae48cfaa22b1d96ef08fc8"
+    },
+    {
+      "path": "on_a/phase_checks.txt",
+      "size": 277,
+      "sha256": "3c632bd7d36dc32b9321c76957eeed85d52ca1b26d42ab79e35a3560b6875bc3"
+    },
+    {
+      "path": "on_a/provenance.txt",
+      "size": 10422,
+      "sha256": "d7dbc56c6e1b9ee6996f4d33e9eef1186fbe53dda7f82a5c2c646ad472906647"
+    },
+    {
+      "path": "on_return/events_000.csv",
+      "size": 4336702,
+      "sha256": "430837df6ff628b4cf5ec649da9ab0c90d9ca4fc6a28ef1d5c99e17221346e18"
+    },
+    {
+      "path": "on_return/events_001.csv",
+      "size": 4336702,
+      "sha256": "a3619c679d6c08829f1bcc39d699cb92ae37828fed438da14b09c29b1b3955fc"
+    },
+    {
+      "path": "on_return/phase_checks.txt",
+      "size": 277,
+      "sha256": "98faca5b6e0725f8da13659124806559280765f90fc7d9ba528e1277ced7c0ac"
+    },
+    {
+      "path": "on_return/provenance.txt",
+      "size": 10422,
+      "sha256": "5d47960ec72a91a19af1ebd63c42b3b68e3941c50dd4c034c51fdfd387e2d0ce"
+    },
+    {
+      "path": "protocol.json",
+      "size": 2416,
+      "sha256": "0cb15f1379fa111b893ca45e53593e3cbf5f0fab594f9ea0487ad2a1627abadc"
+    },
+    {
+      "path": "README.md",
+      "size": 5589,
+      "sha256": "54b8cc2d8ce71ef65e3ca3c497eeb532aa3e05e4c042dcee90ec91da65a9166b"
+    },
+    {
+      "path": "restoration_verified.json",
+      "size": 4472,
+      "sha256": "5195e03509383c679f0034a4d719f7114fc4bdd788bfdbc00b309986e3054edc"
+    },
+    {
+      "path": "restore30_cam2.json",
+      "size": 21707,
+      "sha256": "976020a75876d5a18582f40477fd6c39534ab5b841fb0a5cc537d7e1efdc1ffa"
+    },
+    {
+      "path": "restore30_cam3.json",
+      "size": 21707,
+      "sha256": "9d1a0cd945d3cd128b017e2e65ef8ab22d8334a5ac8ec43d651f80fac11e1060"
+    },
+    {
+      "path": "restore30_cam4.json",
+      "size": 21609,
+      "sha256": "a4fba524f3de50ac55897be61180f96800c6bc796d6ad4974b888091fc002089"
+    },
+    {
+      "path": "restore30_cam5.json",
+      "size": 21609,
+      "sha256": "6a4708594085208a585a1664ed8ff53f57aaa68ab37194abc8a52652349b35a9"
+    },
+    {
+      "path": "restore30_cam6.json",
+      "size": 21805,
+      "sha256": "c8d070fbf3ac98386810f2cd5de9adc5f837b12572f6715681f011dcbc523b9a"
+    },
+    {
+      "path": "restore_cam2_exposure_keys.json",
+      "size": 16034,
+      "sha256": "e5f3600f34e8b5968a30449a8ac00430764fed0d728207ae756fefe53923b6bb"
+    },
+    {
+      "path": "restore_cam2_image_keys.json",
+      "size": 26462,
+      "sha256": "93534108c0135e23a4aa4cf1c56e55901e92a97a6cc669f4cbe5957fbfd9db71"
+    },
+    {
+      "path": "restore_route_only.json",
+      "size": 995,
+      "sha256": "81375167320b7e76160b1a1eb699808716eefffc21d903391bc1acabfd964b8c"
+    },
+    {
+      "path": "restored_closed/cam2/frame_09733.png",
+      "size": 71673,
+      "sha256": "18b5ba7d12fd7e6e2f3cae43173399db495d064651724e0aaf75de404cc94bf6"
+    },
+    {
+      "path": "restored_closed/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "a0db58bb497314a21fa38cf06d65687f484b70bb7b3e7648e5d618baf0ab27d6"
+    },
+    {
+      "path": "restored_closed/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "bd291c46baefeefad79b68f814a2ed660a0798db5fc05b7bd172e2723c31419c"
+    },
+    {
+      "path": "restored_closed/cam2/snapshot_summary.json",
+      "size": 472,
+      "sha256": "94a616dc68c16d07b8ae10d89ef8618c9dfbbf099985af7f66d42fb64ceca082"
+    },
+    {
+      "path": "restored_closed/cam3/frame_09865.png",
+      "size": 79580,
+      "sha256": "08ec4a18d7d3b7c736179b6eb51934e7955c3cb4db0d39f9094be7bdd493697b"
+    },
+    {
+      "path": "restored_closed/cam3/provenance.txt",
+      "size": 178,
+      "sha256": "888108ddac4c552e3c0aa225edfcdb6f667b779313e566bc59c1beb26abe7add"
+    },
+    {
+      "path": "restored_closed/cam3/snapshot.csv",
+      "size": 2304555,
+      "sha256": "a934ba6987412210137a31c9ae87e0499bce851f5cfc0bf5f83a97500b328af4"
+    },
+    {
+      "path": "restored_closed/cam3/snapshot_summary.json",
+      "size": 472,
+      "sha256": "ef90d518848ef755238e9ae193339d628231c27f95cbdb0c0b309dba93eca3a0"
+    },
+    {
+      "path": "restored_closed/cam4/frame_09997.png",
+      "size": 72718,
+      "sha256": "185a8ec5b04d72b654198eeab7fe02d636e15585e1d206b54046e0dddeb7fe1a"
+    },
+    {
+      "path": "restored_closed/cam4/provenance.txt",
+      "size": 178,
+      "sha256": "5a09c88c59c6e79763691043abd9d23e2be4a6e9ff13f6e3b23678d45bb4ac5c"
+    },
+    {
+      "path": "restored_closed/cam4/snapshot.csv",
+      "size": 2304555,
+      "sha256": "56b5a458614014c32ebe69500f729574f16e90b9179cb2d9841b3f919fe10474"
+    },
+    {
+      "path": "restored_closed/cam4/snapshot_summary.json",
+      "size": 472,
+      "sha256": "a726d4cca1c4f89a2ce45bbdc8e69420af3b9191b11b0fbc58b819aace7dc5ab"
+    },
+    {
+      "path": "restored_closed/cam5/frame_10128.png",
+      "size": 73085,
+      "sha256": "991e4117cd29d7e2de38fc9099b7f0cef9f06aa9ae28d897a6fa890e4cf82849"
+    },
+    {
+      "path": "restored_closed/cam5/provenance.txt",
+      "size": 178,
+      "sha256": "f641da9e0ed4e132ec56fad4add2eda77d02bbe3168296b887104b1433934cce"
+    },
+    {
+      "path": "restored_closed/cam5/snapshot.csv",
+      "size": 2304555,
+      "sha256": "801a4b17a6a8f8e161ead30810ee26ab51c593fff2430b08f1c8d291e8557b51"
+    },
+    {
+      "path": "restored_closed/cam5/snapshot_summary.json",
+      "size": 473,
+      "sha256": "244255d549e7e31fc9b98a8f30e69485ac6bcf870050d04c656200eadd781d1e"
+    },
+    {
+      "path": "restored_closed/cam6/frame_10259.png",
+      "size": 79111,
+      "sha256": "bfb5c56a0df680b02948ee2c4e9bc261e1112b18c3447d531312319fa98f667e"
+    },
+    {
+      "path": "restored_closed/cam6/provenance.txt",
+      "size": 178,
+      "sha256": "dbf2b0f8cbb01b228af276fb95f71636203e2e47095adf2427242f21594978d7"
+    },
+    {
+      "path": "restored_closed/cam6/snapshot.csv",
+      "size": 2304555,
+      "sha256": "fba5bed1e000aae0b6c1b7c5a624ffaf774799234dabd5392a30e78f85aa421d"
+    },
+    {
+      "path": "restored_closed/cam6/snapshot_summary.json",
+      "size": 473,
+      "sha256": "05a94c9b24e06fa4c6d95bd9dff6998e1a39a9ecd72a6cf261c5b66f029b13d2"
+    },
+    {
+      "path": "restored_exposure/cam2/close_keys.json",
+      "size": 4863,
+      "sha256": "8e6cc7125194f894d7563a21069e325c769e9b3c43f94d3301e1aa59908a3dea"
+    },
+    {
+      "path": "restored_exposure/cam2/frame_06109.png",
+      "size": 72484,
+      "sha256": "ffc3582b12f75252c0b51e46bd5d5cad7ebdf8cc816c978f2544d5e856001b89"
+    },
+    {
+      "path": "restored_exposure/cam2/keys.json",
+      "size": 2909,
+      "sha256": "b9328ede66a40548a8beec330a475b64da355b4a88809dc649800b733796a962"
+    },
+    {
+      "path": "restored_exposure/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "d133eef5edc82e342566652a87ed30776296df721438bf5c20ce165ce6db7d16"
+    },
+    {
+      "path": "restored_exposure/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "14794dfaade7f21ed6d500f0d9847fdc1538e6bc134d99baeb78da94709acc63"
+    },
+    {
+      "path": "restored_exposure/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "107cab4d0b300acd85e35db835782774df1cfdeb230fec86f605c8518b4ce7e3"
+    },
+    {
+      "path": "restored_format/cam2/close_keys.json",
+      "size": 11268,
+      "sha256": "b920a3532961142bdf04149a842e753985f588444c53560fd222a23aa6273ece"
+    },
+    {
+      "path": "restored_format/cam2/frame_02235.png",
+      "size": 66601,
+      "sha256": "737333ffb0bc518b04c7b667eca66cb0c918615d30154a1eb541a499265de489"
+    },
+    {
+      "path": "restored_format/cam2/keys.json",
+      "size": 9524,
+      "sha256": "a3e8b2eda16a526b0d7ebfacd11aa3861a784fe2b95c8ecaa4a25fa8caa60a5e"
+    },
+    {
+      "path": "restored_format/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "9e7e37a9f0ea58a387601d856e47b3ad0909ae5e699a95f91d02b72625422730"
+    },
+    {
+      "path": "restored_format/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "1da695fa533448f4f06d01f90b1ec0d13cbfc353c3231f731d794b4441691254"
+    },
+    {
+      "path": "restored_format/cam2/snapshot_summary.json",
+      "size": 470,
+      "sha256": "aa826574b657e823413badac5c762d2f64696169c869946ef971188d27003c0c"
+    },
+    {
+      "path": "restored_format/cam3/close_keys.json",
+      "size": 11366,
+      "sha256": "f338758a2084e20d82d8c8d15b4fe1f05d980f54bb3c62bf4112f2680899be89"
+    },
+    {
+      "path": "restored_format/cam3/frame_02891.png",
+      "size": 80602,
+      "sha256": "25fbbe224b9f50e5773de2192e4b36fb11bb0e6f104e2851b33b536298dc46e8"
+    },
+    {
+      "path": "restored_format/cam3/keys.json",
+      "size": 9426,
+      "sha256": "5b426eaf32936f4b3b5f1ff9e0a18e9c7bf0683e7296c7fe9bec07e0be7732e5"
+    },
+    {
+      "path": "restored_format/cam3/provenance.txt",
+      "size": 178,
+      "sha256": "1e9819c4ea6af2d0e4a86f2154ecaec2062e6220d5312c59bf5f510389e04eac"
+    },
+    {
+      "path": "restored_format/cam3/snapshot.csv",
+      "size": 2304555,
+      "sha256": "7757aabc1c43c89b29d227f458e33ad11a169cd30de2a8d0095b066fa28d1ba1"
+    },
+    {
+      "path": "restored_format/cam3/snapshot_summary.json",
+      "size": 472,
+      "sha256": "855e1a1c7844d4f6d86d7e89ebe0e20b4241669a19bb3845c06814f51451c854"
+    },
+    {
+      "path": "restored_format/cam4/close_keys.json",
+      "size": 11366,
+      "sha256": "deea7d21b633d9bf535806f3d65a5cca27d9cfde2c7ea596578362e7d2f9714a"
+    },
+    {
+      "path": "restored_format/cam4/frame_03546.png",
+      "size": 73574,
+      "sha256": "d2010d9666f7dcc8befc1d2dd2329de0d5eb50cc8a168eb9466843ff2e53fef7"
+    },
+    {
+      "path": "restored_format/cam4/keys.json",
+      "size": 9524,
+      "sha256": "5b255bcf1faeecbff5386a38c7f6c39baa44166ff94ac281871a6f7be7023081"
+    },
+    {
+      "path": "restored_format/cam4/provenance.txt",
+      "size": 178,
+      "sha256": "12c22d69fb7f08fef8719203f8503182493c03820157d34c1c0be1091ac40b51"
+    },
+    {
+      "path": "restored_format/cam4/snapshot.csv",
+      "size": 2304555,
+      "sha256": "33d6f6e82624dfccb83e4b38d6bdef15432eb6491a9e7ca2ee4986f65b701f8e"
+    },
+    {
+      "path": "restored_format/cam4/snapshot_summary.json",
+      "size": 471,
+      "sha256": "7ca13ab6b9e58730170ba1d29e1b2005ae82f845d25e86c10e42d2c613e64ae9"
+    },
+    {
+      "path": "restored_format/cam5/close_keys.json",
+      "size": 11366,
+      "sha256": "9780ff53a8dbfa142e79b839c7268b59b0aff7ac983a7b583d585c3d8e156629"
+    },
+    {
+      "path": "restored_format/cam5/frame_04201.png",
+      "size": 75196,
+      "sha256": "ab25b47c42a1d39edf25ecf71444679f52d419816cf0919cf79cf57980a2b768"
+    },
+    {
+      "path": "restored_format/cam5/keys.json",
+      "size": 9524,
+      "sha256": "a6de0bb817077380a6fde8a58026b31ee3629015b2ff97dbc40a664dc0bd6eb3"
+    },
+    {
+      "path": "restored_format/cam5/provenance.txt",
+      "size": 178,
+      "sha256": "661971856003d97d7824d4a0d80ec4b9594e0e6dfc560ab793918f75e56e026b"
+    },
+    {
+      "path": "restored_format/cam5/snapshot.csv",
+      "size": 2304555,
+      "sha256": "a8de3a81244013da0599f75a4004ddd67018b606ee6d2ded160f18e36d3ebb6b"
+    },
+    {
+      "path": "restored_format/cam5/snapshot_summary.json",
+      "size": 471,
+      "sha256": "e30bc1aefb009ae44828b3b762d8b1b8671a9ddce05bb3e807a282aa4ab6c87a"
+    },
+    {
+      "path": "restored_format/cam6/close_keys.json",
+      "size": 11366,
+      "sha256": "8ffd4c1d7e7c52d66c3c3be243ff833445c514a120fc3bb09a5e412fc7c48117"
+    },
+    {
+      "path": "restored_format/cam6/frame_04859.png",
+      "size": 66398,
+      "sha256": "3fd2d1d3c0c10330a00eeda6ee7e4661a13911e9f738b10e60e0f2d074783793"
+    },
+    {
+      "path": "restored_format/cam6/keys.json",
+      "size": 9328,
+      "sha256": "85b2fee773f200f84be4417893e798d536e02a35f787660fa299fb8ce7edca3e"
+    },
+    {
+      "path": "restored_format/cam6/provenance.txt",
+      "size": 178,
+      "sha256": "6e9593c55d85275e078a5b71c726e66d554ed5b450a5509460eeb12c15bc2384"
+    },
+    {
+      "path": "restored_format/cam6/snapshot.csv",
+      "size": 2304555,
+      "sha256": "7146e1a78bf30fa16d07acf18578fd0e0adfbac2c09c8b6fb90ec83b2c72d8eb"
+    },
+    {
+      "path": "restored_format/cam6/snapshot_summary.json",
+      "size": 470,
+      "sha256": "565368e8514335977f8b363967cf0ef53b47cdc7bc16bd9c08e1aefe994ee879"
+    },
+    {
+      "path": "restored_image/cam2/close_keys.json",
+      "size": 6615,
+      "sha256": "83610dbb9768ba5efe36d0e22b3f66b6349479bcde9e435fe90ea8bbcef933da"
+    },
+    {
+      "path": "restored_image/cam2/frame_08146.png",
+      "size": 62934,
+      "sha256": "f779cd3dd9ae14d168f39789d4dab693b3c296651565991a08741815dd1c31f1"
+    },
+    {
+      "path": "restored_image/cam2/keys.json",
+      "size": 4869,
+      "sha256": "b9f23a5fd436aae30de1ede419e34c09fc95dae115acb09b0eafbf2c3407c1af"
+    },
+    {
+      "path": "restored_image/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "2d03764513c382fdb9d7ada4153f359113c8ed6431eafc1dac31f1bee99417e7"
+    },
+    {
+      "path": "restored_image/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "563049a2ee02e28054e6ec17073b61e0db9716defa7df5483cd5a66ea207f2c8"
+    },
+    {
+      "path": "restored_image/cam2/snapshot_summary.json",
+      "size": 472,
+      "sha256": "d4efa0a52fe6d1b7bb4f0365862d7a7b51d218e662b3de8710adb757df580c40"
+    },
+    {
+      "path": "restored_trigger/cam2/close_keys.json",
+      "size": 3836,
+      "sha256": "71b72a8253b4d7f1666dc8e10cc7dde472f9920b9345c3b64734871db556cc8f"
+    },
+    {
+      "path": "restored_trigger/cam2/frame_07110.png",
+      "size": 65847,
+      "sha256": "ca8d0ec363a6e4154e38bd4f01821eab6e74de486a4e786a2118e23932f15df7"
+    },
+    {
+      "path": "restored_trigger/cam2/keys.json",
+      "size": 1978,
+      "sha256": "d7e2e32b95af83ff0584ab30e67b594f67779c521ca3ee38a87b7fff1858461e"
+    },
+    {
+      "path": "restored_trigger/cam2/provenance.txt",
+      "size": 178,
+      "sha256": "c1a9a917d08f20b58875341e78e4e0d65fa690314d0ec81862062c920118ebc6"
+    },
+    {
+      "path": "restored_trigger/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "622a59cf75dc19a67b27e7732cab7e6089f7d13bbc3ee7c7f63b8cfa4119ba4b"
+    },
+    {
+      "path": "restored_trigger/cam2/snapshot_summary.json",
+      "size": 472,
+      "sha256": "50465ef46dced6faf165a929e45e630168853a4b7f780ccd9797955dd2e3b0a9"
+    },
+    {
+      "path": "scripts/analyze.py",
+      "size": 9256,
+      "sha256": "930715670ce8039c390774de0fe4b8727a94f0d8daf39fb52abbd7f8e6b6475f"
+    },
+    {
+      "path": "scripts/archive.py",
+      "size": 7431,
+      "sha256": "5282f7b43d03464823deb8e3a18781e92c00c68b428e0c2cebcfa529850bbb89"
+    },
+    {
+      "path": "scripts/bench.py",
+      "size": 5722,
+      "sha256": "5186fb88ce710635b3daa9f354643595dc753d709686d141e656622aaabba0db"
+    },
+    {
+      "path": "scripts/contact.py",
+      "size": 931,
+      "sha256": "cb2f82109df3b12bf6423b8981df514b18077ef47b4d9097e26633440c06084b"
+    },
+    {
+      "path": "scripts/preview.py",
+      "size": 1033,
+      "sha256": "418e39495b17ca2049e0c6bb72029b9e4feece1d206efaed0dbd454e5cb0f9bd"
+    },
+    {
+      "path": "scripts/record_restored.py",
+      "size": 4061,
+      "sha256": "dfe3dec72b512874ae33738785210206535fb0664bc6923ba72b2ae55aca9fbb"
+    },
+    {
+      "path": "scripts/restore_route_only.py",
+      "size": 2524,
+      "sha256": "8990e9c5c20e8c12a08f34ce7ccdd25f9b52981cbadc927d1176a02209824416"
+    },
+    {
+      "path": "selected_phase/phase.txt",
+      "size": 3653,
+      "sha256": "0ca6a11555bc3ac0dfef17724cd6fc8a8e21db2f99ed6fd1f030179905fc4e34"
+    },
+    {
+      "path": "set60_cam2.json",
+      "size": 21610,
+      "sha256": "2deba5091901ab0f3a56d0c53bcb96a6daed114eefbd58db379ff8375e62d1ba"
+    },
+    {
+      "path": "set60_cam3.json",
+      "size": 21610,
+      "sha256": "eb041704be5a8d6a7748820a01890c764b67f682d9c2bf3f749de9d563724948"
+    },
+    {
+      "path": "set60_cam4.json",
+      "size": 21610,
+      "sha256": "606e126d8195399fd5260ce7091bc72ac3adab0fd1c960f3aa1da0f3b021995f"
+    },
+    {
+      "path": "set60_cam5.json",
+      "size": 21610,
+      "sha256": "fea0ceb68406ec0ce7e5c0e78e0ce6d4038dc012973661d19b67fa65077b4d3d"
+    },
+    {
+      "path": "set60_cam6.json",
+      "size": 21610,
+      "sha256": "ab743b363398243da983bea7a6a700ca0f4345dd7e5e673f5d875b33022cd3d0"
+    },
+    {
+      "path": "test_exposure/cam2/close_keys.json",
+      "size": 7650,
+      "sha256": "35abd288b9db23a764e2402f699cee90d401790581f16d757f0f93ae1f961fe9"
+    },
+    {
+      "path": "test_exposure/cam2/frame_03910.png",
+      "size": 78470,
+      "sha256": "f536613c98bd54f713c48c71a8f24bb23bb50a105a10500db37aacad2a483261"
+    },
+    {
+      "path": "test_exposure/cam2/keys.json",
+      "size": 8593,
+      "sha256": "9e4f16b9b4b0401877054624dd0e07bd710ff939285a73b399467656834855f4"
+    },
+    {
+      "path": "test_exposure/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "e2c2fbbbbbdd080c632f009c765d0817f73372c19d7cbc514eaa3a2a2a64fd9f"
+    },
+    {
+      "path": "test_exposure/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "75c1f8ac0d60975885cc03fb85637f70ffe35619bdb1c86ec0ddc685d98ccff5"
+    },
+    {
+      "path": "test_exposure/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "cc5abe9f9204967108c1aec2bca12c743b436fd95b6a7090860a57aa839387fd"
+    },
+    {
+      "path": "test_format/cam2/close_keys.json",
+      "size": 11366,
+      "sha256": "c570545547748b9e8d8c73b5f2d9a4a7b67beb4a8940298983cefd55565fc4d2"
+    },
+    {
+      "path": "test_format/cam2/frame_07293.png",
+      "size": 78565,
+      "sha256": "36bf035ddbb05aa53e52dbef1ee61b83b0388ef2641db257c33229d4d6c9652c"
+    },
+    {
+      "path": "test_format/cam2/keys.json",
+      "size": 9622,
+      "sha256": "8fd647658b1a869f74c13101a2c9c75ac0a6a38e853a20d78b1f3ff1718f63f0"
+    },
+    {
+      "path": "test_format/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "e51ec7330a0b6d62b7c2ec4d83d6db594d12f710e2566239f3f60dd2804f0fec"
+    },
+    {
+      "path": "test_format/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "7e7537c714ef9e5ea112889681f03ff09dcba159dbb79190225dffc1d9c44b15"
+    },
+    {
+      "path": "test_format/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "c760b9c4583ffd64d87008d4ff977a174338f3e2883be1d2b1ce71062694a2bb"
+    },
+    {
+      "path": "test_image_on/cam2/close_keys.json",
+      "size": 6623,
+      "sha256": "6c644dd40242430415a5bdd66e57a341dc54578f95798abb0645daf7f5214560"
+    },
+    {
+      "path": "test_image_on/cam2/frame_11777.png",
+      "size": 77788,
+      "sha256": "5072fb234d1985ff0f07126582446f17a56e915e4afcf1cb53f1161ab0c0952b"
+    },
+    {
+      "path": "test_image_on/cam2/keys.json",
+      "size": 4771,
+      "sha256": "430d56708e6d47ba280d098912315e8fa1b0277f4c8b10d685bbdb55b9ec5097"
+    },
+    {
+      "path": "test_image_on/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "fbd468aa5ecb9c0118b0c6649c36c1e3451a12e3e82f6313b66a1b4a1314017d"
+    },
+    {
+      "path": "test_image_on/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "b2be20649590fa6b3874d8f62fcbed7e1f948a3108d597d98aabe08da02e9197"
+    },
+    {
+      "path": "test_image_on/cam2/snapshot_summary.json",
+      "size": 473,
+      "sha256": "6a9a382d88bf9f7bd49d7226d16c4752476efb203924aa2e4adfdf2d8060f92c"
+    },
+    {
+      "path": "test_trigger/cam2/close_keys.json",
+      "size": 3836,
+      "sha256": "239b7801e6d0412956b9d142924bc274f833857832ace4c86379785aabfafba8"
+    },
+    {
+      "path": "test_trigger/cam2/frame_09628.png",
+      "size": 78194,
+      "sha256": "618ba5e863db0d18beb56f605648cd84f88eb3dc7e76fa2b791150b5fb850580"
+    },
+    {
+      "path": "test_trigger/cam2/keys.json",
+      "size": 2076,
+      "sha256": "791fdd78180ac06b5dcff4ed3040801f4ad1ebe84fb0182fb997f902ea08138e"
+    },
+    {
+      "path": "test_trigger/cam2/provenance.txt",
+      "size": 185,
+      "sha256": "17d3992db2999593f5d99136703a8d3e5470a3123e962cdc2067728ea5732c85"
+    },
+    {
+      "path": "test_trigger/cam2/snapshot.csv",
+      "size": 2304555,
+      "sha256": "c8d034fd8cf2fce32e52b717a7855252d8c0b1fcd5874e3c3d42a2418c8c8bca"
+    },
+    {
+      "path": "test_trigger/cam2/snapshot_summary.json",
+      "size": 471,
+      "sha256": "fe8ef1cfcb8647d1fdcd91d31a5567776c008b6ce799a5ffac3ce3ffd4e6c048"
+    }
+  ],
+  "total_bytes": 116345328
+}

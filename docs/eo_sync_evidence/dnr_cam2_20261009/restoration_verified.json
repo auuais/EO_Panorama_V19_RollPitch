@@ -1,0 +1,121 @@
+{
+  "verified_at": "2026-10-09T15:37:17.653170+09:00",
+  "verification": "Directly viewed reconstructed ILA OSD crops, then reloaded operational FPGA; viewed closed USB camera 6",
+  "readback_scope": "All five formats and closed menus; camera 2 exposure, trigger and image settings",
+  "all_readbacks_verified": true,
+  "all_cameras_2_to_6_format": "1080p30",
+  "camera2": {
+    "shutter": "1/240 s",
+    "gain_db": 0,
+    "mode": "ExtTrig",
+    "exttrig_delay_ms": 0,
+    "strobe_delay_ms": 0,
+    "strobe_width_ms": 1,
+    "trigger_polarity": "OFF",
+    "strobe_polarity": "OFF",
+    "dnr": "2D+3D",
+    "freeze": "OFF",
+    "sharpness": 5,
+    "gamma": 0.45,
+    "electronic_zoom": "OFF"
+  },
+  "cameras_3_to_6_exposure_and_dnr": "Not changed during this experiment",
+  "camera1": "No camera 1 OSD or parameter commands sent",
+  "display_matches_initial": true,
+  "pose_matches_initial": true,
+  "display_selection": 6,
+  "menus_closed": true,
+  "operational_bitstream_sha256": "d905e96d96990528a5c2098e0e018fa9d88814a18703fb0ce4f09a348b5f2cfd",
+  "operational_program_log": ".tmpCRC/eo_dnr_cam2_20261009/restore_operational.log",
+  "osd_save_or_defaults_used": false,
+  "configuration_flash_programmed": false,
+  "standard_usb_display_selection_command_used": false,
+  "mode_only_route_reapplied": true,
+  "mcu_mode_flash_written": true,
+  "usb_view_matches_initial": true,
+  "usb_final_image": "final_route_restored.png",
+  "usb_final_image_sha256": "3f811957d0f55b219098d30a02bbbbe2b6d8bd0377f1843c0dc79738c5431ce2",
+  "workbook_edited": false,
+  "workbook": "outputs/01a1110b-4bdf-79b3-af63-c2b05f5fcb99/EO_Camera_Synchronization_Comparison_20261009_Exposure60.xlsx",
+  "workbook_sha256": "cd7dc5ae1e5fc248c90c3675ba9eb918822012ee6fe68619acfecc752879a036",
+  "readbacks": [
+    {
+      "camera": 2,
+      "section": "format",
+      "image": "restored_format/cam2/frame_02235.png",
+      "sha256": "737333ffb0bc518b04c7b667eca66cb0c918615d30154a1eb541a499265de489"
+    },
+    {
+      "camera": 3,
+      "section": "format",
+      "image": "restored_format/cam3/frame_02891.png",
+      "sha256": "25fbbe224b9f50e5773de2192e4b36fb11bb0e6f104e2851b33b536298dc46e8"
+    },
+    {
+      "camera": 4,
+      "section": "format",
+      "image": "restored_format/cam4/frame_03546.png",
+      "sha256": "d2010d9666f7dcc8befc1d2dd2329de0d5eb50cc8a168eb9466843ff2e53fef7"
+    },
+    {
+      "camera": 5,
+      "section": "format",
+      "image": "restored_format/cam5/frame_04201.png",
+      "sha256": "ab25b47c42a1d39edf25ecf71444679f52d419816cf0919cf79cf57980a2b768"
+    },
+    {
+      "camera": 6,
+      "section": "format",
+      "image": "restored_format/cam6/frame_04859.png",
+      "sha256": "3fd2d1d3c0c10330a00eeda6ee7e4661a13911e9f738b10e60e0f2d074783793"
+    },
+    {
+      "camera": 2,
+      "section": "closed",
+      "image": "restored_closed/cam2/frame_09733.png",
+      "sha256": "18b5ba7d12fd7e6e2f3cae43173399db495d064651724e0aaf75de404cc94bf6"
+    },
+    {
+      "camera": 3,
+      "section": "closed",
+      "image": "restored_closed/cam3/frame_09865.png",
+      "sha256": "08ec4a18d7d3b7c736179b6eb51934e7955c3cb4db0d39f9094be7bdd493697b"
+    },
+    {
+      "camera": 4,
+      "section": "closed",
+      "image": "restored_closed/cam4/frame_09997.png",
+      "sha256": "185a8ec5b04d72b654198eeab7fe02d636e15585e1d206b54046e0dddeb7fe1a"
+    },
+    {
+      "camera": 5,
+      "section": "closed",
+      "image": "restored_closed/cam5/frame_10128.png",
+      "sha256": "991e4117cd29d7e2de38fc9099b7f0cef9f06aa9ae28d897a6fa890e4cf82849"
+    },
+    {
+      "camera": 6,
+      "section": "closed",
+      "image": "restored_closed/cam6/frame_10259.png",
+      "sha256": "bfb5c56a0df680b02948ee2c4e9bc261e1112b18c3447d531312319fa98f667e"
+    },
+    {
+      "camera": 2,
+      "section": "exposure",
+      "image": "restored_exposure/cam2/frame_06109.png",
+      "sha256": "ffc3582b12f75252c0b51e46bd5d5cad7ebdf8cc816c978f2544d5e856001b89"
+    },
+    {
+      "camera": 2,
+      "section": "trigger",
+      "image": "restored_trigger/cam2/frame_07110.png",
+      "sha256": "ca8d0ec363a6e4154e38bd4f01821eab6e74de486a4e786a2118e23932f15df7"
+    },
+    {
+      "camera": 2,
+      "section": "image",
+      "image": "restored_image/cam2/frame_08146.png",
+      "sha256": "f779cd3dd9ae14d168f39789d4dab693b3c296651565991a08741815dd1c31f1"
+    }
+  ]
+}

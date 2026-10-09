@@ -1,0 +1,41 @@
+{
+  "date_kst": "2026-10-09",
+  "request": "Measure DNR OFF on one camera; expand to all cameras and update Excel only if the difference is massive.",
+  "camera_under_test": 2,
+  "unchanged_timing_reference_camera": 3,
+  "initial_readback": {
+    "all_cameras_2_to_6_format": "1080p30",
+    "camera2_shutter": "1/240 s",
+    "camera2_gain_db": 0,
+    "camera2_trigger_mode": "ExtTrig",
+    "camera2_exttrig_delay_ms": 0.0,
+    "camera2_strobe_delay_ms": 0.0,
+    "camera2_strobe_width_ms": 1.0,
+    "camera2_trigger_and_strobe_polarity": "OFF",
+    "camera2_dnr": "2D+3D",
+    "camera2_freeze": "OFF",
+    "camera2_sharpness": 5,
+    "camera2_gamma": 0.45,
+    "camera2_electronic_zoom": "OFF",
+    "source": "Directly viewed ILA OSD crops: initial_format, initial_exposure, initial_trigger, initial_image"
+  },
+  "measurement_settings": {
+    "camera2_format": "1080p60",
+    "camera2_shutter": "1/60 s",
+    "camera2_gain_db": 0,
+    "trigger_hz": 30,
+    "trigger_high_ms": 2,
+    "camera2_exttrig_delay_ms": 0,
+    "live_sequence": ["DNR 2D+3D", "DNR OFF", "DNR 2D+3D"],
+    "only_camera2_dnr_and_shutter_are_changed": true,
+    "cameras_3_to_6": "Temporarily changed to 1080p60 for diagnostic MMCM lock; shutter and DNR not changed",
+    "frozen_controls": "Camera 2 only, independently for DNR ON and OFF",
+    "phase_taps": [336, 280, 308, 280, 322],
+    "sampling_edge": "rising",
+    "reference_hz": 27000000
+  },
+  "expansion_criterion": "A reproducible timing step of roughly 1 ms or more after accounting for drift, or a substantial image/raster cadence change; inspect image-change phase as well.",
+  "state_protection": "No standard USB-selection command or valid broadcast camera parameter fields; no OSD SAVE or DFLT; volatile FPGA programming only. Restore original camera settings and operational bitstream.",
+  "restoration_route_exception": "After operational FPGA reload, the remembered EO6 route was reapplied with custom mode-only 0x2203 payload 06 FF FF FF FF FF FF FF. Inspected firmware range guards skip all ancillary camera/display writes. ACK, unchanged parameter bytes and the restored full USB view were verified. This writes the same MCU mode to MCU mode flash, not FPGA configuration flash. See restore_route_only.json.",
+  "limits": "Received raster and qualified digital image-change measurements do not directly establish sensor exposure synchronization or end-to-end latency."
+}
