@@ -7,6 +7,16 @@
       "sha256": "76306759fca9545ddda3b8be8856a7b80366521a4b6069f2805e379afbeda0cc"
     },
     {
+      "path": "cam2_cam3_spread.json",
+      "size": 18633,
+      "sha256": "4961a42bf1b26eef63098abb8a094688559a1cbe8d2a0bf54e01b42e3f91042f"
+    },
+    {
+      "path": "cam2_cam3_spread_pairs.csv",
+      "size": 1887757,
+      "sha256": "71cd773f341e3791741d0c18ce2a41489ba590244b06d0bc97ad1c146e070658"
+    },
+    {
       "path": "camera2_relative_phase.csv",
       "size": 1125784,
       "sha256": "bbb2eaf9656a1982b14ece67d54283d1dd18f98d881d88ed4976eb28a9c4f786"
@@ -1008,8 +1018,8 @@
     },
     {
       "path": "README.md",
-      "size": 5589,
-      "sha256": "54b8cc2d8ce71ef65e3ca3c497eeb532aa3e05e4c042dcee90ec91da65a9166b"
+      "size": 9150,
+      "sha256": "c30ebf90f13280218d7fab803e940f739c155f062ea8099478d133b6cc0d3010"
     },
     {
       "path": "restoration_verified.json",
@@ -1417,6 +1427,11 @@
       "sha256": "cb2f82109df3b12bf6423b8981df514b18077ef47b4d9097e26633440c06084b"
     },
     {
+      "path": "scripts/pair_spread.py",
+      "size": 6798,
+      "sha256": "2cf19269cf21c8fd8a97286e5f79f9cbaf3f3444e6f635d294e8be8cb217adb3"
+    },
+    {
       "path": "scripts/preview.py",
       "size": 1033,
       "sha256": "418e39495b17ca2049e0c6bb72029b9e4feece1d206efaed0dbd454e5cb0f9bd"
@@ -1582,5 +1597,7 @@
       "sha256": "fe8ef1cfcb8647d1fdcd91d31a5567776c008b6ce799a5ffac3ce3ffd4e6c048"
     }
   ],
-  "total_bytes": 116345328
+  "total_bytes": 118262077,
+  "updated_at": "2026-10-09T15:58:40.242575+09:00",
+  "update_reason": "Correct actual simultaneous cam2/cam3 spread and document reference-camera CRC update phase shift before DNR OFF."
 }

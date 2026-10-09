@@ -1,0 +1,658 @@
+{
+  "definition": "Absolute time separation of nearest cam2 and cam3 events within the same simultaneous capture; positive signed offset means cam2 arrives later.",
+  "reference_hz": 27000000,
+  "format": "1080p60",
+  "trigger_hz": 30,
+  "dnr_sequence": "Only camera 2: 2D+3D ON, OFF, ON; camera 3 unchanged",
+  "exposure_scope": "Camera 2 shutter was verified at 1/60 s; camera 3 shutter was not changed or freshly reread in this experiment. Do not describe this as a matched-exposure test.",
+  "frame_pairing": "Nearest periodic events, not identification of the same physical exposure or image across cameras.",
+  "crc_limits": "Cam2 full/ROI CRC passed frozen controls in both DNR states. Cam3 was live throughout this experiment, so its CRC-change timing is descriptive and lacks an independent frozen control in this run.",
+  "correction": "The previously quoted 3\u20134 us was the OFF residual relative to an ON clock-drift model, not the actual inter-camera spread, which is several milliseconds.",
+  "crc_phase_observation": "Camera 3 changed CRC-update raster parity during on_a/events_001.csv while camera 2 DNR was still ON. Both full and ROI CRCs have exceptional 1, 3 and 1 raster intervals at 12.575622, 12.625623 and 13.442303 s from block start. The final parity persists in OFF and returning ON captures. Signed CRC offsets are not fitted as clock drift because this phase change produces multiple modes.",
+  "conclusion": "Actual cam2/cam3 raster gaps are milliseconds in all states. No substantial reversible DNR OFF effect on raster alignment was demonstrated. The reference-camera CRC parity shift before OFF prevents attributing the later nearest image-change gap to DNR.",
+  "sources": [
+    {
+      "file": "on_a/events_000.csv",
+      "sha256": "b016cce5286bc53cbe02139733daaf5562604754a5ee4be5eb9e37b34c822504"
+    },
+    {
+      "file": "on_a/events_001.csv",
+      "sha256": "a252ea2d098b0a7933dfba7011f697ded6fd3aee71ae48cfaa22b1d96ef08fc8"
+    },
+    {
+      "file": "off_b/events_000.csv",
+      "sha256": "a970485f3ac795b49943eca3d9f42824a57776bec2866abd6a61e05a0e88385e"
+    },
+    {
+      "file": "off_b/events_001.csv",
+      "sha256": "46935bbbd7bc05a23dad16ce6b0fb2154d4430b6cacdd80cee16305244e504d0"
+    },
+    {
+      "file": "on_return/events_000.csv",
+      "sha256": "430837df6ff628b4cf5ec649da9ab0c90d9ca4fc6a28ef1d5c99e17221346e18"
+    },
+    {
+      "file": "on_return/events_001.csv",
+      "sha256": "a3619c679d6c08829f1bcc39d699cb92ae37828fed438da14b09c29b1b3955fc"
+    }
+  ],
+  "conditions": {
+    "on_a": {
+      "raster": {
+        "pairs": 3485,
+        "signed_cam2_minus_cam3_us": {
+          "n": 3485,
+          "min": 7791.222222222223,
+          "median": 7965.2962962962965,
+          "p95": 8087.985185185185,
+          "max": 8101.62962962963,
+          "mean": 7946.629799670546
+        },
+        "absolute_spread_us": {
+          "n": 3485,
+          "min": 7791.222222222223,
+          "median": 7965.2962962962965,
+          "p95": 8087.985185185185,
+          "max": 8101.62962962963,
+          "mean": 7946.629799670546
+        },
+        "raw_stdev_us": 95.42353337082065,
+        "within_condition_fit": {
+          "drift_us_per_s": -4.705984687534287,
+          "residual_us": {
+            "n": 3485,
+            "min": -0.22538634645582079,
+            "median": 0.006104502879068718,
+            "p95": 0.12970900800637392,
+            "max": 0.1716363510860326,
+            "mean": -4.222244744173759e-13
+          },
+          "detrended_stdev_us": 0.09453062745932987
+        }
+      },
+      "full_crc": {
+        "pairs": 1740,
+        "signed_cam2_minus_cam3_us": {
+          "n": 1740,
+          "min": -8875.555555555555,
+          "median": 7965.425925925925,
+          "p95": 8087.935185185185,
+          "max": 8101.555555555556,
+          "mean": 3483.04116645381
+        },
+        "absolute_spread_us": {
+          "n": 1740,
+          "min": 7864.7037037037035,
+          "median": 8038.388888888889,
+          "p95": 8861.896296296296,
+          "max": 8875.555555555555,
+          "mean": 8217.482162622393
+        },
+        "raw_stdev_us": 7452.5609706510795,
+        "within_condition_fit": null
+      },
+      "roi_crc": {
+        "pairs": 1740,
+        "signed_cam2_minus_cam3_us": {
+          "n": 1740,
+          "min": -8875.555555555555,
+          "median": 7965.425925925925,
+          "p95": 8087.935185185185,
+          "max": 8101.555555555556,
+          "mean": 3483.04116645381
+        },
+        "absolute_spread_us": {
+          "n": 1740,
+          "min": 7864.7037037037035,
+          "median": 8038.388888888889,
+          "p95": 8861.896296296296,
+          "max": 8875.555555555555,
+          "mean": 8217.482162622393
+        },
+        "raw_stdev_us": 7452.5609706510795,
+        "within_condition_fit": null
+      }
+    },
+    "off_b": {
+      "raster": {
+        "pairs": 3452,
+        "signed_cam2_minus_cam3_us": {
+          "n": 3452,
+          "min": 6992.518518518518,
+          "median": 7167.0,
+          "p95": 7290.218518518518,
+          "max": 7303.851851851852,
+          "mean": 7148.482071584911
+        },
+        "absolute_spread_us": {
+          "n": 3452,
+          "min": 6992.518518518518,
+          "median": 7167.0,
+          "p95": 7290.218518518518,
+          "max": 7303.851851851852,
+          "mean": 7148.482071584911
+        },
+        "raw_stdev_us": 95.74904561703443,
+        "within_condition_fit": {
+          "drift_us_per_s": -4.768160520902831,
+          "residual_us": {
+            "n": 3452,
+            "min": -0.2323792411743284,
+            "median": 0.019600800108015903,
+            "p95": 0.07065668337871997,
+            "max": 0.09647349744669498,
+            "mean": -4.4371561915904157e-13
+          },
+          "detrended_stdev_us": 0.06284738830579818
+        }
+      },
+      "full_crc": {
+        "pairs": 1726,
+        "signed_cam2_minus_cam3_us": {
+          "n": 1726,
+          "min": -9674.444444444445,
+          "median": -9500.0,
+          "p95": -9376.814814814814,
+          "max": -9363.185185185184,
+          "mean": -9518.52158705635
+        },
+        "absolute_spread_us": {
+          "n": 1726,
+          "min": 9363.185185185184,
+          "median": 9500.0,
+          "p95": 9660.675925925927,
+          "max": 9674.444444444445,
+          "mean": 9518.52158705635
+        },
+        "raw_stdev_us": 95.74902780067353,
+        "within_condition_fit": null
+      },
+      "roi_crc": {
+        "pairs": 1726,
+        "signed_cam2_minus_cam3_us": {
+          "n": 1726,
+          "min": -9674.444444444445,
+          "median": -9500.0,
+          "p95": -9376.814814814814,
+          "max": -9363.185185185184,
+          "mean": -9518.52158705635
+        },
+        "absolute_spread_us": {
+          "n": 1726,
+          "min": 9363.185185185184,
+          "median": 9500.0,
+          "p95": 9660.675925925927,
+          "max": 9674.444444444445,
+          "mean": 9518.52158705635
+        },
+        "raw_stdev_us": 95.74902780067353,
+        "within_condition_fit": null
+      }
+    },
+    "on_return": {
+      "raster": {
+        "pairs": 3494,
+        "signed_cam2_minus_cam3_us": {
+          "n": 3494,
+          "min": 6178.407407407408,
+          "median": 6316.333333333334,
+          "p95": 6477.335185185186,
+          "max": 6491.148148148148,
+          "mean": 6334.736659670546
+        },
+        "absolute_spread_us": {
+          "n": 3494,
+          "min": 6178.407407407408,
+          "median": 6316.333333333334,
+          "p95": 6477.335185185186,
+          "max": 6491.148148148148,
+          "mean": 6334.736659670546
+        },
+        "raw_stdev_us": 96.0566670929429,
+        "within_condition_fit": {
+          "drift_us_per_s": -4.739548829804264,
+          "residual_us": {
+            "n": 3494,
+            "min": -0.06516635139296412,
+            "median": 0.00029153451339425374,
+            "p95": 0.030901571723762088,
+            "max": 0.05020157390192992,
+            "mean": 3.0562692235808223e-13
+          },
+          "detrended_stdev_us": 0.01954548988935539
+        }
+      },
+      "full_crc": {
+        "pairs": 1746,
+        "signed_cam2_minus_cam3_us": {
+          "n": 1746,
+          "min": -10488.444444444445,
+          "median": -10350.648148148148,
+          "p95": -10189.75,
+          "max": -10175.962962962964,
+          "mean": -10332.266598786644
+        },
+        "absolute_spread_us": {
+          "n": 1746,
+          "min": 10175.962962962964,
+          "median": 10350.648148148148,
+          "p95": 10474.694444444445,
+          "max": 10488.444444444445,
+          "mean": 10332.266598786644
+        },
+        "raw_stdev_us": 96.01109609998258,
+        "within_condition_fit": null
+      },
+      "roi_crc": {
+        "pairs": 1746,
+        "signed_cam2_minus_cam3_us": {
+          "n": 1746,
+          "min": -10488.444444444445,
+          "median": -10350.648148148148,
+          "p95": -10189.75,
+          "max": -10175.962962962964,
+          "mean": -10332.266598786644
+        },
+        "absolute_spread_us": {
+          "n": 1746,
+          "min": 10175.962962962964,
+          "median": 10350.648148148148,
+          "p95": 10474.694444444445,
+          "max": 10488.444444444445,
+          "mean": 10332.266598786644
+        },
+        "raw_stdev_us": 96.01109609998258,
+        "within_condition_fit": null
+      }
+    }
+  },
+  "crc_cadence_checks": [
+    {
+      "condition": "on_a",
+      "block": "events_000.csv",
+      "camera": 2,
+      "series": "full_crc",
+      "changes": 872,
+      "sequence_parity_counts": {
+        "1": 872
+      },
+      "interval_raster_counts": {
+        "2": 871
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_a",
+      "block": "events_000.csv",
+      "camera": 3,
+      "series": "full_crc",
+      "changes": 873,
+      "sequence_parity_counts": {
+        "1": 873
+      },
+      "interval_raster_counts": {
+        "2": 872
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_a",
+      "block": "events_000.csv",
+      "camera": 2,
+      "series": "roi_crc",
+      "changes": 872,
+      "sequence_parity_counts": {
+        "1": 872
+      },
+      "interval_raster_counts": {
+        "2": 871
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_a",
+      "block": "events_000.csv",
+      "camera": 3,
+      "series": "roi_crc",
+      "changes": 873,
+      "sequence_parity_counts": {
+        "1": 873
+      },
+      "interval_raster_counts": {
+        "2": 872
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_a",
+      "block": "events_001.csv",
+      "camera": 2,
+      "series": "full_crc",
+      "changes": 870,
+      "sequence_parity_counts": {
+        "1": 870
+      },
+      "interval_raster_counts": {
+        "2": 869
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_a",
+      "block": "events_001.csv",
+      "camera": 3,
+      "series": "full_crc",
+      "changes": 870,
+      "sequence_parity_counts": {
+        "1": 402,
+        "0": 468
+      },
+      "interval_raster_counts": {
+        "2": 866,
+        "1": 2,
+        "3": 1
+      },
+      "exceptional_intervals": [
+        {
+          "tick": 13616300164,
+          "time_from_block_start_s": 12.575621851851851,
+          "sequence": 28804,
+          "preceding_sequence": 28803,
+          "interval_rasters": 1
+        },
+        {
+          "tick": 13617650187,
+          "time_from_block_start_s": 12.625622703703703,
+          "sequence": 28807,
+          "preceding_sequence": 28804,
+          "interval_rasters": 3
+        },
+        {
+          "tick": 13639700565,
+          "time_from_block_start_s": 13.44230337037037,
+          "sequence": 28856,
+          "preceding_sequence": 28855,
+          "interval_rasters": 1
+        }
+      ]
+    },
+    {
+      "condition": "on_a",
+      "block": "events_001.csv",
+      "camera": 2,
+      "series": "roi_crc",
+      "changes": 870,
+      "sequence_parity_counts": {
+        "1": 870
+      },
+      "interval_raster_counts": {
+        "2": 869
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_a",
+      "block": "events_001.csv",
+      "camera": 3,
+      "series": "roi_crc",
+      "changes": 870,
+      "sequence_parity_counts": {
+        "1": 402,
+        "0": 468
+      },
+      "interval_raster_counts": {
+        "2": 866,
+        "1": 2,
+        "3": 1
+      },
+      "exceptional_intervals": [
+        {
+          "tick": 13616300164,
+          "time_from_block_start_s": 12.575621851851851,
+          "sequence": 28804,
+          "preceding_sequence": 28803,
+          "interval_rasters": 1
+        },
+        {
+          "tick": 13617650187,
+          "time_from_block_start_s": 12.625622703703703,
+          "sequence": 28807,
+          "preceding_sequence": 28804,
+          "interval_rasters": 3
+        },
+        {
+          "tick": 13639700565,
+          "time_from_block_start_s": 13.44230337037037,
+          "sequence": 28856,
+          "preceding_sequence": 28855,
+          "interval_rasters": 1
+        }
+      ]
+    },
+    {
+      "condition": "off_b",
+      "block": "events_000.csv",
+      "camera": 2,
+      "series": "full_crc",
+      "changes": 869,
+      "sequence_parity_counts": {
+        "1": 869
+      },
+      "interval_raster_counts": {
+        "2": 868
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_000.csv",
+      "camera": 3,
+      "series": "full_crc",
+      "changes": 869,
+      "sequence_parity_counts": {
+        "0": 869
+      },
+      "interval_raster_counts": {
+        "2": 868
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_000.csv",
+      "camera": 2,
+      "series": "roi_crc",
+      "changes": 869,
+      "sequence_parity_counts": {
+        "1": 869
+      },
+      "interval_raster_counts": {
+        "2": 868
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_000.csv",
+      "camera": 3,
+      "series": "roi_crc",
+      "changes": 869,
+      "sequence_parity_counts": {
+        "0": 869
+      },
+      "interval_raster_counts": {
+        "2": 868
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_001.csv",
+      "camera": 2,
+      "series": "full_crc",
+      "changes": 857,
+      "sequence_parity_counts": {
+        "1": 857
+      },
+      "interval_raster_counts": {
+        "2": 856
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_001.csv",
+      "camera": 3,
+      "series": "full_crc",
+      "changes": 857,
+      "sequence_parity_counts": {
+        "0": 857
+      },
+      "interval_raster_counts": {
+        "2": 856
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_001.csv",
+      "camera": 2,
+      "series": "roi_crc",
+      "changes": 857,
+      "sequence_parity_counts": {
+        "1": 857
+      },
+      "interval_raster_counts": {
+        "2": 856
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "off_b",
+      "block": "events_001.csv",
+      "camera": 3,
+      "series": "roi_crc",
+      "changes": 857,
+      "sequence_parity_counts": {
+        "0": 857
+      },
+      "interval_raster_counts": {
+        "2": 856
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_000.csv",
+      "camera": 2,
+      "series": "full_crc",
+      "changes": 871,
+      "sequence_parity_counts": {
+        "1": 871
+      },
+      "interval_raster_counts": {
+        "2": 870
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_000.csv",
+      "camera": 3,
+      "series": "full_crc",
+      "changes": 872,
+      "sequence_parity_counts": {
+        "0": 872
+      },
+      "interval_raster_counts": {
+        "2": 871
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_000.csv",
+      "camera": 2,
+      "series": "roi_crc",
+      "changes": 871,
+      "sequence_parity_counts": {
+        "1": 871
+      },
+      "interval_raster_counts": {
+        "2": 870
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_000.csv",
+      "camera": 3,
+      "series": "roi_crc",
+      "changes": 872,
+      "sequence_parity_counts": {
+        "0": 872
+      },
+      "interval_raster_counts": {
+        "2": 871
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_001.csv",
+      "camera": 2,
+      "series": "full_crc",
+      "changes": 875,
+      "sequence_parity_counts": {
+        "1": 875
+      },
+      "interval_raster_counts": {
+        "2": 874
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_001.csv",
+      "camera": 3,
+      "series": "full_crc",
+      "changes": 875,
+      "sequence_parity_counts": {
+        "0": 875
+      },
+      "interval_raster_counts": {
+        "2": 874
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_001.csv",
+      "camera": 2,
+      "series": "roi_crc",
+      "changes": 875,
+      "sequence_parity_counts": {
+        "1": 875
+      },
+      "interval_raster_counts": {
+        "2": 874
+      },
+      "exceptional_intervals": []
+    },
+    {
+      "condition": "on_return",
+      "block": "events_001.csv",
+      "camera": 3,
+      "series": "roi_crc",
+      "changes": 875,
+      "sequence_parity_counts": {
+        "0": 875
+      },
+      "interval_raster_counts": {
+        "2": 874
+      },
+      "exceptional_intervals": []
+    }
+  ],
+  "raster_pairs_match_previous_raw_data": true
+}
